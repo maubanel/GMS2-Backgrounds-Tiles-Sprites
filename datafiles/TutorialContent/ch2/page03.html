@@ -1,0 +1,164 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+	<head>
+		<!-- EDIT THIS-->
+		<title>Tutorial - GameMaker Backgrounds & Sprites - Ch2 - Page 3</title>
+		<!-- DO NOT EDIT THIS-->
+		<meta http-equiv="X-UA-Compatible" content="IE=9" />
+		<link rel="stylesheet" href="../style.css" type="text/css" media="screen" title="style" charset="UTF-8"/>
+		<script type="text/javascript">
+			var changePage = function(){
+				var newPage = document.getElementById("page-select");
+				window.location.replace(newPage.value);
+				}
+		</script>
+
+	</head>
+
+<!-- EDIT THIS - This section is where you can add an index to your tutorial -->
+<body>
+<!-- EDIT THIS - Your Tutorial title -->
+	<h2 style="border-radius:0.5em 0.5em 0 0; margin:0;">Tutorial - Backgrounds & Sprites</h2>
+<!-- EDIT THIS - Here you list the pages in your tutorial, with the current one at the top -->
+		<div class="head">
+			<select id="page-select" onChange="changePage()">
+				<optgroup label="Chapter 2 - Image Formats">
+					<option value="page03.html">Handling GIFs and other Formats</option>
+					<option value="page04.html">Raster and Vector</option>
+				</optgroup>
+				<optgroup label="Chapter 3 - Background and Tiles">
+					<option value="../ch3/page01.html">Background with Single Tile</option>
+					<option value="../ch3/page02.html">Creating your First Tile Set</option>
+					<option value="../ch3/page03.html">Auto Tile Template<</option>
+					<option value="../ch3/page04.html">Tile Brushes</option>
+					<option value="../ch3/page05.html">Animated Tiles</option>
+					<option value="../ch3/page06.html">Transparent Tiles</option>
+				</optgroup>
+				<optgroup label="Chapter 4 - Animated Sprites">
+					<option value="../ch4/page01.html">Animations</option>
+					<option value="../ch4/page02.html">Importing Animations</option>
+					<option value="../ch4/page03.html">Player Movement</option>
+				</optgroup>
+				<optgroup label="---Previous Pages">
+					<optgroup label="Chapter 1 - Overview">
+						<option value="../page01.html"><b>Overview</b></option>
+					</optgroup>
+				<optgroup label="Chapter 2 - Image Formats">
+					<option value="page01.html">Pixel Graphic Formats</option>
+					<option value="page02.html">Handling JPGs</option>
+				</optgroup>
+				</optgroup>
+			</select>
+		</div>
+	
+<!-- EDIT THIS - Main tutorial body goes here -->
+<div class="body-scroll">
+	<p>
+	If you want to see tutorial in a separate web browser window <a href="gms2tutorials:///openBrowser">click here</a>.
+	
+	<p style="color:rgb(85, 109, 130)">
+	<b>Handling GIFs and other Formats</b>
+	<p>
+		Add a new <tt><b>Sprite</b></tt> and press the <tt><b>Import</b></tt> button.  Select  <tt><b>Included Files | TutorialResources | GIF | spr_plane_gif.gif </b></tt>.  If you can't find it you can locate the file in the browser (or click <a href="gms2tutorials:///ShowFiles?path=../TutorialResources/GIF/spr_plane_gif.gif.png">here</a>).and select the SprPlaneGif file. Name the Sprite <tt><b>spr_plane_gif</b>. It should look like:
+
+	<p>
+		<img class="center" src="http://marcaubanel.com/gamemaker/GMS2-Images/Backgrounds-Tiles-Sprites/CH2/ImportSprPlaneGif.png" alt="Imported spr_plane_gif.gif">
+
+	<p>
+		That looks normal and hey there is an alpha! With a GIF you can have one pixel be an alpha but there are no gradients. Some people like this clean edge look.  In a GIF the transparent pixel is either an alpha or it isn’t (can’t have a percentage). Here is the sprite in a close-up:
+
+	<p>
+		<img class="center" src="http://marcaubanel.com/gamemaker/GMS2-Images/Backgrounds-Tiles-Sprites/CH2/ZoomIntoGIFSprEdge.png" alt="Close up of jagged GIF curve from spr_plane_gif.gif">
+	
+	<p>
+		Create a <tt><b>Game Object</b></tt> called <tt><b>obj_plane_gif</b></tt> and assign the <tt><b>spr_plane_gif</b></tt> sprite:
+		
+	<p>
+		<img class="center" src="http://marcaubanel.com/gamemaker/GMS2-Images/Backgrounds-Tiles-Sprites/CH2/ObjPlaneGif.png" alt="Create an object called obj_plane_gif and bind spr_plane_gif to it">
+
+	<p>
+		Drag <tt><b>obj_plane_gif</b></tt> in the room over the previous plane so we can see the difference:
+	<h3><tt><b>rm_first_import</b></tt></h3>
+	<p>
+		<img class="center" src="http://marcaubanel.com/gamemaker/GMS2-Images/Backgrounds-Tiles-Sprites/CH2/DragGIFInRoom.png" alt="Drag obj_plane_gif to the room">
+
+	<p>
+		Run the game by pressing the <img style="vertical-align:middle" src="http://marcaubanel.com/gamemaker/GMS2-Images/Shared/Icon_RunProject.png"> <tt><b>Play Button</b></tt>. Now look how each plane is different:
+
+	<p>
+		<img class="center" src="http://marcaubanel.com/gamemaker/GMS2-Images/Backgrounds-Tiles-Sprites/CH2/GifAndJPGGameroom.png" alt="Run game and look at different type of sprites">	
+
+	<p>
+		If you zoom in you will notice that the GIF version has more banding on the wing as a GIF is not a 24 bit format.  I don’t recommend using GIFs but many animations come in this format and it is the only raster format that supports animation in Gamemaker currently. 
+
+	<p>
+		<img class="center" src="http://marcaubanel.com/gamemaker/GMS2-Images/Backgrounds-Tiles-Sprites/CH2/SharpGIFEdge.png" alt="Zoom in of screenshot of gameplay shows that GIF has banding">	
+
+	<p>
+		Look at the tutorial resources in the <tt><b>Misc</b></tt> folder (<a href="gms2tutorials:///ShowFiles?path=../TutorialResources/Misc/spr_plane_png.png">here</a>).  There is a TIFF format, a native PNG format (not changed from a JPG like we did previously) and a BMP format.  These are all the formats we will be looking at in this tutorial.
+
+	<p>
+		<img class="center" src="http://marcaubanel.com/gamemaker/GMS2-Images/Backgrounds-Tiles-Sprites/CH2/ImportBMPpngTIF.png" alt="Import TIFF, BMP and PNG plane from TutorialResources/Misc/ folder">	
+
+	<p>
+		Import three new sprites to new Sprite sheets and call them <tt><b>spr_plane_bmp</b></tt>, <tt><b>spr_plane_png</b></tt> and <tt><b>spr_plane_tiff</b></tt>
+		
+	<p>
+		<img class="center" src="http://marcaubanel.com/gamemaker/GMS2-Images/Backgrounds-Tiles-Sprites/CH2/ImportThreeFormatSprites.png" alt="Name three sprites spr_plane_bmp, spr_plane_png and spr_plane_tiff">	
+
+	<p>
+		Create three new game objects and assign the three sprites calling them the same name with prefix <tt><b>obj_</b></tt>:
+
+	<p>
+		<img class="center" src="http://marcaubanel.com/gamemaker/GMS2-Images/Backgrounds-Tiles-Sprites/CH2/CreateThreePlaneObjects.png" alt="Create three game objedts with three sprites above assigned called obj_plane_bmp, obj_plane_png, obj_plane_tiff">	
+		
+	<p>
+		Create a new room called <tt><b>rm_tiff_bmp_png</b></tt> and drag it to the top of the room list.  If it is not the game will not load this room.  Now drag and drop the three plane objects you just created:
+		<h3><tt><b>rm_tiff_bmp_png</b></tt></h3>
+
+		<p>
+		<img class="center" src="http://marcaubanel.com/gamemaker/GMS2-Images/Backgrounds-Tiles-Sprites/CH2/CreateNewRoomAddThreeObjects.png" alt="Create room rm_tiff_bmp_png and drag bj_plane_bmp, obj_plane_png and obj_plane_tiff into it">	
+		
+	<p>
+		Run the game by pressing the <img style="vertical-align:middle" src="http://marcaubanel.com/gamemaker/GMS2-Images/Shared/Icon_RunProject.png" alt="run button icon"> <tt><b>Play Button</b></tt>. Notice that the BMP format does not preserve an alpha (another format that we would like to avoid).  I cannot tell the difference between the PNG and TIFF in GameMaker:
+
+	<p>
+		<img class="center" src="http://marcaubanel.com/gamemaker/GMS2-Images/Backgrounds-Tiles-Sprites/CH2/ThreePlanesInGame.png" alt="Play game and notice that PNG and TIFF are identical.  BMP has no alpha.">		
+
+	<p>
+
+	<p>
+		<img class="center" src="http://marcaubanel.com/gamemaker/GMS2-Images/Backgrounds-Tiles-Sprites/CH2/ZoomThreeInGame.png" alt="Zoomed in screenshot of PNG, TIFF, BMP">		
+
+</div>
+
+<br>
+</p>
+<p>
+
+</div>
+
+<div class="footer">
+	<div class="buttons">
+		<div class="clear">
+			<div style="float:left">
+				<a href="page02.html"  class="prev">
+				<div id="button-prev"></div> 
+				</a>
+			</div>
+			<div style="float:right"> <!-- Set the next page to go to here -->
+				<a href="page04.html" class="next">
+					<div id="button-next"></div>
+				</a>
+			</div>
+		</div>	
+	</div>
+<!-- Footer copyright notice - set this to your own or whatever is required (remove the text but leave the <h5> tags to just have the bar) -->
+<h5>&copy; Copyright Mauby Games 2018</h5>
+</div>
+
+</body>
+</html>
+
+
+

@@ -1,0 +1,224 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+	<head>
+		<!-- EDIT THIS-->
+		<title>Tutorial - GameMaker Backgrounds & Sprites - Ch3 - Page 2</title>
+		<!-- DO NOT EDIT THIS-->
+		<meta http-equiv="X-UA-Compatible" content="IE=9" />
+		<link rel="stylesheet" href="../style.css" type="text/css" media="screen" title="style" charset="UTF-8"/>
+		<script type="text/javascript">
+			var changePage = function(){
+				var newPage = document.getElementById("page-select");
+				window.location.replace(newPage.value);
+				}
+		</script>
+
+	</head>
+
+<!-- EDIT THIS - This section is where you can add an index to your tutorial -->
+<body>
+<!-- EDIT THIS - Your Tutorial title -->
+	<h2 style="border-radius:0.5em 0.5em 0 0; margin:0;">Tutorial - Backgrounds & Sprites</h2>
+<!-- EDIT THIS - Here you list the pages in your tutorial, with the current one at the top -->
+		<div class="head">
+			<select id="page-select" onChange="changePage()">
+				<optgroup label="Chapter 2 - Image Formats">
+				</optgroup>
+				<optgroup label="Chapter 3 - Background and Tiles">
+					<option value="page02.html">Creating your First Tile Set</option>
+					<option value="page03.html">Auto Tile Template<</option>
+					<option value="page04.html">Tile Brushes</option>
+					<option value="page05.html">Animated Tiles</option>
+					<option value="page06.html">Transparent Tiles</option>
+				</optgroup>
+				<optgroup label="Chapter 4 - Animated Sprites">
+					<option value="../ch4/page01.html">Animations</option>
+					<option value="../ch4/page02.html">Importing Animations</option>
+					<option value="../ch4/page03.html">Player Movement</option>
+				</optgroup>
+				<optgroup label="---Previous Pages">
+					<optgroup label="Chapter 1 - Overview">
+						<option value="../page01.html"><b>Overview</b></option>
+					</optgroup>
+				<optgroup label="Chapter 2 - Image Formats">
+					<option value="../ch2/page01.html">Pixel Graphic Formats</option>
+					<option value="../ch2/page02.html">Handling JPGs</option>
+					<option value="../ch2/page03.html">Handling GIFs and other Formats</option>
+					<option value="../ch2/page04.html">Raster and Vector</option>
+				</optgroup>
+				<optgroup label="Chapter 3 - Background and Tiles">
+					<option value="page01.html">Background with Single Tile</option>
+					</optgroup>
+				</optgroup>
+			</select>
+		</div>
+	
+<!-- EDIT THIS - Main tutorial body goes here -->
+<div class="body-scroll">
+	<p>
+	If you want to see tutorial in a separate web browser window <a href="gms2tutorials:///openBrowser">click here</a>.
+	
+	<p style="color:rgb(85, 109, 130)">
+	<b>Creating your First Tile Set</b>
+		
+
+	<p>
+		Lets start over again with a new document.  Practice makes perfect, this time you can take what you have learned and make it even better.  So we go back to our very first original large sheet of art.  Lets apply the color pallette fixes on the entire image as we will be using differrent parts of it.  
+		
+	<p>
+		<img class="center" src="http://marcaubanel.com/gamemaker/GMS2-Images/Backgrounds-Tiles-Sprites/CH3/GetPalletteFromWholeImage.gif" alt="Pick different part of image">
+		
+
+	<p>
+		I create a new photoshop document that is 256 by 256 with a black background.  I first tested out how big I wanted the brick texture by getting it into the game.  If a person who is six foot tall is 64 pixels high, I want the scale of my texture to match.  Note that it doesn't have to be 256 by 256, I like to work in a format that is larger and easier to edit.  The other advantage in working in large sizes is future proofing your work if you redo the game at a higher resolution.
+
+	<p>
+		<img class="center" src="http://marcaubanel.com/gamemaker/GMS2-Images/Backgrounds-Tiles-Sprites/CH3/PlainBackgroundPS.png" alt="Create new 256 by 256 square document with black background in Photoshop">
+		
+	<p> 
+		Now copy and paste your bigger texture page into this new document.  Now you can scroll the background around.  This base layer maintains the entire size of the original texture but I can pick different parts of the image.  I premeasured mine so that the cracks vertically would match the seam.  This will make altering the texure to be tilable much easier.  I align it in place:
+
+	<p>
+		<img class="center" src="http://marcaubanel.com/gamemaker/GMS2-Images/Backgrounds-Tiles-Sprites/CH3/MoveTextureIntoPlace.gif" alt="Paste large image into it so you can still move around and select the part that works perfectly">
+		
+	<p>
+		Now we don't want to touch this layer as we will create different bricks with it.  Once you lined it up the way you want select all and copy and paste ths onto a new layer. This way it is only a 256 by 256 portion.  Move it around and there should be nothing around it.  Now we can go back to <tt><b>Filter | Other | Offset</b></tt> and remove both the horizontal and vertical repeats.
+
+	<p>
+		Repeat the same touch ups to remove the obvious tiling problems for both horizontal and vertical wrapping.
+
+	<p>
+		<img class="center" src="http://marcaubanel.com/gamemaker/GMS2-Images/Backgrounds-Tiles-Sprites/CH3/CutToNewLayerAndTile.gif" alt="Copy and paste to new layer and remove tiling">
+
+		
+	<p>
+		Now double check that it can be scrolled with no obvious lines or problems:
+
+	<p>
+		<img class="center" src="http://marcaubanel.com/gamemaker/GMS2-Images/Backgrounds-Tiles-Sprites/CH3/CheckFirstTileForSheet.gif" alt="Scroll the texture and make sure it is able to scroll">
+
+
+	<p>
+		One way of breaking up a pattern is to have different versions of the texture.  We can use different shapes and sticth them but they all need to have the exact same edge pixels.  We can cut out the middle and leaving only the edge pixels.  I cut very close to the grout line but left a bit of the overlapping rocks like so::
+	
+	<p>
+		<img class="center" src="http://marcaubanel.com/gamemaker/GMS2-Images/Backgrounds-Tiles-Sprites/CH3/CutOutMiddle.gif" alt="Remove everything except edge pixels">	
+		
+	<p>
+		Now turn on the bottom layer with all of the original texture.  Move it around to pick a completly different part:
+	
+	<p>
+		<img class="center" src="http://marcaubanel.com/gamemaker/GMS2-Images/Backgrounds-Tiles-Sprites/CH3/SelectNewSectionOfBrick.gif" alt="PIck a different part of texture">	
+		
+	<p>
+		Copy and paste this to a new layer.  Photoshop any issues along the edges without affecting the very edge pixels.  Again, remove all the tiling lines using the offset filter.  Double check that it can be scrolled with no obvious lines or problems:
+
+	<p>
+		<img class="center" src="http://marcaubanel.com/gamemaker/GMS2-Images/Backgrounds-Tiles-Sprites/CH3/CheckNewSection.gif" alt="Second brick scroll to make sure there are not seams in texture">
+
+	<p>
+		I then made a third tile variation and fixed the repeat.  So now I have three completely different pieces that can all fit toghether:
+
+	<p>
+		<img class="center" src="http://marcaubanel.com/gamemaker/GMS2-Images/Backgrounds-Tiles-Sprites/CH3/3RdBrickWallPiece.gif" alt="Create a third brick">
+	
+	<p>
+		I then made copies of the original three and made changes including, removing bricks, cracks, moss and dirt.  This was all done in photoshop.
+
+	<p>
+		<img class="center" src="http://marcaubanel.com/gamemaker/GMS2-Images/Backgrounds-Tiles-Sprites/CH3/VariationsOnTile.gif" alt="Made more copies of these with cracks, moss and dirt smudges">
+
+	<p>
+		Now we need a separate sprite tile sheet to hold the tiles we just created.  Since these are 64 by 64 I made a 16 by 16 tile grid.  I  created a 1024 by 1024 pixel image in Photoshop with a white background.  
+		
+	<p>
+		<img class="center" src="http://marcaubanel.com/gamemaker/GMS2-Images/Backgrounds-Tiles-Sprites/CH3/NewTilesheetBlank.png" alt="Create new file that is 1024 by 1024 to hold all of our tiles">
+		
+		Go to <tt><b>Preferences | Guides, Grid & Slices</b></tt>. Adjust the grid to 64 and subdivisions to 1.  Pick a color that doesn't clash with your artwork.
+
+	<p>
+		<img class="center" src="http://marcaubanel.com/gamemaker/GMS2-Images/Backgrounds-Tiles-Sprites/CH3/GridsSetTo64.png" alt="Adjust grids in Preferences in Photoshop to 64 with subdivisions set to 1">	
+
+	<p>
+		Go to <tt><b>View | Show | Grid</b></tt> so that the grid appears and makes snapping and moving the tiles much easier. 
+
+	<p>
+		<img class="center" src="http://marcaubanel.com/gamemaker/GMS2-Images/Backgrounds-Tiles-Sprites/CH3/ShowGrid.png" alt="Switch to View Show Grid in Photoshop">
+
+	<p>
+		Copy and paste each tile into the sheet.  Rescale them to 64 by 64 and put like textures next to each other.  Leave the top left blank. GameMaker will never display the top left tile, so it doesn't matter what goes there - it will be ignore.
+
+	<p>
+		<img class="center" src="http://marcaubanel.com/gamemaker/GMS2-Images/Backgrounds-Tiles-Sprites/CH3/CutAndPasteToTileSheet.gif" alt="Cut each tile into each grid leaving top left blank">
+		
+	<p>
+		Export the tile sheet as a PNG file.  Call it spr_background_tiles.png.  Now create another <tt><b>Sprite</b></tt> and import the tilesheet and name it <tt><b>spr_background_tiles</b></tt>:
+
+	<p>
+		<img class="center" src="http://marcaubanel.com/gamemaker/GMS2-Images/Backgrounds-Tiles-Sprites/CH3/SprBackgroundTiles.png" alt="Export tilesheet to png and import into gamemaker Sprite called spr_background_tiles">
+
+	<p>
+		Now we are gong to create a new <tt><b>Tile Set</b></tt> and call it <tt><b>ts_background_tiles</b></tt>.  Assign the sprite you just made and click on <tt><b>Tile Set Properties</b></tt> and make sure the <tt><b>Tile Height</b></tt> and <tt><b>Tile Width</b></tt> are both set to <tt><b>64</b></tt>.
+
+	<p>
+		<img class="center" src="http://marcaubanel.com/gamemaker/GMS2-Images/Backgrounds-Tiles-Sprites/CH3/CreaetTilesheet.gif" alt="Create new tileset called ts_background_tiles">
+
+	<p>
+		Create a new room and move it to the top.  I called mine <tt><b>rm_lvl_test</b></tt>.  Add a <tt><b>Tile Layer</b></tt> and name it appropriately (I called mine BackgroundTiles).  Place it under the <tt><b>Instances</b></tt> layer. Select the Tileset you just created:
+
+	<p>
+		<img class="center" src="http://marcaubanel.com/gamemaker/GMS2-Images/Backgrounds-Tiles-Sprites/CH3/SetTilesInRoom.gif" alt="Add background layer and assign tileset ts_background_tiles">
+
+	<p>
+		Now you can click on the right hand side and and select one of the 7 tiles.  You then paint them in the room filling up various spaces.
+
+	<p>
+		Keep adding tiles mixing it up. Try and fool the eye not to notice a pattern.  Take your time and be careful. Fill every last piece of the room.
+
+	<p>
+		Scatter some of the distressed tiles judiciously.  	
+
+	<p>
+		<img class="center" src="http://marcaubanel.com/gamemaker/GMS2-Images/Backgrounds-Tiles-Sprites/CH3/AddTIlesToRoom.gif" alt="Select various different tiles and add them to the background">
+		
+	<p>
+		Run the game by pressing the <img style="vertical-align:middle" src="http://marcaubanel.com/gamemaker/GMS2-Images/Shared/Icon_RunProject.png" alt="run button icon"> <tt><b>Play Button</b></tt>. Notice the tiled brick and the pattern is not as bad. 
+
+	<p>
+		<img class="center" src="http://marcaubanel.com/gamemaker/GMS2-Images/Backgrounds-Tiles-Sprites/CH3/FInalBrickRoom.png" alt="Look at pattern when running game, it should look a lot better">
+		
+	<p>
+		Next up we will look at the auto tiles template abilitiy added to GameMaker Studio 2.
+
+</div>
+
+<br>
+</p>
+<p>
+
+</div>
+
+<div class="footer">
+	<div class="buttons">
+		<div class="clear">
+			<div style="float:left">
+				<a href="page01.html"  class="prev">
+				<div id="button-prev"></div> 
+				</a>
+			</div>
+			<div style="float:right"> <!-- Set the next page to go to here -->
+				<a href="page03.html" class="next">
+					<div id="button-next"></div>
+				</a>
+			</div>
+		</div>	
+	</div>
+<!-- Footer copyright notice - set this to your own or whatever is required (remove the text but leave the <h5> tags to just have the bar) -->
+<h5>&copy; Copyright Mauby Games 2018</h5>
+</div>
+
+</body>
+</html>
+
+
+

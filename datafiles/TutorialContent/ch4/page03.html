@@ -1,0 +1,279 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+	<head>
+		<!-- EDIT THIS-->
+		<title>Tutorial - GameMaker Backgrounds & Sprites - Ch4 - Page 3</title>
+		<!-- DO NOT EDIT THIS-->
+		<meta http-equiv="X-UA-Compatible" content="IE=9" />
+		<link rel="stylesheet" href="../style.css" type="text/css" media="screen" title="style" charset="UTF-8"/>
+		<script type="text/javascript">
+			var changePage = function(){
+				var newPage = document.getElementById("page-select");
+				window.location.replace(newPage.value);
+				}
+		</script>
+
+	</head>
+
+<!-- EDIT THIS - This section is where you can add an index to your tutorial -->
+<body>
+<!-- EDIT THIS - Your Tutorial title -->
+	<h2 style="border-radius:0.5em 0.5em 0 0; margin:0;">Tutorial - Backgrounds & Sprites</h2>
+<!-- EDIT THIS - Here you list the pages in your tutorial, with the current one at the top -->
+		<div class="head">
+			<select id="page-select" onChange="changePage()">
+				<optgroup label="Chapter 4 - Animated Sprites">
+					<option value="page03.html">Player Movement</option>
+				</optgroup>
+				<optgroup label="---Previous Pages">
+					<optgroup label="Chapter 1 - Overview">
+						<option value="../page01.html"><b>Overview</b></option>
+					</optgroup>
+				<optgroup label="Chapter 2 - Image Formats">
+					<option value="../ch2/page01.html">Pixel Graphic Formats</option>
+					<option value="../ch2/page02.html">Handling JPGs</option>
+					<option value="../ch2/page03.html">Handling GIFs and other Formats</option>
+					<option value="../ch2/page04.html">Raster and Vector</option>
+				</optgroup>
+				<optgroup label="Chapter 3 - Background and Tiles">
+					<option value="../ch3/page01.html">Background with Single Tile</option>
+					<option value="../ch3/page02.html">Creating your First Tile Set</option>
+					<option value="../ch3/page03.html">Auto Tile Template<</option>
+					<option value="../ch3/page04.html">Tile Brushes</option>
+					<option value="../ch3/page05.html">Animated Tiles</option>
+					<option value="../ch3/page06.html">Transparent Tiles</option>
+					</optgroup>
+					<optgroup label="Chapter 4 - Animated Sprites">
+					<option value="page01.html">Animations</option>
+					<option value="page02.html">Importing Animations</option>
+					</optgroup>
+				</optgroup>
+			</select>
+		</div>
+	
+<!-- EDIT THIS - Main tutorial body goes here -->
+<div class="body-scroll">
+	<p>
+	If you want to see tutorial in a separate web browser window <a href="gms2tutorials:///openBrowser">click here</a>.
+	
+	<p style="color:rgb(85, 109, 130)">
+	<b>Player Movement</b>
+	
+	<p>
+		This is a  bi-pedal walk through for a run animation on a sprite.  In this case we will support both keyboard and gamepad. The player will only move laterally and cannot move diagonally. You can change it to your taste, but I wanted to show yet another form of  locomotion.
+
+	<p>
+		Lets create a new Game Object, call it <tt><b>obj_player</b></tt> and attach the <tt><b>spr_player_down_idle</b></tt> as its default sprite.
+
+	<p>
+		<img class="center" src="http://marcaubanel.com/gamemaker/GMS2-Images/Backgrounds-Tiles-Sprites/CH4/ObjPlayerDown.png" alt="Create obj_player and assign spr_player_down_idle as the default sprite">	
+
+	<p>
+		If you did one of our other tutorials you will know that we are going to be using movement speeds based on seconds and not on frames.  This is because we can refer to an exact second passing in game but each frame might be slower or faster and if the game level is large can cause lag.  It is also easier to make the transition to Unity or to Unreal as they both do it this way for both 2D and 3D games.
+	
+	<p>
+		We will be calling <b><a href="gms2tutorials:///ShowHelp?tag=delta_time">delta_time</a></b> to figure out how many microseconds have passed since last frame. This way the game won't pause it will continue to simulate even during a slow down. Also, as an added benefit, we can adjust the room framerate and the speed won't change.
+		
+
+	<p>
+		Double click <tt><b>obj_player</b></tt> and press the <tt><b>Add Event</b></tt> button and select a <tt><b>Create</b></tt> event.  A create event is only called once and we will be setting the speed of the player in pixels of translation per second. Go to next point for a screenshot of the script to copy into your game.
+
+	<p>
+		<img class="center" src="http://marcaubanel.com/gamemaker/GMS2-Images/Backgrounds-Tiles-Sprites/CH4/CreateEventSpeedPlayer.gif" alt="Double click obj_player and press Add Event and add a Create event.  Set the speed of player in pixels per second">	
+
+	<p>
+		Here is the script so you can have time to copy it correctly:
+
+	<p>
+		<img class="center" src="http://marcaubanel.com/gamemaker/GMS2-Images/Backgrounds-Tiles-Sprites/CH4/PlayerCreateScriptTake1.png" alt="Screenshot of script from above animated gif">	
+		
+	<p>
+		Go back to <tt><b>obj_player</b></tt> and press the <tt><b>Add Event</b></tt> button.  You will now pick a <tt><b>Step | Step</b></tt> event that will run every frame.
+	<p>
+		Now we will look at <tt><b>keyboard_check(key)</b></tt> and will subtract the left key from the right key. Now we will not be using <tt><b>keyboard_check(key)</b></tt> yet as in this control scheme, lets say I am pressing left then pressing up with both held I want the player to move up.  
+		
+	<p>
+		 This can be done with the variable<b><a href="gms2tutorials:///ShowHelp?tag=keyboard_lastkey">keyboard_lastkey </a></b>contains a boolean which will be <tt><b>1</b></tt> if the key is the last key pressed or <tt><b>true</b></tt> and <tt><b>0</b></tt> if <tt><b>false</b></tt>. This means if the right arrow is the last key pressed, then it will be 1-0. If left is pressed it will be 0-1. If both right and left are pressed it will be 1-1. So this gives us a range of -1 to 1 and a value of 0 if nothing or both are pressed (cancelling each other out).
+
+	<p>
+		We can multiply this value by speed and if it is negative will move left and positive will move right.  We will also do this for up and down.  Lets create two temporary variables called <tt><b>x_axis</b></tt> and <tt><b>y_axis</b></tt> to store these values.
+
+	<p>
+		<img class="center" src="http://marcaubanel.com/gamemaker/GMS2-Images/Backgrounds-Tiles-Sprites/CH4/NormalizedXYAxis.png" alt="Add step event to obj_player and add code to move player by adding an x_axis and y_axis variables to hold the joystick/keyboard vector">
+
+
+	<p>
+		So this translates in script to:
+
+	<p>
+		<img class="center" src="http://marcaubanel.com/gamemaker/GMS2-Images/Backgrounds-Tiles-Sprites/CH4/LastKeyLeftRightUpDown.png" alt="Script for player movement">
+		
+		<p>
+		Now we need to figure out how to translate the <tt><b>player_speed</b></tt> variable from frames per second to frames since last tick.  We will use <b><a href="gms2tutorials:///ShowHelp?tag=delta_time">delta_time</a></b> to figure out how many microseconds have passed since last frame. 1 microsecond is 1,000,000th of a second.  So to turn this into a fractional number in seconds we need to divide <b>delta_time / 1,000,000</b> (commas for clarity you can't enter commas into the script).
+
+	<p>
+		So if we multiply <b>delta/time / 1,000,000</b> by <tt><b>player_speed</b></tt> we will get frames since last tick.  
+		
+	<p>
+		Let me give an example.  Lets say we have a framerate of 2 frames per second.  
+		delta_time would be 500,000.  So if we divide 500,000 / 1,000,000 we get a value of .5.  This means that it will have the value of speed which get us to our delta per frame.  
+		
+	<p>
+		Before we move the player we will not make any calculations if there is no movement, so we will be checking if the player should be moving first.
+		
+	<p>
+		Type into the bottom of the <tt><b>obj_player: Step</b></tt> event:
+
+	<p>
+		<img class="center" src="http://marcaubanel.com/gamemaker/GMS2-Images/Backgrounds-Tiles-Sprites/CH4/MovePlayerUpAndDown.png" alt="Move player and convert from speed per second to delta time">
+
+		<p>
+			Run the game by pressing the <img style="vertical-align:middle" src="http://marcaubanel.com/gamemaker/GMS2-Images/Shared/Icon_RunProject.png" alt="play button icon"> <tt><b>Play Button</b></tt>.  Now press on the up, down, left, right arrow.  Notice that the player won't run diagonally.  Why?
+
+		<p>
+			Look at the second if statement.  It is an else if which only runs if the last button pressed is not left or right.  
+
+		<p>
+			Before we look into changing the animations to match the direction the player is moving in, play around with these buttons, there is a small problem that I don't like.  If I press up, then left.  The player goes up then left.  If I let go of up but keep pressing left the player stops.  Try it yourself.  
+
+		<p>
+			OK, so there is a flaw in our algorithm. I want if you are pressing only one button but it is not the last key to still run.  We need to change our logic here. First we need to only accept keyboard_lastkey only if that button is being pressed.  If it is not then we want to pick whatever other key the player is pressing.  Here are the changes to the <tt><b>obj_player: Step</b></tt> event:
+
+	<p>
+		<img class="center" src="http://marcaubanel.com/gamemaker/GMS2-Images/Backgrounds-Tiles-Sprites/CH4/AddSecondButtonRelease.png" alt="Add logic so that if player lets go of key when pressing two keys that first key still turns player">
+
+	<p>
+		Run the game by pressing the <img style="vertical-align:middle" src="http://marcaubanel.com/gamemaker/GMS2-Images/Shared/Icon_RunProject.png"> <tt><b>Play Button</b></tt>.  Now press on the up, down, left, right arrow.  Notice that the player will now work when you release the last key and the previous key still works!  Press up, then right, then release the right button.  You should now keep going up.
+
+	<p>
+		<img class="center" src="http://marcaubanel.com/gamemaker/GMS2-Images/Backgrounds-Tiles-Sprites/CH4/PlayerControlsPart2.gif" alt="Run game and move the player around">
+
+	<p>
+		Lets add animation to the game. We use the variable <b><a href="gms2tutorials:///ShowHelp?tag=sprite_index">sprite_index</a></b> to set what sprite the object uses.  We can switch this dynamically during the game.  We are also using <b><a href="gms2tutorials:///ShowHelp?tag=image_xscale">image_xscale</a></b> to reverse the sprite and flip its horizontal axis.  Setting it to -1 flips the x axis of the sprite.
+		
+		
+	<p>
+		Open up <tt><b>obj_player: Step</b></tt> event and check each axis (left, right, up and down) and set the appropriate sprite with the appropriate <tt><b>x_scale</b></tt>.
+
+	<p>
+		<img class="center" src="http://marcaubanel.com/gamemaker/GMS2-Images/Backgrounds-Tiles-Sprites/CH4/AddAnimationsPart1.png" alt="Add animation directions after movement to pick the correct animation directxion suing image_xscale to mirror the x axis so that we can have left and right movement out of one animation">
+		
+	<p>
+		Run the game by pressing the <img style="vertical-align:middle" src="http://marcaubanel.com/gamemaker/GMS2-Images/Shared/Icon_RunProject.png"> <tt><b>Play Button</b></tt>.  Now press on the up, down, left, right arrow.  The animations now switcth properly.  The only issue is that when I let go it doesn't go to the idle animation and the player is running on the spot.
+
+	<p>
+		<img class="center" src="http://marcaubanel.com/gamemaker/GMS2-Images/Backgrounds-Tiles-Sprites/CH4/Anim4DirStuckRunning.gif" alt="Run game and animations chnage, but the animation does not go to idle">
+
+	<p>
+		Our problem is that we do not have a case when x_scale and y_scale are both 0 and the player is stopped (idle).  We need a final else if that checks to see what animation it is in and switch it to its corresponding idle.  
+
+	<p>
+		Notice that we don't set the x_scale and don't check left or right.  The animation should work as it will remember the last x_scale value and it should be correct.  Lets give the below a shot. Go to to <tt><b>obj_player: Step</b></tt> event and add to the bottom:
+		
+	<p>
+		<img class="center" src="http://marcaubanel.com/gamemaker/GMS2-Images/Backgrounds-Tiles-Sprites/CH4/PIck4IdleAnims.png" alt="Add final else sending player to idle animation based on previous direction">
+		
+	<p>
+		Run the game by pressing the <img style="vertical-align:middle" src="http://marcaubanel.com/gamemaker/GMS2-Images/Shared/Icon_RunProject.png" alt="run button icon"> <tt><b>Play Button</b></tt>.  Now the player should animated properly and come to all 4 idle sprites correctly.
+
+	<p>
+		<img class="center" src="http://marcaubanel.com/gamemaker/GMS2-Images/Backgrounds-Tiles-Sprites/CH4/AnimationWithIdles.gif" alt="Run game and play the game and keyboard works perfectly as intended">
+
+	<p>
+		The final step is to get the gamepad working.  If you have no gamepad you can skip this section.  This will be easier than the arrow keys as the player can only pick one direction at a time.  
+
+		<p>
+		For action adventure RPG's I prefer using a controller instead of the keyboard.  Game mechanics have developed with this user interface in mind.  Often game systems that work well on controllers don't translate so well on keyboards.  
+
+	<p>
+		I have included a <tt><b>Game Object</b></tt> to poll for the gamepad and assign it to a global array <tt><b>global.gamepad[]</b></tt>.  You can access up to 4 gameplads by accessing index 0 through 3 (you still need to have gamepads plugged into your computer for it to work).
+	
+	<p>
+		If you want to find out more about how this works check out GameMaker's excellent tutorial <a href="https://marketplace.yoyogames.com/assets/5785/adding-gamepad-support-code" target="blank">Add Gamepad Support</a>.  
+		
+	<p>
+		Drag <tt><b>obj_gamepad</b></tt> into <tt><b>rm_lvl_1</b></tt>:
+
+	<p>
+		<img class="center" src="http://marcaubanel.com/gamemaker/GMS2-Images/Backgrounds-Tiles-Sprites/CH4/MoveObjGamePadToRoom.png" alt="Add obj_gamepad to rm_lvl_1">	
+	
+	<p>
+		Lets quickly look at two items in the <tt><b>obj_gamepad</b></tt> object.  Open it and look at the <tt><b>Create</b></tt> event.  Notice that we initialize the four gamepads to <b><a href="gms2tutorials:///ShowHelp?keyword=noone">noone</a></b>.  This is a keyword that means that something is empty or not there.  We are basically saying in Gamemaker parlance that there is no controller plugged into this slot.
+
+	<p>
+		<img class="center" src="http://marcaubanel.com/gamemaker/GMS2-Images/Backgrounds-Tiles-Sprites/CH4/InititalizeGamepadsToNoone.png" alt="Look at obj_gamepad script and see four gamepads stored as an array in Create event">	
+		
+	<p>
+		The event where the magic happens is in the <tt><b>Asynchronous | Async System</b></tt> evemt.  Here we print debug messages if a controller is plugged in or unplugged as well as save a reference to the index number that we can use in the <tt><b>global.gamepad</b></tt> array.
+
+	<p>
+		<img class="center" src="http://marcaubanel.com/gamemaker/GMS2-Images/Backgrounds-Tiles-Sprites/CH4/AsyncGamepad.png" alt="Gampad gets selcted in Async System event">	
+
+		<p>
+		Open <tt><b>obj_player: Step</b></tt> event and add controls after we check for keyboard but before we move them. To stop cheating where players press both the keyboard and the joystick we can add an if statement to ensure we are getting 0's for keyboard input (player is not pressing both at the same time).  
+
+	<p>
+		We are using <b><a href="gms2tutorials:///ShowHelp?tag=gamepad_axis_value">gamepad_axis_value</a></b> where we can get 2D axis values for the left and right gamepad stick (we are looking for the left here). This will return a value of -1 to 1 just like when we check for the keyboard axis.
+
+		<p>
+		<img class="center" src="http://marcaubanel.com/gamemaker/GMS2-Images/Backgrounds-Tiles-Sprites/CH4/GamepadPart1.png" alt="Add check for gamepad_axis_value in obj_player: Step event to get the value of gamepad axis">
+
+	<p>
+		Since the controller can only move in 4 directions we will split the radius of the circle into 4 zones like this diagram below:
+
+	<p>
+		<img class="center" src="http://marcaubanel.com/gamemaker/GMS2-Images/Backgrounds-Tiles-Sprites/CH4/ControllerAngles.png" alt="Diagram of circle in four quarters around player showing control zones">
+		
+	<p>
+		So we need to convert this joystick position into an angle.  We can do this with <b><a href="gms2tutorials:///ShowHelp?tag=point_direction">point_direction(x1, y1, x2, y2)</a></b>.  We enter <tt><b>0</b></tt> for x1 and y1 (the center of the controller position is relative to 0,0) and put the axis positions for x2 and y2.  This will return an angle in degrees:
+
+	<p>
+		<img class="center" src="http://marcaubanel.com/gamemaker/GMS2-Images/Backgrounds-Tiles-Sprites/CH4/GetAngleFromAxisPos.png" alt="Convert from polar to cartesian coordinate system">		 
+		
+	<p>
+		We pick each 4 zones.  Be very carefull with <, <= and > and >=.  Any number between 0 and 360 can be true in only one condition there is no overlap and no gaps.  For example if we have <tt><b>joysick_dir <= 45</b></tt> and on the next condition that <tt><b>joysick_dir >= 45</b></tt> then 45 would be true in both cases.  We need to be careful to avoid this and be very careful with all 4 cases.  This is what I added:
+
+	<p>
+		<img class="center" src="http://marcaubanel.com/gamemaker/GMS2-Images/Backgrounds-Tiles-Sprites/CH4/GamePadControlsPart3.png" alt="Check for which of four zones gamepad is pointed in">		
+		
+	<p>
+		Run the game by pressing the <img style="vertical-align:middle" src="http://marcaubanel.com/gamemaker/GMS2-Images/Shared/Icon_RunProject.png"> <tt><b>Play Button</b></tt>.  Now the player should be controllable by the gamepad and by the keyboard but not both (effectively doubling the speed).
+
+	<p>
+		<img class="center" src="http://marcaubanel.com/gamemaker/GMS2-Images/Backgrounds-Tiles-Sprites/CH4/AnimationWithIdles.gif" alt="Run game and now we have a gamepad working">
+
+	<p>
+		That's it for this tutorial.  We touched on image formats, backgrounds, tiles, tile sheets, animated tilesheets, brushes, auto tiling and player sprites and controls.  This gives you an idea of what we need to get a character in a level with some basic controls (with no collision detection).s
+
+</div>
+
+<br>
+</p>
+<p>
+
+</div>
+
+<div class="footer">
+	<div class="buttons">
+		<div class="clear">
+			<div style="float:left">
+				<a href="page01.html"  class="prev">
+				<div id="button-prev"></div> 
+				</a>
+			</div>
+			<div style="float:right"> <!-- Set the next page to go to here -->
+				<!-- 	<a href="page03.html" class="next">
+					<div id="button-next"></div>
+				</a> -->
+			</div>
+		</div>	
+	</div>
+<!-- Footer copyright notice - set this to your own or whatever is required (remove the text but leave the <h5> tags to just have the bar) -->
+<h5>&copy; Copyright Mauby Games 2018</h5>
+</div>
+
+</body>
+</html>
+
+
+

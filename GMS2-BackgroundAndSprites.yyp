@@ -1,0 +1,526 @@
+{
+    "id": "da887b09-6b37-411b-8457-ed12c2505d6a",
+    "modelName": "GMProject",
+    "mvc": "1.0",
+    "IsDnDProject": false,
+    "configs": [
+        
+    ],
+    "option_ecma": false,
+    "parentProject": {
+        "id": "7a4a8a64-b15e-4b53-8fb7-6d13119ba1cf",
+        "modelName": "GMProjectParent",
+        "mvc": "1.0",
+        "alteredResources": [
+            {
+                "Key": "ed6a955d-5826-4f98-a450-10b414266c27",
+                "Value": {
+                    "configDeltas": [
+                        "inherited"
+                    ],
+                    "id": "5fde66d6-2536-4aba-80ee-d2dddc855f6c",
+                    "resourcePath": "options\/main\/options_main.yy",
+                    "resourceType": "GMMainOptions"
+                }
+            }
+        ],
+        "hiddenResources": [
+            
+        ],
+        "projectPath": "${base_project}"
+    },
+    "resources": [
+        {
+            "Key": "07321f23-29f2-4547-8a41-de65d675be9d",
+            "Value": {
+                "id": "44782b6d-f173-4431-8cb6-526464b22479",
+                "resourcePath": "views\/07321f23-29f2-4547-8a41-de65d675be9d.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "0f49654f-262c-4ded-88c9-76d236f45993",
+            "Value": {
+                "id": "45ba196a-9128-4006-a9ba-4232f6800cb8",
+                "resourcePath": "datafiles_yy\/TutorialContent\/ch2\/page02.html.yy",
+                "resourceType": "GMIncludedFile"
+            }
+        },
+        {
+            "Key": "1d818280-2b4d-49f4-9237-d00f218f003e",
+            "Value": {
+                "id": "2d92857f-a499-400c-afc8-e3e27c40bc06",
+                "resourcePath": "datafiles_yy\/TutorialContent\/tutorial.json.yy",
+                "resourceType": "GMIncludedFile"
+            }
+        },
+        {
+            "Key": "22a50add-3afb-416a-b593-048538fabe1a",
+            "Value": {
+                "id": "0ebe27bc-f4c0-4200-9204-450ee0eb6c32",
+                "resourcePath": "views\/22a50add-3afb-416a-b593-048538fabe1a.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "24ad787a-e918-4627-8b2e-77c9ac8577b2",
+            "Value": {
+                "id": "0aa31463-5a71-4834-bb0e-9d238f0c0c91",
+                "resourcePath": "datafiles_yy\/TutorialResources\/GIF\/spr_plane_gif.gif.yy",
+                "resourceType": "GMIncludedFile"
+            }
+        },
+        {
+            "Key": "24cce84c-008c-4365-bfef-c8bc529eec09",
+            "Value": {
+                "id": "bfae333e-1b9f-416d-a4de-997981d18388",
+                "resourcePath": "views\/24cce84c-008c-4365-bfef-c8bc529eec09.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "2bd10047-c683-4e76-aa85-0420302646b2",
+            "Value": {
+                "id": "5d217746-1eac-4c3d-a69e-19cda0246a74",
+                "resourcePath": "datafiles_yy\/TutorialContent\/ch3\/page06.html.yy",
+                "resourceType": "GMIncludedFile"
+            }
+        },
+        {
+            "Key": "331baa14-3485-48e9-8491-1925c87a04dd",
+            "Value": {
+                "id": "fb67ec83-da95-4366-aea8-4ecf561fc2a8",
+                "resourcePath": "objects\/obj_gamepad\/obj_gamepad.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "38181374-e4c3-4925-9a8e-6c284bcd61b7",
+            "Value": {
+                "id": "1fd1b6d5-247c-409c-ba48-ec9e64eb9b83",
+                "resourcePath": "views\/38181374-e4c3-4925-9a8e-6c284bcd61b7.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "387ea986-f6dc-44cc-9684-a4a9943c21e6",
+            "Value": {
+                "id": "6fb7055b-c234-468d-9413-95db7b2ad484",
+                "resourcePath": "datafiles_yy\/TutorialContent\/Light.css.yy",
+                "resourceType": "GMIncludedFile"
+            }
+        },
+        {
+            "Key": "393be282-6b5d-413b-930d-18db43b1181e",
+            "Value": {
+                "id": "04f63b8b-d1ec-492a-9055-0cf6576d4bb3",
+                "resourcePath": "datafiles_yy\/TutorialContent\/ch4\/page02.html.yy",
+                "resourceType": "GMIncludedFile"
+            }
+        },
+        {
+            "Key": "3a06c22c-9030-4906-ba19-646c70fdd0ed",
+            "Value": {
+                "id": "df232b1a-a223-460f-b9cf-3f9d37dd8261",
+                "resourcePath": "views\/3a06c22c-9030-4906-ba19-646c70fdd0ed.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "3b7b58a7-655c-4577-8412-d2eed0b92980",
+            "Value": {
+                "id": "3addb0ca-4085-4496-ad9f-8953dff88ed1",
+                "resourcePath": "views\/3b7b58a7-655c-4577-8412-d2eed0b92980.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "3f3eb1ac-1fde-429a-8451-909a2acbd7b6",
+            "Value": {
+                "id": "9ddce026-5444-4b9a-8cdb-ff9c9750502f",
+                "resourcePath": "datafiles_yy\/TutorialContent\/ch2\/page03.html.yy",
+                "resourceType": "GMIncludedFile"
+            }
+        },
+        {
+            "Key": "413bdd2d-6e0d-4998-b3d5-5d80460ec28d",
+            "Value": {
+                "id": "2d57473e-f316-43eb-a86e-fe87996ccc77",
+                "resourcePath": "views\/413bdd2d-6e0d-4998-b3d5-5d80460ec28d.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "45d7eed0-6cab-4255-aa6a-9d0df8a89f6c",
+            "Value": {
+                "id": "49271b29-4f74-4090-b817-49ca38d62fe2",
+                "resourcePath": "datafiles_yy\/TutorialContent\/ch2\/page01.html.yy",
+                "resourceType": "GMIncludedFile"
+            }
+        },
+        {
+            "Key": "46557ac7-88ac-45f1-b81c-6985a14788cf",
+            "Value": {
+                "id": "bb1f133a-0f37-47bf-8045-e4c95b18d86e",
+                "resourcePath": "datafiles_yy\/TutorialContent\/Dark.css.yy",
+                "resourceType": "GMIncludedFile"
+            }
+        },
+        {
+            "Key": "489c752b-f69d-4786-9f82-606007bc2026",
+            "Value": {
+                "id": "7d8d8adf-4313-4e64-9fbb-92dbf11968b4",
+                "resourcePath": "datafiles_yy\/TutorialContent\/ch3\/page03.html.yy",
+                "resourceType": "GMIncludedFile"
+            }
+        },
+        {
+            "Key": "4f370388-06a9-40f4-a19d-5c7e11a333f9",
+            "Value": {
+                "id": "259c7482-998c-4142-95bd-7eb1e8c763ef",
+                "resourcePath": "datafiles_yy\/TutorialResources\/Photoshop\/HedgesToAddToTiles.psd.yy",
+                "resourceType": "GMIncludedFile"
+            }
+        },
+        {
+            "Key": "50fdc3cd-e515-4600-a2c7-78bc76ff415f",
+            "Value": {
+                "id": "c063c3a2-c693-44cd-8e9a-e5a9c65d3acb",
+                "resourcePath": "datafiles_yy\/TutorialContent\/ch4\/page01.html.yy",
+                "resourceType": "GMIncludedFile"
+            }
+        },
+        {
+            "Key": "59b6d356-4611-4327-b8ad-dc179894b2bb",
+            "Value": {
+                "id": "7f3871a2-155a-459f-9397-27e18978838f",
+                "resourcePath": "views\/59b6d356-4611-4327-b8ad-dc179894b2bb.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "5dacd404-199c-4fcd-aa3f-fd1a2cbbf1d4",
+            "Value": {
+                "id": "509e95af-73ed-4efb-babd-13f335d1ceb3",
+                "resourcePath": "datafiles_yy\/TutorialResources\/JPG\/spr_plane_Jpg.jpg.yy",
+                "resourceType": "GMIncludedFile"
+            }
+        },
+        {
+            "Key": "6a90a2c3-2e5a-4a8e-823c-9f46e6843de5",
+            "Value": {
+                "id": "7dfc6cbd-852d-4be3-b1f1-98a7e879bb85",
+                "resourcePath": "views\/6a90a2c3-2e5a-4a8e-823c-9f46e6843de5.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "70757b46-d6ca-437b-9649-299831faedc8",
+            "Value": {
+                "id": "e5dcef1e-2a73-40b1-a522-68d37ad63ea0",
+                "resourcePath": "views\/70757b46-d6ca-437b-9649-299831faedc8.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "7764624c-4c15-4810-88f5-f86c82af5d14",
+            "Value": {
+                "id": "0eea1b78-1e49-4283-a59b-a7b947173354",
+                "resourcePath": "views\/7764624c-4c15-4810-88f5-f86c82af5d14.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "77a09f58-81c6-4d1e-a637-81d34ade6164",
+            "Value": {
+                "id": "e5a83b55-f123-485f-b257-b1897ef9fa2d",
+                "resourcePath": "views\/77a09f58-81c6-4d1e-a637-81d34ade6164.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "7be56ffd-65e1-4fe2-9912-5905f99ec27a",
+            "Value": {
+                "id": "80f3c225-3111-4dca-b636-de47ed3d8348",
+                "resourcePath": "views\/7be56ffd-65e1-4fe2-9912-5905f99ec27a.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "7c9743ca-bbbb-49b7-8687-4ae9a14245f6",
+            "Value": {
+                "id": "29ba08bb-87bd-4ad9-a452-1dfb4433e59e",
+                "resourcePath": "views\/7c9743ca-bbbb-49b7-8687-4ae9a14245f6.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "7d1c2f32-6f84-4f9e-a9e4-0df27c7cb5b0",
+            "Value": {
+                "id": "66917767-be76-43a9-a5a9-e8a96aa31eff",
+                "resourcePath": "views\/7d1c2f32-6f84-4f9e-a9e4-0df27c7cb5b0.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "8a1bc34d-2dbb-4966-b135-b76b4c5100eb",
+            "Value": {
+                "id": "9dd6c7af-e341-4096-9b74-6246d0135eee",
+                "resourcePath": "datafiles_yy\/TutorialContent\/ch3\/page01.html.yy",
+                "resourceType": "GMIncludedFile"
+            }
+        },
+        {
+            "Key": "9ac0c5c3-eb7e-4533-9cfa-fc5598acb0b1",
+            "Value": {
+                "id": "646c45e1-5b8d-42fe-8459-5f6c25f936bf",
+                "resourcePath": "datafiles_yy\/TutorialContent\/ch4\/page03.html.yy",
+                "resourceType": "GMIncludedFile"
+            }
+        },
+        {
+            "Key": "9c274cad-8df2-44b8-ae7e-f19eb6c7bde1",
+            "Value": {
+                "id": "63d5b252-2f86-4ba6-b428-b908f86c55a5",
+                "resourcePath": "datafiles_yy\/TutorialResources\/Photoshop\/spr_lsu_gradient_bkg.psd.yy",
+                "resourceType": "GMIncludedFile"
+            }
+        },
+        {
+            "Key": "9c285676-9079-4c48-8918-b441cfcf34e7",
+            "Value": {
+                "id": "e48a4a91-ea42-4e95-a9a2-3d0719038734",
+                "resourcePath": "datafiles_yy\/TutorialContent\/ch2\/page04.html.yy",
+                "resourceType": "GMIncludedFile"
+            }
+        },
+        {
+            "Key": "a4c22986-3718-4700-b0a0-58948c7e3858",
+            "Value": {
+                "id": "652b6076-128e-49ec-bb7a-852aa6eda7ee",
+                "resourcePath": "views\/a4c22986-3718-4700-b0a0-58948c7e3858.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "a7510763-7bfc-414f-a0e6-7e6d10f3fb34",
+            "Value": {
+                "id": "fe656aa7-3410-48ee-996a-64de43ede5c4",
+                "resourcePath": "datafiles_yy\/TutorialContent\/default_style.css.yy",
+                "resourceType": "GMIncludedFile"
+            }
+        },
+        {
+            "Key": "a9188620-a624-4a5a-83ae-a1b53faf038b",
+            "Value": {
+                "id": "b9ac3020-575f-4d3d-9493-ff1e05ae59e9",
+                "resourcePath": "options\/linux\/options_linux.yy",
+                "resourceType": "GMLinuxOptions"
+            }
+        },
+        {
+            "Key": "aca48270-483a-45a4-af2e-69b86273fe61",
+            "Value": {
+                "id": "5d15c528-4943-4474-897e-2dd99df2c6b3",
+                "resourcePath": "views\/aca48270-483a-45a4-af2e-69b86273fe61.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "aeefd17f-9675-49c5-bb4a-bec72e3883cf",
+            "Value": {
+                "id": "d5e960c4-3c9c-4fd3-8be1-b83f99bf4aff",
+                "resourcePath": "datafiles_yy\/TutorialResources\/Photoshop\/AutoTileTemplate.psd.yy",
+                "resourceType": "GMIncludedFile"
+            }
+        },
+        {
+            "Key": "b071c1c7-0534-45ec-bc1d-2980521f1181",
+            "Value": {
+                "id": "31052434-99a3-445b-a543-a1146c384567",
+                "resourcePath": "views\/b071c1c7-0534-45ec-bc1d-2980521f1181.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "b271b244-a1b0-4e72-8de1-fd8a49f48aeb",
+            "Value": {
+                "id": "b8a59db7-824e-43b9-a369-82336ef5cd1f",
+                "resourcePath": "views\/b271b244-a1b0-4e72-8de1-fd8a49f48aeb.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "b6dbd7f4-440d-4039-adcb-523b1b48e0f5",
+            "Value": {
+                "id": "c28835eb-da94-4fff-b39f-e32ae22cc432",
+                "resourcePath": "datafiles_yy\/TutorialContent\/ch3\/page02.html.yy",
+                "resourceType": "GMIncludedFile"
+            }
+        },
+        {
+            "Key": "bac9f222-1a77-4919-8ce7-064cadca2580",
+            "Value": {
+                "id": "15749821-1808-4dd3-b180-0d983320f27d",
+                "resourcePath": "datafiles_yy\/TutorialResources\/Misc\/spr_plane_png.png.yy",
+                "resourceType": "GMIncludedFile"
+            }
+        },
+        {
+            "Key": "be722ea0-b1d0-44c3-8edd-6cbf83d8cf78",
+            "Value": {
+                "id": "90bd3d29-e116-4144-9ec4-a4fb062d279a",
+                "resourcePath": "datafiles_yy\/TutorialResources\/Misc\/spr_plane_tif.tif.yy",
+                "resourceType": "GMIncludedFile"
+            }
+        },
+        {
+            "Key": "c7d129e1-736d-447e-8e78-06f733b6d694",
+            "Value": {
+                "id": "6aafc2fe-9f0d-4f1d-b6d2-cc2655eaace4",
+                "resourcePath": "datafiles_yy\/TutorialResources\/Misc\/spr_plane_bmp.bmp.yy",
+                "resourceType": "GMIncludedFile"
+            }
+        },
+        {
+            "Key": "cc148af5-4b17-4da3-b775-9f7b70682e88",
+            "Value": {
+                "id": "400a86b3-69db-4334-9fd7-97b3839f68a4",
+                "resourcePath": "views\/cc148af5-4b17-4da3-b775-9f7b70682e88.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "cc98d028-7bdd-4680-85f3-c87a7baa481e",
+            "Value": {
+                "id": "7bdac36c-04a8-4791-a7bc-b379b91e3d66",
+                "resourcePath": "options\/windows\/options_windows.yy",
+                "resourceType": "GMWindowsOptions"
+            }
+        },
+        {
+            "Key": "cd08d4bb-35d8-459b-8066-d6c6b7eb02b2",
+            "Value": {
+                "id": "f8fdbd9f-c693-4294-8acb-e0feee44fd83",
+                "resourcePath": "datafiles_yy\/TutorialContent\/ch3\/page04.html.yy",
+                "resourceType": "GMIncludedFile"
+            }
+        },
+        {
+            "Key": "d1a37b27-468e-4807-90f8-e2c21218abde",
+            "Value": {
+                "id": "014d9cef-b774-4ff4-b969-b6d5b69eae83",
+                "resourcePath": "views\/d1a37b27-468e-4807-90f8-e2c21218abde.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "d4e10910-1f6d-45bb-880a-3add5e137361",
+            "Value": {
+                "id": "7c032a8b-ae71-4816-b28d-4a54cb17793a",
+                "resourcePath": "views\/d4e10910-1f6d-45bb-880a-3add5e137361.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "d60755fc-caa4-4f72-a451-b24921b02d17",
+            "Value": {
+                "id": "c199fa34-7c2b-412a-8db3-3284537d6850",
+                "resourcePath": "datafiles_yy\/TutorialResources\/Photoshop\/spr_animated_backgrounds.psd.yy",
+                "resourceType": "GMIncludedFile"
+            }
+        },
+        {
+            "Key": "d6bd7ebe-c713-41a8-8545-64a0a3c1799f",
+            "Value": {
+                "id": "178d681d-543d-4077-9a4e-0eb98ee3cd44",
+                "resourcePath": "datafiles_yy\/TutorialContent\/page01.html.yy",
+                "resourceType": "GMIncludedFile"
+            }
+        },
+        {
+            "Key": "d6d57912-051a-405e-a12e-05cb931ad73a",
+            "Value": {
+                "id": "bfff47db-a1b1-4558-8ca1-49327bbeb9cf",
+                "resourcePath": "views\/d6d57912-051a-405e-a12e-05cb931ad73a.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "d7ecd531-b4c8-4948-a1c8-d977948306b7",
+            "Value": {
+                "id": "2a74359e-fab5-448b-8e41-27391d0f65c7",
+                "resourcePath": "datafiles_yy\/TutorialResources\/Animation\/MonkeyAnim.png.yy",
+                "resourceType": "GMIncludedFile"
+            }
+        },
+        {
+            "Key": "d8e92a28-0185-45ab-b0bd-b487987b3617",
+            "Value": {
+                "id": "8b42f5a1-fd4e-4f8b-96fd-a3c386570928",
+                "resourcePath": "views\/d8e92a28-0185-45ab-b0bd-b487987b3617.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "da03118e-08a4-487d-ba06-ecbfbee03c51",
+            "Value": {
+                "id": "5303ed87-1d4f-4d1c-89b4-23d8291e97c8",
+                "resourcePath": "datafiles_yy\/TutorialContent\/ch3\/page05.html.yy",
+                "resourceType": "GMIncludedFile"
+            }
+        },
+        {
+            "Key": "dbbfefe4-7e15-48ed-8025-f6eb4045e182",
+            "Value": {
+                "id": "2d291258-5850-4643-8dc0-ae2ec33af4bc",
+                "resourcePath": "views\/dbbfefe4-7e15-48ed-8025-f6eb4045e182.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "eb551452-707a-43ef-9333-dd77a85eb522",
+            "Value": {
+                "id": "2653e2cb-5c64-412f-b8cd-2e4b3a8dd2a3",
+                "resourcePath": "datafiles_yy\/TutorialResources\/Photoshop\/TransparentTree.psd.yy",
+                "resourceType": "GMIncludedFile"
+            }
+        },
+        {
+            "Key": "f2344c5f-cf0e-4f10-a19b-29dc2dc4b501",
+            "Value": {
+                "id": "e41b7036-7d6a-444b-9a65-d743a1f00fe6",
+                "resourcePath": "views\/f2344c5f-cf0e-4f10-a19b-29dc2dc4b501.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "f25bd7b5-5549-4a3e-89cc-e32cbebf100a",
+            "Value": {
+                "id": "48174883-9502-4491-9ae5-8c87ec45bfb6",
+                "resourcePath": "rooms\/room0\/room0.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "f418569b-3bdd-4706-a0e4-364317f54032",
+            "Value": {
+                "id": "cffbc51e-f1de-4591-bf0a-0e770be33953",
+                "resourcePath": "options\/mac\/options_mac.yy",
+                "resourceType": "GMMacOptions"
+            }
+        },
+        {
+            "Key": "f454d9dd-ebc2-4047-bd75-beb34b1ad69b",
+            "Value": {
+                "id": "78c276b1-dedb-4aae-9beb-cce3a2ac98d6",
+                "resourcePath": "datafiles_yy\/TutorialContent\/style.css.yy",
+                "resourceType": "GMIncludedFile"
+            }
+        }
+    ],
+    "script_order": [
+        
+    ],
+    "tutorial": "datafiles"
+}

@@ -1,0 +1,209 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+	<head>
+		<!-- EDIT THIS-->
+		<title>Tutorial - GameMaker Backgrounds & Sprites - Ch2 - Page 1</title>
+		<!-- DO NOT EDIT THIS-->
+		<meta http-equiv="X-UA-Compatible" content="IE=9" />
+		<link rel="stylesheet" href="../style.css" type="text/css" media="screen" title="style" charset="UTF-8"/>
+		<script type="text/javascript">
+			var changePage = function(){
+				var newPage = document.getElementById("page-select");
+				window.location.replace(newPage.value);
+				}
+		</script>
+
+	</head>
+
+<!-- EDIT THIS - This section is where you can add an index to your tutorial -->
+<body>
+<!-- EDIT THIS - Your Tutorial title -->
+	<h2 style="border-radius:0.5em 0.5em 0 0; margin:0;">Tutorial - Backgrounds & Sprites</h2>
+<!-- EDIT THIS - Here you list the pages in your tutorial, with the current one at the top -->
+		<div class="head">
+			<select id="page-select" onChange="changePage()">
+				<optgroup label="Chapter 2 - Image Formats">
+					<option value="page01.html">Pixel Graphic Formats</option>
+					<option value="page02.html">Handling JPGs</option>
+					<option value="page03.html">Handling GIFs and other Formats</option>
+					<option value="page04.html">Raster and Vector</option>
+				</optgroup>
+				<optgroup label="Chapter 3 - Background and Tiles">
+					<option value="../ch3/page01.html">Background with Single Tile</option>
+					<option value="../ch3/page02.html">Creating your First Tile Set</option>
+					<option value="../ch3/page03.html">Auto Tile Template<</option>
+					<option value="../ch3/page04.html">Tile Brushes</option>
+					<option value="../ch3/page05.html">Animated Tiles</option>
+					<option value="../ch3/page06.html">Transparent Tiles</option>
+				</optgroup>
+				<optgroup label="Chapter 4 - Animated Sprites">
+					<option value="../ch4/page01.html">Animations</option>
+					<option value="../ch4/page02.html">Importing Animations</option>
+					<option value="../ch4/page03.html">Player Movement</option>
+				</optgroup>
+				<optgroup label="---Previous Pages">
+					<optgroup label="Chapter 1 - Overview">
+						<option value="../page01.html"><b>Overview</b></option>
+					</optgroup>
+					</optgroup>
+			</select>
+		</div>
+	
+<!-- EDIT THIS - Main tutorial body goes here -->
+<div class="body-scroll">
+	<p>
+	If you want to see tutorial in a separate web browser window <a href="gms2tutorials:///openBrowser">click here</a>.
+	
+	<p style="color:rgb(85, 109, 130)">
+	<b>Pixel Graphics Formats</b>
+
+	<p>
+		We will be looking at techniques for creating animations for GameMaker video games. We will look at pixel art, vector art and some common techniques when building characters and levels.
+
+	<p>
+		With bitmaps we have a series of pixels. This is sometimes refered to as <a href="https://www.customink.com/help_center/raster-vs-vector-art" target="_blank">raster</a> art.  In a 32 x 32 sprite we have: 32 x 32 = 1,024 total pixels. The pixel is most likely to contain 32 bits of data (8 bit red, 8 bit green, 8 bit blue, and 8 bit alpha). 8 bits is a <a href="https://en.wikipedia.org/wiki/Binary_number" target="_blank">binary</a> representation of decimal 256. An 8 bit binary number can hold 256 individual decimal values.
+		
+	<p>
+		 So we typically have 256 values for each of the the R, G, B, A channels. Some art styles can be saved a lower rates such as 16 bits where we have 4 bits per channel or 32 bit values for R, G, B, A. For an old school look some people will restrict to a smaller size and force into a 4 bit pallette for example.
+
+	<p>
+		Look at the PNG format supporting different bit depths and channels. This table is from the wikipedia webpage.
+
+	<p>
+		<img class="center" src="http://marcaubanel.com/gamemaker/GMS2-Images/Backgrounds-Tiles-Sprites/CH2/WikipediaPNGTable.png" alt="Table from Wikipedia of different image types">
+	
+	<p>
+		There are many different raster formats that images can be saved in. I have highlighted a few in Photoshop that are common: psd, gif, jpg, png, tiff, & targa.
+
+	<p>
+		<img class="center" src="http://marcaubanel.com/gamemaker/GMS2-Images/Backgrounds-Tiles-Sprites/CH2/ImageTypes.png" alt="Showing photoshop export option file types">
+
+	<p>
+		They all have different abilities and there are good reasons to use or not use them in a game. Let’s first look at lossy versus lossless images. A lossy image is one where the image size is shrunk by algorithms that change (hopefully not noticably) to save space. Jpeg (.jpg) files is a common compressed file type. Here is an example of the plane from the WW2 shooter with the least compression on the left and most on the right:
+
+	<div class="note">
+	<p> 
+		Please note:  Even though you can compress a texture GameMaker leaves them uncompressed in the GPU.  There are no advantages in using compressed textures for now. This may change with future hardware GPU support for 2D compression.
+	</div>
+
+	<p>
+		Look at the below image on the right, you can see some banding in the colors.  This is a common side effect of 2D compression like Jpeg.
+	<p>
+		<img class="center" src="http://marcaubanel.com/gamemaker/GMS2-Images/Backgrounds-Tiles-Sprites/CH2/CompressionArtifacting.png" alt="JPG Compression artifacts in picture shows banding on colors">
+	
+	<p>
+		Lets zoom in a bit to see the banding better:
+
+	<p>
+		<img class="center" src="http://marcaubanel.com/gamemaker/GMS2-Images/Backgrounds-Tiles-Sprites/CH2/CompressionArtifactingZoomedIn.png" alt="Zoomed in JPG Compression artifacts in picture shows banding on colors">
+
+	<p>	
+		It is important to note that the format will need to be sent to the GPU in its raw decompressed state so ultimately the entire size is required to display the image. Each game will have different demands for either aesthetic or performance reasons. In most cases png or bmp is the default format to use and is recommended by GameMaker. Lets look at various formats:
+
+	<p>
+		<a href="https://en.wikipedia.org/wiki/JPEG" target="_blank">Jpeg</a> Jpeg. It is a good format for complex images like digital photographs.  This saves storage space by applying compression. It is less effective for simpler graphics (images from Illustrator) with well defined lines. Not only does a jpeg alter the image it also has NO alpha. You need to pick a unique color for a background to remove it later in the sprite editor in Gamemaker.
+
+		<p>
+		<a href="https://en.wikipedia.org/wiki/Portable_Network_Graphics" target="_blank">Portable Network Graphics</a> (png) is a compressed and uncompressed lossless format. What losselss means is that you will lose no quality when it is applied.  It can save some room on your hard drive but Gamemaker will store it in an uncompressed state. It supports both 24 bit RGB and 32 bit RGBA formats as well as indexed and monochromatic as well.
+
+		<p>
+		<a href="https://en.wikipedia.org/wiki/GIF" target="_blank">Graphics Interchange Format</a>  (GIF) is commonly used to store animations as it is one of the few formats that supports them. It only supports only 8-bit RGB color space and does not support alpha channels. This is far less than jpgs or png’s 24 bit colors which makes it only suitable to very simple images. GIF’s compression are better for simpler art like line art or Illustrator files. GIF’s are also good for storing low-color sprite data to save size. Some use this format to get an old school look.
+
+		<p>
+		<a href="https://en.wikipedia.org/wiki/BMP_file_format" target="_blank">bitmap image file</a> (bmp) is a raster graphics format that supports various color depths, and optionally with data compression, alpha channels, and color profiles.
+
+		<p>
+		PSD is the best format to keep all your original artwork in. I make a lot of sprites in Photoshop and save all the layers and original work. Unfortunately GameMaker does not support PSD so they need to be exported to one of the above formats.
+
+	<p>
+		<img class="center" src="http://marcaubanel.com/gamemaker/GMS2-Images/Backgrounds-Tiles-Sprites/CH2/RasterFormats.png" alt="Graphics of different file formats">
+	
+	<p>
+		Let’s look at some of this in action. I have included a PSD (photoshop file) and in <tt><b>Included Files | TutorialResources | Photoshop | spr_lsu_gradient_bkg.png </b></tt>.  If you can't find it you can locate the file in the browser (or click <a href="gms2tutorials:///ShowFiles?path=../TutorialResources/Photoshop/spr_lsu_gradient_bkg.psd">here</a>). Find it in the file explorer and load it in photoshop:
+
+	<p>
+		<img class="center" src="http://marcaubanel.com/gamemaker/GMS2-Images/Backgrounds-Tiles-Sprites/CH2/OpenWithPhotoshop.png" alt="Find TutorialResources/Photoshop/spr_lsu_gradient_bkg.png file">
+	
+	<p>
+		Now lets look at it in photoshop. It is really hard to see what is going on.  What I have done is created a gradient spread between the two LSU school colors.  Now instead of filling the whole background I am making it one pixel wide.  This way we can repeat this texture horizontally and will get an endlessly long level with this gradient.  It is currently set at the height of the default room size which we will leave the same. In games we want to keep graphics as small as we can.
+
+	<p>
+		<img class="center" src="http://marcaubanel.com/gamemaker/GMS2-Images/Backgrounds-Tiles-Sprites/CH2/SingleGradient.png" alt="Look at TutorialResources/Photoshop/spr_lsu_gradient_bkg.png in Photoshop">
+
+	<p>
+		Here it is zoomed in:
+
+	<p>
+		<img class="center" src="http://marcaubanel.com/gamemaker/GMS2-Images/Backgrounds-Tiles-Sprites/CH2/ZoomedIn.png" alt="Look at TutorialResources/Photoshop/spr_lsu_gradient_bkg.psd in Photoshop zoomed in to show line">
+		
+	<p>
+		There is no need to alter this graphic.  Select <tt><b>File | Export | Quick Export as PNG </b></tt>.  Save it to a location of your choice.
+
+	<p>
+		<img class="center" src="http://marcaubanel.com/gamemaker/GMS2-Images/Backgrounds-Tiles-Sprites/CH2/QuickExportToPNG.png" alt="Export as PNG from Photoshop">
+
+	<p>
+		Add a new <tt><b>Sprite</b></tt>> by right clicking the title in the <tt><b>Resources</b></tt> tab and select <tt><b>Create Sprite</b></tt> and press the <tt><b>Import</b></tt> button. Select the png called that you just exported then press yes to the menu prompt:
+
+	<p>
+		<img class="center" src="http://marcaubanel.com/gamemaker/GMS2-Images/Backgrounds-Tiles-Sprites/CH2/CreateAndImportSprite.gif" alt="Import Sprite spr_lsu_gradient_bkg.png that you just exported">
+		
+	<p>
+		Name the new sprite: <tt><b>spr_lsu_gradient_bkg</b></tt>
+
+	<p>
+		<img class="center" src="http://marcaubanel.com/gamemaker/GMS2-Images/Backgrounds-Tiles-Sprites/CH2/SPRLSUBackground.png" alt="Name sprite spr_lsu_gradient_bkg">
+
+	<p>
+		Double click the room and change the name to <tt><b>rm_first_import</b></tt>. Go to the <tt><b>Background</b></tt> Layer on the left hand menu and select <tt><b>spr_lsu_gradient_bkg</b></tt> as the background sprite. Now it is very hard to see because it is only one pixel wide:
+
+	<h3><tt><b>rm_first_import</b></tt></h3>
+	<p>
+		<img class="center" src="http://marcaubanel.com/gamemaker/GMS2-Images/Backgrounds-Tiles-Sprites/CH2/AddFirstBackground.png" alt="Assign spr_lsu_gradient_bkg to room rm_first_import background">
+		
+	<p>
+		Why did I make it 1 pixel wide and not just create a sprite that was the size of the room? I want to be as efficient with my sprites as possible. Every video card has maximum texture sizes that it can hold and we can go through that barrier quickly. We are creating a gradient background with as little data as possible. So how do we tile this texture horizontally so it fills the whole background? Just select the <tt><b>Horizontal Tile</b></tt> box in the <tt><b>Background Properties</b></tt> panel on the left:
+
+	<p>
+		<img class="center" src="http://marcaubanel.com/gamemaker/GMS2-Images/Backgrounds-Tiles-Sprites/CH2/HorizontalTileBKG.png" alt="Tile background sprite">
+		
+		
+	<p>
+		Run the game by pressing the <img style="vertical-align:middle" src="http://marcaubanel.com/gamemaker/GMS2-Images/Shared/Icon_RunProject.png" alt="run button icon"> <tt><b>Play Button</b></tt> and you can see a perfectly uncompressed gradient that went from a PSD, to a PNG to a GameMaker Sprite with no degradation in quality:
+
+	<p>
+		<img class="center" src="http://marcaubanel.com/gamemaker/GMS2-Images/Backgrounds-Tiles-Sprites/CH2/GradientBckInGame.png" alt="Play game and look at gradient backgroudn without compression artifcating">	
+		
+
+</div>
+
+<br>
+</p>
+<p>
+
+</div>
+
+<div class="footer">
+	<div class="buttons">
+		<div class="clear">
+			<div style="float:left">
+			<a href="../page01.html"  class="prev">
+				<div id="button-prev"></div> 
+				</a>
+			</div>
+			<div style="float:right"> <!-- Set the next page to go to here -->
+				<a href="page02.html" class="next">
+					<div id="button-next"></div>
+				</a>
+			</div>
+		</div>	
+	</div>
+<!-- Footer copyright notice - set this to your own or whatever is required (remove the text but leave the <h5> tags to just have the bar) -->
+<h5>&copy; Copyright Mauby Games 2018</h5>
+</div>
+
+</body>
+</html>
+
+
+

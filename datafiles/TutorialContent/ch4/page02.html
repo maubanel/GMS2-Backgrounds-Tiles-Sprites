@@ -1,0 +1,198 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+	<head>
+		<!-- EDIT THIS-->
+		<title>Tutorial - GameMaker Backgrounds & Sprites - Ch4 - Page 2</title>
+		<!-- DO NOT EDIT THIS-->
+		<meta http-equiv="X-UA-Compatible" content="IE=9" />
+		<link rel="stylesheet" href="../style.css" type="text/css" media="screen" title="style" charset="UTF-8"/>
+		<script type="text/javascript">
+			var changePage = function(){
+				var newPage = document.getElementById("page-select");
+				window.location.replace(newPage.value);
+				}
+		</script>
+
+	</head>
+
+<!-- EDIT THIS - This section is where you can add an index to your tutorial -->
+<body>
+<!-- EDIT THIS - Your Tutorial title -->
+	<h2 style="border-radius:0.5em 0.5em 0 0; margin:0;">Tutorial - Backgrounds & Sprites</h2>
+<!-- EDIT THIS - Here you list the pages in your tutorial, with the current one at the top -->
+		<div class="head">
+			<select id="page-select" onChange="changePage()">
+				<optgroup label="Chapter 4 - Animated Sprites">
+					<option value="page02.html">Importing Animations</option>
+					<option value="page03.html">Player Movement</option>
+				</optgroup>
+				<optgroup label="---Previous Pages">
+					<optgroup label="Chapter 1 - Overview">
+						<option value="../page01.html"><b>Overview</b></option>
+					</optgroup>
+				<optgroup label="Chapter 2 - Image Formats">
+					<option value="../ch2/page01.html">Pixel Graphic Formats</option>
+					<option value="../ch2/page02.html">Handling JPGs</option>
+					<option value="../ch2/page03.html">Handling GIFs and other Formats</option>
+					<option value="../ch2/page04.html">Raster and Vector</option>
+				</optgroup>
+				<optgroup label="Chapter 3 - Background and Tiles">
+					<option value="../ch3/page01.html">Background with Single Tile</option>
+					<option value="../ch3/page02.html">Creating your First Tile Set</option>
+					<option value="../ch3/page03.html">Auto Tile Template<</option>
+					<option value="../ch3/page04.html">Tile Brushes</option>
+					<option value="../ch3/page05.html">Animated Tiles</option>
+					<option value="../ch3/page06.html">Transparent Tiles</option>
+					</optgroup>
+					<optgroup label="Chapter 4 - Animated Sprites">
+					<option value="page01.html">Animations</option>
+					</optgroup>
+				</optgroup>
+			</select>
+		</div>
+	
+<!-- EDIT THIS - Main tutorial body goes here -->
+<div class="body-scroll">
+	<p>
+	If you want to see tutorial in a separate web browser window <a href="gms2tutorials:///openBrowser">click here</a>.
+	
+	<p style="color:rgb(85, 109, 130)">
+	<b>Importing Animations</b>
+	
+	<p>
+	If you made a sprite sheet, you can use it.  Or, you can download the one I have created for you. I have included a PSD (photoshop file) and in <tt><b>Included Files | TutorialResources | Animation | MonkeyAnim.png </b></tt>.  If you can't find it you can locate the file in the browser (or click <a href="gms2tutorials:///ShowFiles?path=../TutorialResources/Animation/MonkeyAnim.png">here</a>)
+		
+	<p>
+		<img class="center" src="http://marcaubanel.com/gamemaker/GMS2-Images/Backgrounds-Tiles-Sprites/CH4/MonkeyAnimationPNG.png" alt="Locate file Incldued Files/TutorialResources/Animation/MonkeyAnim.png">	
+
+	<p>
+		There are many sprite sheets that are not geometrically consistent.  Some sheets have each sprite separated by how tightly they can be packed as opposed to a logical grid.  You can import an animation though one frame at a time if you need.  We need to make sure we know what the dimensions of a single sprite is. In this case it was done by me so I know they are 64 x 64. Each row is a separate animation and contains 8 frames. I have animated upwards, downwards and left/right motion. I did not do a separate left as we can just mirror the sprite in code and save some memory to have both left and right. In some cases we can mirror the animation, in other cases it is not symmetrical and you need a seperate animation for running left.
+
+	<p>
+		<img class="center" src="http://marcaubanel.com/gamemaker/GMS2-Images/Backgrounds-Tiles-Sprites/CH4/MonkeyAnim.png" alt="Sometimes you need 4 angles of run animations but our left and right is symmetrical so we can get away with three steps">	
+	
+	<p>
+		We can import the entire sheet as one animation but it will be easier if each movement gets its own animation file. So we create a new <tt><b>Sprite</b></tt> by right clicking on the <tt><b>Sprite</b></tt> title in the <tt><b>Resource</b></tt> menu and press <tt><b>Create Sprite</b></tt>:
+	
+	<p>
+		<img class="center" src="http://marcaubanel.com/gamemaker/GMS2-Images/Backgrounds-Tiles-Sprites/CH4/CreateSprite.png" alt="Create a new sprite">	
+	
+	<p>
+		Now press the <tt><b>Edit Image</b></tt> button so we can get access to the image menu.
+
+	<p>
+		<img class="center" src="http://marcaubanel.com/gamemaker/GMS2-Images/Backgrounds-Tiles-Sprites/CH4/EditImage.png" alt="Press edit image and go to the image menu">	
+	
+	<p>
+		Go to the Image menu item and select <tt><b>Image | Import Strip Image</b></tt> and select the file you want. If you are using mine, select: <tt><b>MonkeyAnim.png</b></tt>.
+
+	<p>
+		<img class="center" src="http://marcaubanel.com/gamemaker/GMS2-Images/Backgrounds-Tiles-Sprites/CH4/ImageImportStrip.png" alt="Select Image | Import Strip Image and select MondyANim.png">	
+	
+	<p>
+		Now a <tt><b>Convert to Frames</b></tt> window appears. This is where we will select the number of framews and the size. We fill in <tt><b>8</b></tt> for <tt><b> Number of Frames</b></tt> and <tt><b>Numbers per Row</b></tt> and <tt><b>64</b></tt> for <tt><b>Frame Width</b></tt> and <tt><b>Frame Height</b></tt>.
+
+	<p>
+		<img class="center" src="http://marcaubanel.com/gamemaker/GMS2-Images/Backgrounds-Tiles-Sprites/CH4/ConvertToFramesMenu.png" alt="Select 8 Frames and Numbers Per Row and a Frame Width and Height of 64">	
+	
+	<p>
+		Press the <tt><b>Convert</b></tt> button and select <tt><b>yes</b></tt> for the pop-up:
+	
+	<p>
+		<img class="center" src="http://marcaubanel.com/gamemaker/GMS2-Images/Backgrounds-Tiles-Sprites/CH4/ConvertAnim.png" alt="Press Convert button">
+
+	<p>
+		<img class="center" src="http://marcaubanel.com/gamemaker/GMS2-Images/Backgrounds-Tiles-Sprites/CH4/AnimationImportPopup.png" alt="Select Yes in pop-up menu">
+
+
+	<p>
+		The animation is imported zoomed in so you press the <tt><b>Reset Zoom</b></tt> button to resize it and call the file <tt><b>spr_player_down</b></tt>.
+
+	<p>
+		<img class="center" src="http://marcaubanel.com/gamemaker/GMS2-Images/Backgrounds-Tiles-Sprites/CH4/ForwardAnimImported.png" alt="Reset zoom and call file spr_player_down">
+
+	
+	<p>
+		You can now adjust the speed to your liking. It should look like.  We will have to look at it in game.  Since we are moving the character in code we need to make sure that the animation speed matches the game speed the player runs at otherwise their foot contact will not look right. I have tested this before so I know that <tt><b>12</b></tt> will work.
+
+	<p>
+		<img class="center" src="http://marcaubanel.com/gamemaker/GMS2-Images/Backgrounds-Tiles-Sprites/CH4/ForwardAnimationAt12FPS.gif" alt="Adjust Speed to 12">
+
+	<p>
+		We also need to pick an animation frame for the idle animation. Normally we would have an idle with a breathing animation or some personality, but for time's sake will just pick an existing animation from our sheet. I like the third frame with its neutral pose and both feet on the ground:
+
+	<p>
+		<img class="center" src="http://marcaubanel.com/gamemaker/GMS2-Images/Backgrounds-Tiles-Sprites/CH4/ThirdFrameIdleDown.png" alt="Show frame in down animation for idle">
+
+	<p>
+		Create a new Sprite, call it <tt><b>spr_player_down_idle</b></tt> and press the <tt><b>Edit Image</b></tt> button.
+
+	<p>
+		<img class="center" src="http://marcaubanel.com/gamemaker/GMS2-Images/Backgrounds-Tiles-Sprites/CH4/CreateDownIdleSprite.png" alt="Create new Sprite and call it spr_player_down_left and press the Edit Image button">
+
+	<p>
+		Go to the Image menu item and select <tt><b>Image | Import Strip Image</b></tt>. Now a <tt><b>Convert to Frames</b></tt> window appears. This is where we will select the number of framews and the size. We fill in <tt><b>64</b></tt> for <tt><b>Frame Width</b></tt> and <tt><b>Frame Height</b></tt> and <tt><b>2</b></tt> for <tt><b>Horizontal Cell Offset</b></tt>.
+
+	<p>
+		<img class="center" src="http://marcaubanel.com/gamemaker/GMS2-Images/Backgrounds-Tiles-Sprites/CH4/ImportForwardIdle.gif" alt="Image import strip and select 64 for Frame Width and Height and 2 for Frame Offset and selecting a single frame">
+
+	<p>
+		Repeat by creating a new <tt><b>Sprite</b></tt> called <tt><b>spr_player_up</b></tt> and import the second row of sprites.  The biggest change is to adjust the <tt><b>Vertical Cell Offset</b></tt> to <tt><b>1</b></tt>.  Make sure you change the speed to 12 fps.
+		
+	<p>
+		<img class="center" src="http://marcaubanel.com/gamemaker/GMS2-Images/Backgrounds-Tiles-Sprites/CH4/PlayerMovingUp.gif" alt="Create a new sprite called spr_player_up and adjust Vertical Cell offset on import">
+		
+	<p>
+		Create a new Sprite, call it <tt><b>spr_player_up_idle</b></tt> and press the <tt><b>Edit Image</b></tt> button. Now import the third frame from the second row.
+
+	<p>
+		<img class="center" src="http://marcaubanel.com/gamemaker/GMS2-Images/Backgrounds-Tiles-Sprites/CH4/SprIdleUp.gif" alt="Add idle for up animation">
+
+		<p>
+		Create a 2 new Sprites, called <tt><b>spr_player_right</b></tt> and <tt><b>spr_player_right_idle</b></tt> and import the appropriate animation frame(s) on the third row.
+
+	<p>
+		<img class="center" src="http://marcaubanel.com/gamemaker/GMS2-Images/Backgrounds-Tiles-Sprites/CH4/SprPlayerRight.gif" alt="Create spr_player_right and spr_player_right_idle and import appropriate animations on the third row">
+
+	<p>
+		The last step is to set the origin in the middle center for <b>ALL</b> the sprites.  Here is an example:
+
+	<p>
+		<img class="center" src="http://marcaubanel.com/gamemaker/GMS2-Images/Backgrounds-Tiles-Sprites/CH4/MiddleCenterOrigin.png" alt="Set origin to Middle Center for all sprites">
+
+	<p>
+		Next up we will add the controls for the player movement.
+
+
+</div>
+
+<br>
+</p>
+<p>
+
+</div>
+
+<div class="footer">
+	<div class="buttons">
+		<div class="clear">
+			<div style="float:left">
+				<a href="page01.html"  class="prev">
+				<div id="button-prev"></div> 
+				</a>
+			</div>
+			<div style="float:right"> <!-- Set the next page to go to here -->
+				<a href="page03.html" class="next">
+					<div id="button-next"></div>
+				</a>
+			</div>
+		</div>	
+	</div>
+<!-- Footer copyright notice - set this to your own or whatever is required (remove the text but leave the <h5> tags to just have the bar) -->
+<h5>&copy; Copyright Mauby Games 2018</h5>
+</div>
+
+</body>
+</html>
+
+
+

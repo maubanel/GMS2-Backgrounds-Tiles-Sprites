@@ -1,0 +1,129 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+	<head>
+		<!-- EDIT THIS-->
+		<title>Tutorial - GameMaker Backgrounds & Sprites - Ch3 - Page 6</title>
+		<!-- DO NOT EDIT THIS-->
+		<meta http-equiv="X-UA-Compatible" content="IE=9" />
+		<link rel="stylesheet" href="../style.css" type="text/css" media="screen" title="style" charset="UTF-8"/>
+		<script type="text/javascript">
+			var changePage = function(){
+				var newPage = document.getElementById("page-select");
+				window.location.replace(newPage.value);
+				}
+		</script>
+
+	</head>
+
+<!-- EDIT THIS - This section is where you can add an index to your tutorial -->
+<body>
+<!-- EDIT THIS - Your Tutorial title -->
+	<h2 style="border-radius:0.5em 0.5em 0 0; margin:0;">Tutorial - Backgrounds & Sprites</h2>
+<!-- EDIT THIS - Here you list the pages in your tutorial, with the current one at the top -->
+		<div class="head">
+			<select id="page-select" onChange="changePage()">
+				<optgroup label="Chapter 2 - Image Formats">
+				</optgroup>
+				<optgroup label="Chapter 3 - Background and Tiles">
+					<option value="page06.html">Transparent Tiles</option>
+				</optgroup>
+				<optgroup label="Chapter 4 - Animated Sprites">
+					<option value="../ch4/page01.html">Animations</option>
+					<option value="../ch4/page02.html">Importing Animations</option>
+					<option value="../ch4/page03.html">Player Movement</option>
+				</optgroup>
+				<optgroup label="---Previous Pages">
+					<optgroup label="Chapter 1 - Overview">
+						<option value="../page01.html"><b>Overview</b></option>
+					</optgroup>
+				<optgroup label="Chapter 2 - Image Formats">
+					<option value="../ch2/page01.html">Pixel Graphic Formats</option>
+					<option value="../ch2/page02.html">Handling JPGs</option>
+					<option value="../ch2/page03.html">Handling GIFs and other Formats</option>
+					<option value="../ch2/page04.html">Raster and Vector</option>
+				</optgroup>
+				<optgroup label="Chapter 3 - Background and Tiles">
+					<option value="page01.html">Background with Single Tile</option>
+					<option value="page02.html">Creating your First Tile Set</option>
+					<option value="page03.html">Auto Tile Template<</option>
+					<option value="page04.html">Tile Brushes</option>
+					<option value="page05.html">Animated Tiles</option>
+					</optgroup>
+				</optgroup>
+			</select>
+		</div>
+	
+<!-- EDIT THIS - Main tutorial body goes here -->
+<div class="body-scroll">
+	<p>
+	If you want to see tutorial in a separate web browser window <a href="gms2tutorials:///openBrowser">click here</a>.
+	
+	<p style="color:rgb(85, 109, 130)">
+	<b>Transparent Tiles</b>
+	<p>
+		Tiles do not have to be opaque.  We can have transparent shapes that sit on top of other tiles.  I have included a tree as an example.  You can find it in <tt><b>Included Files | TutorialResources | Photoshop | TransparentTree.psd </b></tt>.  If you can't find it you can locate the file in the browser (or click <a href="gms2tutorials:///ShowFiles?path=../TutorialResources/Photoshop/TransparentTree.psd">here</a>).
+
+	<p>
+		<img class="center" src="http://marcaubanel.com/gamemaker/GMS2-Images/Backgrounds-Tiles-Sprites/CH3/TransparentTreePSD.png" alt="Locate Inluded Files/TutorialResources/Photoshop/TransparentTree.psd">	
+
+	<p>
+		Now go copy and paste the tree into <tt><b>spr_background_tiles.psd</b></tt> but make sure it has no background (delete any pixels in the 64 by 64 quadrant you are placing it in).  It should look like:
+
+	<p>
+		<img class="center" src="http://marcaubanel.com/gamemaker/GMS2-Images/Backgrounds-Tiles-Sprites/CH3/TreeInPSDTilesheet.png" alt="Copy and paste the transparent tree above into spr_background_tiles.psd">	
+		
+	<p>
+		Export it one last time as a PNG file.  Then import it into <tt><b>spr_background_tiles</b></tt>.
+
+	<p>
+		<img class="center" src="http://marcaubanel.com/gamemaker/GMS2-Images/Backgrounds-Tiles-Sprites/CH3/FinalSprBackgroundTilesSupport.png" alt="Export to PNGF and import into gamemaker overwriting spr_background_tiles">	
+		
+	<p>
+		Open <tt><b>rm_lvl_test_3</b></tt> and add another <tt><b>Tile Layer</b></tt> and call it <tt><b>Transparent_Tiles</b></tt> and put it inbetween <tt><b>Instances</b></tt> and <tt><b>Tiles_Animation</b></tt>.
+
+	<p>
+		Sprinkle some trees around the level.
+
+	<p>
+		<img class="center" src="http://marcaubanel.com/gamemaker/GMS2-Images/Backgrounds-Tiles-Sprites/CH3/AddTreesToRoom.png" alt="Open rm_lbl_test_3 and add another Tile Layer and call it Transparent_Tiles and put it between Instances and Tiles_Animation and add some trees to the level">	
+
+	<p>
+		Run the game by pressing the <img style="vertical-align:middle" src="http://marcaubanel.com/gamemaker/GMS2-Images/Shared/Icon_RunProject.png" alt ="run button icon"> <tt><b>Play Button</b></tt>. You should see trees on top of the other layer.  This is all we will do with tiles for now!  Next chapter we will look at character animation.
+
+
+	<p>
+		<img class="center" src="http://marcaubanel.com/gamemaker/GMS2-Images/Backgrounds-Tiles-Sprites/CH3/TransparentTiles.gif" alt="Run the game and see the new transparent tiles">	
+
+ 
+</div>
+
+<br>
+</p>
+<p>
+
+</div>
+
+<div class="footer">
+	<div class="buttons">
+		<div class="clear">
+			<div style="float:left">
+				<a href="page05.html"  class="prev">
+				<div id="button-prev"></div> 
+				</a>
+			</div>
+			<div style="float:right"> <!-- Set the next page to go to here -->
+				<a href="../ch4/page01.html" class="next">
+					<div id="button-next"></div>
+				</a>
+			</div>
+		</div>	
+	</div>
+<!-- Footer copyright notice - set this to your own or whatever is required (remove the text but leave the <h5> tags to just have the bar) -->
+<h5>&copy; Copyright Mauby Games 2018</h5>
+</div>
+
+</body>
+</html>
+
+
+

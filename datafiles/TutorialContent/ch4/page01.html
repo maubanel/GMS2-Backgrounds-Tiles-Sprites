@@ -1,0 +1,177 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+	<head>
+		<!-- EDIT THIS-->
+		<title>Tutorial - GameMaker Backgrounds & Sprites - Ch4 - Page 1</title>
+		<!-- DO NOT EDIT THIS-->
+		<meta http-equiv="X-UA-Compatible" content="IE=9" />
+		<link rel="stylesheet" href="../style.css" type="text/css" media="screen" title="style" charset="UTF-8"/>
+		<script type="text/javascript">
+			var changePage = function(){
+				var newPage = document.getElementById("page-select");
+				window.location.replace(newPage.value);
+				}
+		</script>
+
+	</head>
+
+<!-- EDIT THIS - This section is where you can add an index to your tutorial -->
+<body>
+<!-- EDIT THIS - Your Tutorial title -->
+	<h2 style="border-radius:0.5em 0.5em 0 0; margin:0;">Tutorial - Backgrounds & Sprites</h2>
+<!-- EDIT THIS - Here you list the pages in your tutorial, with the current one at the top -->
+		<div class="head">
+				<select id="page-select" onChange="changePage()">
+				<optgroup label="Chapter 4 - Animated Sprites">
+					<option value="page01.html">Animations</option>
+					<option value="page02.html">Importing Animations</option>
+					<option value="page03.html">Player Movement</option>
+				</optgroup>
+				<optgroup label="---Previous Pages">
+					<optgroup label="Chapter 1 - Overview">
+						<option value="../page01.html"><b>Overview</b></option>
+					</optgroup>
+				<optgroup label="Chapter 2 - Image Formats">
+					<option value="../ch2/page01.html">Pixel Graphic Formats</option>
+					<option value="../ch2/page02.html">Handling JPGs</option>
+					<option value="../ch2/page03.html">Handling GIFs and other Formats</option>
+					<option value="../ch2/page04.html">Raster and Vector</option>
+				</optgroup>
+				<optgroup label="Chapter 3 - Background and Tiles">
+					<option value="../ch3/page01.html">Background with Single Tile</option>
+					<option value="../ch3/page02.html">Creating your First Tile Set</option>
+					<option value="../ch3/page03.html">Auto Tile Template<</option>
+					<option value="../ch3/page04.html">Tile Brushes</option>
+					<option value="../ch3/page05.html">Animated Tiles</option>
+					<option value="../ch3/page06.html">Transparent Tiles</option>
+					</optgroup>
+				</optgroup>
+			</select>
+		</div>
+	
+<!-- EDIT THIS - Main tutorial body goes here -->
+<div class="body-scroll">
+	<p>
+	If you want to see tutorial in a separate web browser window <a href="gms2tutorials:///openBrowser">click here</a>.
+	
+	<p style="color:rgb(85, 109, 130)">
+	<b>Animations</b>
+	<p>
+		Now lets look at character animations. Animations for games are very different than ones for movies or cartoons. Each animation is atomic (each animation represents an individual action), mostly loopable and connect to each other in a logical manner. We also want animations to be short and crisp so that the player has maximum control over the player actions.  
+	
+	<p>
+		<img class="center" src="http://marcaubanel.com/gamemaker/GMS2-Images/Backgrounds-Tiles-Sprites/CH4/WalkCycle.gif" alt="Close up of simple monkey run animation looping in gamemaker">	
+
+	<p>
+		What is this composed of? This breaks a run cycle into 8 frames:
+
+	<p>
+		<img class="center" src="http://marcaubanel.com/gamemaker/GMS2-Images/Backgrounds-Tiles-Sprites/CH4/EightFrameWalkCycle.png" alt="Break down of run animation">	
+		
+	<p>
+		The other element of animation that is not intuitive is that we translate movement within the physics of the game engine and it is usually not part of the animation. So we animate our character to move on the spot and even jumping we do not move them through space, we animate the key frames without translation:
+		
+	<p>
+		<img class="center" src="http://marcaubanel.com/gamemaker/GMS2-Images/Backgrounds-Tiles-Sprites/CH4/TAKEPICTUREOFMARCWALKING.png" alt="Animate on spot and do not translate through space">	
+
+	<p>
+		There are many tricks and techniques for animating characters. One of them is to start very simple and build more detail slowly:
+
+	<p>
+		<img class="center" src="http://marcaubanel.com/gamemaker/GMS2-Images/Backgrounds-Tiles-Sprites/CH4/StartLowResWorkWayUp.png" alt="Start creating a character is by simple forms slowly adding detail">		
+ 
+	<p>
+		You can also build it piece by piece:
+
+	<p>
+		<img class="center" src="http://marcaubanel.com/gamemaker/GMS2-Images/Backgrounds-Tiles-Sprites/CH4/PieceByPiece.png" alt="You can also create a character finished piece by piece">	
+
+	<p>
+		For most animations some vertical translation helps a lot - make it bouncy.  Take a look at this amazing animation from <a href="http://probertson.tumblr.com/post/82062175084/mercenary-kings-animations" target="_blank">Mercenary Kings</a>. Keep it simple and represent the animation in as few frames as possible. Just as we want to get rid of the “grid” in the tiles; we want to lose a sense of where the animation is looping. Can you see the stitch? Can you guess how many animation frames there are? Can you see that different animations start and stop and there is a good demonstration of overlap going on here.
+
+	<p>
+		Look at the shading above in the feet of the robot. The back legs are dark which clearly delinates the front and back legs. In the old 8 bit games there were not enough colors in the pallette (or enough pixels in the character) to give detail and shadows. 
+
+	<p>
+		<img class="center" src="https://66.media.tumblr.com/tumblr_m8x5bz2sXg1qhccbco3_r2_250.gif" alt="Mercenary Kings animation showing vertical translation">	
+
+	<p>
+		And then finally go as big as you can, check out <a href = "https://scottpilgrim.fandom.com/wiki/File:Toddingram_freakout_a-1-.gif" target="_blank" >Scott Pilgrim Vs. The World</a>:
+
+	<p>
+		<img class="center" src="https://vignette.wikia.nocookie.net/scottpilgrim/images/8/86/Toddingram_freakout_a-1-.gif/revision/latest?cb=20101124145749" alt="Scott Pilgrim versus the world big sprite freakout">	
+		
+	<p>
+		There are many tools that you can use to draw and animate sprite. Photoshop can be used and movies can be loaded as layers to use as reference. Film or find a good reference for the animation you want. Press:
+
+	<p>
+		<img class="center" src="http://marcaubanel.com/gamemaker/GMS2-Images/Backgrounds-Tiles-Sprites/CH4/FileImportMovieToLayers.png" alt="Find a good reference and make sure the player is running on spot">	
+
+	<p>
+		You can use a Wacom tablet and trace over key frames you select:
+
+	<p>
+		<img class="center" src="http://marcaubanel.com/gamemaker/GMS2-Images/Backgrounds-Tiles-Sprites/CH4/TraceOnTopOfReference.png" alt="Add a loop that repeats 5 times and adds one to a variable">	
+
+	<p>
+		Make sure you can export them in a sprite sheet that can be easily imported into GameMaker. This tilesheet was a 128 x 64 pixel sprite sheet:
+
+	<p>
+		<img class="center" src="http://marcaubanel.com/gamemaker/GMS2-Images/Backgrounds-Tiles-Sprites/CH4/TileSheet.png" alt="Make sure you can export them in a sprite sheet that can be easily imported into GameMaker and this tilesheet was a 128 x 64 pixel sprite sheet">	
+		
+	<p>
+		If you are very ambitious you could export your photoshop file as layers with each animated limb to be animated in software like <a href="https://brashmonkey.com" target="_blank" >Brash Monkey's Spriter</a>.
+
+	<p>
+		If you want a clean vector look you can use Illustrator and use reference. I suggest setting up your artboards right next to each other so you can easily export it as a png sprite sheet that can be easily absorbed into GameMaker.
+
+	<p>
+		<img class="center" src="http://marcaubanel.com/gamemaker/GMS2-Images/Backgrounds-Tiles-Sprites/CH4/AnimationSheet.png" alt="Set up images in Illustrator as a prite sheet and export all the artboards as one png file">	
+
+	<p>
+		To export from Illustrator press <tt><b>File | Export | Export For Screens</b></tt>. It defaults to exporting each artboard as a separate file. You can press the Full Document radial button to get a tilesheet. It also preserves the alpha (the white default artboard is not exported) but trims the image so it needs to be set back in a tool like photoshop. Mine went from 512 to 502 pixels, which I then resized the canvas back to 512 so that it would import properly.
+
+	<p>
+		<img class="center" src="http://marcaubanel.com/gamemaker/GMS2-Images/Backgrounds-Tiles-Sprites/CH4/FileExportForScreens.png" alt="Export for screens from Illustrator">	
+
+	<p>
+		<img class="center" src="http://marcaubanel.com/gamemaker/GMS2-Images/Backgrounds-Tiles-Sprites/CH4/DefaultExport.png" alt="Hover over Full Document to see Export the whole document as one file message">	
+
+	<p>
+		<img class="center" src="http://marcaubanel.com/gamemaker/GMS2-Images/Backgrounds-Tiles-Sprites/CH4/ExportAsSpriteSheet.png" alt="and press the full document button to get a tilesheet and make sure to preserve the alpha">	
+
+	<p>
+		Next up we will be importing an animation and adding controls for an adventure game where you can only move laterally on keyboard and controller.		
+		
+</div>
+
+<br>
+</p>
+<p>
+
+</div>
+
+<div class="footer">
+	<div class="buttons">
+		<div class="clear">
+			<div style="float:left">
+				<a href="../ch3/page06.html"  class="prev">
+				<div id="button-prev"></div> 
+				</a>
+			</div>
+			<div style="float:right"> <!-- Set the next page to go to here -->
+				<a href="page02.html" class="next">
+					<div id="button-next"></div>
+				</a>
+			</div>
+		</div>	
+	</div>
+<!-- Footer copyright notice - set this to your own or whatever is required (remove the text but leave the <h5> tags to just have the bar) -->
+<h5>&copy; Copyright Mauby Games 2018</h5>
+</div>
+
+</body>
+</html>
+
+
+

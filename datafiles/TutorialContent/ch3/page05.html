@@ -1,0 +1,143 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+	<head>
+		<!-- EDIT THIS-->
+		<title>Tutorial - GameMaker Backgrounds & Sprites - Ch3 - Page 5</title>
+		<!-- DO NOT EDIT THIS-->
+		<meta http-equiv="X-UA-Compatible" content="IE=9" />
+		<link rel="stylesheet" href="../style.css" type="text/css" media="screen" title="style" charset="UTF-8"/>
+		<script type="text/javascript">
+			var changePage = function(){
+				var newPage = document.getElementById("page-select");
+				window.location.replace(newPage.value);
+				}
+		</script>
+
+	</head>
+
+<!-- EDIT THIS - This section is where you can add an index to your tutorial -->
+<body>
+<!-- EDIT THIS - Your Tutorial title -->
+	<h2 style="border-radius:0.5em 0.5em 0 0; margin:0;">Tutorial - Backgrounds & Sprites</h2>
+<!-- EDIT THIS - Here you list the pages in your tutorial, with the current one at the top -->
+		<div class="head">
+			<select id="page-select" onChange="changePage()">
+				<optgroup label="Chapter 2 - Image Formats">
+				</optgroup>
+				<optgroup label="Chapter 3 - Background and Tiles">
+					<option value="page05.html">Animated Tiles</option>
+					<option value="page06.html">Transparent Tiles</option>
+				</optgroup>
+				<optgroup label="Chapter 4 - Animated Sprites">
+					<option value="../ch4/page01.html">Animations</option>
+					<option value="../ch4/page02.html">Importing Animations</option>
+					<option value="../ch4/page03.html">Player Movement</option>
+				</optgroup>
+				<optgroup label="---Previous Pages">
+					<optgroup label="Chapter 1 - Overview">
+						<option value="../page01.html"><b>Overview</b></option>
+					</optgroup>
+				<optgroup label="Chapter 2 - Image Formats">
+					<option value="../ch2/page01.html">Pixel Graphic Formats</option>
+					<option value="../ch2/page02.html">Handling JPGs</option>
+					<option value="../ch2/page03.html">Handling GIFs and other Formats</option>
+					<option value="../ch2/page04.html">Raster and Vector</option>
+				</optgroup>
+				<optgroup label="Chapter 3 - Background and Tiles">
+					<option value="page01.html">Background with Single Tile</option>
+					<option value="page02.html">Creating your First Tile Set</option>
+					<option value="page03.html">Auto Tile Template<</option>
+					<option value="page04.html">Tile Brushes</option>
+					</optgroup>
+				</optgroup>
+			</select>
+		</div>
+	
+<!-- EDIT THIS - Main tutorial body goes here -->
+<div class="body-scroll">
+	<p>
+	If you want to see tutorial in a separate web browser window <a href="gms2tutorials:///openBrowser">click here</a>.
+	
+	<p style="color:rgb(85, 109, 130)">
+	<b>Animated Tiles</b>
+
+	<p>
+		I have provided an sprite sheet with a single animated water sprite.  You can find it in <tt><b>Included Files | TutorialResources | Photoshop | spr_animated_backgrounds.psd </b></tt>.  If you can't find it you can locate the file in the browser (or click <a href="gms2tutorials:///ShowFiles?path=../TutorialResources/Photoshop/spr_animated_backgrounds.psd">here</a>).
+
+	<p>
+		<img class="center" src="http://marcaubanel.com/gamemaker/GMS2-Images/Backgrounds-Tiles-Sprites/CH3/AnimatedBackgroundPSD.png" alt="Find Include Files/TutorialResources/Photoshop/spr_animated_backgrounds.psd">	
+	
+	<p>
+		Open the file in Photoshop.  Notice that the top left tile is ALWAYS left blank. Export it as a PNG.  
+
+	<p>
+		Go to GameMaker and create a new sprite.  Call it <tt><b>spr_animated_backgrounds</b></tt> and press the <tt><b>Import</b></tt> button.  Select the PNG you just exported.
+
+	<p>
+		<img class="center" src="http://marcaubanel.com/gamemaker/GMS2-Images/Backgrounds-Tiles-Sprites/CH3/ImportAnimatedSpritesheet.png" alt="Export spr_animated_backgrounds.psd as a PNG.  Create new Sprite and Import spr_animated_backgorund.png.  Call it the same name without an exztension">	
+
+	<p>
+		Create a new <tt><b>Tileset</b></tt> and call it <tt><b>spr_animated_background_tiles</b></tt>.  Press the <tt><b>Tile Set Properties</b></tt> button and set the <tt><b>Tile Width</b></tt> and <tt><b>Tile Height</b></tt> to <tt><b>64</b></tt>.
+
+	<p>
+		Press the <tt><b>Tile Animation</b></tt> button.  THere are a few things to notice.  This animation sheet can only have one framerate for all the animations.  We will leave it at 15 FPS.  The number of animation frames has to be a power of 2 either 2, 4, 8, 16, 32, 64, 128 or 256. Press the small downward arrow and select 32.
+
+	<p>
+		Assign each frame from left to right and fill up all 32 slots.
+
+	<p>
+		<img class="center" src="http://marcaubanel.com/gamemaker/GMS2-Images/Backgrounds-Tiles-Sprites/CH3/CreateAnimatedTileSheet.gif" alt="Create a new Tileset called spr_animated_tiles.  Change width and height to 64.  Add a tile animation of 32 frames and fill in all frames from the tiles set">	
+		
+	<p>
+		Call this newly created library entry <tt><b>water_animation</b></tt>.
+
+	<p>
+		<img class="center" src="http://marcaubanel.com/gamemaker/GMS2-Images/Backgrounds-Tiles-Sprites/CH3/CallWaterAnimation.png" alt="ACall this entry water_animation">	
+		
+	<p>
+		Right click on your last room.  Select <tt><b>Duplicate</b></tt> and drag it to the top of the list.  Call it <tt><b>rm_lvl_test_3</b></tt>.  Create another <tt><b>Tile Layer</b></tt> and call it <tt><b>Tile_Animation</b></tt>.  Drag it between <tt><b>Instances</b></tt> and <tt><b>Tiles_Background</b></tt>.
+
+	<p>
+		Select the new <tt><b>Tiles_Animation</b></tt> layer and assign the new <tt><b>tls_animated_background_tiles</b></tt> tile set to it.
+
+	<p>
+		Select the <tt><b>Libraries</b></tt> tab in the <tt><b>Room Editor</b></tt> and select the new <tt><b>water_animation</b></tt> item.  Start painting the water where you want it.
+
+		<p>
+		Run the game by pressing the <img style="vertical-align:middle" src="http://marcaubanel.com/gamemaker/GMS2-Images/Shared/Icon_RunProject.png" alt="run button icon"> <tt><b>Play Button</b></tt>. Now you should have nice animating water!
+
+	<p>
+		<img class="center" src="http://marcaubanel.com/gamemaker/GMS2-Images/Backgrounds-Tiles-Sprites/CH3/AddThirdRoomForAnimatedTile.gif" alt="Add rm_lvl_test_3 and move to top of list.  Create a Tile_Animation layer and drag it between Instances and Tiles_Background.  Select Tiles_Animation layer and add the tls_animated_background_tiles to it.  Select Libraries and Room Eitor and select the water_animation and paint in room">	
+		
+</div>
+
+<br>
+</p>
+<p>
+
+</div>
+
+<div class="footer">
+	<div class="buttons">
+		<div class="clear">
+			<div style="float:left">
+				<a href="page04.html"  class="prev">
+				<div id="button-prev"></div> 
+				</a>
+			</div>
+			<div style="float:right"> <!-- Set the next page to go to here -->
+				<a href="page06.html" class="next">
+					<div id="button-next"></div>
+				</a>
+			</div>
+		</div>	
+	</div>
+<!-- Footer copyright notice - set this to your own or whatever is required (remove the text but leave the <h5> tags to just have the bar) -->
+<h5>&copy; Copyright Mauby Games 2018</h5>
+</div>
+
+</body>
+</html>
+
+
+

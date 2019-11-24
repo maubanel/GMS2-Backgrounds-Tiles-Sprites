@@ -1,0 +1,238 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+	<head>
+		<!-- EDIT THIS-->
+		<title>Tutorial - GameMaker Backgrounds & Sprites - Ch3 - Page 1</title>
+		<!-- DO NOT EDIT THIS-->
+		<meta http-equiv="X-UA-Compatible" content="IE=9" />
+		<link rel="stylesheet" href="../style.css" type="text/css" media="screen" title="style" charset="UTF-8"/>
+		<script type="text/javascript">
+			var changePage = function(){
+				var newPage = document.getElementById("page-select");
+				window.location.replace(newPage.value);
+				}
+		</script>
+
+	</head>
+
+<!-- EDIT THIS - This section is where you can add an index to your tutorial -->
+<body>
+<!-- EDIT THIS - Your Tutorial title -->
+	<h2 style="border-radius:0.5em 0.5em 0 0; margin:0;">Tutorial - Backgrounds & Sprites</h2>
+<!-- EDIT THIS - Here you list the pages in your tutorial, with the current one at the top -->
+		<div class="head">
+			<select id="page-select" onChange="changePage()">
+				<optgroup label="Chapter 2 - Image Formats">
+				</optgroup>
+				<optgroup label="Chapter 3 - Background and Tiles">
+					<option value="page01.html">Background with Single Tile</option>
+					<option value="page02.html">Creating your First Tile Set</option>
+					<option value="page03.html">Auto Tile Template<</option>
+					<option value="page04.html">Tile Brushes</option>
+					<option value="page05.html">Animated Tiles</option>
+					<option value="page06.html">Transparent Tiles</option>
+				</optgroup>
+				<optgroup label="Chapter 4 - Animated Sprites">
+					<option value="../ch4/page01.html">Animations</option>
+					<option value="../ch4/page02.html">Importing Animations</option>
+					<option value="../ch4/page03.html">Player Movement</option>
+				</optgroup>
+				<optgroup label="---Previous Pages">
+					<optgroup label="Chapter 1 - Overview">
+						<option value="../page01.html"><b>Overview</b></option>
+					</optgroup>
+				<optgroup label="Chapter 2 - Image Formats">
+					<option value="../ch2/page01.html">Pixel Graphic Formats</option>
+					<option value="../ch2/page02.html">Handling JPGs</option>
+					<option value="../ch2/page03.html">Handling GIFs and other Formats</option>
+					<option value="../ch2/page04.html">Raster and Vector</option>
+				</optgroup>
+				</optgroup>
+			</select>
+		</div>
+	
+<!-- EDIT THIS - Main tutorial body goes here -->
+<div class="body-scroll">
+	<p>
+	If you want to see tutorial in a separate web browser window <a href="gms2tutorials:///openBrowser">click here</a>.
+	
+	<p style="color:rgb(85, 109, 130)">
+	<b>Background with Single Tile</b>
+	
+	<p>
+		Textures take a lot of space so we want to not have an entire game use discrete pixels. As tempting as it is to have a 6000 x 1000 pixel level with a single matte painting in the background, there are limitations to what a video card can store and render. 
+	<p>
+		We usually break our artwork down into reusable “lego” pieces into their smallest common denominator. We will pick a resolution and make all of our tiles a multiple of this size (usually the sames size as our character). Gamemaker supports any pixel resolution, they don't need to be a power of 2.  The background we used initially would not be commonly found in games. Common sizes include:
+		
+		<ol>
+			<li>16 x 16</li>	
+			<li>32 x 32</li>
+			<li>64 x 64</li>
+			<li>96 x 96</li>
+			<li>128 x 128	</li>
+		</ol>
+
+	<p>
+		We are going to go with 64 by 64 for this exercise.  Start a new photoshop file and import a large texture you like. Pick one you took with your camera or grab a free one that is copyright cleared to use on the internet.  I grabbed a photorealistic brick wall texture and made sure it has a lot more surface area than I need.  This way I can use different parts of this texture to build variety.
+			
+	<p>
+		There are two things we need to worry about.  One is making it tile, and secondly removing any complexity in the image that makes the repeat a very obvious pattern.  Lets pick a small area of our texture in a square shape and cut and paste it in a new photoshop file.  Think about it scaling down to 64 by 64 to find out how big or small a piece you need.  This will take some trial and error.  Here is what I picked.  Notice that since the latice is horizontal I picked from grout line to grout line which will make touch up later on much easier. In my case it is roughly 225 x 225 piece that I picked.  
+
+	<p>
+		<img class="center" src="http://marcaubanel.com/gamemaker/GMS2-Images/Backgrounds-Tiles-Sprites/CH3/CropSquareAreaVerticalRepeat.png" alt="Select area from texture to tile that is square in ratio">
+
+	<p>
+		 Now create a new Photoshop document that is in our final 64 by 64 resolution.  Paste this large piece into it.  Then select <tt><b>Edit | Transform | Scale</b></tt> and adjust it until it is exactly 64 by 64 like so:
+
+		<p>
+		<img class="center" src="http://marcaubanel.com/gamemaker/GMS2-Images/Backgrounds-Tiles-Sprites/CH3/ScaleTextureDownTo64by64.gif" alt="Create a photoshop image that is a blank 64 by 64 and plaster large piece into it, scale to fit">
+	
+	<p>
+		Press <tt><b>File | Export | Quick Export as PNG:</b></tt>
+
+	<p>
+		<img class="center" src="http://marcaubanel.com/gamemaker/GMS2-Images/Backgrounds-Tiles-Sprites/CH3/QuickPNGExports.png" alt="Export as PNG">
+			
+	<p>
+		Name the file something appropriate and I called mine <tt><b>spr_brick_bck.png</b></tt></b></tt>.
+
+	<p>
+		<img class="center" src="http://marcaubanel.com/gamemaker/GMS2-Images/Backgrounds-Tiles-Sprites/CH3/NameItSPRBrickBCK.png" alt="Name export something logical, I named mine spr_brick_bck.png">
+
+		<p>
+		Go back to GameMkaer and create a new sprite and name it <tt><b>spr_brick_bck</b></tt>> (or something appropriate to your texture).  <tt><b>Import</b></tt> the texture that you just made. 
+	
+	<p>
+		<img class="center" src="http://marcaubanel.com/gamemaker/GMS2-Images/Backgrounds-Tiles-Sprites/CH3/SprBrickBkg.png" alt="Name sprite spr_brick_bck">	
+
+	<p>
+		Create a new <tt><b>Room</b></tt> and call it after the tile, in my case it is rm_brick_bck. Move it to the top of the list.  Select the <tt><b>Background</b></tt> layer and select the sprite you just made, <tt><b>spr_brick_bck</b></tt>>.  Make sure you set <tt><b>Horizontal Tile</b></tt> and <tt><b>Vertical Tile</b></tt> to true so you have a tilable room full of bricks like so:
+	<h3><tt><b>rm_brick_bck</b></tt></h3>
+	<p>
+		<img class="center" src="http://marcaubanel.com/gamemaker/GMS2-Images/Backgrounds-Tiles-Sprites/CH3/BrickTilingHorAndVer.png" alt="Create new room called rm_brick_bk and move it to the top of the list and add and tile spr_brick_bck into the background layer">			
+
+	<p>
+		Run the game by pressing the <img style="vertical-align:middle" src="http://marcaubanel.com/gamemaker/GMS2-Images/Shared/Icon_RunProject.png" alt="run button icon"> <tt><b>Play Button</b></tt>. This is probably the luckiest I ever got as it doesn't look to bad from far.
+
+	<p>
+		<img class="center" src="http://marcaubanel.com/gamemaker/GMS2-Images/Backgrounds-Tiles-Sprites/CH3/FirstPassTileBad.png" alt="Press run and see that brick worked OK">		
+
+	<p>
+		Zoom in and you see that it is doesn't stitch properly.  The edges of each tile don't match up. 
+
+	<p>
+		<img class="center" src="http://marcaubanel.com/gamemaker/GMS2-Images/Backgrounds-Tiles-Sprites/CH3/ZoomInBadTileFirstPass.png" alt="Zoom into brick and see the stitching errors from a screenshot of game">		
+
+
+	<p>
+		Go back to your larger tile photoshop file.  Lets start by fixing the top and bottom.   Select <tt><b>Filter | Other | Offset</b></tt>.  Adjust the vertical offset so the seam is in the middle and easy to see. Make sure <tt><b>Wrap Around</b></tt> is selected.  
+
+	<p>
+		<img class="center" src="http://marcaubanel.com/gamemaker/GMS2-Images/Backgrounds-Tiles-Sprites/CH3/VertifcallyWrapScene.gif" alt="Filter other offset in photoshop and adjust vertical seam with wrap around selected">
+	
+	<p>
+		Since I picked a break in the grout it is sutble.  But the top ground and bottom grout are a different color and there is a solid line:
+
+	<p>
+		<img class="center" src="http://marcaubanel.com/gamemaker/GMS2-Images/Backgrounds-Tiles-Sprites/CH3/HorizontalSeam.png" alt="Look at break in tile">		
+
+	<p>
+		Now I made the grout all the same color with some touch up tools in photoshop to get rid of the seams.  It is important not to touch the top or bottom row of pixels or we will cause a new problem when this texture repeats. 
+
+	<p>
+		<img class="center" src="http://marcaubanel.com/gamemaker/GMS2-Images/Backgrounds-Tiles-Sprites/CH3/MadeGroundSameColor.png" alt="Use photoshop touch up tools to get rid of this line">		
+	
+	<p>
+		Now lets repeat this for the horizontal offset.  Select <tt><b>Filter | Other | Offset</b></tt>.  Adjust the horizontal offset so the seam is in the middle and easy to see. Make sure <tt><b>Wrap Around</b></tt> is selected. 
+
+	<p>
+		<img class="center" src="http://marcaubanel.com/gamemaker/GMS2-Images/Backgrounds-Tiles-Sprites/CH3/HorizontalOffset.gif" alt="Filter other offset in photoshop and adjust horizontal seam with wrap around selected">			
+
+	<p>
+		This takes a lot more photoshop work.  I used the clone tool, I drew in grout where needed and cut and paste ends to reconnect pieces.  This takes some artistic liberty.  Again, Iit is important not to touch the top or bottom row of pixels or we will cause a new problem when this texture repeats. Here is what I got to:
+
+	<p>
+		<img class="center" src="http://marcaubanel.com/gamemaker/GMS2-Images/Backgrounds-Tiles-Sprites/CH3/RemovedHorizontalSeam.png" alt="Redraw grout line to get rid of transition">		
+		
+	<p>
+		Lets do one final check by going to <tt><b>Filter | Other | Offset</b></tt> and check both vertical and horizontal.  There should be no seams when scrolling.
+
+	<p>
+		<img class="center" src="http://marcaubanel.com/gamemaker/GMS2-Images/Backgrounds-Tiles-Sprites/CH3/RecheckWrappingOfTile.gif" alt="Moving offset in filter other offset to ensure that tile no longer has a transition problem and the tile should be seamless">			
+
+	<p>
+		Export the png and open Gamemaker and double click the <tt><b>spr_brick_bck</b></tt> and then press import and select this new sprite with the better wrapping.
+		
+	<p>
+		<img class="center" src="http://marcaubanel.com/gamemaker/GMS2-Images/Backgrounds-Tiles-Sprites/CH3/ImportNewSprite.png" alt="Export to png from photoshop and import it back into spr_brick_bck in gamemaker">		
+		
+	<p>
+		Now the sprite is updated with our tiling fixed.
+		
+	<p>
+		<img class="center" src="http://marcaubanel.com/gamemaker/GMS2-Images/Backgrounds-Tiles-Sprites/CH3/SpriteTake2WallBck.png" alt="Show sprite spr_brick_bck in editor with new fixed image">		
+		
+	<p>
+		Run the game by pressing the <img style="vertical-align:middle" src="http://marcaubanel.com/gamemaker/GMS2-Images/Shared/Icon_RunProject.png" alt="run button icon"> <tt><b>Play Button</b></tt>.  Now it looks a lot better but I can still see a repeated pattern.  It is not too bad but most of the time it turns out worse when working from a photographic source.
+
+	<p>
+		<img class="center" src="http://marcaubanel.com/gamemaker/GMS2-Images/Backgrounds-Tiles-Sprites/CH3/RunGameFixerdWallPhotoRealistic.png" alt="You can see a repeated pattern even though it tiles correctly">		
+
+	<p>
+		Our final step once the obvious repeat problems are removed is to try your best to hide the repeat.  This can be a combination of removing any outstanding artifacts, lowering contrast and reducing the number colors in the pallette.  There are many different techniques for this.  I have chosen to use <tt><b>Filter | Filter Gallery | Cutout</b></tt> to reduce the colors (I have also used the legacy web exporting to GIF and manually tweaking the color palette).
+
+	<p>
+		<img class="center" src="http://marcaubanel.com/gamemaker/GMS2-Images/Backgrounds-Tiles-Sprites/CH3/CutoutFilterSimplify.png" alt="Used photoshop filter to reduce paette in photoshop">	
+
+		Now the palette is dramtically simplified. Since this will be scaled we will still get interesting results.  This is one reason to work in a larger format than the 64 by 64 we are ending up with.
+
+	<p>
+		<img class="center" src="http://marcaubanel.com/gamemaker/GMS2-Images/Backgrounds-Tiles-Sprites/CH3/FilterApplied.png" alt="Final image of brick in source format">	
+
+	<p>
+		Now export a 64 by 64 version of it and re-import into spr_brick_bck.
+		
+	<p>
+		<img class="center" src="http://marcaubanel.com/gamemaker/GMS2-Images/Backgrounds-Tiles-Sprites/CH3/FinalTileInPlace.png" alt="Export to png from photoshop and import it back into spr_brick_bck in gamemaker">	
+
+		<p>
+			Run the game by pressing the <img style="vertical-align:middle" src="http://marcaubanel.com/gamemaker/GMS2-Images/Shared/Icon_RunProject.png" alt="run button icon"> <tt><b>Play Button</b></tt>.  Now we have fixed the repeat issue and massaged the colors to make it look more like one contiguous area than a repeated pattern.
+
+	<p>
+		<img class="center" src="http://marcaubanel.com/gamemaker/GMS2-Images/Backgrounds-Tiles-Sprites/CH3/FinalTileBck.png" alt="Run game with fixed final brick">		
+
+	<p>
+		Now no one wants to play a game with a single tile.  And using the background feature of a room is limited in what we can do with it by assigning a single image.  We are much better off using the tile features in Gamemaker so we can have multiple tiles.  Lets do this and create a variety of tiles that we can choose from for this one shape.  By having variety we wll further break up the repeats when used in game.
+		
+</div>
+
+<br>
+</p>
+<p>
+
+</div>
+
+<div class="footer">
+	<div class="buttons">
+		<div class="clear">
+			<div style="float:left">
+				<a href="../ch2/page04.html"  class="prev">
+				<div id="button-prev"></div> 
+				</a>
+			</div>
+			<div style="float:right"> <!-- Set the next page to go to here -->
+				<a href="page02.html" class="next">
+					<div id="button-next"></div>
+				</a>
+			</div>
+		</div>	
+	</div>
+<!-- Footer copyright notice - set this to your own or whatever is required (remove the text but leave the <h5> tags to just have the bar) -->
+<h5>&copy; Copyright Mauby Games 2018</h5>
+</div>
+
+</body>
+</html>
+
+
+

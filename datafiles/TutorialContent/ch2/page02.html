@@ -1,0 +1,177 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+	<head>
+		<!-- EDIT THIS-->
+		<title>Tutorial - GameMaker Backgrounds & Sprites - Ch2 - Page 2</title>
+		<!-- DO NOT EDIT THIS-->
+		<meta http-equiv="X-UA-Compatible" content="IE=9" />
+		<link rel="stylesheet" href="../style.css" type="text/css" media="screen" title="style" charset="UTF-8"/>
+		<script type="text/javascript">
+			var changePage = function(){
+				var newPage = document.getElementById("page-select");
+				window.location.replace(newPage.value);
+				}
+		</script>
+
+	</head>
+
+<!-- EDIT THIS - This section is where you can add an index to your tutorial -->
+<body>
+<!-- EDIT THIS - Your Tutorial title -->
+	<h2 style="border-radius:0.5em 0.5em 0 0; margin:0;">Tutorial - Backgrounds & Sprites</h2>
+<!-- EDIT THIS - Here you list the pages in your tutorial, with the current one at the top -->
+		<div class="head">
+			<select id="page-select" onChange="changePage()">
+				<optgroup label="Chapter 2 - Image Formats">
+					<option value="page02.html">Handling JPGs</option>
+					<option value="page03.html">Handling GIFs and other Formats</option>
+					<option value="page04.html">Raster and Vector</option>
+				</optgroup>
+				<optgroup label="Chapter 3 - Background and Tiles">
+					<option value="../ch3/page01.html">Background with Single Tile</option>
+					<option value="../ch3/page02.html">Creating your First Tile Set</option>
+					<option value="../ch3/page03.html">Auto Tile Template<</option>
+					<option value="../ch3/page04.html">Tile Brushes</option>
+					<option value="../ch3/page05.html">Animated Tiles</option>
+					<option value="../ch3/page06.html">Transparent Tiles</option>
+				</optgroup>
+				<optgroup label="Chapter 4 - Animated Sprites">
+					<option value="../ch4/page01.html">Animations</option>
+					<option value="../ch4/page02.html">Importing Animations</option>
+					<option value="../ch4/page03.html">Player Movement</option>
+				</optgroup>
+				<optgroup label="---Previous Pages">
+					<optgroup label="Chapter 1 - Overview">
+						<option value="../page01.html"><b>Overview</b></option>
+					</optgroup>
+				<optgroup label="Chapter 2 - Image Formats">
+					<option value="page01.html">Pixel Graphic Formats</option>
+				</optgroup>
+				</optgroup>
+			</select>
+		</div>
+	
+<!-- EDIT THIS - Main tutorial body goes here -->
+<div class="body-scroll">
+	<p>
+	If you want to see tutorial in a separate web browser window <a href="gms2tutorials:///openBrowser">click here</a>.
+	
+	<p style="color:rgb(85, 109, 130)">
+	<b>Handling JPGs</b>
+	<p>
+		Hopefully you will never have to handle a jpg file as they are really inconvenient.  But I will show you want to do if you do need to use one or any file with a missing Alpha.  Create new Sprite and press Import and select spr_plane_jpg.jpg  in <tt><b>Included Files | TutorialResources | JPG | spr_plane_jpg.png </b></tt>.  If you can't find it you can locate the file in the browser (or click <a href="gms2tutorials:///ShowFiles?path=../TutorialResources/JPG/spr_plane_jpg.png">here</a>). Call the sprite <tt><b>spr_plane_jpg</b></tt> and it should look like:
+
+	<p>
+		<img class="center" src="http://marcaubanel.com/gamemaker/GMS2-Images/Backgrounds-Tiles-Sprites/CH2/SprPlaneJpg.png" alt="Import spr_plane_jpg.png and call it spr_plane_jpg">
+	
+	<p>
+		Create a <tt><b>Game Object</b></tt>, attach the <tt><b>spr_plane_jpg</b></tt> to it and call it <tt><b>obj_plane_jpg</b></tt>.
+	
+	<p>
+		<img class="center" src="http://marcaubanel.com/gamemaker/GMS2-Images/Backgrounds-Tiles-Sprites/CH2/ObjPlaneJPG.png" alt="Create obj_plane_jpg and bind spr_plane_jpg to it">
+		
+	<p>
+		Place the <tt><b>obj_plane_jpg</b></tt>  in the room and make sure you on the <tt><b>Instances</b></tt> layer.
+
+	<p>
+		<img class="center" src="http://marcaubanel.com/gamemaker/GMS2-Images/Backgrounds-Tiles-Sprites/CH2/PutPlaneInRoom.png" alt="Place obj_plane_jpg in rm_first_import">
+		
+		<p>
+		Run the game by pressing the <img style="vertical-align:middle" src="http://marcaubanel.com/gamemaker/GMS2-Images/Shared/Icon_RunProject.png" alt="play button icon"> <tt><b>Play Button</b></tt> and you can see that there is no alpha on the sprite, the white background is rendered in the game window.
+
+	<p>
+		<img class="center" src="http://marcaubanel.com/gamemaker/GMS2-Images/Backgrounds-Tiles-Sprites/CH2/RunGameWithJPGWhiteBG.png" alt="Play game and see that jpg has no alpha, sprite has white background">	
+
+	<p>
+		Now not only do we have a lossy image format but it does not save the Alpha. What can we do?I can go and <tt><b>Edit</b></tt> the image and select the <tt><b>Color Remove</b></tt> tool. I click on the white background then let go.  This gets rid of some of the color But the edges are anti-aliased which now go to the background white:
+
+	<p>
+		<img class="center" src="http://marcaubanel.com/gamemaker/GMS2-Images/Backgrounds-Tiles-Sprites/CH2/ColorRemove.gif" alt="Color remove leaves a whte ragged edge">	
+		
+	<p>
+		Here is one possible quick fix.  Open up Photoshop and load the <tt><b>spr_plane_jpg.jpg</b></tt> file. Select the magic lasso tool and press the outside white and inside the tail white so that all the white is selected like so:
+	
+	<p>
+		<img class="center" src="http://marcaubanel.com/gamemaker/GMS2-Images/Backgrounds-Tiles-Sprites/CH2/MagicWandSelectionOfWhite.png" alt="Use magic lasso in photoshop to get rid of background">	
+	
+	<p>
+		We want to get rid of the white over an alpha.  To do this add a new layer and double click the backgroud layer to change it to a regular layer. Move the plane to the top layer:
+
+	<p>
+		<img class="center" src="http://marcaubanel.com/gamemaker/GMS2-Images/Backgrounds-Tiles-Sprites/CH2/AddEmptyLayerBeneathPlane.png" alt="Add new layer and move it behind the plane.">	
+		
+	<p>
+		Press delete and the black background dissapears leaving an alpha or an empty layer beneath the ship:
+
+	<p>
+		<img class="center" src="http://marcaubanel.com/gamemaker/GMS2-Images/Backgrounds-Tiles-Sprites/CH2/DeleteBacktround.png" alt="Delete background leaving alpha in empty areas">	
+
+	<p>
+		We still have a problem.  We have a white halo around the edge.  This becomes apparent if we put a dark background behind the plane.
+
+	<p>
+		<img class="center" src="http://marcaubanel.com/gamemaker/GMS2-Images/Backgrounds-Tiles-Sprites/CH2/WhiteHalo.png" alt="Still have a white halo">	
+	<p>
+
+	<p>
+		Press the Inner Glow effect on the plane layer.  Change the color to black and adjust the settings to put a black inner glow to get rid of the white anti-aliasing.
+
+	<p>
+		<img class="center" src="http://marcaubanel.com/gamemaker/GMS2-Images/Backgrounds-Tiles-Sprites/CH2/InnerBlackGlow.png" alt="Add inner glow to get rid of white edge">	
+
+	<p>
+		Now against black it looks like:
+		
+	<p>
+		<img class="center" src="http://marcaubanel.com/gamemaker/GMS2-Images/Backgrounds-Tiles-Sprites/CH2/ImprovedEdge.png" alt="Show edge against dark background">	
+	
+	<p>
+		Now export this newly fixed up sprite as a PNG format.  This way it will preserve the alpha.
+	
+	<p>
+		<img class="center" src="http://marcaubanel.com/gamemaker/GMS2-Images/Backgrounds-Tiles-Sprites/CH2/ExportAsPNG.png" alt="Export image of plane that was a jpg as png">			
+		
+	<p>
+		Go back to Gamemaker and open the <tt><b>spr_plane_jpg</b></tt> and press the <tt><b>Import</b></tt> button.  Now seletd the png file you just exported.  You should now see a plane with an alpha:
+
+	<p>
+		<img class="center" src="http://marcaubanel.com/gamemaker/GMS2-Images/Backgrounds-Tiles-Sprites/CH2/ReImportSprite.png" alt="Import over the old spr_plane_jpg">		
+
+	<p>
+		Run the game by pressing the <img style="vertical-align:middle" src="http://marcaubanel.com/gamemaker/GMS2-Images/Shared/Icon_RunProject.png"> <tt><b>Play Button</b></tt>. Now look how nicely it goes over our background in the room.
+		
+	<p>
+		<img class="center" src="http://marcaubanel.com/gamemaker/GMS2-Images/Backgrounds-Tiles-Sprites/CH2/FixedJPGInRoom.png" alt="Run game and we converted our jpg to a png with alpha">	
+		
+</div>
+
+<br>
+</p>
+<p>
+
+</div>
+
+<div class="footer">
+	<div class="buttons">
+		<div class="clear">
+			<div style="float:left">
+				<a href="page01.html"  class="prev">
+				<div id="button-prev"></div> 
+				</a>
+			</div>
+			<div style="float:right"> <!-- Set the next page to go to here -->
+				<a href="page03.html" class="next">
+					<div id="button-next"></div>
+				</a>
+			</div>
+		</div>	
+	</div>
+<!-- Footer copyright notice - set this to your own or whatever is required (remove the text but leave the <h5> tags to just have the bar) -->
+<h5>&copy; Copyright Mauby Games 2018</h5>
+</div>
+
+</body>
+</html>
+
+
+
