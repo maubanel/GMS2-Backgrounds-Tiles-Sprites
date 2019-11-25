@@ -59,7 +59,7 @@
 	<p style="color:rgb(85, 109, 130)">
 	<b>Handling JPGs</b>
 	<p>
-		Hopefully you will never have to handle a jpg file as they are really inconvenient.  But I will show you want to do if you do need to use one or any file with a missing Alpha.  Create new Sprite and press Import and select spr_plane_jpg.jpg  in <tt><b>Included Files | TutorialResources | JPG | spr_plane_jpg.png </b></tt>.  If you can't find it you can locate the file in the browser (or click <a href="gms2tutorials:///ShowFiles?path=../TutorialResources/JPG/spr_plane_jpg.png">here</a>). Call the sprite <tt><b>spr_plane_jpg</b></tt> and it should look like:
+		Hopefully you will never have to handle a jpg file as they are really inconvenient.  But I will show you want to do if you do need to use one or any file with a missing Alpha.  Create new Sprite and press Import and select spr_plane_jpg.jpg  in <tt><b>Included Files | TutorialResources | JPG | spr_plane_jpg.jpg </b></tt>.  If you can't find it you can locate the file in the browser (or click <a href="gms2tutorials:///ShowFiles?path=../TutorialResources/JPG/spr_plane_jpg.png">here</a>). Call the sprite <tt><b>spr_plane_jpg</b></tt> and it should look like:
 
 	<p>
 		<img class="center" src="http://marcaubanel.com/gamemaker/GMS2-Images/Backgrounds-Tiles-Sprites/CH2/SprPlaneJpg.png" alt="Import spr_plane_jpg.png and call it spr_plane_jpg">
@@ -83,7 +83,7 @@
 		<img class="center" src="http://marcaubanel.com/gamemaker/GMS2-Images/Backgrounds-Tiles-Sprites/CH2/RunGameWithJPGWhiteBG.png" alt="Play game and see that jpg has no alpha, sprite has white background">	
 
 	<p>
-		Now not only do we have a lossy image format but it does not save the Alpha. What can we do?I can go and <tt><b>Edit</b></tt> the image and select the <tt><b>Color Remove</b></tt> tool. I click on the white background then let go.  This gets rid of some of the color But the edges are anti-aliased which now go to the background white:
+		Now not only do we have a lossy image format but it does not save the Alpha. Open up <tt><b>spr_plane_jpg</b></tt> and press the <tt><b>Edit Image</tt></b> button.  What can we do? Select the <tt><b>Color Remove</b></tt> tool. I click on the white background then let go.  This gets rid of some of the color But the edges are anti-aliased which now go to the background white:
 
 	<p>
 		<img class="center" src="http://marcaubanel.com/gamemaker/GMS2-Images/Backgrounds-Tiles-Sprites/CH2/ColorRemove.gif" alt="Color remove leaves a whte ragged edge">	
@@ -126,7 +126,7 @@
 		<img class="center" src="http://marcaubanel.com/gamemaker/GMS2-Images/Backgrounds-Tiles-Sprites/CH2/ImprovedEdge.png" alt="Show edge against dark background">	
 	
 	<p>
-		Now export this newly fixed up sprite as a PNG format.  This way it will preserve the alpha.
+		Now export this newly fixed up sprite with an alpha as a background (you can hide the black background layer) as a PNG format.  This way it will preserve the alpha.
 	
 	<p>
 		<img class="center" src="http://marcaubanel.com/gamemaker/GMS2-Images/Backgrounds-Tiles-Sprites/CH2/ExportAsPNG.png" alt="Export image of plane that was a jpg as png">			
