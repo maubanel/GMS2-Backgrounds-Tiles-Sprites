@@ -6,7 +6,7 @@
 
 <img src="https://via.placeholder.com/1000x4/45D7CA/45D7CA" alt="drawing" height="4px"/>
 
-Chapter introduction here.
+We will be looking at techniques for creating animations for GameMaker video games. We will look at pixel art, vector art and some common techniques when building characters and levels.
 
 <br>
 
@@ -15,7 +15,15 @@ Chapter introduction here.
 
 ##### `Step 1.`\|`BTS`|:small_blue_diamond:
 
-![alt_text](images/.png)
+We will be looking at techniques for creating animations for GameMaker video games. We will look at pixel art, vector art and some common techniques when building characters and levels.
+
+With bitmaps we have a series of pixels. This is sometimes refered to as <a href="https://www.customink.com/help_center/raster-vs-vector-art" target="_blank">raster</a> art.  In a 32 x 32 sprite we have: 32 x 32 = 1,024 total pixels. The pixel is most likely to contain 32 bits of data (8 bit red, 8 bit green, 8 bit blue, and 8 bit alpha). 8 bits is a <a href="https://en.wikipedia.org/wiki/Binary_number" target="_blank">binary</a> representation of decimal 256. An 8 bit binary number can hold 256 individual decimal values.
+		
+So we typically have 256 values for each of the the R, G, B, A channels. Some art styles can be saved a lower rates such as 16 bits where we have 4 bits per channel or 32 bit values for R, G, B, A. For an old school look some people will restrict to a smaller size and force into a 4 bit pallette for example.
+
+Look at the PNG format supporting different bit depths and channels. This table is from the wikipedia webpage.
+
+![Table from Wikipedia of different image types](images/WikipediaPNGTable.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
