@@ -6,8 +6,7 @@
 
 <img src="https://via.placeholder.com/1000x4/45D7CA/45D7CA" alt="drawing" height="4px"/>
 
-Chapter introduction here.
-
+> A raster image is an image that is built using pixels. Any image taken with a digital camera or scanned into a computer is constructed using pixels. They use an abundance of different shades and colors of pixels to piece together a complete complex image, and the dimensions are measured using pixels. Paintings and images created in software such as PaintShop Pro result in raster images. The use of pixels to gradually shade images creates the appearance of a brush dipped in paint.<br><br>A vector image, however, is built using mathematical formula - not pixels. The file dictates several points and creates a line between them to form a specific shape. These are usually geometric shapes and makeup images that have bold lines and strong colors, like logos and abstract artwork. - [Corel Draw](https://www.coreldraw.com/en/tips/vector-images/raster-vs-vector/) 
 <br>
 
 ---
