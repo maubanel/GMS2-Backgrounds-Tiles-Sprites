@@ -2,7 +2,7 @@
 
 ### Raster and Vector
 
-<sub>[previous](../) • [home](../README.md#user-content-gms2-background-tiles--sprites---table-of-contents) • [next](../)</sub>
+<sub>[previous](../handling-gif/README.md#user-content-handling-gifs-and-other-formats) • [home](../README.md#user-content-gms2-background-tiles--sprites---table-of-contents) • [next](../background-tile/README.md#user-content-background-and-single-tile)</sub>
 
 <img src="https://via.placeholder.com/1000x4/45D7CA/45D7CA" alt="drawing" height="4px"/>
 
@@ -147,5 +147,5 @@ ___
 
 <img src="https://via.placeholder.com/1000x4/dba81a/dba81a" alt="drawing" height="4px" alt = ""/>
 
-| [previous](../)| [home](../README.md#user-content-gms2-background-tiles--sprites---table-of-contents) | [next](../)|
+| [previous](../handling-gif/README.md#user-content-handling-gifs-and-other-formats)| [home](../README.md#user-content-gms2-background-tiles--sprites---table-of-contents) | [next](../background-tile/README.md#user-content-background-and-single-tile)|
 |---|---|---|
