@@ -6,7 +6,7 @@
 
 <img src="https://via.placeholder.com/1000x4/45D7CA/45D7CA" alt="drawing" height="4px"/>
 
-Chapter introduction here.
+Lets get set up to start our work in backgrounds, image formats and animation.
 
 <br>
 
@@ -23,7 +23,7 @@ Go to [New GML Project](https://github.com/maubanel/GMS2-Snippets/blob/main/new-
 
 ##### `Step 2.`\|`BTS`|:small_blue_diamond: :small_blue_diamond: 
 
-Click on the **[GitHub Classroom Link](https://classroom.github.com/a/zDQ4NVnj)** if you want a repository to use for the game. Press the <kbd>Accept this assignment</kbd> button. 
+Click on the **[GitHub Classroom Link](https://classroom.github.com/a/nOy4s54Y)** if you want a repository to use for the game. Press the <kbd>Accept this assignment</kbd> button. 
 
 ![GitHub desktop accept assignemtn page](images/AcceptAssignment.png)
 
