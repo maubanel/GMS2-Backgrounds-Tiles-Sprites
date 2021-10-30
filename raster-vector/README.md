@@ -18,11 +18,17 @@ I would be remiss not to quickly discuss raster versus vector artwork.  Now this
 
 Vector graphics unlike bitmap graphics can scale endlessly without pixilating. Here is the plane from the game in bitmap scaled up 500% and in vectors scaled up 500%.
 
+These planes were created in **Adobe Illustrator** as vector graphics so I could output any raster scale without degradation.
+
 ![Zoomed in plane scaled up, one is a vector graphics the other is raster](images/PlaneBitmapAndVector.jpg)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 2.`\|`BTS`|:small_blue_diamond: :small_blue_diamond: 
+
+For a vector look there is nothing wrong using vector art software to create vector assets, then rasterising the graphics. This future proofs your artwork as it will scale to any high density future format.
+
+There are some payoffs between using raster and vector artwork. GameMaker supports **SWF** animations as well as bitmaps. Their vector pipeline is limited and the engine was most likely built for bitmap artwork. **GameMaker** also support Skeletal animations with **[Spine](https://docs2.yoyogames.com/source/_build/1_overview/3_additional_information/importing_non_bitmap_sprites.html)**.
 
 ![alt_text](images/.png)
 
