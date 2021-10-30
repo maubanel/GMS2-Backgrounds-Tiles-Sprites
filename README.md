@@ -37,22 +37,7 @@ In this walk through:
 ## GMS2 Background, Tiles & Sprites - Table of Contents
 
 <kbd></kbd> &nbsp;&nbsp; [Setting Up](setting-up/README.md#user-content-setting-up) <br>
-<kbd></kbd> &nbsp;&nbsp; [Getting Ship in Room](ship-room/README.md#user-content-getting-ship-in-room) <br>
-<kbd></kbd> &nbsp;&nbsp; [Moving Ship with Keyboard](keyboard/README.md#user-content-moving-ship-with-keyboard) <br>
-<kbd></kbd> &nbsp;&nbsp; [Moving Ship with Joystick](joystick/README.md#user-content-moving-ship-with-joystick) <br>
-<kbd></kbd> &nbsp;&nbsp; [Scrolling Water](scrolling-water/README.md#user-content-scrolling-water) <br>
-<kbd></kbd> &nbsp;&nbsp; [Scrolling Islands](scrolling-islands/README.md#user-content-scrolling-islands) <br>
-<kbd></kbd> &nbsp;&nbsp; [Setting Up Three Enemy Types](preparing-enemies/README.md#user-content-setting-up-three-enemy-types) <br>
-<kbd></kbd> &nbsp;&nbsp; [Basic Enemy and Timelines](basic-timelines/README.md#user-content-basic-enemy-and-timelines) <br>
-<kbd></kbd> &nbsp;&nbsp; [Shooting](shooting/README.md#user-content-shooting) <br>
-<kbd></kbd> &nbsp;&nbsp; [Shooting Enemies](shooting-enemies/README.md#user-content-shooting-enemies) <br>
-<kbd></kbd> &nbsp;&nbsp; [Targeting Enemies](targeting-enemies/README.md#user-content-targeting-enemies) <br>
-<kbd></kbd> &nbsp;&nbsp; [Player Health](player-health/README.md#user-content-player-health) <br>
-<kbd></kbd> &nbsp;&nbsp; [Player Taking Damage](player-damage/README.md#user-content-player-taking-damage) <br>
-<kbd></kbd> &nbsp;&nbsp; [Ghost Mode](ghost-mode/README.md#user-content-ghost-mode) <br>
-<kbd></kbd> &nbsp;&nbsp; [Audio](audio/README.md#user-content-audio) <br>
-<kbd></kbd> &nbsp;&nbsp; [Front End](front-end/README.md#user-content-front-end) <br>
-<kbd></kbd> &nbsp;&nbsp; [Lives](lives/README.md#user-content-lives) <br>
+
 
 <!-- LICENSE -->
 ## License
