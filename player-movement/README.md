@@ -2,7 +2,7 @@
 
 ### Player Movement
 
-<sub>[previous](../) • [home](../README.md#user-content-gms2-background-tiles--sprites---table-of-contents) • [next](../)</sub>
+<sub>[previous](../) • [home](../README.md#user-content-gms2-background-tiles--sprites---table-of-contents)</sub>
 
 <img src="https://via.placeholder.com/1000x4/45D7CA/45D7CA" alt="drawing" height="4px"/>
 
@@ -143,9 +143,9 @@ ___
 
 <img src="https://via.placeholder.com/1000x4/dba81a/dba81a" alt="drawing" height="4px" alt = ""/>
 
-<img src="https://via.placeholder.com/1000x100/45D7CA/000000/?text=Next Up - ADD NEXT PAGE">
+<img src="https://via.placeholder.com/1000x100/45D7CA/000000/?text=Next Up - The End!">
 
 <img src="https://via.placeholder.com/1000x4/dba81a/dba81a" alt="drawing" height="4px" alt = ""/>
 
-| [previous](../)| [home](../README.md#user-content-gms2-background-tiles--sprites---table-of-contents) | [next](../)|
-|---|---|---|
+| [previous](../)| [home](../README.md#user-content-gms2-background-tiles--sprites---table-of-contents) | 
+|---|---|
