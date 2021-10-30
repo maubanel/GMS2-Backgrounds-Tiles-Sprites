@@ -78,7 +78,8 @@ When you see them there has to be a `.git` hidden folder in the **same** directo
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 9.`\|`BTS`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
-Press **Repository | Open in Terminal** on mac and **Repository | Open in ???** on PC.
+
+**Open in Terminal** on mac and **Repository | Open in ???** on PC. Go to the directory holding the file.  In my case I had to type in `cd Documents/GitHub/Backgrounds-Tiles-Sprites`.
 
 ![create new repository in project folder](images/CreateNewRepository.png)
 
