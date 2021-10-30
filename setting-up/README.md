@@ -15,9 +15,9 @@ Chapter introduction here.
 
 ##### `Step 1.`\|`BTS`|:small_blue_diamond:
 
-Go to [New GML Project](https://github.com/maubanel/GMS2-Snippets/blob/main/new-gml/README.md#user-content-new-gml-project) and create a project called `Top-Down-Shooter`. Click on the <kbd>Settings</kbd> button and change the name of the **Display Name** on macOS and/or Windows to `Top Down Shooter`.  Check the directory and double check that it created the files where you expected.
+Go to [New GML Project](https://github.com/maubanel/GMS2-Snippets/blob/main/new-gml/README.md#user-content-new-gml-project) and create a project called `Backgrounds-Tiles-Sprites`. Click on the <kbd>Settings</kbd> button and change the name of the **Display Name** on macOS and/or Windows to `Backgrounds-Tiles-Sprites`.  Check the directory and double check that it created the files where you expected.
 
-![start gamemaker studio 2 project called Top Down Shooter](images/TopDownShooter.png)
+![start gamemaker studio 2 project called Backgrounds-Tiles-Sprites](images/backgroundTS.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
