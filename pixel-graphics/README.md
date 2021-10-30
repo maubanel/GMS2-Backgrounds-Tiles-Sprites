@@ -12,7 +12,6 @@ We will be looking at techniques for creating animations for GameMaker video gam
 
 ---
 
-
 ##### `Step 1.`\|`BTS`|:small_blue_diamond:
 
 We will be looking at techniques for creating animations for GameMaker video games. We will look at pixel art, vector art and some common techniques when building characters and levels.
@@ -29,7 +28,7 @@ Look at the **PNG** format supporting different bit depths and channels. This ta
 
 ##### `Step 2.`\|`BTS`|:small_blue_diamond: :small_blue_diamond: 
 
-There are many different raster formats that images can be saved in. I have highlighted a few in Photoshop that are common: psd, gif, jpg, png, tiff, & targa.
+There are many different raster formats that images can be saved in. I have highlighted a few in **Photoshop** that are common: *psd*, *gif*, *jpg*, *png*, *tiff*, & *targa*.
 
 ![Showing photoshop export option file types](images/ImageTypes.png)
 
@@ -37,9 +36,9 @@ There are many different raster formats that images can be saved in. I have high
 
 ##### `Step 3.`\|`BTS`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-They all have different abilities and there are good reasons to use or not use them in a game. Let&#146;s first look at lossy versus lossless images. A lossy image is one where the image size is shrunk by algorithms that change (hopefully not noticably) to save space. Jpeg (.jpg) files is a common compressed file type. Here is an example of the plane from the WW2 shooter with the least compression on the left and most on the right:
+They all have different abilities and there are good reasons to use or not use them in a game. Let's first look at *lossy* versus *lossless* images. A **lossy** image is one where the image size is shrunk by algorithms that change (hopefully not noticably) to save space. **Jpeg** (`.jpg`) files is a common compressed file type. Here is an example of the plane from the WW2 shooter with the least compression on the left and most on the right:
 	 
-Please note:  Even though you can compress a texture GameMaker leaves them uncompressed in the GPU.  There are no advantages in using compressed textures for now. This may change with future hardware GPU support for 2D compression.
+Please note:  Even though you can compress a texture **GameMaker** decompresses them into the GPU.  There are no advantages in using compressed textures for now. 
 
 Look at the below image on the right, you can see some banding in the colors.  This is a common side effect of 2D compression like Jpeg.
 
@@ -57,17 +56,17 @@ Lets zoom in a bit to see the banding better.
 
 ##### `Step 5.`\|`BTS`| :small_orange_diamond:
 
-It is important to note that the format will need to be sent to the GPU in its raw decompressed state so ultimately the entire size is required to display the image. Each game will have different demands for either aesthetic or performance reasons. In most cases png or bmp is the default format to use and is recommended by GameMaker. Lets look at various formats:
+It is important to note that the format will need to be sent to the GPU in its raw decompressed state so ultimately the entire size is required to display the image. Each game will have different demands for either aesthetic or performance reasons. In most cases **png** or **bmp** is the default format to use and is recommended by **GameMaker**. Lets look at various formats:
 	
-<a href="https://en.wikipedia.org/wiki/JPEG" target="_blank">Jpeg</a> Jpeg. It is a good format for complex images like digital photographs.  This saves storage space by applying compression. It is less effective for simpler graphics (images from Illustrator) with well defined lines. Not only does a jpeg alter the image it also has NO alpha. You need to pick a unique color for a background to remove it later in the sprite editor in Gamemaker.
+[JPEG](https://en.wikipedia.org/wiki/JPEG). It is a good format for complex images like digital photographs.  This saves storage space by applying compression. It is less effective for simpler graphics (images from Illustrator) with well defined lines. Not only does a jpeg alter the image it also has **NO** alpha. You need to pick a unique color for a background to remove it later in the sprite editor in Gamemaker.
 
-<a href="https://en.wikipedia.org/wiki/Portable_Network_Graphics" target="_blank">Portable Network Graphics</a> (png) is a compressed and uncompressed lossless format. What losselss means is that you will lose no quality when it is applied.  It can save some room on your hard drive but Gamemaker will store it in an uncompressed state. It supports both 24 bit RGB and 32 bit RGBA formats as well as indexed and monochromatic as well.
+[Portable Network Graphics(png)](https://en.wikipedia.org/wiki/Portable_Network_Graphics) is a compressed and uncompressed lossless format. What losselss means is that you will lose no quality when it is applied.  It can save some room on your hard drive but Gamemaker will store it in an uncompressed state. It supports both *24 bit RGB* and *32 bit RGBA* formats as well as **indexed** and **monochromatic** as well.
 		
-<a href="https://en.wikipedia.org/wiki/GIF" target="_blank">Graphics Interchange Format</a>  (GIF) is commonly used to store animations as it is one of the few formats that supports them. It only supports only 8-bit RGB color space and does not support alpha channels. This is far less than jpgs or png&#146;s 24 bit colors which makes it only suitable to very simple images. GIF&#146;s compression are better for simpler art like line art or Illustrator files. GIF&#146;s are also good for storing low-color sprite data to save size. Some use this format to get an old school look.
+[Graphics Interchange Format(GIF)](https://en.wikipedia.org/wiki/GIF) is commonly used to store animations as it is one of the few formats that supports them. It only supports only *8-bit RGB* color space and does not support alpha channels. This is far less than jpgs or png's *24 bit* colors which makes it only suitable to very simple images. **GIF** compression is better for simpler art like line art or Illustrator files. **GIFs** are also good for storing low-color sprite data to save size. Some use this format to get an old school look.
 
-<a href="https://en.wikipedia.org/wiki/BMP_file_format" target="_blank">bitmap image file</a> (bmp) is a raster graphics format that supports various color depths, and optionally with data compression, alpha channels, and color profiles.
+[bitmap image file(bmp)](https://en.wikipedia.org/wiki/BMP_file_format) is a raster graphics format that supports various color depths, and optionally with data compression, alpha channels, and color profiles.
 
-PSD is the best format to keep all your original artwork in. I make a lot of sprites in Photoshop and save all the layers and original work. Unfortunately GameMaker does not support PSD so they need to be exported to one of the above formats.
+[PSD](https://en.wikipedia.org/wiki/Adobe_Photoshop) is the best format to keep all your original artwork in. I make a lot of sprites in Photoshop and save all the layers and original work. Unfortunately **GameMaker** does not support **PSD** so they need to be exported to one of the above formats.
 
 ![Graphics of different file formats](images/RasterFormats.png)
 
@@ -75,7 +74,7 @@ PSD is the best format to keep all your original artwork in. I make a lot of spr
 
 ##### `Step 6.`\|`BTS`| :small_orange_diamond: :small_blue_diamond:
 
-Let's look at some of this in action. I have included a PSD (photoshop file) and in TutorialResources | Photoshop | spr_lsu_gradient_bkg.png .  If you can&#146;t find it you can locate the file in the browser (or click <a href="gms2tutorials:///ShowFiles?path=../TutorialResources/Photoshop/spr_lsu_gradient_bkg.psd">here</a>). Find it in the file explorer and load it in photoshop:
+Let's look at some of this in action. I have included a **PSD (photoshop file)** and please download [Assets/Photoshop/spr_lsu_gradient_bkg.psd] Find it in the file explorer and load it in **Photoshop**.
 
 ![Find TutorialResources/Photoshop/spr_lsu_gradient_bkg.png file](images/OpenWithPhotoshop.png)
 
@@ -83,7 +82,7 @@ Let's look at some of this in action. I have included a PSD (photoshop file) and
 
 ##### `Step 7.`\|`BTS`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Now lets look at it in photoshop. It is really hard to see what is going on.  What I have done is created a gradient spread between the two LSU school colors.  Now instead of filling the whole background I am making it one pixel wide.  This way we can repeat this texture horizontally and will get an endlessly long level with this gradient.  It is currently set at the height of the default room size which we will leave the same. In games we want to keep graphics as small as we can.
+Now lets look at it in **Photoshop**. It is really hard to see what is going on.  What I have done is created a gradient spread between the two LSU school colors.  Now instead of filling the whole background I am making it one pixel wide.  This way we can repeat this texture horizontally and will get an endlessly long level with this gradient.  It is currently set at the height of the default room size which we will leave the same. In games we want to keep graphics as small as we can.
 
 ![Look at TutorialResources/Photoshop/spr_lsu_gradient_bkg.png in Photoshop](images/SingleGradient.png)
 
@@ -99,7 +98,7 @@ Here it is zoomed in.
 
 ##### `Step 9.`\|`BTS`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-There is no need to alter this graphic.  Select File | Export | Quick Export as PNG .  Save it to a location of your choice.
+There is no need to alter this graphic.  *Select* **File | Export | Quick Export as PNG** .  Save it to a location of your choice.
 
 ![Export as PNG from Photoshop](images/QuickExportToPNG.png)
 
@@ -107,7 +106,7 @@ There is no need to alter this graphic.  Select File | Export | Quick Export as 
 
 ##### `Step 10.`\|`BTS`| :large_blue_diamond:
 
-Add a new Sprite by right clicking the title in the Resources tab and select Create Sprite and press the Import button. Select the png called that you just exported then press yes to the menu prompt.
+*Add* a new Sprite by right clicking the **Sprites** title in the **Resources** tab and select **Create | Sprite** and press the <kbd>Import</kbd> button. *Select* the png that you just exported then press the <kbd>Yes</kbd> button at the menu prompt.
 
 ![Import Sprite spr_lsu_gradient_bkg.png that you just exported](images/CreateAndImportSprite.gif)
 
@@ -132,7 +131,7 @@ Double click the room and change the name to `rm_first_import`. Go to the **Back
 
 ##### `Step 13.`\|`BTS`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
-Why did I make it 1 pixel wide and not just create a sprite that was the size of the room? I want to be as efficient with my sprites as possible. Every video card has maximum texture sizes that it can hold and we can go through that barrier quickly. We are creating a gradient background with as little data as possible. So how do we tile this texture horizontally so it fills the whole background? Just select the Horizontal Tile box in the Background Properties panel on the left:
+Why did I make it 1 pixel wide and not just create a sprite that was the size of the room? I want to be as efficient with my sprites as possible. Every video card has maximum texture sizes that it can hold and we can go through that barrier quickly. We are creating a gradient background with as little data as possible. So how do we tile this texture horizontally so it fills the whole background? Just select the **Horizontal Tile** box in the **Background Properties** panel on the left.
 
 ![Tile background sprite](images/HorizontalTileBKG.png)
 
@@ -140,7 +139,7 @@ Why did I make it 1 pixel wide and not just create a sprite that was the size of
 
 ##### `Step 14.`\|`BTS`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
-Run the game by pressing the <img style="vertical-align:middle" src="http://marcaubanel.com/gamemaker/GMS2-Images/Shared/Icon_RunProject.png" alt="run button icon"> Play Button and you can see a perfectly uncompressed gradient that went from a PSD, to a PNG to a GameMaker Sprite with no degradation in quality:
+Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. You can see a perfectly uncompressed gradient that went from a PSD, to a PNG to a GameMaker Sprite with no degradation in quality.
 
 ![Play game and look at gradient backgroudn without compression artifcating](images/GradientBckInGame.png)
 
