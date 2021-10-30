@@ -34,7 +34,7 @@ In this walk through:
 
 
 <!-- TOC -->
-## GMS2 Top Down Shooter - Table of Contents
+## GMS2 Background, Tiles & Sprites - Table of Contents
 
 <kbd></kbd> &nbsp;&nbsp; [Setting Up](setting-up/README.md#user-content-setting-up) <br>
 <kbd></kbd> &nbsp;&nbsp; [Getting Ship in Room](ship-room/README.md#user-content-getting-ship-in-room) <br>
