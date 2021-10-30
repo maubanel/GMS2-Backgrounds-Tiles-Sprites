@@ -37,7 +37,7 @@ In this walk through:
 ## GMS2 Background, Tiles & Sprites - Table of Contents
 
 <kbd></kbd> &nbsp;&nbsp; [Setting Up](setting-up/README.md#user-content-setting-up) <br>
-<kbd></kbd> &nbsp;&nbsp; [Pixel Graphics Formats](pixel-graphics/README.md#user-content-pixel-graphics-format) <br>
+<kbd></kbd> &nbsp;&nbsp; [Pixel Graphics Formats](pixel-graphics/README.md#user-content-pixel-graphics-formats) <br>
 <kbd></kbd> &nbsp;&nbsp; [Handling JPGs](handling-jpg/README.md#user-content-handling-jpgs) <br>
 <kbd></kbd> &nbsp;&nbsp; [Handling GIFs and Other Formats](handling-gif/README.md#user-content-handling-gifs-and-other-formats) <br>
 <kbd></kbd> &nbsp;&nbsp; [Raster and Vector](raster-vector/README.md#user-content-raster-and-vector) <br>
