@@ -30,7 +30,7 @@ For a vector look there is nothing wrong using vector art software to create vec
 
 There are some payoffs between using raster and vector artwork. GameMaker supports **SWF** animations as well as bitmaps. Their vector pipeline is limited and the engine was most likely built for bitmap artwork. **GameMaker** also support Skeletal animations with **[Spine](https://docs2.yoyogames.com/source/_build/1_overview/3_additional_information/importing_non_bitmap_sprites.html)**.
 
-![alt_text](images/.png)
+![swf support on gamemakers website](images/swfGameMaker.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
