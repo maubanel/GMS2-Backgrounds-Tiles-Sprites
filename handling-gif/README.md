@@ -6,7 +6,7 @@
 
 <img src="https://via.placeholder.com/1000x4/45D7CA/45D7CA" alt="drawing" height="4px"/>
 
-Chapter introduction here.
+**GIFs** are sometimes used as it supports animation.  It also has a reduced pallete which enforces an **old school** look (which can be achieved in other formats as well).  
 
 <br>
 
@@ -15,43 +15,59 @@ Chapter introduction here.
 
 ##### `Step 1.`\|`BTS`|:small_blue_diamond:
 
-![alt_text](images/.png)
+Download [spr_plane_gif.gif](../Assets/GIF/spr_plane_gif.gif).
+
+Add a new **Sprite** and press the <kbd>Import</kbd> button.  Name the Sprite `spr_plane_gif`. 
+
+![Imported spr_plane_gif.gif](images/ImportSprPlaneGif.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 2.`\|`BTS`|:small_blue_diamond: :small_blue_diamond: 
 
-![alt_text](images/.png)
+That looks normal and hey there is an alpha! With a GIF you can have one pixel be an alpha but there are no gradients. Some people like this clean edge look.  In a *GIF* the transparent pixel is either an alpha or it isn't (can't have a percentage). Here is the sprite in a close-up showing the degradation.
+
+![Close up of jagged GIF curve from spr_plane_gif.gif](images/ZoomIntoGIFSprEdge.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 3.`\|`BTS`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.png)
+*Create* a **Game Object** called `obj_plane_gif` and assign the `spr_plane_gif` sprite.
+
+![Create an object called obj_plane_gif and bind spr_plane_gif to it](images/ObjPlaneGif.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 4.`\|`BTS`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.png)
+Drag **obj_plane_gif** in the room over the previous plane so we can see the difference in **rm_first_import**.
+
+![Drag obj_plane_gif to the room](images/DragGIFInRoom.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 5.`\|`BTS`| :small_orange_diamond:
 
-![alt_text](images/.png)
+Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. Now look how each plane is different.
+
+![Run game and look at different type of sprites](images/GifAndJPGGameroom.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 6.`\|`BTS`| :small_orange_diamond: :small_blue_diamond:
 
-![alt_text](images/.png)
+If you zoom in you will notice that the **GIF** version has more banding on the wing as a **GIF** is not a 24 bit format.  I don't recommend using **GIFs** but many animations come in this format and it is the only raster format that supports animation in Gamemaker currently.
+
+![Zoom in of screenshot of gameplay shows that GIF has banding](images/SharpGIFEdge.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 7.`\|`BTS`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.png)
+*Download* [spr_plane_png.png](../Assets/Misc/spr_plane_png.png).  There is a TIFF format, a native PNG format (not changed from a JPG like we did previously) and a BMP format.  These are all the formats we will be looking at in this tutorial.
+
+![Import TIFF, BMP and PNG plane from TutorialResources/Misc/ folder](images/ImportBMPpngTIF.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
