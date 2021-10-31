@@ -6,7 +6,7 @@
 
 <img src="https://via.placeholder.com/1000x4/45D7CA/45D7CA" alt="drawing" height="4px"/>
 
-Chapter introduction here.
+We can also have tiles that don't take up the entire volume.  We can put an alpha channel so that we can add a layer on top of an existing tile.  So we can put a tree on top of a grass tile.
 
 <br>
 
@@ -15,13 +15,17 @@ Chapter introduction here.
 
 ##### `Step 1.`\|`BTS`|:small_blue_diamond:
 
-![alt_text](images/.png)
+Tiles do not have to be opaque.  We can have transparent shapes that sit on top of other tiles.  I have included a tree as an example.  *Download* [TransparentTree.psd](../Assets/Photoshop/TransparentTree.psd).
+
+![Locate Inluded Files/TutorialResources/Photoshop/TransparentTree.psd](images/TransparentTreePSD.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 2.`\|`BTS`|:small_blue_diamond: :small_blue_diamond: 
 
-![alt_text](images/.png)
+Now go copy and paste the tree into **spr_background_tiles.psd** but make sure it has no background (delete any pixels in the 64 by 64 quadrant you are placing it in).  
+
+![Copy and paste the transparent tree above into spr_background_tiles.psd](images/TreeInPSDTilesheet.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
