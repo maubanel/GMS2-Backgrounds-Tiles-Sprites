@@ -6,7 +6,7 @@
 
 <img src="https://via.placeholder.com/1000x4/45D7CA/45D7CA" alt="drawing" height="4px"/>
 
-Chapter introduction here.
+There are a cool tiling features in **GameMaker** and auto tiling is one of them.  It allows us to construct levels much faster.  There is a fair amount of set up time to prep for them.  Lets get started.
 
 <br>
 
@@ -15,7 +15,11 @@ Chapter introduction here.
 
 ##### `Step 1.`\|`BTS`|:small_blue_diamond:
 
-![alt_text](images/.png)
+Auto tiling allows us to more quickly paint a transition between two tiles.  It allows for much quicker level design.
+
+There are two auto tile configurations.  We are going to use the 16 tile configuration that is good for top down games. 
+
+![Show two auto tile configurations available in gamemaker studio](images/TileTemplates.jpg)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
