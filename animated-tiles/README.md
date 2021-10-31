@@ -6,7 +6,7 @@
 
 <img src="https://via.placeholder.com/1000x4/45D7CA/45D7CA" alt="drawing" height="4px"/>
 
-Chapter introduction here.
+You can also have each tile animate along its x and y axis.  Lets give it a shot.
 
 <br>
 
@@ -15,19 +15,31 @@ Chapter introduction here.
 
 ##### `Step 1.`\|`BTS`|:small_blue_diamond:
 
-![alt_text](images/.png)
+*Download* [spr_animated_backgrounds.psd](../Assets/Photoshop/spr_animated_backgrounds.psd). I have provided an sprite sheet with a single animated water sprite.  
+
+![Find Include Files/TutorialResources/Photoshop/spr_animated_backgrounds.psd](images/AnimatedBackgroundPSD.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 2.`\|`BTS`|:small_blue_diamond: :small_blue_diamond: 
 
-![alt_text](images/.png)
+*Open* the file in **Photoshop**.  Notice that the top left tile is **ALWAYS** left blank. **Export** it as a **PNG**.  
+
+Go to **GameMaker** and create a new **Sprite**.  Call it `spr_animated_backgrounds` and press the <kbd>Import</kbd> button.  Select the **PNG** you just exported.
+
+![Export spr_animated_backgrounds.psd as a PNG.  Create new Sprite and Import spr_animated_backgorund.png.  Call it the same name without an exztension](images/ImportAnimatedSpritesheet.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 3.`\|`BTS`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.png)
+Create a new **Tileset** and call it *ts_animated_background_tiles*.  *Press* the **Tile Set Properties** button and set the **Tile Width** and **Tile Height** to `64`.
+
+*Press* the **Tile Animation** button.  THere are a few things to notice.  This animation sheet can only have one framerate for all the animations.  We will leave it at `15` FPS.  The number of animation frames has to be a power of 2 either 2, 4, 8, 16, 32, 64, 128 or 256. Press the small downward arrow and select `32`.
+	
+Assign each frame from left to right and fill up all 32 slots.
+
+![v](images/CreateAnimatedTileSheet.gif)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
