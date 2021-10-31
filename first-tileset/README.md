@@ -83,7 +83,7 @@ Copy and paste this to a new layer.  **Photoshop** any issues along the edges wi
 
 I then made a third tile variation and fixed the repeat.  So now I have three completely different pieces that can all fit toghether.
 
-![Create a third brick](images/3RdBrickWallPiece.png)
+![Create a third brick](images/3RdBrickWallPiece.gif)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
