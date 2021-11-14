@@ -20,6 +20,8 @@ With bitmaps we have a series of pixels. This is sometimes refered to as [raster
 		
 So we typically have 256 values for each of the the R, G, B, A channels. Some art styles can be saved a lower rates such as 16 bits where we have 4 bits per channel or 32 bit values for R, G, B, A. For an old school look some people will restrict to a smaller size and force into a 4 bit pallette for example.
 
+So a 32 x 32 pixel image would be 1,024 pixels * 4 bytes which is 4,096 bytes or 4.096 kilobytes. 
+
 Look at the **PNG** format supporting different bit depths and channels. This table is from the wikipedia webpage.
 
 ![Table from Wikipedia of different image types](images/WikipediaPNGTable.png)
@@ -38,7 +40,7 @@ There are many different raster formats that images can be saved in. I have high
 
 They all have different abilities and there are good reasons to use or not use them in a game. Let's first look at *lossy* versus *lossless* images. A **lossy** image is one where the image size is shrunk by algorithms that change (hopefully not noticably) to save space. **Jpeg** (`.jpg`) files is a common compressed file type. Here is an example of the plane from the WW2 shooter with the least compression on the left and most on the right:
 	 
-Please note:  Even though you can compress a texture **GameMaker** decompresses them into the GPU.  There are no advantages in using compressed textures for now. 
+Please note:  Even though you can compress a texture **GameMaker** decompresses them into the GPU.  We save on storage but use cpu to decompress it into video memory.  Since games are large, there is lots of room for uncompressed art.
 
 Look at the below image on the right, you can see some banding in the colors.  This is a common side effect of 2D compression like Jpeg.
 
