@@ -133,7 +133,11 @@ Double click the room and change the name to `rm_first_import`. Go to the **Back
 
 ##### `Step 13.`\|`BTS`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
-Why did I make it 1 pixel wide and not just create a sprite that was the size of the room? We want to be as efficient with my sprites as possible. Every video card has maximum texture sizes that it can hold and we can go through that barrier quickly. We are creating a gradient background with as little data as possible. So how do we tile this texture horizontally so it fills the whole background? Just select the **Horizontal Tile** box in the **Background Properties** panel on the left.
+Why did I make it 1 pixel wide and not just create a sprite that was the size of the room? We want to be as efficient with the size of the sprites as possible. Every video card has maximum texture sizes that it can hold and we can go through that barrier quickly. 
+
+Good game art in either 2D or 3D games is about breaking artwork down to their smallest component and using instances (copies of them). 
+
+We are creating a gradient background with as little data as possible. So how do we tile this texture horizontally so it fills the whole background? Just select the **Horizontal Tile** box in the **Background Properties** panel on the left.
 
 ![Tile background sprite](images/HorizontalTileBKG.png)
 
