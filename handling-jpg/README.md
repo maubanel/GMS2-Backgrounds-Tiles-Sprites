@@ -87,7 +87,7 @@ We still have a problem.  We have a white halo around the edge.  This becomes ap
 
 ##### `Step 10.`\|`BTS`| :large_blue_diamond:
 
-Press the **Inner Glow** effect on the plane layer.  *Change* the color to **black** and adjust the settings to put a black inner glow to get rid of the white anti-aliasing.
+Select the **Layer** with the plane and add a **Layer Style**. Press the **Inner Glow** effect on the layer style.  *Change* the color to **black** (solid). ,the **Size** to `1px` and the **Blend Mode** to `Normal`, and **Source** to `edge`.  This will put a black inner glow to get rid of the white anti-aliasing.
 
 ![Add inner glow to get rid of white edge](images/InnerBlackGlow.png)
 
