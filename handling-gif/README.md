@@ -17,7 +17,7 @@
 
 Download [spr_plane_gif.gif](../Assets/GIF/spr_plane_gif.gif).
 
-Add a new **Sprite** and press the <kbd>Import</kbd> button.  Name the Sprite `spr_plane_gif`. 
+Add a new **Sprite** and press the <kbd>Import</kbd> button. Import the above **spr_plane_gif** sprite.  Name the Sprite `spr_plane_gif`. 
 
 ![Imported spr_plane_gif.gif](images/ImportSprPlaneGif.png)
 
