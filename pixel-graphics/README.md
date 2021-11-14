@@ -76,7 +76,7 @@ It is important to note that the format will need to be sent to the GPU in its r
 
 ##### `Step 6.`\|`BTS`| :small_orange_diamond: :small_blue_diamond:
 
-Let's look at some of this in action. I have included a **PSD (photoshop file)** and please download [Assets/Photoshop/spr_lsu_gradient_bkg.psd] Find it in the file explorer and load it in **Photoshop**.
+Let's look at some of this in action. I have included a **PSD (photoshop file)** and please download [spr_lsu_gradient_bkg.psd](../Assets/Photoshop/spr_lsu_gradient_bkg.psd) Find it in the file explorer and load it in **Photoshop**.
 
 ![Find TutorialResources/Photoshop/spr_lsu_gradient_bkg.png file](images/OpenWithPhotoshop.png)
 
