@@ -95,6 +95,13 @@ Create a new room called `rm_tiff_bmp_png` and drag it to the top of the room li
         
 ![Create room rm_tiff_bmp_png and drag bj_plane_bmp, obj_plane_png and obj_plane_tiff into it](images/CreateNewRoomAddThreeObjects.png)
 
+Drag the room to the top of the **Room Order** list to select this as the room that the game starts with.
+
+![Create room rm_tiff_bmp_png and drag bj_plane_bmp, obj_plane_png and obj_plane_tiff into it](images/CreateNewRoomAddThreeObjects.png)
+
+![put rm_tiff_bmp_png to the top of room order](images/roomOrder.png)
+
+
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 11.`\|`BTS`| :large_blue_diamond: :small_blue_diamond: 
