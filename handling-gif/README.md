@@ -25,7 +25,7 @@ Add a new **Sprite** and press the <kbd>Import</kbd> button. Import the above **
 
 ##### `Step 2.`\|`BTS`|:small_blue_diamond: :small_blue_diamond: 
 
-That looks normal and hey there is an alpha! With a GIF you can have one pixel be an alpha but there are no gradients. Some people like this clean edge look.  In a *GIF* the transparent pixel is either an alpha or it isn't (can't have a percentage). Here is the sprite in a close-up showing the degradation.
+Open up **spr_plane_gif** and zoom in. That looks normal and hey there is an alpha, unlike with the jpg! With a GIF you can have one pixel be an alpha but there are no gradients. Some people like this clean edge look.  In a *GIF* the transparent pixel is either an alpha or it isn't (can't have a percentage). Here is the sprite in a close-up showing the degradation.
 
 ![Close up of jagged GIF curve from spr_plane_gif.gif](images/ZoomIntoGIFSprEdge.png)
 
@@ -57,7 +57,9 @@ Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. N
 
 ##### `Step 6.`\|`BTS`| :small_orange_diamond: :small_blue_diamond:
 
-If you zoom in you will notice that the **GIF** version has more banding on the wing as a **GIF** is not a 24 bit format.  I don't recommend using **GIFs** but many animations come in this format and it is the only raster format that supports animation in Gamemaker currently.
+If you zoom in you will notice that the **GIF** version has more banding on the wing as a **GIF** is not a 24 bit format. It uses a maximum palette 256 colors for each frame.  This creates banding. There is also a 1 bit alpha so the line does not anti-alias and has a jaggy edge (some people like the 8 bit aesthetic) 
+
+ I don't recommend using **GIFs** but many animations come in this format and it is the only raster format that supports animation in Gamemaker currently.
 
 ![Zoom in of screenshot of gameplay shows that GIF has banding](images/SharpGIFEdge.png)
 
