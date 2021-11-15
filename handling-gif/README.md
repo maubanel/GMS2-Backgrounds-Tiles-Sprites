@@ -97,8 +97,6 @@ Create a new room called `rm_tiff_bmp_png` and drag it to the top of the room li
 
 Drag the room to the top of the **Room Order** list to select this as the room that the game starts with.
 
-![Create room rm_tiff_bmp_png and drag bj_plane_bmp, obj_plane_png and obj_plane_tiff into it](images/CreateNewRoomAddThreeObjects.png)
-
 ![put rm_tiff_bmp_png to the top of room order](images/roomOrder.png)
 
 
