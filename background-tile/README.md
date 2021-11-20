@@ -42,7 +42,7 @@ Select **Filter | Neural Filter**.
 
 ##### `Step 3.`\|`BTS`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Turn on **Style Transfer**.  Select **Show more**.  Press on **Preserve Palette** so that we keep the same colors and only inherit the style.  Try out a few and pick one that speaks to you.  When you are happy press the <kbd>OK</kbd> button.
+Turn on **Style Transfer**.  Select **Show more**.  Press on **Preserve Color** so that we keep the same colors and only inherit the style.  Try out a few and pick one that speaks to you.  When you are happy press the <kbd>OK</kbd> button.
 
 ![choose a style and preserve palette](images/preserveStyle.png)
 
@@ -50,9 +50,9 @@ Turn on **Style Transfer**.  Select **Show more**.  Press on **Preserve Palette*
 
 ##### `Step 4.`\|`BTS`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Go back to **GameMaker** and create a new **Sprite** and name it `spr_brick_bck` (or something appropriate to your texture).  <kbd>Import</kbd> the texture that you just made. 
+Open up **Substance Sampler**.  Now press **Viewer Settings** and set the **Texture scale | U & V** to `8`.  We will get 8 repeats.  Change the **Mesh** to a `Plane`. Since it is a brick we want to see it on a flat surface (we are a 2-D game none the less)
 
-![Name sprite spr_brick_bck](images/SprBrickBkg.png)
+![open up substance smapler and change mesh to a plane and uvs to 8](images/setupSampler.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
