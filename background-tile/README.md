@@ -98,7 +98,7 @@ Now we need to crop an area.  You can select the same **Add a layer** button and
 
 ##### `Step 10.`\|`BTS`| :large_blue_diamond:
 
-Now this texture will be 64 by 64 wo we don't want a lot of bricks.  I want three bricks per tile.
+Now this texture will be 64 by 64 wo we don't want a lot of bricks.  I want three bricks per tile. I want it as square as possible but place the crop lines along the grout line.  Now our texture is square so we don't have to skew the perspective.  After trian and error and moving around I found a location where it repeats nicely.  We cannot use their built in layer for tiling as it doesn't work with textures with existing patterns like bricks and tile.
 
 ![Look at break in tile](images/smallCropWindow.png)
 
