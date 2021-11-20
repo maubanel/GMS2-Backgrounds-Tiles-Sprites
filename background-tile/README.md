@@ -155,9 +155,9 @@ Open **Gamemaker** and right click on **Sprites** and select **Create | Sprite**
 
 ##### `Step 17.`\|`BTS`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game.  Now it looks a lot better but I can still see a repeated pattern.  It is not too bad but most of the time it turns out worse when working from a photographic source.
+Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game.  It is rare that it will look good the first time.  Often the repeat is obvious and you have to go back and make adjustments.  This was my third time making small tweaks to a point to where I thought the results were acceptable for a prototype.
 
-!["You can see a repeated pattern even though it tiles correctly](images/RunGameFixerdWallPhotoRealistic.png)
+![play game and see tiled bricks](images/RunGameFixerdWallPhotoRealistic.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
