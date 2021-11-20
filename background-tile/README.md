@@ -123,7 +123,7 @@ Open up the image you exported in **Photoshop**.  Please note that it adds `_Bas
 
 ##### `Step 13.`\|`BTS`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
-This takes a lot more photoshop work.  I used the clone tool, I drew in grout where needed and cut and paste ends to reconnect pieces.  This takes some artistic liberty.  Again, Iit is important not to touch the top or bottom row of pixels or we will cause a new problem when this texture repeats. Here is what I got to.
+Select **Image | Image Color...** and select a small number of colors.  This will give you an 8-bit look.  I picked a **Palette** and adjusted the dithering.  
 
 ![Redraw grout line to get rid of transition](images/indexColor.png)
 
@@ -133,7 +133,7 @@ This takes a lot more photoshop work.  I used the clone tool, I drew in grout wh
 
 Lets do one final check by going to **Filter | Other | Offset** and check both vertical and horizontal.  There should be no seams when scrolling.
 
-![Moving offset in filter other offset to ensure that tile no longer has a transition problem and the tile should be seamless](images/RecheckWrappingOfTile.gif)
+![Moving offset in filter other offset to ensure that tile no longer has a transition problem and the tile should be seamless](images/exportPNG.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
