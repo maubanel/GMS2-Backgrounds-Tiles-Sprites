@@ -23,12 +23,12 @@ We usually break our artwork down into reusable *lego* pieces into their smalles
 
 ##### `Step 1.`\|`BTS`|:small_blue_diamond:
 
-We are going to go with 64 by 64 for this exercise.  Start a new photoshop file and import a large texture you like. Pick one you took with your camera or grab a free one that is copyright cleared to use on the internet.  I grabbed a photorealistic brick wall texture and made sure it has a lot more surface area than I need.  This way I can use different parts of this texture to build variety.
+We are going to go with 64 by 64 for this exercise.  Start a new photoshop file and import a large texture you like. Pick one you took with your camera or grab a free one that is copyright cleared to use on the internet.  I grabbed a photorealistic brick wall texture and made sure it has a lot more surface area than I need.  This way I can use different parts of this texture to build variety. If you don't have a camera you can download the image used here: [spr_brick_1.png](../Assets/PNG/spr_brick_1.png).
     
 
-There are two things we need to worry about.  One is making it tile, and secondly removing any complexity in the image that makes the repeat a very obvious pattern.  Lets pick a small area of our texture in a square shape and cut and paste it in a new photoshop file.  Think about it scaling down to 64 by 64 to find out how big or small a piece you need.  This will take some trial and error.  Here is what I picked.  Notice that since the latice is horizontal I picked from grout line to grout line which will make touch up later on much easier. In my case it is roughly 225 x 225 piece that I picked.  
+There are two things we need to worry about.  One is making it tile, and secondly removing any complexity in the image that makes the repeat a very obvious pattern.  I also want to make it look a bit more "8-bit" and not photo realistic.  For prototyping we will do this using some quick tricks.  Open the file up in photoshop.
 
-![Select area from texture to tile that is square in ratio](images/CropSquareAreaVerticalRepeat.png)
+![Brick wall photograph](images/originalBrickPhoto.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
