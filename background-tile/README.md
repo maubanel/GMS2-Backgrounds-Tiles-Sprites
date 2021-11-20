@@ -66,9 +66,9 @@ Now drag the photo that you applied the neural filter to into the **LAYER** pane
 
 ##### `Step 6.`\|`BTS`| :small_orange_diamond: :small_blue_diamond:
 
-Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. This is probably the luckiest I ever got as it doesn't look to bad from far.
+This software tries to create all your 3-D maps for a PBR material.  All we want is the **Base Color** and don't need any of the other maps.  Select **Use as bitmap** and the press the <kbd>OK</kbd> button.
 
-![Press run and see that brick worked OK](images/FirstPassTileBad.png)
+![Press run and see that brick worked OK](images/useAsBitmap.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
