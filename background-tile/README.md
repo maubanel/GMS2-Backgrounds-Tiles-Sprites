@@ -42,9 +42,9 @@ Select **Filter | Neural Filter**.
 
 ##### `Step 3.`\|`BTS`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-*Press* **File | Export | Quick Export as PNG**.
+Turn on **Style Transfer**.  Select **Show more**.  Press on **Preserve Palette** so that we keep the same colors and only inherit the style.  Try out a few and pick one that speaks to you.  When you are happy press the <kbd>OK</kbd> button.
 
-![Name export something logical, I named mine spr_brick_bck.png](images/preserveStyle.png)
+![choose a style and preserve palette](images/preserveStyle.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
