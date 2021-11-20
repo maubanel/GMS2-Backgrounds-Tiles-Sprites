@@ -34,10 +34,9 @@ There are two things we need to worry about.  One is making it tile, and secondl
 
 ##### `Step 2.`\|`BTS`|:small_blue_diamond: :small_blue_diamond: 
 
-Now create a new Photoshop document that is in our final 64 by 64 resolution.  Paste this large piece into it.  Then select Edit | Transform | Scale and adjust it until it is exactly 64 by 64 like so:
+Select **Filter | Neural Filter**.
 
-
-![Create a photoshop image that is a blank 64 by 64 and plaster large piece into it, scale to fit](images/ScaleTextureDownTo64by64.gif)
+![Select Neural Filter](images/neuralFilter.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
