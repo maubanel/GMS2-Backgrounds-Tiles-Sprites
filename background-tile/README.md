@@ -115,7 +115,7 @@ When you got what you want press the **Export** icon.  Call the file `spr_brick_
 
 ##### `Step 12.`\|`BTS`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
 
-Open up the image in photoshop.  Please note that it adds `_BaseColor` at the end of the name.Press the **Image | Resize Image** item and rescale the image to `64` by `64`. Keep the **Resample** at `automatic`. Press the <kbd>OK</kbd> button.
+Open up the image you exported in **Photoshop**.  Please note that it adds `_BaseColor` at the end of the name.Press the **Image | Resize Image** item and rescale the image to `64` by `64`. Keep the **Resample** at `automatic`. Press the <kbd>OK</kbd> button.
 
 ![rescale to 64 by 64](images/resizeImage.png)
 
