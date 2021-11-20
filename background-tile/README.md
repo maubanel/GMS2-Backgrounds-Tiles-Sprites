@@ -108,7 +108,7 @@ Now this texture will be 64 by 64 so we don't want a lot of bricks.  I want thre
 
 When you got what you want press the **Export** icon.  Call the file `spr_brick_1`.  Select the **Format** as `png`.  Put it in a working directory. Leave the high resolution as this software doesn't handle reducing the texture size to `64` by `64` nearly as well as photoshop does and it becomes to blurry in the reduction process.  Select **only** the **Base Color** layer as we do not need any other textures. Press the <kbd>Export</kbd> button.
 
-![Use photoshop touch up tools to get rid of this line](images/exportTexture.png)
+![export texture](images/exportTexture.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
@@ -117,7 +117,7 @@ When you got what you want press the **Export** icon.  Call the file `spr_brick_
 
 Press the **Image | Resize Image** item and rescale the image to `64` by `64`. Keep the **Resample** at `automatic`. Press the <kbd>OK</kbd> button.
 
-![Filter other offset in photoshop and adjust horizontal seam with wrap around selected](images/resizeImage.png)
+![rescale to 64 by 64](images/resizeImage.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
@@ -125,7 +125,7 @@ Press the **Image | Resize Image** item and rescale the image to `64` by `64`. K
 
 This takes a lot more photoshop work.  I used the clone tool, I drew in grout where needed and cut and paste ends to reconnect pieces.  This takes some artistic liberty.  Again, Iit is important not to touch the top or bottom row of pixels or we will cause a new problem when this texture repeats. Here is what I got to.
 
-![Redraw grout line to get rid of transition](images/RemovedHorizontalSeam.png)
+![Redraw grout line to get rid of transition](images/indexColor.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
