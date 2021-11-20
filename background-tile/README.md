@@ -74,9 +74,9 @@ This software tries to create all your 3-D maps for a PBR material.  All we want
 
 ##### `Step 7.`\|`BTS`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Zoom in and you see that it is doesn't stitch properly.  The edges of each tile don't match up. 
+Now we do not see the texture with the default settings.  Select the **Output image** and choose `Base Color`.  Then press the **3D-Icon** next to the plane so we have two windows, one with the 3-D view showing the tiling and one with the 2-D view on the right hand side.
 
-![Zoom into brick and see the stitching errors from a screenshot of game](images/ZoomInBadTileFirstPass.png)
+![change output image to base color and show 3D view](images/2D3Dview.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
