@@ -131,9 +131,9 @@ Select **Image | Image Color...** and select a small number of colors.  This wil
 
 ##### `Step 14.`\|`BTS`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
-Lets do one final check by going to **Filter | Other | Offset** and check both vertical and horizontal.  There should be no seams when scrolling.
+Select the **File | Export | Quick Export as PNG**.  Call the file `spr_brick_1` and save it to another location (to not erase any of your other files we have craated). Press th e<kbd>Save</kbd> button.
 
-![Moving offset in filter other offset to ensure that tile no longer has a transition problem and the tile should be seamless](images/exportPNG.png)
+![export png](images/exportPNG.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
