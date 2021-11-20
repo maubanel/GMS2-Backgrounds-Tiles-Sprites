@@ -147,9 +147,9 @@ Open **Gamemaker** and right click on **Sprites** and select **Create | Sprite**
 
 ##### `Step 16.`\|`BTS`| :large_blue_diamond: :small_orange_diamond:   :small_blue_diamond: 
 
-Now the sprite is updated with our tiling fixed.
+*Right click* on **Rooms** and select **New | Room** and name it `rm_brick`. Change the **Room Order** to place this room on the top of the list. In **Background Layer Properties** sledt the `spr_brick` sprite and check **Horizontal Tile** and **Vertical Tile** to see your texture tiled.
 
-![Show sprite spr_brick_bck in editor with new fixed image](images/SpriteTake2WallBck.png)
+![Add room for tiled texture horizontally and vertically](images/rmBrick.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
