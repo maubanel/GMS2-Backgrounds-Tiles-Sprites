@@ -139,9 +139,9 @@ Select the **File | Export | Quick Export as PNG**.  Call the file `spr_brick_1`
 
 ##### `Step 15.`\|`BTS`| :large_blue_diamond: :small_orange_diamond: 
 
-Export the png and open **Gamemaker** and *double click* the **spr_brick_bck** and then press <kbd>Import</kbd> button and select this new sprite with the better wrapping.
+Open **Gamemaker** and right click on **Sprites** and select **Create | Sprite**.  Press the <kbd>Import</kbd> button and import **spr_brick_1.png** and call it `spr_brick`.
 
-![Export to png from photoshop and import it back into spr_brick_bck in gamemaker](images/ImportNewSprite.png)
+![Create a sprite and bring into GameMaker](images/importSPRBrick].png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
