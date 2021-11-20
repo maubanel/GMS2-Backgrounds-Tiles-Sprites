@@ -115,9 +115,9 @@ When you got what you want press the **Export** icon.  Call the file `spr_brick_
 
 ##### `Step 12.`\|`BTS`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
 
-Now lets repeat this for the horizontal offset.  *Select* **Filter | Other | Offset**.  Adjust the **horizontal offset** so the seam is in the middle and easy to see. Make sure **Wrap Around** is set to `true`. 
+Press the **Image | Resize Image** item and rescale the image to `64` by `64`.
 
-![Filter other offset in photoshop and adjust horizontal seam with wrap around selected](images/HorizontalOffset.gif)
+![Filter other offset in photoshop and adjust horizontal seam with wrap around selected](images/resizeImage.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
