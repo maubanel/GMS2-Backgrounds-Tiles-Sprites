@@ -98,9 +98,9 @@ Now we need to crop an area.  You can select the same **Add a layer** button and
 
 ##### `Step 10.`\|`BTS`| :large_blue_diamond:
 
-Since I picked a break in the grout it is sutble.  But the top ground and bottom grout are a different color and there is a solid line.
+Now this texture will be 64 by 64 wo we don't want a lot of bricks.  I want three bricks per tile.
 
-![Look at break in tile](images/HorizontalSeam.png)
+![Look at break in tile](images/smallCropWindow.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
