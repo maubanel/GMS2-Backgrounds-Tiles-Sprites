@@ -163,38 +163,6 @@ Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game.  
 
 ##### `Step 18.`\|`BTS`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Our final step once the obvious repeat problems are removed is to try your best to hide the repeat.  This can be a combination of removing any outstanding artifacts, lowering contrast and reducing the number colors in the pallette.  There are many different techniques for this.  I have chosen to use **Filter | Filter Gallery | Cutout** to reduce the colors (I have also used the legacy web exporting to GIF and manually tweaking the color palette).
-
-![Used photoshop filter to reduce paette in photoshop](images/CutoutFilterSimplify.png)
-
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
-
-##### `Step 19.`\|`BTS`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
-
-Now the palette is dramtically simplified. Since this will be scaled we will still get interesting results.  This is one reason to work in a larger format than the 64 by 64 we are ending up with.
-
-![Final image of brick in source format](images/FilterApplied.png)
-
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
-
-##### `Step 20.`\|`BTS`| :large_blue_diamond: :large_blue_diamond:
-
-Now export a 64 by 64 version of it and re-import into `spr_brick_bck`.
-
-![Export to png from photoshop and import it back into spr_brick_bck in gamemaker](images/FinalTileInPlace.png)
-
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
-
-##### `Step 21.`\|`BTS`| :large_blue_diamond: :large_blue_diamond: :small_blue_diamond:
-
-Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game.  Now we have fixed the repeat issue and massaged the colors to make it look more like one contiguous area than a repeated pattern.
-
-![Run game with fixed final brick](images/FinalTileBck.png)
-
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
-
-##### `Step 22.`\|`BTS`| :large_blue_diamond: :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:
-
 Select the **File | Save Project** then press **File | Quit** to make sure everything in the game is saved. If you are using **GitHub** open up **GitHub Desktop** and add a title and longer description (if necessary) and press the <kbd>Commit to main</kbd> button. Finish by pressing **Push origin** to update the server with the latest changes.
 
 ![save, quit, commit and push to github](images/GitHub.png)
