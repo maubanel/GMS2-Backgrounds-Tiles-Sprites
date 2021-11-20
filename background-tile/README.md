@@ -115,7 +115,7 @@ When you got what you want press the **Export** icon.  Call the file `spr_brick_
 
 ##### `Step 12.`\|`BTS`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
 
-Press the **Image | Resize Image** item and rescale the image to `64` by `64`.
+Press the **Image | Resize Image** item and rescale the image to `64` by `64`. Keep the **Resample** at `automatic`. Press the <kbd>OK</kbd> button.
 
 ![Filter other offset in photoshop and adjust horizontal seam with wrap around selected](images/resizeImage.png)
 
