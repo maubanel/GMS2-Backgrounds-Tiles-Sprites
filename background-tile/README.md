@@ -82,9 +82,9 @@ Now we do not see the texture with the default settings.  Select the **Output im
 
 ##### `Step 8.`\|`BTS`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Go back to your larger tile photoshop file.  Lets start by fixing the top and bottom.   Select **Filter | Other | Offset**.  Adjust the **vertical offset** so the seam is in the middle and easy to see. Make sure **Wrap Around** is **true**.  
+Now the picture doesn't have even lighting and the bricks on the right are noticably darker than the ones on the left.  This makes it look like we have a repeating dark splotch.  Press the **Add a layer** icon to add a **Equalize** filter. Play with the settings to remove as much as the shading variation as you like.
 
-![Filter other offset in photoshop and adjust vertical seam with wrap around selected](images/VertifcallyWrapScene.gif)
+![Add equalize filter](images/equalizeNode.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
