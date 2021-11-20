@@ -58,9 +58,9 @@ Open up **Substance Sampler**.  Now press **Viewer Settings** and set the **Text
 
 ##### `Step 5.`\|`BTS`| :small_orange_diamond:
 
-Create a new **Room** and call it after the tile, in my case it is `rm_brick_bck`. Move it to the top of the list.  Select the Background layer and select the sprite you just made, `spr_brick_bck`.  Make sure you set **Horizontal Tile** and **Vertical Tile** to `true` so you have a tilable room full of your texture.
+Now drag the photo that you applied the neural filter to into the **LAYER** panel on the right.
 
-![Create new room called rm_brick_bk and move it to the top of the list and add and tile spr_brick_bck into the background layer](images/BrickTilingHorAndVer.png)
+![Drag image to layer](images/dragImageToSampler.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
