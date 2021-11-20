@@ -100,15 +100,15 @@ Now we need to crop an area.  You can select the same **Add a layer** button and
 
 Now this texture will be 64 by 64 wo we don't want a lot of bricks.  I want three bricks per tile. I want it as square as possible but place the crop lines along the grout line.  Now our texture is square so we don't have to skew the perspective.  After trian and error and moving around I found a location where it repeats nicely.  We cannot use their built in layer for tiling as it doesn't work with textures with existing patterns like bricks and tile.
 
-![Look at break in tile](images/smallCropWindow.png)
+![pick 3 brick crop window](images/smallCropWindow.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 11.`\|`BTS`| :large_blue_diamond: :small_blue_diamond: 
 
-Now I made the grout all the same color with some touch up tools in photoshop to get rid of the seams.  It is important not to touch the top or bottom row of pixels or we will cause a new problem when this texture repeats. 
+When you got what you want press the **Export** icon.  Call the file `spr_brick_1`.  Select the **Format** as `png`.  Put it in a working directory. Leave the high resolution as this software doesn't handle reducing the texture size to `64` by `64` nearly as well as photoshop does and it becomes to blurry in the reduction process.  Press the <kbd>OK</kbd> button.
 
-![Use photoshop touch up tools to get rid of this line](images/MadeGroundSameColor.png)
+![Use photoshop touch up tools to get rid of this line](images/exportTexture.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
