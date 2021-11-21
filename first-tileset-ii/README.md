@@ -40,8 +40,9 @@ Press the **File | Export | Export As** and select **png** and press the <kbd>Ex
 
 ##### `Step 4.`\|`BTS`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
+Open up **GameMaker** and select **Sprites** by right clicking on the title and select **Create | Sprite**.  Press the <kbd>Import</kbd> button and select the **ts_environment** file you just exported and call it ``.
 
-![select ai to material](images/.png)
+![select ai to material](images/sprEnvrionment.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
