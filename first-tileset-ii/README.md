@@ -21,17 +21,17 @@ Repeat the step 19 to 21 on the previous page on **spr_brick_2** and **spr_brick
 
 ##### `Step 2.`\|`BTS`|:small_blue_diamond: :small_blue_diamond: 
 
+Press the **File | Save** menu item and save the file as `ts_environment` as a **psd** file.  Store it in a working folder.
+
+![save file as ts_environment](images/saveTsEnvironment.png)
 
 
-![select ai to material](images/.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 3.`\|`BTS`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Press the **File | Save** menu item and save the file as `ts_environment` as a **psd** file.  Store it in a working folder.
-
-![save file as ts_environment](images/saveTsEnvironment.png)
+![select ai to material](images/.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
