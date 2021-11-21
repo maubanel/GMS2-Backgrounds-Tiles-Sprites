@@ -142,9 +142,9 @@ Turn off **Crop** layer for the 1st and 2nd tile and activate it for the 3rd til
 
 ##### `Step 16.`\|`BTS`| :large_blue_diamond: :small_orange_diamond:   :small_blue_diamond: 
 
-Now we are gong to create a new Tile Set and call it `ts_background_tiles`.  *Assign* the sprite you just made and click on **Tile Set Properties** and make sure the **Tile Height** and **Tile Width** are both set to `64`.
+Fire up **Photoshop** and press **File | New Document**.  Change the size to **Pixels** and lets make a 10 x 10 grid of 64 x 64 tiles, so selet `640` x `640`.
 
-![Create new tileset called ts_background_tiles](images/CreaetTilesheet.gif)
+![Create new tileset called ts_background_tiles](images/photoshopNewDocument.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
