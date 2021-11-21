@@ -6,9 +6,7 @@
 
 <img src="https://via.placeholder.com/1000x4/45D7CA/45D7CA" alt="drawing" height="4px"/>
 
-Lets make our first tileset and check to see how well our three bricks fit together.
-
-<br>
+Lets make our first tileset and check to see how well our three bricks fit together.<br>
 
 ---
 
