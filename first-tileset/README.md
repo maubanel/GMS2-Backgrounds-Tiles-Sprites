@@ -92,9 +92,9 @@ Add an **Equalize** layer and tune the settings to knock down the color differen
 
 ##### `Step 10.`\|`BTS`| :large_blue_diamond:
 
-I then made copies of the original three and made changes including, removing bricks, cracks, moss and dirt.  This was all done in photoshop.
+Add a **Moss** layer.  Make any adjustments to your settings.  I dialed it back too much on my version so I would be more aggressive in the future.  You might want to mask out the moss around the edges as it needs to go next to tiles without moss and we don't want a hard line.  Try and keep the moss away from the edges.
 
-![Made more copies of these with cracks, moss and dirt smudges](images/VariationsOnTile.gif)
+![add moss layer](images/addMossLayer.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
