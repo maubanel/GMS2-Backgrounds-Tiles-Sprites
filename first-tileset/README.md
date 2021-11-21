@@ -101,9 +101,9 @@ Add a **Moss** layer.  Make any adjustments to your settings.  I dialed it back 
 
 ##### `Step 11.`\|`BTS`| :large_blue_diamond: :small_blue_diamond: 
 
-Now we need a separate sprite tile sheet to hold the tiles we just created.  Since these are 64 by 64 I made a 16 by 16 tile grid.  I  created a 1024 by 1024 pixel image in Photoshop with a white background.  
+Now create a **Dirt**, **Dust** and **Oxidate** layer.  Adjust the settings so we now have four varieties on the same tile.  This will help make it look more organic when we combine them. Don't be afraid to push it a bit more than this video and mask the edges.  Play with the settings and try and make the changes stick out and localize them to inside the tile.
 
-![Create new file that is 1024 by 1024 to hold all of our tiles](images/NewTilesheetBlank.png)
+https://user-images.githubusercontent.com/5504953/142766786-a360ece4-3c47-4bca-82c2-5e1879eddb10.mp4
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
