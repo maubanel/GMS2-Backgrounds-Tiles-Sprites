@@ -84,9 +84,9 @@ Paint a fix along this line and adjust the second target on this new layer to be
 
 ##### `Step 9.`\|`BTS`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-I then made a third tile variation and fixed the repeat.  So now I have three completely different pieces that can all fit toghether.
+Add an **Equalize** layer and tune the settings to knock down the color differences if you need.  I find it a bit noisy and am a bit worried about what it will like scaled down.  So I make some subtle adjustments.
 
-![Create a third brick](images/3RdBrickWallPiece.gif)
+![add and tune equalize layer](images/addEqualizeLayer.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
