@@ -48,7 +48,7 @@ Open up **GameMaker** and select **Sprites** by right clicking on the title and 
 
 ##### `Step 5.`\|`BTS`| :small_orange_diamond:
 
-Now we cannot use a sprite as a tilesheet.  We can only assign it to an **Object** or **Background**.  We can add it as a tile by right clicking on **Tile Sets** and selecting **Create | Tile Set**.  Call is `ts_environment`.  Assign the **spr_environment_tiles** as its image file.
+Now we cannot use a sprite as a tilesheet.  We can only assign it to an **Object** or **Background**.  We can add it as a tile by right clicking on **Tile Sets** and selecting **Create | Tile Set**.  Call is `ts_environment`.  Assign the **spr_environment_tiles** as its image file. Notice it loads up the tile sheet.
 
 ![add tileset and assign spr_environment_tiles](images/tsTiles.png)
 
@@ -56,9 +56,9 @@ Now we cannot use a sprite as a tilesheet.  We can only assign it to an **Object
 
 ##### `Step 6.`\|`BTS`| :small_orange_diamond: :small_blue_diamond:
 
-Here is what your target should look like that you can move around and see how it moves where the clone stamp is getting its source location.
+Now change the 
 
-![clone stamp target](images/.png)
+![clone stamp target](images/tileHeightAndWidth.png)
 
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
