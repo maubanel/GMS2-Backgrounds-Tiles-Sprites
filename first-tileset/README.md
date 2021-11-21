@@ -60,6 +60,7 @@ Select a **Brush Size** to your liking.  Paint along the line to hide the joint.
 https://user-images.githubusercontent.com/5504953/142765293-158c64df-cfda-4e47-8955-8e57210ebf23.mp4
 
 Here is what your target should look like that you can move around and see how it moves where the clone stamp is getting its source location.
+
 ![clone stamp target](images/targetZCloneLocation.png)
 
 ![before and after clone stamp](images/beforeAfter.png)
