@@ -68,9 +68,9 @@ Here is what your target should look like that you can move around and see how i
 
 ##### `Step 7.`\|`BTS`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Now turn on the bottom layer with all of the original texture.  Move it around to pick a completly different part.
+Now we also have a line on our vertical seam.  I can see the line on the grout line.  Add another **Clone Stamp** to address the grout line.
 
-![Pick a different part of texture](images/SelectNewSectionOfBrick.gif)
+![add second clone stamp for vertical line](images/cloneStampFixTopLine.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
