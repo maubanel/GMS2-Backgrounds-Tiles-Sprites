@@ -166,9 +166,9 @@ Now we need to see the grid. Select **View | Show | Grid**.  Make sure that **Sn
 
 ##### `Step 19.`\|`BTS`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. Notice the tiled brick and the pattern is not as bad. 
+Open up **spr_brick_1** that you previously exported.
 
-![Look at pattern when running game, it should look a lot better](images/FInalBrickRoom.png)
+![Look at pattern when running game, it should look a lot better](images/changeToIndex.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
