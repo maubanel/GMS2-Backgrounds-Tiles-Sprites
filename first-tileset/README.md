@@ -144,7 +144,7 @@ Turn off **Crop** layer for the 1st and 2nd tile and activate it for the 3rd til
 
 Fire up **Photoshop** and press **File | New Document**.  Change the size to **Pixels** and lets make a 10 x 10 grid of 64 x 64 tiles, so select `640` x `640`. Make the **Background** `Transparent`. Press the <kbd>Create</kbd> button.
 
-![Create new tileset called ts_background_tiles](images/photoshopNewDocument.png)
+![open photoshop and create new file](images/photoshopNewDocument.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
