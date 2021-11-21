@@ -174,9 +174,9 @@ Open up **spr_brick_1** that you previously exported. Select **Image | Mode | In
 
 ##### `Step 20.`\|`BTS`| :large_blue_diamond: :large_blue_diamond:
 
-Select the **File | Save Project** then press **File | Quit** to make sure everything in the game is saved. If you are using **GitHub** open up **GitHub Desktop** and add a title and longer description (if necessary) and press the <kbd>Commit to main</kbd> button. Finish by pressing **Push origin** to update the server with the latest changes.
+Select **Image | Image Size** and change the size of the tile to `64` by `64`.  Leave the ??? at `Automatic`.
 
-![save, quit, commit and push to github](images/GitHub.png)
+![save, quit, commit and push to github](images/imageSize.png)
 
 ___
 
