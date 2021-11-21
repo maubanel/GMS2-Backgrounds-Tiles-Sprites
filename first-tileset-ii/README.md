@@ -122,7 +122,7 @@ Duplicate **ts_environment** and call it `ts_environment_2`.  Copy and paste all
 
 ##### `Step 14.`\|`BTS`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
-Export the new tilesheet as `ts_environment_2` as a **png** file. *Right click* on **Sprites** and select **New | Sprite** and name it `spr_environment_sprite_2`.
+Export the new tilesheet as `ts_environment_2` as a **png** file. *Right click* on **Sprites** and select **New | Sprite** and name it `spr_environment_sprite_2`. Press the <kbd>Import</kbd> button and import the **ts_environment_2** file you just made in **Photoshop**.
 
 ![export brick 2](images/exportTSEnvrionment2.png)
 
