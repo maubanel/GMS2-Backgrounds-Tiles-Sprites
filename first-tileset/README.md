@@ -126,9 +126,9 @@ Select **only** the first original **Crop** layer. Press the **Export** button a
 
 ##### `Step 14.`\|`BTS`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
-*Copy and paste* each tile into the sheet.  *Rescale* them to **64 by 64** and put like textures next to each other.  Leave the top left blank. GameMaker will **never** display the top left tile, so it doesn't matter what goes there - it will be ignored.
+Turn off **Crop** layer for the 1st and 3rd tile and activaet it for the 2nd tile.  Press the **Export** button and select a folder and call the tile `spr_brick_2`. Make sure you are only exporting the **Base Color** layer. When you are ready press the <kbd>Export</kbd> button.
 
-![Cut each tile into each grid leaving top left blank](images/CutAndPasteToTileSheet.gif)
+![export brick 2](images/ExportLayer2.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
