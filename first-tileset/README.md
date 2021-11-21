@@ -150,7 +150,7 @@ Fire up **Photoshop** and press **File | New Document**.  Change the size to **P
 
 ##### `Step 17.`\|`BTS`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Select **Edit | Preferences | Guides, Grid & Slices...**.  Change the gridlines to **Pixels** and set the **Guideline Every: ** to `64`.  Set the subdivision to `1`.
+Select **Edit | Preferences | Guides, Grid & Slices...**.  Change the gridlines to **Pixels** and set the **Guideline Every: ** to `64`.  Set the subdivision to `1`. Press the <kbd>OK</kbd> button.
 
 ![add a single grid line every 64 pixels](images/gridSize.png)
 
@@ -158,13 +158,9 @@ Select **Edit | Preferences | Guides, Grid & Slices...**.  Change the gridlines 
 
 ##### `Step 18.`\|`BTS`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Now you can click on the right hand side and and select one of the 7 tiles.  You then paint them in the room filling up various spaces.
-	
-Keep adding tiles mixing it up. Try and fool the eye not to notice a pattern.  Take your time and be careful. Fill every last piece of the room.
-	
-Scatter some of the distressed tiles judiciously.  
+Now we need to 
 
-![Select various different tiles and add them to the background](images/AddTIlesToRoom.gif)
+![Select various different tiles and add them to the background](images/showGrid.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
