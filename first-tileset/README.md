@@ -57,7 +57,7 @@ Notice that when the brick we cut in half join, they don't match up so we have a
 
 One way of breaking up a pattern is to have different versions of the texture.  We can use different shapes and sticth them but they all need to have the exact same edge pixels.  We can cut out the middle and leaving only the edge pixels.  I cut very close to the grout line but left a bit of the overlapping rocks like so::
 
-![Remove everything except edge pixels](images/CutOutMiddle.gif)
+https://user-images.githubusercontent.com/5504953/142765293-158c64df-cfda-4e47-8955-8e57210ebf23.mp4
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
