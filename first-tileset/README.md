@@ -158,9 +158,9 @@ Select **Edit | Preferences | Guides, Grid & Slices...**.  Change the gridlines 
 
 ##### `Step 18.`\|`BTS`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Now we need to 
+Now we need to see the grid. Select **View | Show | Grid**.  Make sure that **Snap to Grid** is activated. 
 
-![Select various different tiles and add them to the background](images/showGrid.png)
+![show grid](images/showGrid.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
