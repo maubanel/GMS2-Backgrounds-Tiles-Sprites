@@ -162,9 +162,9 @@ Set the **Tile Width** and **Tile Height** to `64`.
 
 ##### `Step 19.`\|`BTS`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
+Now populate the level with a random variety of all 15 tiles.  Place them in a true random order with no discernable pattern.  Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. See how much you can get away with various varieties of the same tile if it is covering a large surface (like grass, brick, rock etc..).  
 
 
-![change to index mode of spr_brick_1](images/.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
