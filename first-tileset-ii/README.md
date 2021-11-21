@@ -164,22 +164,15 @@ Set the **Tile Width** and **Tile Height** to `64`.
 
 Now populate the level with a random variety of all 15 tiles.  Place them in a true random order with no discernable pattern.  Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. See how much you can get away with various varieties of the same tile if it is covering a large surface (like grass, brick, rock etc..).  
 
-
+https://user-images.githubusercontent.com/5504953/142774009-3ddc70c7-320e-455c-bbf4-fc404199c01a.mp4
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 20.`\|`BTS`| :large_blue_diamond: :large_blue_diamond:
 
+That's it for our first tile sheet. Select the **File | Save Project** then press **File | Quit** to make sure everything in the game is saved. If you are using **GitHub** open up **GitHub Desktop** and add a title and longer description (if necessary) and press the <kbd>Commit to main</kbd> button. Finish by pressing **Push origin** to update the server with the latest changes.
 
-
-![save, quit, commit and push to github](images/.png)
-
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
-
-##### `Step 21.`\|`BTS`| :large_blue_diamond: :large_blue_diamond: :small_blue_diamond:
-
-
-![copy and paste tile into second slot](images/.png)
+![save, quit, commit and push to github](images/GitHub.png)
 
 ___
 
