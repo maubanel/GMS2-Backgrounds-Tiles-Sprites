@@ -89,9 +89,9 @@ https://user-images.githubusercontent.com/5504953/142772461-1047baaf-9cd0-473d-8
 
 ##### `Step 10.`\|`BTS`| :large_blue_diamond:
 
+Now once you are happy with your three tiles go back to **Substance 3D Samper** and turn off **Crop** for the 2nd and 3rd tile and activate **Crop** layer 1.  Turn on visibility on the **Moss** layer.  Press the **Export** icon and call it `spr_brick_1_moss`.  Select just the **Base Color** and use a **png**.  Press the <kbd>Export</kbd> button.
 
-
-![add moss layer](images/.png)
+![add moss layer](images/exportMoss.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
