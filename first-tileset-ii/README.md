@@ -114,7 +114,7 @@ Now take all of these exports into **Photoshop** and turn the **Mode | Indexed C
 
 ##### `Step 13.`\|`BTS`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
-Duplicate **ts_environment** and call it `ts_environment_2`.  Copy and paste all the above new tiles so that you have all the 5 tiles of each type next to each other.
+Duplicate **ts_environment** and call it `ts_environment_2`.  Copy and paste all the above new tiles so that you have all the 5 tiles of each type next to each other. You should have a total of 15 tiles
 
 ![duplicate ts_environment and call ts_environment_2 and add all the new tiles](images/copyPaste.png)
 
