@@ -56,9 +56,9 @@ Now we cannot use a sprite as a tilesheet.  We can only assign it to an **Object
 
 ##### `Step 6.`\|`BTS`| :small_orange_diamond: :small_blue_diamond:
 
-Now change the 
+Now change the **Tile Width** and **Tile Height** to `64`.  The grid should now match the fixed size of our tiles.
 
-![clone stamp target](images/tileHeightAndWidth.png)
+![change tile set to 64 by 64](images/tileHeightAndWidth.png)
 
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
