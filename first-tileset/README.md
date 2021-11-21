@@ -126,7 +126,7 @@ Select **only** the first original **Crop** layer. Press the **Export** button a
 
 ##### `Step 14.`\|`BTS`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
-Turn off **Crop** layer for the 1st and 3rd tile and activaet it for the 2nd tile.  Press the **Export** button and select a folder and call the tile `spr_brick_2`. Make sure you are only exporting the **Base Color** layer. When you are ready press the <kbd>Export</kbd> button.
+Turn off **Crop** layer for the 1st and 3rd tile and activate it for the 2nd tile.  Press the **Export** button and select a folder and call the tile `spr_brick_2`. Make sure you are only exporting the **Base Color** layer. When you are ready press the <kbd>Export</kbd> button.
 
 ![export brick 2](images/ExportLayer2.png)
 
@@ -134,9 +134,9 @@ Turn off **Crop** layer for the 1st and 3rd tile and activaet it for the 2nd til
 
 ##### `Step 15.`\|`BTS`| :large_blue_diamond: :small_orange_diamond: 
 
-Export the tile sheet as a **PNG** file.  Call it `spr_background_tiles.png`.  Now create another **Sprite** and press the <kbd>Import</kbd> button to bring in the tilesheet and name it `spr_background_tiles`.
+Turn off **Crop** layer for the 1st and 2ND tile and activate it for the 23Rd tile.  Press the **Export** button and select a folder and call the tile `spr_brick_2`. Make sure you are only exporting the **Base Color** layer. When you are ready press the <kbd>Export</kbd> button.
 
-![Export tilesheet to png and import into gamemaker Sprite called spr_background_tile](images/SprBackgroundTiles.png)
+![export brick 3](images/exportBrick3.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
