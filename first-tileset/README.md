@@ -110,17 +110,17 @@ https://user-images.githubusercontent.com/5504953/142766997-1ed64817-a0a3-4efa-8
 
 ##### `Step 12.`\|`BTS`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
 
-Go to **Preferences | Guides, Grid & Slices**. Adjust the **grid** to `64` and **subdivisions** to `1`.  Pick a color that doesn't clash with your artwork.
+Now lets add two more **Crop** layers to the **Substance 3D Sampler** project.  You can only have one active at a time.  So turn off the **Crop** layer(s) you are not using.  Now select a different area of the texture but with the **exact** same positioning.  You can go back and make adjustments but you want all of these three crops to tile perfectly.  So I picked two different areas to use to add variety to our background tiles
 
-![Adjust grids in Preferences in Photoshop to 64 with subdivisions set to 1](images/GridsSetTo64.png)
+![add two more crop layers](images/addTwoMoreCropLayers.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 13.`\|`BTS`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
-Go to **View | Show | Grid** so that the grid appears and makes snapping and moving the tiles much easier. 
+Press the **Export** button and select a folder and call the tile `spr_brick_1`. Make sure you are only exporting the **Base Color** layer.
 
-![Switch to View Show Grid in Photoshop](images/ShowGrid.png)
+![export tile and call it spr_brick_1](images/exportBrick1.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
