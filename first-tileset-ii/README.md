@@ -83,7 +83,7 @@ Now you can select the **Pencil** tool in the top menu and select the tile you w
 
 For the rest of the level randomly select between the three types of tiles, and lets see if they work together.  If there are any issues you will have to go back to the **3D Sampler** files and make edits to them.  Fill as much as you can with the three tiles.  Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. Now you can see what they look like on their own and in a group.
 
-![fill room with random tiles and press play](images/Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game..png)
+
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
