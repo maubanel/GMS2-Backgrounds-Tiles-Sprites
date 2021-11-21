@@ -150,9 +150,9 @@ Fire up **Photoshop** and press **File | New Document**.  Change the size to **P
 
 ##### `Step 17.`\|`BTS`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Create a new room and move it to the top.  Call it `rm_lvl_test`.  Add a **Tile Layer** and name it `BackgroundTiles`.  Place it *under* the **Instances** layer. Select the **Tileset** you just created.
+Select **Edit | Preferences | Guides, Grid & Slices...**.  Change the gridlines to **Pixels** and set the **Guideline Every: ** to `64`.  Set the subdivision to `1`.
 
-![Add background layer and assign tileset ts_background_tiles](images/SetTilesInRoom.gif)
+![add a single grid line every 64 pixels](images/gridSize.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
