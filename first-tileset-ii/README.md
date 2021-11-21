@@ -122,15 +122,15 @@ Duplicate **ts_environment** and call it `ts_environment_2`.  Copy and paste all
 
 ##### `Step 14.`\|`BTS`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
-Export the new tilesheet as `ts_environment_2` as a **png** file. *Right click* on **Sprites** and select **New | Sprite** and name it `spr_environment_sprite_2`. Press the <kbd>Import</kbd> button and import the **ts_environment_2** file you just made in **Photoshop**.
-
+Export the new tilesheet as `ts_environment_2` as a **png** file. 
 ![export brick 2](images/exportTSEnvrionment2.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 15.`\|`BTS`| :large_blue_diamond: :small_orange_diamond: 
 
-Go back to **GameMaker**. 
+Go back to **GameMaker**. *Right click* on **Sprites** and select **New | Sprite** and name it `spr_environment_sprite_2`. Press the <kbd>Import</kbd> button and import the **ts_environment_2** file you just made in **Photoshop**.
+
 
 ![export brick 3](images/tile2Sprite.png)
 
