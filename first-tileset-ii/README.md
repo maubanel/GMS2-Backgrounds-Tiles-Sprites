@@ -154,9 +154,9 @@ Set the **Tile Width** and **Tile Height** to `64`.
 
 ##### `Step 18.`\|`BTS`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
+*Right click* on **Rooms** and select **New | Room** and name it `rm_tileset_2`. Change the **Room Order** to place this room on the top of the list. Now add a **Tile** layer and call it `Environment`.  Press the **Pencil** icon to start drawing tiles.
 
-
-![show grid](images/addRm2.png)
+![add rm_tileset_2 room and add a tile layer](images/addRm2.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
