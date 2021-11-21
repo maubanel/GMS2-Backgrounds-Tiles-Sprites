@@ -156,7 +156,7 @@ Set the **Tile Width** and **Tile Height** to `64`.
 
 
 
-![show grid](images/.png)
+![show grid](images/addRm2.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
