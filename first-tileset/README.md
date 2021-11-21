@@ -39,11 +39,9 @@ Add a **Crop** layer.  Deslect **3D** and select **2D** so we can see the textur
 
 ##### `Step 4.`\|`BTS`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Now we don't want to touch this layer as we will create different bricks with it.  Once you lined it up the way you want select all and copy and paste ths onto a new layer. This way it is only a **256 by 256** portion.  Move it around and there should be nothing around it.  Now we can go back to **Filter | Other | Offset** and remove both the horizontal and vertical repeats.
+Press the <kbd>T</kbd> key and you will see it tile.  Now in **Layer Inputs** we see our proper crop markings.  But it is tiling the whole image.  To see the engine tile the actual cropped layer you select **Material Outputs**.  Adjust your crop size to be as square as possible and to stitch with as few issues as possible.
 
-Repeat the same touch ups to remove the obvious tiling problems for both horizontal and vertical wrapping.
-
-![Copy and paste to new layer and remove tiling](images/CutToNewLayerAndTile.gif)
+![press t and adjust crop](images/PressT.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
