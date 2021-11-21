@@ -62,6 +62,7 @@ https://user-images.githubusercontent.com/5504953/142765293-158c64df-cfda-4e47-8
 Here is what your target should look like that you can move around and see how it moves where the clone stamp is getting its source location.
 ![clone stamp target](images/targetZCloneLocation.png)
 
+![before and after clone stamp](images/beforeAfter.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
