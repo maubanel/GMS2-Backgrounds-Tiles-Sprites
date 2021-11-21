@@ -6,7 +6,7 @@
 
 <img src="https://via.placeholder.com/1000x4/45D7CA/45D7CA" alt="drawing" height="4px"/>
 
-Now no one wants to play a game with a single tile.  And using the background feature of a room is limited in what we can do with it by assigning a single image.  We are much better off using the tile features in Gamemaker so we can have multiple tiles.  Lets do this and create a variety of tiles that we can choose from for this one shape.  By having variety we wll further break up the repeats when used in game.
+Now no one wants to play a game with a single tile.  And using the background feature of a room is limited in what we can do with it by assigning a single tiled image.  This would work if the tile is large. We are much better off using the tile features in **GameMaker** so we can have multiple tiles on a layer.  Lets do this and create a variety of tiles that we can choose from for this one shape.  By having variety we wll further break up the repeats when used in game.
 
 <br>
 
@@ -15,9 +15,9 @@ Now no one wants to play a game with a single tile.  And using the background fe
 
 ##### `Step 1.`\|`BTS`|:small_blue_diamond:
 
-Lets start over again with a new document.  Practice makes perfect, this time you can take what you have learned and make it even better.  So we go back to our very first original large sheet of art.  Lets apply the color pallette fixes on the entire image as we will be using differrent parts of it.  
+Lets start over again with a new document.  Open up **Adobe Substance 3D Sampler** and press **File |  New Project**.  Name the projet `Brick Textures`.  Drag and drop the processed brick we used in the last exercise.
 		
-![Pick different part of image](images/GetPalletteFromWholeImage.gif)
+![start new project in 3d smapler and call it brick textures and import brick image](images/newSubstanceProject.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
