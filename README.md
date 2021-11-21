@@ -43,6 +43,7 @@ In this walk through:
 <kbd></kbd> &nbsp;&nbsp; [Raster and Vector](raster-vector/README.md#user-content-raster-and-vector) <br>
 <kbd></kbd> &nbsp;&nbsp; [Background and Single Tile](background-tile/README.md#user-content-background-and-single-tile) <br>
 <kbd></kbd> &nbsp;&nbsp; [Creating your First Tileset](first-tileset/README.md#user-content-creating-your-first-tileset) <br>
+<kbd></kbd> &nbsp;&nbsp; [Creating your First Tileset II](first-tileset-ii/README.md#user-content-creating-your-first-tileset-ii) <br>
 <kbd></kbd> &nbsp;&nbsp; [Auto Tile Template](auto-tile/README.md#user-content-auto-tile-template) <br>
 <kbd></kbd> &nbsp;&nbsp; [Tile Brushes](tile-brushes/README.md#user-content-tile-brushes) <br>
 <kbd></kbd> &nbsp;&nbsp; [Animated Tiles](animated-tiles/README.md#user-content-animated-tiles) <br>
