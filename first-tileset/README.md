@@ -76,9 +76,9 @@ Now we also have a line on our vertical seam.  I can see the line on the grout l
 
 ##### `Step 8.`\|`BTS`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Copy and paste this to a new layer.  **Photoshop** any issues along the edges without affecting the very edge pixels.  Again, *remove all* the tiling lines using the offset filter.  Double check that it can be scrolled with no obvious lines or problems.
+Paint a fix along this line and adjust the second target on this new layer to be over grout.  Adjust any settings in the layer that helps get rid of the solid line.
 
-![Second brick scroll to make sure there are not seams in texture](images/CheckNewSection.gif)
+![get rid of solid line](images/verticalFix.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
