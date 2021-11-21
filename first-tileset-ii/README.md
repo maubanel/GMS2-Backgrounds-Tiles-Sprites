@@ -13,9 +13,9 @@ Lets make our first tileset and check to see how well our three bricks fit toget
 
 ##### `Step 1.`\|`BTS`|:small_blue_diamond:
 
-
+Repeat the step 19 to 21 on the previous page on **spr_brick_2** and **spr_brick_3**.  This should leave us with three different brick textures that we can check for accuracy. 
 		
-![start new project in 3d smapler and call it brick textures and import brick image](images/.png)
+![add spr brick 2 and 3 to tilesheet repeating previous process](images/threeBricks.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
