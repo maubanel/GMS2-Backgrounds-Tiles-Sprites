@@ -129,7 +129,7 @@ Export the new tilesheet as `ts_environment_2` as a **png** file.
 
 ##### `Step 15.`\|`BTS`| :large_blue_diamond: :small_orange_diamond: 
 
-Go back to **GameMaker**. *Right click* on **Sprites** and select **New | Sprite** and name it `spr_environment_sprite_2`. Press the <kbd>Import</kbd> button and import the **ts_environment_2** file you just made in **Photoshop**.
+Go back to **GameMaker**. *Right click* on **Sprites** and select **New | Sprite** and name it `spr_environment_sprite_2`. Press the <kbd>Import</kbd> button and import the **ts_environment_2** file you just made in **Photoshop**. Assign the **spr_environment_tiles_2** sprite to it.
 
 
 ![export brick 3](images/tile2Sprite.png)
@@ -146,8 +146,9 @@ Go back to **GameMaker**. *Right click* on **Sprites** and select **New | Sprite
 
 ##### `Step 17.`\|`BTS`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
+Set the **Tile Width** and **Tile Height** to `64`.
 
-![add a single grid line every 64 pixels](images/.png)
+![aset tile width and height to 64](images/tileWidthHeight.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
