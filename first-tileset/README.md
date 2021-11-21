@@ -103,7 +103,7 @@ Add a **Moss** layer.  Make any adjustments to your settings.  I dialed it back 
 
 Now create a **Dirt**, **Dust** and **Oxidate** layer.  Adjust the settings so we now have four varieties on the same tile.  This will help make it look more organic when we combine them. Don't be afraid to push it a bit more than this video and mask the edges.  Play with the settings and try and make the changes stick out and localize them to inside the tile.
 
-https://user-images.githubusercontent.com/5504953/142766786-a360ece4-3c47-4bca-82c2-5e1879eddb10.mp4
+https://user-images.githubusercontent.com/5504953/142766997-1ed64817-a0a3-4efa-80e7-a83235d9490c.mp4
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
