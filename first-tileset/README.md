@@ -25,7 +25,7 @@ Lets start over again with a new document.  Open up **Adobe Substance 3D Sampler
 
 I create a new photoshop document that is 256 by 256 with a black background.  I first tested out how big I wanted the brick texture by getting it into the game.  If a person who is six foot tall is 64 pixels high, I want the scale of my texture to match.  Note that it doesn't have to be 256 by 256, I like to work in a format that is larger and easier to edit.  The other advantage in working in large sizes is future proofing your work if you redo the game at a higher resolution.
 
-![Create new 256 by 256 square document with black background in Photoshop](images/PlainBackgroundPS.png)
+![Create new 256 by 256 square document with black background in Photoshop](images/aiMaterial.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
