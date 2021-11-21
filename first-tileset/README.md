@@ -118,7 +118,7 @@ Now lets add two more **Crop** layers to the **Substance 3D Sampler** project.  
 
 ##### `Step 13.`\|`BTS`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
-Press the **Export** button and select a folder and call the tile `spr_brick_1`. Make sure you are only exporting the **Base Color** layer.
+Select **only** the first original **Crop** layer. Press the **Export** button and select a folder and call the tile `spr_brick_1`. Make sure you are only exporting the **Base Color** layer.
 
 ![export tile and call it spr_brick_1](images/exportBrick1.png)
 
