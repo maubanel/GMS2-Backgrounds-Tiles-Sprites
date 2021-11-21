@@ -31,9 +31,9 @@ We will be using some advanced layers in the software that requies it to use the
 
 ##### `Step 3.`\|`BTS`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Now copy and paste your bigger texture page into this new document.  Now you can scroll the background around.  This base layer maintains the entire size of the original texture but I can pick different parts of the image.  I premeasured mine so that the cracks vertically would match the seam.  This will make altering the texure to be tilable much easier.  I align it in place.
+Add a **Crop** layer.  Deslect **3D** and select **2D** so we can see the texture. Make sure you are on **Layer Inputs**.  Select an area that covers a few bricks.  Remember this will be reduced to `64` by `64` so it will be small.  You need to select an area that naturally tiles as best as it can.  So I work mine around the grout line so it will tile with minimal touch up.
 
-![Paste large image into it so you can still move around and select the part that works perfectly](images/MoveTextureIntoPlace.gif)
+![add crop layer to project](images/addCrop.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
