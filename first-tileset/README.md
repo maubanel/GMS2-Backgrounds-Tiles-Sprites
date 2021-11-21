@@ -134,7 +134,7 @@ Turn off **Crop** layer for the 1st and 3rd tile and activate it for the 2nd til
 
 ##### `Step 15.`\|`BTS`| :large_blue_diamond: :small_orange_diamond: 
 
-Turn off **Crop** layer for the 1st and 2nd tile and activate it for the 3Rd tile.  Press the **Export** button and select a folder and call the tile `spr_brick_3`. Make sure you are only exporting the **Base Color** layer. When you are ready press the <kbd>Export</kbd> button.
+Turn off **Crop** layer for the 1st and 2nd tile and activate it for the 3rd tile.  Press the **Export** button and select a folder and call the tile `spr_brick_3`. Make sure you are only exporting the **Base Color** layer. When you are ready press the <kbd>Export</kbd> button.
 
 ![export brick 3](images/exportBrick3.png)
 
