@@ -73,8 +73,9 @@ Now change the **Tile Width** and **Tile Height** to `64`.  The grid should now 
 
 ##### `Step 8.`\|`BTS`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
+Now you can select the **Pencil** tool in the top menu and select the tile you would like to paint.  Lets paint three zones of tile 1, tile 2 and tile 3.  This will let us see how different they look as a group.
 
-![get rid of solid line](images/.png)
+![draw three groups of tiles](images/FourEffects.gif)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
