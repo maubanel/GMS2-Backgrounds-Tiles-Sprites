@@ -116,7 +116,7 @@ Now take all of these exports into **Photoshop** and turn the **Mode | Indexed C
 
 Duplicate **ts_environment** and call it `ts_environment_2`.  Copy and paste all the above new tiles so that you have all the 5 tiles of each type next to each other.
 
-![export tile and call it spr_brick_1](images/copyPaste.png)
+![duplicate ts_environment and call ts_environment_2 and add all the new tiles](images/copyPaste.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
