@@ -122,8 +122,9 @@ Duplicate **ts_environment** and call it `ts_environment_2`.  Copy and paste all
 
 ##### `Step 14.`\|`BTS`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
+Export the new tilesheet as `ts_environment_2` as a **png** file.
 
-![export brick 2](images/.png)
+![export brick 2](images/exportTSEnvrionment2.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
