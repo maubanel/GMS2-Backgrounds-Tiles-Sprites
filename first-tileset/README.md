@@ -47,9 +47,9 @@ Press the <kbd>T</kbd> key and you will see it tile.  Now in **Layer Inputs** we
 
 ##### `Step 5.`\|`BTS`| :small_orange_diamond:
 
-Now double check that it can be scrolled with no obvious lines or problems.
+Notice that when the brick we cut in half join, they don't match up so we have a line.  We can paint this out.  Select a **Clone Tool** layer.  You have a toolbar at the top left and can adjust the brush size and color.
 
-![Scroll the texture and make sure it is able to scroll](images/CheckFirstTileForSheet.gif)
+![add clone tool layer](images/addCloneStamp.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
