@@ -178,6 +178,15 @@ Select **Image | Image Size** and change the size of the tile to `64` by `64`.  
 
 ![save, quit, commit and push to github](images/imageSize.png)
 
+<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+
+##### `Step 21.`\|`BTS`| :large_blue_diamond: :large_blue_diamond: :small_blue_diamond:
+
+Copy the entire tile and open up the empty tile sheet you previously made.  Paste this new tile and put it in the second slot.  The first slot **has to be kept empty**.  **GameMaker** ignores this first tile so place it in the second slot.
+
+![copy and paste tile into second slot](images/secondSlotFilled.png)
+
+
 ___
 
 <img src="https://via.placeholder.com/1000x4/dba81a/dba81a" alt="drawing" height="4px" alt = ""/>
