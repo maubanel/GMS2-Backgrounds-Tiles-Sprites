@@ -105,22 +105,18 @@ Now what happens if we want to paint grass inside of dirt?  We have all the tile
 
 ![Use auto tile to paint sand inside of grass](images/TwoSandDiagnoals.png)
 
-Go back to **Photoshop** and our grass to sand file.  *Duplicate* the top grass layer twice and drag both layers to the bottom on top of the sand.  Name these layers **Frame 17** and **Frame 18**.  
-	
-We need to copy and paste the two diagonal masks to these grass layers.  You can do this by dragging them from the previous layers by clicking on the mask while pressing <kbd>Alt</kbd> (PC) or <kbd>Option</kbd> (Mac) to copy to another layer.  Drag it over the new grass layer you built. Do this for both diagonal masks.
-
-Now we want grass inside of sand so we want to reverse the mask.  We do this by double clicking on the mask then press the Reverse button.  Do this for both masks and check tha they both has grass inside of sand.
-
-![Create two inverted diagonl tiles for inverse of grass inside of sand](images/AddTwoReverseTilesInPS.gif)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 
 ##### `Step 12.`\|`BTS`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
 
+Go back to **Photoshop** and our grass to sand file.  *Duplicate* the two diagonal tiles with amsk. Drag both layers to the top of the layers just below the grass.  
+
+Now we want dirt to be inside of the grass so we want to reverse the mask.  We do this by clicking on the mask then press the **Image | Adjustments | Invert** menu item.  Do this for both masks and check tha they both has dirt inside of grass.
+
 Copy merged and paste these two layers onto your photoshop tilesheet.
 
-![Copy merged into the tilesheet these two inverted tiles](images/AddTwoOppositeDiags.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
