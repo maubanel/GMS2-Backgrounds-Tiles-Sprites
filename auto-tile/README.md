@@ -93,7 +93,7 @@ Name this auto tile under the Library tab `auto_dirt_to_grass`. This will be dir
 
 ##### `Step 10.`\|`BTS`| :large_blue_diamond:
 
-Make sure you are on the **Tiles_Brackground** layer.  Now the tile on the left will be inside the tile on the right.  So lets select the paint bucket tool on the top toolbar and fill the entire level with grass.  Then we can go in and paint with dirt inside the grass by selecting the auto tile tool. paint and see the pattern follows the the flow and we get nice rounded corners between the two tiles.
+Assign the **tls_environment_3** sprite to the tile layer. Make sure you are on the **Tiles_Brackground** layer.  Now the tile on the left will be inside the tile on the right.  So lets select the paint bucket tool on the top toolbar and fill the entire level with grass.  Then we can go in and paint with dirt inside the grass by selecting the auto tile tool. Paint and see the pattern follows the the flow and we get nice rounded corners between the two tiles. Now *press* the <kbd>Play</kbd> button in the top menu bar to admire your work.
 
 https://user-images.githubusercontent.com/5504953/143032767-b688f498-ca52-4bcf-8cfa-dccd122c5122.mp4
 
