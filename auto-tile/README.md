@@ -41,23 +41,29 @@ The Photoshop file should have 16 layers in it starting at the top with the 1st 
 
 ##### `Step 4.`\|`BTS`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Make sure you have the bottom sand layer selected.  Now you will start with the first layer and select all and choose **Edit | Copy Merged** (if you just copy you will only grab one layer, we want to have at least two layers copied for most of these tiles).  Then paste it into the second row of your **spr_background_tiles.psd** file that has your previous work.  
-	
-Work you way down to the second from the top selected and the sand layer at the bottom. Notice that the masks will allow certain parts of the foreground to appear over the background. Copy merged and paste back into the other sheet.  Repeat this for all 16 frames:
+Duplicate **ts_environment_2.psd** and call the new file `ts_environment_3.psd`. We will add these auto tiles to this tilesheet.
 
-![Add each layer of transition from AutoTileTemplate.psd to tile sheet in Photoshop](images/ExportAllSixteenTiles.gif)
+![duplicate ts_environemt_2.psd and call it ..._3.psd](images/dupeEnvrionemtn2.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 5.`\|`BTS`| :small_orange_diamond:
 
-*Export* the tiles again from Photoshop as a png.  *Double click* on **spr_background_tiles** in **GameMaker** and *re-import* the tilesheet with the grass to sand transition.
+Open up **ts_environment_3** in **Photoshop**. We will be copying tiles back and forth to create an automatic tiling layout for the tilesheet.
 
-![Reexport and import spr_background_tiles](images/TilesWithGrassToSand.png)
+Open up AutoTileTemplate. Make sure you have the bottom dirt layer selected and turned on.  Now you will start with the first layer and select all and choose **Edit | Copy Merged** (if you just copy you will only grab one layer, we want to have at least two layers copied for most of these tiles).  Then paste it into the next open slot in your your **spr_background_tiles_3.psd** file that has your previous work.  
+	
+Work you way up to the second to the top layer leaving both the bottom dirt later selected and the one layer with a mask above it. Notice that the masks will allow certain parts of the foreground to appear over the background. Copy merged and paste back into the other sheet.  Repeat this for all 16 frames:
+
+![Add each layer of transition from AutoTileTemplate.psd to tile sheet in Photoshop](images/ExportAllSixteenTiles.gif)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 6.`\|`BTS`| :small_orange_diamond: :small_blue_diamond:
+
+*Export* the tiles again from Photoshop as a png.  Create a new **Sprite** and **Import** **ts_environment_3**. *Double click* on **spr_background_tiles** in **GameMaker** and *re-import* the tilesheet with the grass to sand transition.
+
+![Reexport and import spr_background_tiles](images/TilesWithGrassToSand.png)
 
 *Double click* **tls_background_tiles** and *press* the **Auto Tiling** button.  This puts up the autotiling node.  Click on the **plus** symbol next to 16.  Then if you put the layers in order it should be from the solid grass all the way to sand, assign each layer. Look at the which pattern is light and dark and make sure that one is consistently sand and the other is consistently grass.
 
