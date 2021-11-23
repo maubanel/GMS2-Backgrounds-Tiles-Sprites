@@ -123,7 +123,7 @@ https://user-images.githubusercontent.com/5504953/143039314-8e457336-d00f-464c-9
 
 ##### `Step 13.`\|`BTS`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
-Export and reimport this into gamemaker.  Go back to your tilesheet and create another 16 auto tile section.  *Assign* the opposite of the grass to sand in the sand to grass configuration.  Double check your work at the end.  Each tile should mirror the one above.
+Export and reimport this into gamemaker.  Go back to your tilesheet and create another 16 auto tile section.  *Assign* the opposite of the grass to sand in the sand to grass configuration.  Double check your work at the end.  Each tile should mirror the one above. Name the autotile `auto_grass_to_dirt`.
 
 ![Export new tilesheet to gamemaker.  Create another auto tile with the opposite of sand to grass](images/MakeOppositeGrassSand.gif)
 
@@ -131,7 +131,7 @@ Export and reimport this into gamemaker.  Go back to your tilesheet and create a
 
 ##### `Step 14.`\|`BTS`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
-Name the autotile `auto_sand_to_grass`.
+
 
 ![Name autotile sand_to_grass](images/AutoSandToGrass.png)
 
