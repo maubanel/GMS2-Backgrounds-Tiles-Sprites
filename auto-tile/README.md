@@ -132,17 +132,15 @@ https://user-images.githubusercontent.com/5504953/143041839-b38e0cdc-68a5-4406-a
 
 ##### `Step 14.`\|`BTS`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
+Go back to **rm_auto_tile** and select the eraser. Delete the old dirt tiles.  Fill it again so the entire room is grass.  Go to the **Libraries** *tab* and select the newly created **auto_dirt_to_grass** tile.  Then paint dirt inside of grass.  Now you can change the autotiler then paint grass inside of dirt again by selecting**auto_grass_to_dirt** and this will  allow for quicker assembly of levels.
 
-
-![Name autotile sand_to_grass](images/AutoSandToGrass.png)
+![Go back to rm_lvl_test_2 and select eraser to erase level then paint grass inside of sand](images/OppositePatternInRoom.gif)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 15.`\|`BTS`| :large_blue_diamond: :small_orange_diamond: 
 
-Go back to **rm_lvl_test_2** and select the eraser. Make the brush size larger than one.  *Delete* the room.  Put the brush back to a size of 1.  Now fill the room with grass.  Go to the Libraries tab and select the newly created **auto_sand_to_grass** tile.  Then paint sand inside of grass.  Now you can change the autotiler then paint grass inside of sand again allowing for a quicker way of assembling levels.
 
-![Go back to rm_lvl_test_2 and select eraser to erase level then paint grass inside of sand](images/OppositePatternInRoom.gif)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
