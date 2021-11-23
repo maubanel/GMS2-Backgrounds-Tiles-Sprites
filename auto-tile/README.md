@@ -125,7 +125,7 @@ https://user-images.githubusercontent.com/5504953/143039314-8e457336-d00f-464c-9
 
 Export and reimport this into gamemaker.  Go back to your tilesheet and create another 16 auto tile section.  *Assign* the opposite of the grass to sand in the sand to grass configuration.  Double check your work at the end.  Each tile should mirror the one above. Name the autotile `auto_grass_to_dirt`.
 
-![Export new tilesheet to gamemaker.  Create another auto tile with the opposite of sand to grass](images/MakeOppositeGrassSand.gif)
+https://user-images.githubusercontent.com/5504953/143041839-b38e0cdc-68a5-4406-a498-25f687e9cf4e.mp4
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
