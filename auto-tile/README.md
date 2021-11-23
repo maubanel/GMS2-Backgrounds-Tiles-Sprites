@@ -33,7 +33,7 @@ There are two auto tile configurations.  We are going to use the 16 tile configu
 
 ##### `Step 3.`\|`BTS`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-The Photoshop file should have 16 layers in it starting at the top with the 1st grass layer with the one at the bottom being sand.
+The Photoshop file should have 16 layers in it starting at the top with the 1st grass layer with the one at the bottom being dirt.
 
 ![Look at all the layers in AutoTileTemplate.psd](images/SixteenLayerPhotoshopFile.png)
 
