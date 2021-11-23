@@ -95,8 +95,7 @@ Name this auto tile under the Library tab `auto_dirt_to_grass`. This will be dir
 
 Make sure you are on the **Tiles_Brackground** layer.  Now the tile on the left will be inside the tile on the right.  So lets select the paint bucket tool on the top toolbar and fill the entire level with grass.  Then we can go in and paint with dirt inside the grass by selecting the auto tile tool. paint and see the pattern follows the the flow and we get nice rounded corners between the two tiles.
 
-
-
+https://user-images.githubusercontent.com/5504953/143032767-b688f498-ca52-4bcf-8cfa-dccd122c5122.mp4
 
 Now what happens if we want to paint sand inside of grass?  We have all the tiles we need (all mirrored tiles) except for two diagonal pieces. We need them with grass diagonals.
 
