@@ -97,13 +97,13 @@ Assign the **tls_environment_3** sprite to the tile layer. Make sure you are on 
 
 https://user-images.githubusercontent.com/5504953/143032767-b688f498-ca52-4bcf-8cfa-dccd122c5122.mp4
 
-Now what happens if we want to paint sand inside of grass?  We have all the tiles we need (all mirrored tiles) except for two diagonal pieces. We need them with grass diagonals.
-
-![Use auto tile to paint sand inside of grass](images/TwoSandDiagnoals.png)
-
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 11.`\|`BTS`| :large_blue_diamond: :small_blue_diamond: 
+
+Now what happens if we want to paint grass inside of dirt?  We have all the tiles we need (all mirrored tiles) except for two diagonal pieces. We need them with grass diagonals.
+
+![Use auto tile to paint sand inside of grass](images/TwoSandDiagnoals.png)
 
 Go back to **Photoshop** and our grass to sand file.  *Duplicate* the top grass layer twice and drag both layers to the bottom on top of the sand.  Name these layers **Frame 17** and **Frame 18**.  
 	
