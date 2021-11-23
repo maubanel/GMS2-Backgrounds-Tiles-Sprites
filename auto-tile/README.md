@@ -65,21 +65,19 @@ https://user-images.githubusercontent.com/5504953/143026051-079eb3c9-9116-4f80-8
 
 https://user-images.githubusercontent.com/5504953/143025571-3092e6b4-bfd3-4c0f-9a75-830ebb4cc38c.mp4
 
-*Double click* **tls_background_tiles** and *press* the **Auto Tiling** button.  This puts up the autotiling node.  Click on the **plus** symbol next to 16.  Then if you put the layers in order it should be from the solid grass all the way to sand, assign each layer. Look at the which pattern is light and dark and make sure that one is consistently sand and the other is consistently grass.
-
-![Assign tiles to 16 patter auto tile in tls_background_tiles](images/SetUpAutoTiling.gif)
-
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 7.`\|`BTS`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Name this auto tile under the Library tab `auto_grass_to_sand`. This will be grass surrounded by sand.
-
-![Name this auto_grass_to_sand under Library](images/GrassToSand.png)
+Change the **Tile Height** and **Tile Width** to `64. *Press* the **Auto Tiling** button.  This puts up the autotiling node.  Click on the **plus** symbol next to 16.  Then if you put the layers in order it should be from the dirt all the way to grass, assign each layer. Look at the which pattern is light and dark and make sure the light one is dirt and the dark one is grass.
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 8.`\|`BTS`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
+
+Name this auto tile under the Library tab `auto_grass_to_sand`. This will be grass surrounded by sand.
+
+![Name this auto_grass_to_sand under Library](images/GrassToSand.png)
 
 *Create* a new room and call it `rm_lvl_test_2`.  *Move* it to the top of the list in **Room Priority**. Add a new **Tile Layer** called `Tiles_Background`.  Place it *beneath* the Instance layer:
 
