@@ -77,17 +77,17 @@ https://user-images.githubusercontent.com/5504953/143030131-6609fc3d-631d-4c4f-b
 
 ##### `Step 8.`\|`BTS`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Name this auto tile under the Library tab `auto_grass_to_sand`. This will be grass surrounded by sand.
+Name this auto tile under the Library tab `auto_dirt_to_grass`. This will be dirt surrounded by grass.
 
 ![Name this auto_grass_to_sand under Library](images/GrassToSand.png)
-
-*Create* a new room and call it `rm_lvl_test_2`.  *Move* it to the top of the list in **Room Priority**. Add a new **Tile Layer** called `Tiles_Background`.  Place it *beneath* the Instance layer:
-
-![Create a room called rm_lvl_test_2 and add tile layer Tiles_Background](images/SecondTestRoom.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 9.`\|`BTS`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
+
+*Create* a new room and call it `rm_auto_tile`.  *Move* it to the top of the list in **Room Priority**. Add a new **Tile Layer** called `Tiles_Background`.  Place it *beneath* the Instance layer:
+
+![Create a room called rm_lvl_test_2 and add tile layer Tiles_Background](images/SecondTestRoom.png)
 
 Make sure you are on the **Tiles_Brackground** layer.  Now the tile on the left will be inside the tile on the right.  So lets select the paint bucket tool on the top toolbar and fill the entire level with sand.  Then we can go in and paint with grass inside by selecting the auto tile tool.
 
