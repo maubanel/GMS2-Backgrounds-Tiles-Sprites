@@ -85,17 +85,18 @@ Name this auto tile under the Library tab `auto_dirt_to_grass`. This will be dir
 
 ##### `Step 9.`\|`BTS`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-*Create* a new room and call it `rm_auto_tile`.  *Move* it to the top of the list in **Room Priority**. Add a new **Tile Layer** called `Tiles_Background`.  Place it *beneath* the Instance layer:
+*Create* a new room and call it `rm_auto_tile`.  *Move* it to the top of the list in **Room Priority**. Add a new **Tile Layer** called `Environment`.  Place it *beneath* the Instance layer.
 
 ![Create a room called rm_lvl_test_2 and add tile layer Tiles_Background](images/SecondTestRoom.png)
+
+<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+
+##### `Step 10.`\|`BTS`| :large_blue_diamond:
 
 Make sure you are on the **Tiles_Brackground** layer.  Now the tile on the left will be inside the tile on the right.  So lets select the paint bucket tool on the top toolbar and fill the entire level with sand.  Then we can go in and paint with grass inside by selecting the auto tile tool.
 
 ![Select tiles background layer and fill room with sand](images/GrassInsideSand.gif)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
-
-##### `Step 10.`\|`BTS`| :large_blue_diamond:
 
 Now what happens if we want to paint sand inside of grass?  We have all the tiles we need (all mirrored tiles) except for two diagonal pieces. We need them with grass diagonals.
 
