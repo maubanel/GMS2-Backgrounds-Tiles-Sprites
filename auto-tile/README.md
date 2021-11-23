@@ -61,7 +61,7 @@ https://user-images.githubusercontent.com/5504953/143026051-079eb3c9-9116-4f80-8
 
 ##### `Step 6.`\|`BTS`| :small_orange_diamond: :small_blue_diamond:
 
-*Export* the tiles again from Photoshop as a png.  Create a new **Sprite** and **Import** **ts_environment_3**. *Double click* on **spr_background_tiles** in **GameMaker** and *re-import* the tilesheet with the grass to sand transition.
+*Export* the tiles again from Photoshop as a `.png` and call it `tls_environment_3`.  Create a new **Sprite** and **Import** **spr_environment_3**. Call this `spr_envioronment_tiles_3`.  *Right* click on **Tilesheets** and select **Create | Tilesheet** and call it `tls_environment_3` and assign the agove sprite. 
 
 https://user-images.githubusercontent.com/5504953/143025571-3092e6b4-bfd3-4c0f-9a75-830ebb4cc38c.mp4
 
