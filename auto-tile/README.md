@@ -71,6 +71,8 @@ https://user-images.githubusercontent.com/5504953/143025571-3092e6b4-bfd3-4c0f-9
 
 Change the **Tile Height** and **Tile Width** to `64. *Press* the **Auto Tiling** button.  This puts up the autotiling node.  Click on the **plus** symbol next to 16.  Then if you put the layers in order it should be from the dirt all the way to grass, assign each layer. Look at the which pattern is light and dark and make sure the light one is dirt and the dark one is grass.
 
+https://user-images.githubusercontent.com/5504953/143030131-6609fc3d-631d-4c4f-b063-38433af5fa7d.mp4
+
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 8.`\|`BTS`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
