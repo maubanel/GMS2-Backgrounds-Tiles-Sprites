@@ -134,7 +134,7 @@ https://user-images.githubusercontent.com/5504953/143041839-b38e0cdc-68a5-4406-a
 
 Go back to **rm_auto_tile** and select the eraser. Delete the old dirt tiles.  Fill it again so the entire room is grass.  Go to the **Libraries** *tab* and select the newly created **auto_dirt_to_grass** tile.  Then paint dirt inside of grass.  Now you can change the autotiler then paint grass inside of dirt again by selecting**auto_grass_to_dirt** and this will  allow for quicker assembly of levels. Now *press* the <kbd>Play</kbd> button in the top menu bar and check out your work!
 
-https://user-images.githubusercontent.com/5504953/143062532-f42ddd58-d14b-4199-bf4b-4d4f63edf8ca.mp4
+https://user-images.githubusercontent.com/5504953/143062703-146bc615-7e53-4932-8d1b-18b169987bcd.mp4
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
