@@ -117,6 +117,7 @@ Now we want dirt to be inside of the grass so we want to reverse the mask.  We d
 
 Copy merged and paste these two layers onto your photoshop tilesheet.
 
+Uploading AddTwoFlippedTiles.mp4…
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
