@@ -23,7 +23,7 @@ There are some simple tricks to making it look like we have more art than we do.
 
 ##### `Step 2.`\|`BTS`|:small_blue_diamond: :small_blue_diamond: 
 
-Copy both of these tiles and add them to your tilesheet.
+Duplicate **ts_environment_3.psd** and call the new file `ts_environment_4.psd`. Copy both of the tiles above and add them to the end of your tilesheet. Remember to always leave the first slot empty.
 
 ![Copy both frames into your tilesheet](images/CopyPasteHedgestoTilesheet.png)
 
