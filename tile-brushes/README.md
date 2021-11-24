@@ -39,7 +39,11 @@ Duplicate **ts_environment_3.psd** and call the new file `ts_environment_4.psd`.
 
 ##### `Step 4.`\|`BTS`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Right click on **Tilesets** and selet **Create | Tileset** and call it `tls_environment_4`. Assing **spr_envrionment_sprites_4**. Set the **Tile Width** and **Tile Height** to `64`. Press the **Brush Builder** button.  Now we need spaces in between each brush and a brush can be more than one tile.  Lets create a hedge in all 4 directions by rotating it pressing the Rotate button.  Add a brush with 3 hedge pieces making it quicker to draw in all 4 directions.  Then add our end pieces in all diretions as well.
+Right click on **Tilesets** and selet **Create | Tileset** and call it `tls_environment_4`. Assing **spr_envrionment_sprites_4**. Set the **Tile Width** and **Tile Height** to `64`. Press the **Brush Builder** button.  
+
+We do not need to waste storage and sprite space by having to store rotated sprites.  We can take our hedge and rotate it in all diretions allowing it to work in all axis for any scenario.
+
+Now we need spaces in between each brush. Lets create a hedge in all 4 directions by rotating it pressing the *Rotate* button.  Add a brush with 4 hedge pieces making it quicker to draw in all 4 directions.  Then add our end pieces in all diretions as well. We also need to mirror the x axis and rotate it with the hedge ending on the other side.
 
 https://user-images.githubusercontent.com/5504953/143157866-5b6108b6-886f-4252-b03b-7b1884fe99c7.mp4
 
