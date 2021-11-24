@@ -53,7 +53,7 @@ https://user-images.githubusercontent.com/5504953/143160136-0aa42325-2790-4852-b
 
 *Right click* on **Rooms** and select **New | Room** and name it `rm_brushes`. Change the **Room Order** to place this room on the top of the list. Add a new **Tile** layer and call it `Environment` and move it under the **Instances** layer.  Select the brushes tab and the pencil tool.  Then select a brush and start painting the bushes in a way that works best for you.
 
-![Select brush and add bushes](images/UseBrushes.gif)
+Uploading BrushBuilder.mp4…
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
