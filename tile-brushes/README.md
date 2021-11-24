@@ -51,17 +51,19 @@ https://user-images.githubusercontent.com/5504953/143160136-0aa42325-2790-4852-b
 
 ##### `Step 5.`\|`BTS`| :small_orange_diamond:
 
-*Right click* on **Rooms** and select **New | Room** and name it `rm_brushes`. Change the **Room Order** to place this room on the top of the list. Add a new **Tile** layer and call it `Environment` and move it under the **Instances** layer.  Select the brushes tab and the pencil tool.  Then select a brush and start painting the bushes in a way that works best for you.
+*Right click* on **Rooms** and select **New | Room** and name it `rm_brushes`. Change the **Room Order** to place this room on the top of the list. Add a new **Tile** layer and call it `Environment` and move it under the **Instances** layer.  Select the brushes tab and the pencil tool.  Then select a brush and start painting the bushes in a way that works best for you. Put the hedge ends on both sides.
 
-Uploading BrushBuilder.mp4…
+Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game and see your work.
+
+https://user-images.githubusercontent.com/5504953/143160956-6b46d484-cc32-49c9-baa1-4adc755cfa56.mp4
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 6.`\|`BTS`| :small_orange_diamond: :small_blue_diamond:
 
-Select the **File | Save Project** then press **File | Quit** to make sure everything in the game is saved. If you are using **GitHub** open up **GitHub Desktop** and add a title and longer description (if necessary) and press the <kbd>Commit to main</kbd> button. Finish by pressing **Push origin** to update the server with the latest changes. Put the hedge ends on both sides.
+Select the **File | Save Project** then press **File | Quit** to make sure everything in the game is saved. If you are using **GitHub** open up **GitHub Desktop** and add a title and longer description (if necessary) and press the <kbd>Commit to main</kbd> button. Finish by pressing **Push origin** to update the server with the latest changes. 
 
-Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game and see your work.
+
 
 
 ___
