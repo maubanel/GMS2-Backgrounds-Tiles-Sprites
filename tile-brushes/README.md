@@ -31,7 +31,7 @@ Duplicate **ts_environment_3.psd** and call the new file `ts_environment_4.psd`.
 
 ##### `Step 3.`\|`BTS`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-**Export** your tilesheet as a **PNG** and *re-import* them into **GameMaker's** `spr_background_tiles`.
+**Export** your tilesheet as a **PNG** and right click on **Sprites** and select **Create Sprite**. Call it `spr_environment_tiles_4`. Press the <kbd>Import</kbd> button and select the above sprite. 
 
 ![Export tiles as PNG and import into GameMaker replacing spr_background_tiles](images/ReimportForBrushes.png)
 
