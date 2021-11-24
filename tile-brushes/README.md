@@ -39,7 +39,7 @@ Duplicate **ts_environment_3.psd** and call the new file `ts_environment_4.psd`.
 
 ##### `Step 4.`\|`BTS`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Open **tls_background_tiles** and press the **Brush Builder** button.  Now we need spaces in between each brush and a brush can be more than one tile.  Lets create a hedge in all 4 directions by rotating it pressing the Rotate button.  Add a brush with 3 hedge pieces making it quicker to draw in all 4 directions.  Then add our corner piece in all 4 corners like so:
+Right click on **Tilesets** and selet **Create | Tileset** and call it `tls_environment_4`. Assing **spr_envrionment_sprites_4**. Set the **Tile Width** and **Tile Height** to `64`. Press the **Brush Builder** button.  Now we need spaces in between each brush and a brush can be more than one tile.  Lets create a hedge in all 4 directions by rotating it pressing the Rotate button.  Add a brush with 3 hedge pieces making it quicker to draw in all 4 directions.  Then add our end pieces in all diretions as well.
 
 https://user-images.githubusercontent.com/5504953/143157866-5b6108b6-886f-4252-b03b-7b1884fe99c7.mp4
 
