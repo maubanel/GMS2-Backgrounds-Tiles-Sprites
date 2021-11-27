@@ -34,9 +34,9 @@ https://user-images.githubusercontent.com/5504953/143682055-a07eaf41-c4da-443e-8
 
 Open up *ts_environment_5*.  *Press* the **Tile Set Properties** button and make sure the **Tile Width** and **Tile Height** is sert to `64`.
 
-*Press* the **Tile Animation** button.  THere are a few things to notice.  This animation sheet can only have one framerate for all the animations.  We will leave it at `15` FPS.  The number of animation frames has to be a power of 2 either 2, 4, 8, 16, 32, 64, 128 or 256. Press the small downward arrow and select `8`.
+*Press* the **Tile Animation** button.  THere are a few things to notice.  This animation sheet can only have one framerate for all the animations.  We will set it at `4` FPS to slow it down a bit.  The number of animation frames has to be a power of 2 either 2, 4, 8, 16, 32, 64, 128 or 256. Press the small downward arrow and select `8`.
 	
-Assign each frame from left to right and fill up all 8 slots.
+Assign each frame from left to right and fill up all 8 slots, starting with the water tile on the far left and ending with the tile on the far right.
 
 https://user-images.githubusercontent.com/5504953/143683488-77da8028-1abc-4379-907a-05ee7a75b8db.mp4
 
