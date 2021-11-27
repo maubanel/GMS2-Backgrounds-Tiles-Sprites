@@ -27,7 +27,7 @@ https://user-images.githubusercontent.com/5504953/143681705-be25455d-867f-4eaf-b
 
 Go to **GameMaker** and create a new **Sprite**.  Call it `spr_animated_backgrounds` and press the <kbd>Import</kbd> button.  Select the **PNG** you just exported.
 
-![Export spr_animated_backgrounds.psd as a PNG.  Create new Sprite and Import spr_animated_backgorund.png.  Call it the same name without an exztension](images/ImportAnimatedSpritesheet.png)
+https://user-images.githubusercontent.com/5504953/143682055-a07eaf41-c4da-443e-8324-00f30ea567a2.mp4
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
