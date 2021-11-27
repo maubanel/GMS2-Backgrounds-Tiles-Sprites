@@ -23,9 +23,7 @@ https://user-images.githubusercontent.com/5504953/143681705-be25455d-867f-4eaf-b
 
 ##### `Step 2.`\|`BTS`|:small_blue_diamond: :small_blue_diamond: 
 
-*Open* the file in **Photoshop**.  Notice that the top left tile is **ALWAYS** left blank. **Export** it as a **PNG**.  
-
-Go to **GameMaker** and create a new **Sprite**.  Call it `spr_animated_backgrounds` and press the <kbd>Import</kbd> button.  Select the **PNG** you just exported.
+Go to **GameMaker** and *right click* on **spr_environment_tiles_4** and select **Duplicate**. Call the duplicated **Sprite** `spr_environment_tiles_5`.  *Press* the <kbd>Import</kbd> button.  Select the **PNG** you just exported.
 
 ![Export spr_animated_backgrounds.psd as a PNG.  Create new Sprite and Import spr_animated_backgorund.png.  Call it the same name without an exztension](images/ImportAnimatedSpritesheet.png)
 
