@@ -38,7 +38,7 @@ Open up *ts_environment_5*.  *Press* the **Tile Set Properties** button and make
 	
 Assign each frame from left to right and fill up all 8 slots.
 
-![v](images/CreateAnimatedTileSheet.gif)
+https://user-images.githubusercontent.com/5504953/143683488-77da8028-1abc-4379-907a-05ee7a75b8db.mp4
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
