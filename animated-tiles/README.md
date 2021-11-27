@@ -23,7 +23,8 @@ https://user-images.githubusercontent.com/5504953/143681705-be25455d-867f-4eaf-b
 
 ##### `Step 2.`\|`BTS`|:small_blue_diamond: :small_blue_diamond: 
 
-Go to **GameMaker** and *right click* on **spr_environment_tiles_4** and select **Duplicate**. Call the duplicated **Sprite** `spr_environment_tiles_5`.  *Press* the <kbd>Import</kbd> button.  Select the **PNG** you just exported.
+Go to **GameMaker** and *right click* on **spr_environment_tiles_4** and select **Duplicate**. Call the duplicated **Sprite** `spr_environment_tiles_5`.  *Press* the <kbd>Import</kbd> button.  Select the **PNG** you just exported. *Right click* on **ts_environment_4** and call it `ts_environment_5`.  Bind the **spr_environment_tiles_5** sprite to this tile.
+Notice that you can combine static tiles (grass, dirt) with animated tiles (water).  Once a frame is marked as animated though it can no longer be used as a static file.
 
 https://user-images.githubusercontent.com/5504953/143682055-a07eaf41-c4da-443e-8324-00f30ea567a2.mp4
 
@@ -31,11 +32,11 @@ https://user-images.githubusercontent.com/5504953/143682055-a07eaf41-c4da-443e-8
 
 ##### `Step 3.`\|`BTS`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Create a new **Tileset** and call it *ts_animated_background_tiles*.  *Press* the **Tile Set Properties** button and set the **Tile Width** and **Tile Height** to `64`.
+Open up *ts_environment_5*.  *Press* the **Tile Set Properties** button and make sure the **Tile Width** and **Tile Height** is sert to `64`.
 
-*Press* the **Tile Animation** button.  THere are a few things to notice.  This animation sheet can only have one framerate for all the animations.  We will leave it at `15` FPS.  The number of animation frames has to be a power of 2 either 2, 4, 8, 16, 32, 64, 128 or 256. Press the small downward arrow and select `32`.
+*Press* the **Tile Animation** button.  THere are a few things to notice.  This animation sheet can only have one framerate for all the animations.  We will leave it at `15` FPS.  The number of animation frames has to be a power of 2 either 2, 4, 8, 16, 32, 64, 128 or 256. Press the small downward arrow and select `8`.
 	
-Assign each frame from left to right and fill up all 32 slots.
+Assign each frame from left to right and fill up all 8 slots.
 
 ![v](images/CreateAnimatedTileSheet.gif)
 
