@@ -64,8 +64,21 @@ https://user-images.githubusercontent.com/5504953/143765241-a75324aa-87f4-48e8-8
 
 ##### `Step 6.`\|`BTS`| :small_orange_diamond: :small_blue_diamond:
 
+While on the **Animation** layer *select* the **Room Edtior** tab. The **Water Animation** will appear at the bottom.  Click on the **fill** bucket tool and fill the screen with water hit the <kbd>Play</kbd> button. Notice that I forgot to move the **rm_water_animation** to the top of the **Room Order** list. Now this doesn't tile ver well.
+
 https://user-images.githubusercontent.com/5504953/143765492-7954b691-acc0-45d0-a32f-15055713c074.mp4
 
+
+<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+
+##### `Step 7.`\|`BTS`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
+
+
+<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+
+##### `Step 8.`\|`BTS`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
+
+![alt_text](images/.png)
 ___
 
 
