@@ -73,7 +73,9 @@ https://user-images.githubusercontent.com/5504953/143765492-7954b691-acc0-45d0-a
 
 ##### `Step 7.`\|`BTS`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Now I did tile the water horizontally so we can offset which frame the animation begins on.  We can go back to the **??** tab and select them as if they are static tiles.  Now once they are marked for animation, they will always animate.  But if I shift select all 8 they will all start on a different frame.  So rather than every tile starting on the same frame they will be offset and will lead to better looking water.  Increase the brush size and delete the old water tiles.  Then shift select all 8 tiles and place them offsetting them vertically by one column.  Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game and now you have much better looking water animation.
+Now I did tile the water horizontally so we can offset which frame the animation begins on.  Increase the brush size and delete the old water tiles.  
+
+We can go back to the **Brushes** tab and *shift* select all 8 of them as if they are static tiles.  Now once they are marked for animation, they will always animate.  But if I shift select all 8 they will all start on a different frame.  So rather than every tile starting on the same frame they will be offset and will lead to better looking water.  Pain the tiles on to the level 8 at a time offsetting them vertically by one tile. Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game and now you have much better looking water animation.
 
 https://user-images.githubusercontent.com/5504953/143766412-96e33942-3704-45ea-b17d-3842424b52f5.mp4
 
