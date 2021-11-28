@@ -56,6 +56,7 @@ Call this newly created library entry water_animation.
 	
 Select the new **Tiles_Animation** layer and assign the new `tls_animated_background_tiles` tile set to it.
 
+https://user-images.githubusercontent.com/5504953/143765241-a75324aa-87f4-48e8-8fe0-2458d706106c.mp4
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
