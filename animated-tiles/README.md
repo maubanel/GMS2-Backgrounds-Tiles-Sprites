@@ -75,7 +75,7 @@ https://user-images.githubusercontent.com/5504953/143765492-7954b691-acc0-45d0-a
 
 Now I did tile the water horizontally so we can offset which frame the animation begins on.  We can go back to the **??** tab and select them as if they are static tiles.  Now once they are marked for animation, they will always animate.  But if I shift select all 8 they will all start on a different frame.  So rather than every tile starting on the same frame they will be offset and will lead to better looking water.  Increase the brush size and delete the old water tiles.  Then shift select all 8 tiles and place them offsetting them vertically by one column.  Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game and now you have much better looking water animation.
 
-Uploading AnimationPass2.mp4…
+https://user-images.githubusercontent.com/5504953/143766412-96e33942-3704-45ea-b17d-3842424b52f5.mp4
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
