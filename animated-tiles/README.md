@@ -64,7 +64,7 @@ https://user-images.githubusercontent.com/5504953/143765241-a75324aa-87f4-48e8-8
 
 ##### `Step 6.`\|`BTS`| :small_orange_diamond: :small_blue_diamond:
 
-While on the **Animation** layer *select* the **Room Edtior** tab. The **Water Animation** will appear at the bottom.  Click on the **fill** bucket tool and fill the screen with water hit the <kbd>Play</kbd> button. Notice that I forgot to move the **rm_water_animation** to the top of the **Room Order** list. Now this doesn't tile ver well.
+While on the **Animation** layer *select* the **Room Edtior** tab. The **Water Animation** will appear at the bottom.  *Select* the **Libraries** tab in the **Room Editor** and select the new **water_animation** item. Click on the **fill** bucket tool and fill the screen with water hit the <kbd>Play</kbd> button. Notice that I forgot to move the **rm_water_animation** to the top of the **Room Order** list. Now this doesn't tile ver well.
 
 https://user-images.githubusercontent.com/5504953/143765492-7954b691-acc0-45d0-a32f-15055713c074.mp4
 
@@ -73,21 +73,20 @@ https://user-images.githubusercontent.com/5504953/143765492-7954b691-acc0-45d0-a
 
 ##### `Step 7.`\|`BTS`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
+Now I did tile the water horizontally so we can offset which frame the animation begins on.  We can go back to the **??** tab and select them as if they are static tiles.  Now once they are marked for animation, they will always animate.  But if I shift select all 8 they will all start on a different frame.  So rather than every tile starting on the same frame they will be offset and will lead to better looking water.  Increase the brush size and delete the old water tiles.  Then shift select all 8 tiles and place them offsetting them vertically by one column.  Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game and now you have much better looking water animation.
+
+Uploading AnimationPass2.mp4…
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 8.`\|`BTS`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.png)
-___
-
-
-
-*Select* the **Libraries** tab in the **Room Editor** and select the new **water_animation** item. Fill the entire room up with it.
-
 Select the **File | Save Project** then press **File | Quit** to make sure everything in the game is saved. If you are using **GitHub** open up **GitHub Desktop** and add a title and longer description (if necessary) and press the <kbd>Commit to main</kbd> button. Finish by pressing **Push origin** to update the server with the latest changes.
 
 ![save, quit, commit and push to github](images/GitHub.png)
+___
+
+
 <img src="https://via.placeholder.com/1000x4/dba81a/dba81a" alt="drawing" height="4px" alt = ""/>
 
 <img src="https://via.placeholder.com/1000x100/45D7CA/000000/?text=Next Up - Transparent Tiles">
