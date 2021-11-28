@@ -32,7 +32,7 @@ https://user-images.githubusercontent.com/5504953/143682055-a07eaf41-c4da-443e-8
 
 ##### `Step 3.`\|`BTS`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Open up *ts_environment_5*.  *Press* the **Tile Set Properties** button and make sure the **Tile Width** and **Tile Height** is sert to `64`.
+Open up **ts_environment_5**.  *Press* the **Tile Set Properties** button and make sure the **Tile Width** and **Tile Height** is sert to `64`.
 
 *Press* the **Tile Animation** button.  THere are a few things to notice.  This animation sheet can only have one framerate for all the animations.  We will set it at `4` FPS to slow it down a bit.  The number of animation frames has to be a power of 2 either 2, 4, 8, 16, 32, 64, 128 or 256. Press the small downward arrow and select `8`.
 	
@@ -52,9 +52,11 @@ Call this newly created library entry water_animation.
 
 ##### `Step 5.`\|`BTS`| :small_orange_diamond:
 
-*Right* click on your last room.  Select **Duplicate** and drag it to the top of the list in **Room Priorities**.  Call it `rm_water_animation.  *Create* another **Tile Layer** and call it `Animation`.  *Drag* it between **Instances** and **Tiles_Background**.
+*Right* click on your last room.  Select **Duplicate** and drag it to the top of the list in **Room Priorities**.  Call it `rm_water_animation.  
+
+Go to **Room Settings** and change the **Width** to `1920` and **Height** to `1080`. *Create* another **Tile Layer** and call it `Animation`.  *Drag* it between **Instances** and **Tiles_Background**.
 	
-Select the new **Tiles_Animation** layer and assign the new `tls_animated_background_tiles` tile set to it.
+Select the new **ts_environment_5** layer and assign the new `tls_animated_background_tiles` tile set to it.
 
 https://user-images.githubusercontent.com/5504953/143765241-a75324aa-87f4-48e8-8fe0-2458d706106c.mp4
 
