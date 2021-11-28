@@ -52,19 +52,17 @@ Call this newly created library entry water_animation.
 
 ##### `Step 5.`\|`BTS`| :small_orange_diamond:
 
-*Right* click on your last room.  Select **Duplicate** and drag it to the top of the list in **Room Priorities**.  Call it `rm_lvl_test_3`.  *Create* another **Tile Layer** and call it `Tile_Animation`.  *Drag* it between **Instances** and **Tiles_Background**.
+*Right* click on your last room.  Select **Duplicate** and drag it to the top of the list in **Room Priorities**.  Call it `rm_water_animation.  *Create* another **Tile Layer** and call it `Animation`.  *Drag* it between **Instances** and **Tiles_Background**.
 	
 Select the new **Tiles_Animation** layer and assign the new `tls_animated_background_tiles` tile set to it.
 
-*Select* the **Libraries** tab in the **Room Editor** and select the new **water_animation** item.  *Start* painting the water where you want it.
-
-Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. Now you should have nice animating water!
-
-![Add rm_lvl_test_3 and move to top of list.  Create a Tile_Animation layer and drag it between Instances and Tiles_Background.  Select Tiles_Animation layer and add the tls_animated_background_tiles to it.  Select Libraries and Room Eitor and select the water_animation and paint in room](images/AddThirdRoomForAnimatedTile.gif)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 6.`\|`BTS`| :small_orange_diamond: :small_blue_diamond:
+
+
+*Select* the **Libraries** tab in the **Room Editor** and select the new **water_animation** item. Fill the entire room up with it.
 
 Select the **File | Save Project** then press **File | Quit** to make sure everything in the game is saved. If you are using **GitHub** open up **GitHub Desktop** and add a title and longer description (if necessary) and press the <kbd>Commit to main</kbd> button. Finish by pressing **Push origin** to update the server with the latest changes.
 
