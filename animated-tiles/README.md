@@ -56,7 +56,7 @@ Call this newly created library entry water_animation.
 
 Go to **Room Settings** and change the **Width** to `1920` and **Height** to `1080`. *Create* another **Tile Layer** and call it `Animation`.  *Drag* it between **Instances** and **Tiles_Background**.
 	
-Select the new **ts_environment_5** layer and assign the new `tls_animated_background_tiles` tile set to it.
+Select the new **Animation** layer and assign the new `tls_animated_background_tiles` tile set to it. This contains the static tiles and the animated water tiles you just created.
 
 https://user-images.githubusercontent.com/5504953/143765241-a75324aa-87f4-48e8-8fe0-2458d706106c.mp4
 
