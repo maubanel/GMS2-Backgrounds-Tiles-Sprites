@@ -64,15 +64,17 @@ https://user-images.githubusercontent.com/5504953/143765241-a75324aa-87f4-48e8-8
 
 ##### `Step 6.`\|`BTS`| :small_orange_diamond: :small_blue_diamond:
 
+https://user-images.githubusercontent.com/5504953/143765492-7954b691-acc0-45d0-a32f-15055713c074.mp4
+
+___
+
+
 
 *Select* the **Libraries** tab in the **Room Editor** and select the new **water_animation** item. Fill the entire room up with it.
 
 Select the **File | Save Project** then press **File | Quit** to make sure everything in the game is saved. If you are using **GitHub** open up **GitHub Desktop** and add a title and longer description (if necessary) and press the <kbd>Commit to main</kbd> button. Finish by pressing **Push origin** to update the server with the latest changes.
 
 ![save, quit, commit and push to github](images/GitHub.png)
-___
-
-
 <img src="https://via.placeholder.com/1000x4/dba81a/dba81a" alt="drawing" height="4px" alt = ""/>
 
 <img src="https://via.placeholder.com/1000x100/45D7CA/000000/?text=Next Up - Transparent Tiles">
