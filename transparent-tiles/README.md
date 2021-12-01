@@ -39,15 +39,17 @@ https://user-images.githubusercontent.com/5504953/144301836-32b9e7a5-ae16-47e6-a
 
 ##### `Step 4.`\|`BTS`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
+
+
+<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+
+##### `Step 5.`\|`BTS`| :small_orange_diamond:
+
 Open **rm_lvl_test_3** and add another **Tile Layer** and call it **Transparent_Tiles** and put it inbetween **Instances** and **Tiles_Animation**.
 
 Sprinkle some trees around the level.
 
 ![Open rm_lbl_test_3 and add another Tile Layer and call it Transparent_Tiles and put it between Instances and Tiles_Animation and add some trees to the level](images/AddTreesToRoom.png)
-
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
-
-##### `Step 5.`\|`BTS`| :small_orange_diamond:
 
 Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. You should see trees on top of the other layer.  This is all we will do with tiles for now! 
 
