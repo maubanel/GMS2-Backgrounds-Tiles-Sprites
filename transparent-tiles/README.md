@@ -25,7 +25,7 @@ Tiles do not have to be opaque.  We can have transparent shapes that sit on top 
 
 Now go copy and paste the tree into **spr_background_tiles.psd** but make sure it has no background (delete any pixels in the 64 by 64 quadrant you are placing it in).  
 
-![Copy and paste the transparent tree above into spr_background_tiles.psd](images/TreeInPSDTilesheet.png)
+https://user-images.githubusercontent.com/5504953/144239273-a9e9110d-cf3d-4646-bef2-3a9ffa5fedfc.mp4
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
