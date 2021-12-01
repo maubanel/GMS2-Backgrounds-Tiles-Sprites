@@ -39,13 +39,21 @@ https://user-images.githubusercontent.com/5504953/144301836-32b9e7a5-ae16-47e6-a
 
 ##### `Step 4.`\|`BTS`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Clik on the the **ts_environment_6** and press the <kbd>Auto Tiling</kbd> button. Add 4 **16** auto tile templates for grass to dirt, dirt to grass, transparent to dirt and dirt to transparent.
+Clik on the the **ts_environment_6** and press the <kbd>Auto Tiling</kbd> button. Add four **16** auto tile templates for grass to dirt, dirt to grass, transparent to dirt and dirt to transparent.
 
 https://user-images.githubusercontent.com/5504953/144304962-15ab28ab-7fd8-4eb8-af47-522974233cd7.mp4
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 5.`\|`BTS`| :small_orange_diamond:
+
+Name the **Auto Tile Templates** `dirt_in_grass`, `grass_in_dirt`, `alpha_in_dirt` and `dirt_in_alpha`.
+
+![name auto tile templates](images/nameAutoTiles.png)
+
+<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+
+##### `Step 6.`\|`BTS`| :small_orange_diamond: :small_blue_diamond:
 
 Open **rm_lvl_test_3** and add another **Tile Layer** and call it **Transparent_Tiles** and put it inbetween **Instances** and **Tiles_Animation**.
 
@@ -56,10 +64,6 @@ Sprinkle some trees around the level.
 Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. You should see trees on top of the other layer.  This is all we will do with tiles for now! 
 
 ![Run the game and see the new transparent tiles](images/TransparentTiles.gif)
-
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
-
-##### `Step 6.`\|`BTS`| :small_orange_diamond: :small_blue_diamond:
 
 Select the **File | Save Project** then press **File | Quit** to make sure everything in the game is saved. If you are using **GitHub** open up **GitHub Desktop** and add a title and longer description (if necessary) and press the <kbd>Commit to main</kbd> button. Finish by pressing **Push origin** to update the server with the latest changes.
 
