@@ -63,7 +63,7 @@ https://user-images.githubusercontent.com/5504953/144310442-5d51cb1e-faa0-46fa-b
 
 ##### `Step 7.`\|`BTS`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
-*Select* the **Environments** layers and select the **ts_environment_6** tileset for the layer.  Select the **Libraries** tab and select the **grass_in_dirt** auto tile. Paint an island of grass inside the water. Select the **Alpha** layer and select the **ts_environment_6** tileset. Select the **dirt_in_alpha** layer and draw on the outside of the boundary between dirt and water.  Now go to the **Tiles** layer and add some trees on the grass.  
+*Select* the **Environments** layers and select the **ts_environment_6** tileset for the layer.  Select the **Libraries** tab and select the **grass_in_dirt** auto tile. Paint an island of grass inside the water. Select the **Alpha** layer and select the **ts_environment_6** tileset. Select the **dirt_in_alpha** layer and draw on the outside of the boundary between dirt and water.  Now go to the **Tiles** layer and add some trees on the grass.  Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. Now we have the animation, brushes, autotiling and transparency working on the three tile layers.
 
 https://user-images.githubusercontent.com/5504953/144313426-d170d198-0eae-4180-8824-3f09c8ca717e.mp4
 
@@ -72,22 +72,6 @@ https://user-images.githubusercontent.com/5504953/144313426-d170d198-0eae-4180-8
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 8.`\|`BTS`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
-
-![alt_text](images/.png)
-
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
-
-##### `Step 9.`\|`BTS`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
-
-![alt_text](images/.png)
-
-Sprinkle some trees around the level.
-
-![Open rm_lbl_test_3 and add another Tile Layer and call it Transparent_Tiles and put it between Instances and Tiles_Animation and add some trees to the level](images/AddTreesToRoom.png)
-
-Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. You should see trees on top of the other layer.  This is all we will do with tiles for now! 
-
-![Run the game and see the new transparent tiles](images/TransparentTiles.gif)
 
 Select the **File | Save Project** then press **File | Quit** to make sure everything in the game is saved. If you are using **GitHub** open up **GitHub Desktop** and add a title and longer description (if necessary) and press the <kbd>Commit to main</kbd> button. Finish by pressing **Push origin** to update the server with the latest changes.
 
