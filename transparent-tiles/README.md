@@ -55,11 +55,9 @@ Name the **Auto Tile Templates** `dirt_in_grass`, `grass_in_dirt`, `alpha_in_dir
 
 ##### `Step 6.`\|`BTS`| :small_orange_diamond: :small_blue_diamond:
 
-Right click on **rm_water_animatino** and call it `rm_transparency`.  Move the room to the top of the **Room Priority** list. Add another **Tile Layer** and call it **T
+Right click on **rm_water_animation** and call it `rm_transparency`.  Move the room to the top of the **Room Priority** list. Add another **Tile Layer** and call it **Transparent_Tiles** and put it inbetween **Instances** and **Tiles_Animation**.
 
 https://user-images.githubusercontent.com/5504953/144310442-5d51cb1e-faa0-46fa-b9bc-a35814793f6e.mp4
-
-ransparent_Tiles** and put it inbetween **Instances** and **Tiles_Animation**.
 
 Sprinkle some trees around the level.
 
