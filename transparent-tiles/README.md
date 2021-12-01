@@ -59,6 +59,24 @@ Right click on **rm_water_animation** and call it `rm_transparency`.  Move the r
 
 https://user-images.githubusercontent.com/5504953/144310442-5d51cb1e-faa0-46fa-b9bc-a35814793f6e.mp4
 
+<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+
+##### `Step 7.`\|`BTS`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
+
+![alt_text](images/.png)
+
+<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+
+##### `Step 8.`\|`BTS`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
+
+![alt_text](images/.png)
+
+<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+
+##### `Step 9.`\|`BTS`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
+
+![alt_text](images/.png)
+
 Sprinkle some trees around the level.
 
 ![Open rm_lbl_test_3 and add another Tile Layer and call it Transparent_Tiles and put it between Instances and Tiles_Animation and add some trees to the level](images/AddTreesToRoom.png)
