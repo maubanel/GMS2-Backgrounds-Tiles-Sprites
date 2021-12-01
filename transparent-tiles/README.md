@@ -15,7 +15,7 @@ We can also have tiles that don't take up the entire volume.  We can put an alph
 
 ##### `Step 1.`\|`BTS`|:small_blue_diamond:
 
-Tiles do not have to be opaque.  We can have transparent shapes that sit on top of other tiles.  I have included a tree as an example.  *Download* [TransparentTree.psd](../Assets/Photoshop/TransparentTree.psd).
+Tiles do not have to be opaque.  We can have transparent shapes that sit on top of other tiles.  I have included a tree as an example.  *Download* [TransparentTiles.psd](../Assets/Photoshop/TransparentTiles.psd).
 
 ![Locate Inluded Files/TutorialResources/Photoshop/TransparentTree.psd](images/TransparentTreePSD.png)
 
