@@ -33,7 +33,7 @@ https://user-images.githubusercontent.com/5504953/144239273-a9e9110d-cf3d-4646-b
 
 **Export** it one last time as a PNG file.  Then import it into `spr_background_tiles`.
 
-![Export to PNGF and import into gamemaker overwriting spr_background_tiles](images/FinalSprBackgroundTilesSupport.png)
+https://user-images.githubusercontent.com/5504953/144301836-32b9e7a5-ae16-47e6-a367-af98bb51001d.mp4
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
