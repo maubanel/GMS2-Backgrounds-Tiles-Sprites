@@ -63,6 +63,8 @@ https://user-images.githubusercontent.com/5504953/144310442-5d51cb1e-faa0-46fa-b
 
 ##### `Step 7.`\|`BTS`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
+*Select* the **Environments** layers and select the **ts_environment_6** tileset for the layer.  Select the **Libraries** tab and select the **grass_in_dirt** auto tile. Paint an island of grass inside the water. Select the **Alpha** layer and select the **ts_environment_6** tileset. Select the **dirt_in_alpha** layer and draw on the outside of the boundary between dirt and water.  Now go to the **Tiles** layer and add some trees on the grass.  
+
 https://user-images.githubusercontent.com/5504953/144313426-d170d198-0eae-4180-8824-3f09c8ca717e.mp4
 
 ![alt_text](images/.png)
