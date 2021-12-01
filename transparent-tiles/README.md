@@ -39,7 +39,7 @@ https://user-images.githubusercontent.com/5504953/144301836-32b9e7a5-ae16-47e6-a
 
 ##### `Step 4.`\|`BTS`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Clik on the the **ts_environment_6** and press the <kbd>Auto Tiling</kbd> button.
+Clik on the the **ts_environment_6** and press the <kbd>Auto Tiling</kbd> button. Add 4 **16** auto tile templates for grass to dirt, dirt to grass, transparent to dirt and dirt to transparent.
 
 https://user-images.githubusercontent.com/5504953/144304962-15ab28ab-7fd8-4eb8-af47-522974233cd7.mp4
 
