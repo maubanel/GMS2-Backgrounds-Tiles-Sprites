@@ -23,7 +23,7 @@ Tiles do not have to be opaque.  We can have transparent shapes that sit on top 
 
 ##### `Step 2.`\|`BTS`|:small_blue_diamond: :small_blue_diamond: 
 
-Now go copy and paste the tree into **spr_background_tiles.psd** but make sure it has no background (delete any pixels in the 64 by 64 quadrant you are placing it in).  
+*Duplicate* **ts_environment_5.psd** and *rename* it to `ts_environment_6.psd`. Open this file up in **Photoshop**.  Open up the above **TransparentTiles.psd** file in another *tab* in **Photoshop**. *Copy and paste* the content of these new transparent tiles to the next free line in **ts_environment_6.psd**. *Press* **File | Export | Quick Export as PNG**.  Save it in your working folder.
 
 https://user-images.githubusercontent.com/5504953/144239273-a9e9110d-cf3d-4646-bef2-3a9ffa5fedfc.mp4
 
