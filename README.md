@@ -48,6 +48,7 @@ In this walk through:
 <kbd></kbd> &nbsp;&nbsp; [Tile Brushes](tile-brushes/README.md#user-content-tile-brushes) <br>
 <kbd></kbd> &nbsp;&nbsp; [Animated Tiles](animated-tiles/README.md#user-content-animated-tiles) <br>
 <kbd></kbd> &nbsp;&nbsp; [Transparent Tiles](transparent-tiles/README.md#user-content-transparent-tiles) <br>
+<kbd></kbd> &nbsp;&nbsp; [Tiles from Scratch in Photoshop](tiles-photoshop/README.md#user-content-tiles-from-scratch-in-photoshop) <br>
 <kbd></kbd> &nbsp;&nbsp; [Animations](animations/README.md#user-content-animations) <br>
 <kbd></kbd> &nbsp;&nbsp; [Importing Animations](importing-animations/README.md#user-content-importing-animations) <br>
 <kbd></kbd> &nbsp;&nbsp; [Player Movement](player-movement/README.md#user-content-player-movement) <br>
