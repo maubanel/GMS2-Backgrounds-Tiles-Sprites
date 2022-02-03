@@ -26,9 +26,7 @@ In this walk through:
 * Tile Brushes
 * Animated Tiles
 * Transparent Tiles
-* Animating a Run Cycle
-* Importing Animations
-* Player movement with keyboard and gamepad
+
 
 <br>
 
