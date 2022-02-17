@@ -8,7 +8,7 @@ This tutorial is intended for those wanting an introducton to <i>GameMaker Studi
 
 This walkthrough also assumes you have access to Photoshop (or another pixel basee editor) though there are other free options out there for pixel editing.
 		
-This is a just a primer on creating art assets and not a detailed guide.  It is just to get you up and running in developing raster based 2-d assets.  We will end with creating controls for a playable sprite. 
+This is a just a primer on creating art assets and not a detailed guide.  It is just to get you up and running in developing raster based 2-d assets.  
 
 * Tested on GameMake Studio2.3.5.589
 * [GitHub Account](https://github.com) (free)
