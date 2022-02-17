@@ -55,7 +55,7 @@ You get to your empty repository on **GitHub**.
 
 ##### `Step 6.`\|`BTS`| :small_orange_diamond: :small_blue_diamond:
 
-Open up **GitHub Desktop** and select **File | New Repository** to create a **GitHub** repository inside the **Top-Down -Shooter** project you just created.
+Open up **GitHub Desktop** and select **File | New Repository** to create a **GitHub** repository inside the **Top-Down-Shooter** project you just created.
 
 ![alt_text](images/fileNewRepository.png)
 
@@ -71,7 +71,7 @@ Now we want the project to be in the same folder as the `.yyp` project filename 
 
 ##### `Step 8.`\|`BTS`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-When you see them there has to be a `.git` hidden folder in the **same** directory as the project file (in my case **Space-Rocks.yyp**).
+When you see them there has to be a `.git` hidden folder in the **same** directory as the project file (in my case **Backgrounds-Tiles-Sprites.yyp**).
 
 ![.git folder in the same folder as project file](images/SpaceRocksGitDir.png)
 
