@@ -15,7 +15,7 @@ Now no one wants to play a game with a single tile.  And using the background fe
 
 ##### `Step 1.`\|`BTS`|:small_blue_diamond:
 
-Lets start over again with a new document.  Open up **Adobe Substance 3D Sampler** and press **File |  New Project**.  Name the projet `Brick Textures`.  Drag and drop the processed brick we used in the last exercise.
+Lets start over again with a new document.  Open up **Adobe Substance 3D Sampler** and press **File |  New Project**.  Name the project `Brick Textures`.  Drag and drop the processed brick we used in the last exercise.
 		
 ![start new project in 3d smapler and call it brick textures and import brick image](images/newSubstanceProject.png)
 
