@@ -76,8 +76,6 @@ Select the **File | Save Project** then press **File | Quit** to make sure every
 
 ![save, quit, commit and push to github](images/GitHub.png)
 
-___
-
 ![](../images/line.png)
 
 <!-- <img src="https://via.placeholder.com/1000x100/45D7CA/000000/?text=That's All Folks"> -->
