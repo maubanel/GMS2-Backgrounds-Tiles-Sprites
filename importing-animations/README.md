@@ -1,10 +1,10 @@
-<img src="https://via.placeholder.com/1000x4/45D7CA/45D7CA" alt="drawing" height="4px"/>
+![](../images/line3.png)
 
 ### Importing Animations
 
 <sub>[previous](../animations/README.md#user-content-animations) • [home](../README.md#user-content-gms2-background-tiles--sprites---table-of-contents) • [next](../player-movement/README.md#user-content-player-movement)</sub>
 
-<img src="https://via.placeholder.com/1000x4/45D7CA/45D7CA" alt="drawing" height="4px"/>
+![](../images/line3.png)
 
 Lets look at how to import an animation sheet!
 
@@ -19,7 +19,7 @@ If you made a sprite sheet, you can use it.  Or, you can download the one I have
 
 ![Locate file Incldued Files/TutorialResources/Animation/MonkeyAnim.png](images/MonkeyAnimationPNG.png)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 2.`\|`BTS`|:small_blue_diamond: :small_blue_diamond: 
 
@@ -27,7 +27,7 @@ There are many sprite sheets that are not geometrically consistent.  Some sheets
 
 ![Sometimes you need 4 angles of run animations but our left and right is symmetrical so we can get away with three steps](images/MonkeyAnim.png)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 3.`\|`BTS`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
@@ -35,7 +35,7 @@ We can import the entire sheet as one animation but it will be easier if each mo
 
 ![Create a new sprite](images/CreateSprite.png)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 4.`\|`BTS`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
@@ -43,7 +43,7 @@ Now press the <kbd>Edit Image</kbd> button so we can get access to the image men
 
 ![Press edit image and go to the image menu](images/EditImage.png)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 5.`\|`BTS`| :small_orange_diamond:
 
@@ -51,7 +51,7 @@ Go to the Image menu item and select **Image | Import Strip Image** and select t
 
 ![Select Image | Import Strip Image and select MondyANim.png](images/ImageImportStrip.png)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 6.`\|`BTS`| :small_orange_diamond: :small_blue_diamond:
 
@@ -59,7 +59,7 @@ Now a **Convert to Frames** window appears. This is where we will select the num
 
 ![Select 8 Frames and Numbers Per Row and a Frame Width and Height of 64](images/ConvertToFramesMenu.png)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 7.`\|`BTS`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
@@ -69,7 +69,7 @@ Press the **Convert** button and select yes for the pop-up.
 
 ![Select Yes in pop-up menu](images/AnimationImportPopup.png)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 8.`\|`BTS`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
@@ -77,7 +77,7 @@ The animation is imported zoomed in so you press the **Reset Zoom** button to re
 
 ![Reset zoom and call file spr_player_down](images/ForwardAnimImported.png)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 9.`\|`BTS`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
@@ -85,7 +85,7 @@ You can now adjust the speed to your liking. It should look like.  We will have 
 
 ![djust Speed to 12](images/ForwardAnimationAt12FPS.gif)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 10.`\|`BTS`| :large_blue_diamond:
 
@@ -93,7 +93,7 @@ We also need to pick an animation frame for the idle animation. Normally we woul
 
 ![Show frame in down animation for idle](images/ThirdFrameIdleDown.png)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 11.`\|`BTS`| :large_blue_diamond: :small_blue_diamond: 
 
@@ -101,7 +101,7 @@ We also need to pick an animation frame for the idle animation. Normally we woul
 
 ![Create new Sprite and call it spr_player_down_left and press the Edit Image button](images/CreateDownIdleSprite.png)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 
 ##### `Step 12.`\|`BTS`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
@@ -110,7 +110,7 @@ Go to the **Image** menu item and select **Image | Import Strip Image**. Now a *
 
 ![Image import strip and select 64 for Frame Width and Height and 2 for Frame Offset and selecting a single frame](images/ImportForwardIdle.gif)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 13.`\|`BTS`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
@@ -118,7 +118,7 @@ Repeat by creating a new Sprite called spr_player_up and import the second row o
 
 ![Create a new sprite called spr_player_up and adjust Vertical Cell offset on import](images/PlayerMovingUp.gif)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 14.`\|`BTS`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
@@ -126,7 +126,7 @@ Create a new **Sprite**, call it `spr_player_up_idle` and press the <kbd>Edit Im
 
 ![Add idle for up animation](images/SprIdleUp.gif)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 15.`\|`BTS`| :large_blue_diamond: :small_orange_diamond: 
 
@@ -134,7 +134,7 @@ Create a new **Sprite**, call it `spr_player_up_idle` and press the <kbd>Edit Im
 
 ![Create spr_player_right and spr_player_right_idle and import appropriate animations on the third row](images/SprPlayerRight.gif)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 16.`\|`BTS`| :large_blue_diamond: :small_orange_diamond:   :small_blue_diamond: 
 
@@ -142,7 +142,7 @@ The last step is to set the origin in the middle center for **ALL** the sprites.
 
 ![Set origin to Middle Center for all sprites](images/MiddleCenterOrigin.png)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 17.`\|`BTS`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
@@ -152,11 +152,12 @@ Select the **File | Save Project** then press **File | Quit** to make sure every
 
 ___
 
-<img src="https://via.placeholder.com/1000x4/dba81a/dba81a" alt="drawing" height="4px" alt = ""/>
+![](../images/line.png)
 
-<img src="https://via.placeholder.com/1000x100/45D7CA/000000/?text=Next Up - Player Movement">
+<!-- <img src="https://via.placeholder.com/1000x100/45D7CA/000000/?text=Next Up - Player Movement"> -->
+![next up - ](images/banner.png)
 
-<img src="https://via.placeholder.com/1000x4/dba81a/dba81a" alt="drawing" height="4px" alt = ""/>
+![](../images/line.png)
 
 | [previous](../animations/README.md#user-content-animations)| [home](../README.md#user-content-gms2-background-tiles--sprites---table-of-contents) | [next](../player-movement/README.md#user-content-player-movement)|
 |---|---|---|

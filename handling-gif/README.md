@@ -1,10 +1,10 @@
-<img src="https://via.placeholder.com/1000x4/45D7CA/45D7CA" alt="drawing" height="4px"/>
+![](../images/line3.png)
 
 ### Handling GIFs and Other Formats
 
 <sub>[previous](../handling-jpg/README.md#user-content-handling-jpgs) • [home](../README.md#user-content-gms2-background-tiles--sprites---table-of-contents) • [next](../raster-vector/README.md#user-content-raster-and-vector)</sub>
 
-<img src="https://via.placeholder.com/1000x4/45D7CA/45D7CA" alt="drawing" height="4px"/>
+![](../images/line3.png)
 
 **GIFs** are sometimes used as it supports animation.  It also has a reduced pallete which enforces an **old school** look (which can be achieved in other formats as well).  
 
@@ -21,7 +21,7 @@ Add a new **Sprite** and press the <kbd>Import</kbd> button. Import the above **
 
 ![Imported spr_plane_gif.gif](images/ImportSprPlaneGif.png)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 2.`\|`BTS`|:small_blue_diamond: :small_blue_diamond: 
 
@@ -29,7 +29,7 @@ Open up **spr_plane_gif** and zoom in. That looks normal and hey there is an alp
 
 ![Close up of jagged GIF curve from spr_plane_gif.gif](images/ZoomIntoGIFSprEdge.png)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 3.`\|`BTS`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
@@ -37,7 +37,7 @@ Open up **spr_plane_gif** and zoom in. That looks normal and hey there is an alp
 
 ![Create an object called obj_plane_gif and bind spr_plane_gif to it](images/ObjPlaneGif.png)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 4.`\|`BTS`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
@@ -45,7 +45,7 @@ Drag **obj_plane_gif** in the room over the previous plane so we can see the dif
 
 ![Drag obj_plane_gif to the room](images/DragGIFInRoom.png)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 5.`\|`BTS`| :small_orange_diamond:
 
@@ -53,7 +53,7 @@ Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. N
 
 ![Run game and look at different type of sprites](images/GifAndJPGGameroom.png)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 6.`\|`BTS`| :small_orange_diamond: :small_blue_diamond:
 
@@ -63,7 +63,7 @@ If you zoom in you will notice that the **GIF** version has more banding on the 
 
 ![Zoom in of screenshot of gameplay shows that GIF has banding](images/SharpGIFEdge.png)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 7.`\|`BTS`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
@@ -71,7 +71,7 @@ If you zoom in you will notice that the **GIF** version has more banding on the 
 
 ![Import TIFF, BMP and PNG plane from TutorialResources/Misc/ folder](images/ImportBMPpngTIF.png)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 8.`\|`BTS`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
@@ -79,7 +79,7 @@ Press the <kbd>Import</kbd> button after creating three new sprites and call the
 
 ![Name three sprites spr_plane_bmp, spr_plane_png and spr_plane_tif](images/ImportThreeFormatSprites.png)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 9.`\|`BTS`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
@@ -87,7 +87,7 @@ Create three new game objects and assign the three sprites calling them the same
 
 ![Create three game objedts with three sprites above assigned called obj_plane_bmp, obj_plane_png, obj_plane_tiff](images/CreateThreePlaneObjects.png)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 10.`\|`BTS`| :large_blue_diamond:
 
@@ -100,7 +100,7 @@ Drag the room to the top of the **Room Order** list to select this as the room t
 ![put rm_tiff_bmp_png to the top of room order](images/roomOrder.png)
 
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 11.`\|`BTS`| :large_blue_diamond: :small_blue_diamond: 
 
@@ -108,7 +108,7 @@ Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. N
 
 ![Play game and notice that PNG and TIFF are identical.  BMP has no alpha](images/ThreePlanesInGame.png)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 
 ##### `Step 12.`\|`BTS`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
@@ -119,11 +119,12 @@ Select the **File | Save Project** then press **File | Quit** to make sure every
 
 ___
 
-<img src="https://via.placeholder.com/1000x4/dba81a/dba81a" alt="drawing" height="4px" alt = ""/>
+![](../images/line.png)
 
-<img src="https://via.placeholder.com/1000x100/45D7CA/000000/?text=Next Up - Raster and Vector">
+<!-- <img src="https://via.placeholder.com/1000x100/45D7CA/000000/?text=Next Up - Raster and Vector"> -->
+![next up - ](images/banner.png)
 
-<img src="https://via.placeholder.com/1000x4/dba81a/dba81a" alt="drawing" height="4px" alt = ""/>
+![](../images/line.png)
 
 | [previous](../handling-jpg/README.md#user-content-handling-jpgs)| [home](../README.md#user-content-gms2-background-tiles--sprites---table-of-contents) | [next](../raster-vector/README.md#user-content-raster-and-vector)|
 |---|---|---|

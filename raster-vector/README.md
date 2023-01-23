@@ -1,10 +1,10 @@
-<img src="https://via.placeholder.com/1000x4/45D7CA/45D7CA" alt="drawing" height="4px"/>
+![](../images/line3.png)
 
 ### Raster and Vector
 
 <sub>[previous](../handling-gif/README.md#user-content-handling-gifs-and-other-formats) • [home](../README.md#user-content-gms2-background-tiles--sprites---table-of-contents) • [next](../background-tile/README.md#user-content-background-and-single-tile)</sub>
 
-<img src="https://via.placeholder.com/1000x4/45D7CA/45D7CA" alt="drawing" height="4px"/>
+![](../images/line3.png)
 
 > A raster image is an image that is built using pixels. Any image taken with a digital camera or scanned into a computer is constructed using pixels. They use an abundance of different shades and colors of pixels to piece together a complete complex image, and the dimensions are measured using pixels. Paintings and images created in software such as PaintShop Pro result in raster images. The use of pixels to gradually shade images creates the appearance of a brush dipped in paint.<br><br>A vector image, however, is built using mathematical formula - not pixels. The file dictates several points and creates a line between them to form a specific shape. These are usually geometric shapes and makeup images that have bold lines and strong colors, like logos and abstract artwork. - [Corel Draw](https://www.coreldraw.com/en/tips/vector-images/raster-vs-vector/) 
 <br>
@@ -22,7 +22,7 @@ These planes were created in **Adobe Illustrator** as vector graphics so I could
 
 ![Zoomed in plane scaled up, one is a vector graphics the other is raster](images/PlaneBitmapAndVector.jpg)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 2.`\|`BTS`|:small_blue_diamond: :small_blue_diamond: 
 
@@ -34,11 +34,12 @@ There are some payoffs between using raster and vector artwork. GameMaker suppor
 
 ___
 
-<img src="https://via.placeholder.com/1000x4/dba81a/dba81a" alt="drawing" height="4px" alt = ""/>
+![](../images/line.png)
 
-<img src="https://via.placeholder.com/1000x100/45D7CA/000000/?text=Next Up - Background and Single Tile">
+<!-- <img src="https://via.placeholder.com/1000x100/45D7CA/000000/?text=Next Up - Background and Single Tile"> -->
+![next up - ](images/banner.png)
 
-<img src="https://via.placeholder.com/1000x4/dba81a/dba81a" alt="drawing" height="4px" alt = ""/>
+![](../images/line.png)
 
 | [previous](../handling-gif/README.md#user-content-handling-gifs-and-other-formats)| [home](../README.md#user-content-gms2-background-tiles--sprites---table-of-contents) | [next](../background-tile/README.md#user-content-background-and-single-tile)|
 |---|---|---|

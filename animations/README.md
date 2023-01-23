@@ -1,10 +1,10 @@
-<img src="https://via.placeholder.com/1000x4/45D7CA/45D7CA" alt="drawing" height="4px"/>
+![](../images/line3.png)
 
 ### Animations
 
 <sub>[previous](../transparent-tiles/README.md#user-content-transparent-tiles) • [home](../README.md#user-content-gms2-background-tiles--sprites---table-of-contents) • [next](../importing-animations/README.md#user-content-importing-animations)</sub>
 
-<img src="https://via.placeholder.com/1000x4/45D7CA/45D7CA" alt="drawing" height="4px"/>
+![](../images/line3.png)
 
 Animation for games is very different than those for film and animated television.  Animations have to flow between one and another and are often played cyclicly and in short pieces.  Lets take a look.
 
@@ -19,7 +19,7 @@ Now lets look at character animations. Animations for games are very different t
 
 ![Close up of simple monkey run animation looping in gamemaker](images/WalkCycle.gif)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 2.`\|`BTS`|:small_blue_diamond: :small_blue_diamond: 
 
@@ -27,7 +27,7 @@ What is this composed of? This breaks a run cycle into 8 frames.
 
 ![Break down of run animation](images/EightFrameWalkCycle.png)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 3.`\|`BTS`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
@@ -35,7 +35,7 @@ The other element of animation that is not intuitive is that we translate moveme
 
 ![Animate on spot and do not translate through space](images/TAKEPICTUREOFMARCWALKING.png)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 4.`\|`BTS`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
@@ -43,7 +43,7 @@ There are many tricks and techniques for animating characters. One of them is to
 
 ![Start creating a character is by simple forms slowly adding detail](images/StartLowResWorkWayUp.png)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 5.`\|`BTS`| :small_orange_diamond:
 
@@ -51,7 +51,7 @@ You can also build it piece by piece.
 
 ![You can also create a character finished piece by piece](images/PieceByPiece.png)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 6.`\|`BTS`| :small_orange_diamond: :small_blue_diamond:
 
@@ -61,7 +61,7 @@ Look at the shading above in the feet of the robot. The back legs are dark which
 
 ![Mercenary Kings animation showing vertical translation](images/https://66.media.tumblr.com/tumblr_m8x5bz2sXg1qhccbco3_r2_250.gif)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 7.`\|`BTS`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
@@ -69,7 +69,7 @@ And then finally go as big as you can, check out [Scott Pilgrim Vs. The World](h
 
 ![Scott Pilgrim versus the world big sprite freakout](images/https://vignette.wikia.nocookie.net/scottpilgrim/images/8/86/Toddingram_freakout_a-1-.gif/revision/latest?cb=20101124145749)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 8.`\|`BTS`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
@@ -77,7 +77,7 @@ There are many tools that you can use to draw and animate sprite. Photoshop can 
 
 ![Find a good reference and make sure the player is running on spot](images/FileImportMovieToLayers.png)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 9.`\|`BTS`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
@@ -85,7 +85,7 @@ You can use a **Wacom** tablet and trace over key frames you select.
 
 ![Add a loop that repeats 5 times and adds one to a variable](images/TraceOnTopOfReference.png)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 10.`\|`BTS`| :large_blue_diamond:
 
@@ -93,7 +93,7 @@ Make sure you can export them in a sprite sheet that can be easily imported into
 
 ![Make sure you can export them in a sprite sheet that can be easily imported into GameMaker and this tilesheet was a 128 x 64 pixel sprite sheet](images/TileSheet.png)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 11.`\|`BTS`| :large_blue_diamond: :small_blue_diamond: 
 
@@ -103,7 +103,7 @@ If you want a clean vector look you can use Illustrator and use reference. I sug
 
 ![Set up images in Illustrator as a prite sheet and export all the artboards as one png file](images/AnimationSheet.png)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 
 ##### `Step 12.`\|`BTS`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
@@ -116,7 +116,7 @@ To export from **Illustrator** press **File | Export | Export For Screens**. It 
 
 ![and press the full document button to get a tilesheet and make sure to preserve the alpha](images/ExportAsSpriteSheet.png)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 
 
@@ -128,11 +128,12 @@ Select the **File | Save Project** then press **File | Quit** to make sure every
 ___
 
 
-<img src="https://via.placeholder.com/1000x4/dba81a/dba81a" alt="drawing" height="4px" alt = ""/>
+![](../images/line.png)
 
-<img src="https://via.placeholder.com/1000x100/45D7CA/000000/?text=Next Up - Importing Animations">
+<!-- <img src="https://via.placeholder.com/1000x100/45D7CA/000000/?text=Next Up - Importing Animations"> -->
+![next up - ](images/banner.png)
 
-<img src="https://via.placeholder.com/1000x4/dba81a/dba81a" alt="drawing" height="4px" alt = ""/>
+![](../images/line.png)
 
 | [previous](../transparent-tiles/README.md#user-content-transparent-tiles)| [home](../README.md#user-content-gms2-background-tiles--sprites---table-of-contents) | [next](../importing-animations/README.md#user-content-importing-animations)|
 |---|---|---|

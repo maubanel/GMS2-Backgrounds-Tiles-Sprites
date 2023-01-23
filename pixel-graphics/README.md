@@ -1,10 +1,10 @@
-<img src="https://via.placeholder.com/1000x4/45D7CA/45D7CA" alt="drawing" height="4px"/>
+![](../images/line3.png)
 
 ### Pixel Graphics Formats
 
 <sub>[previous](../setting-up/README.md#user-content-setting-up) • [home](../README.md#user-content-gms2-background-tiles--sprites---table-of-contents) • [next](../handling-jpg/README.md#user-content-handling-jpgs)</sub>
 
-<img src="https://via.placeholder.com/1000x4/45D7CA/45D7CA" alt="drawing" height="4px"/>
+![](../images/line3.png)
 
 We will be looking at techniques for creating animations for GameMaker video games. We will look at pixel art, vector art and some common techniques when building characters and levels.
 
@@ -26,7 +26,7 @@ Look at the **PNG** format supporting different bit depths and channels. This ta
 
 ![Table from Wikipedia of different image types](images/WikipediaPNGTable.png)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 2.`\|`BTS`|:small_blue_diamond: :small_blue_diamond: 
 
@@ -34,7 +34,7 @@ There are many different raster formats that images can be saved in. I have high
 
 ![Showing photoshop export option file types](images/ImageTypes.png)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 3.`\|`BTS`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
@@ -46,7 +46,7 @@ Look at the below image on the right, you can see some banding in the colors.  T
 
 ![JPG Compression artifacts in picture shows banding on colors](images/CompressionArtifacting.png)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 4.`\|`BTS`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
@@ -54,7 +54,7 @@ Lets zoom in a bit to see the banding better.
 
 ![Zoomed in JPG Compression artifacts in picture shows banding on colors](images/CompressionArtifactingZoomedIn.png)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 5.`\|`BTS`| :small_orange_diamond:
 
@@ -72,7 +72,7 @@ It is important to note that the format will need to be sent to the GPU in its r
 
 ![Graphics of different file formats](images/RasterFormats.png)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 6.`\|`BTS`| :small_orange_diamond: :small_blue_diamond:
 
@@ -80,7 +80,7 @@ Let's look at some of this in action. I have included a **PSD (photoshop file)**
 
 ![Find TutorialResources/Photoshop/spr_lsu_gradient_bkg.png file](images/OpenWithPhotoshop.png)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 7.`\|`BTS`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
@@ -88,7 +88,7 @@ Now lets look at it in **Photoshop**. It is really hard to see what is going on.
 
 ![Look at TutorialResources/Photoshop/spr_lsu_gradient_bkg.png in Photoshop](images/SingleGradient.png)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 8.`\|`BTS`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
@@ -96,7 +96,7 @@ Here it is zoomed in.
 
 ![Look at TutorialResources/Photoshop/spr_lsu_gradient_bkg.psd in Photoshop zoomed in to show line](images/ZoomedIn.png)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 9.`\|`BTS`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
@@ -104,7 +104,7 @@ There is no need to alter this graphic.  *Select* **File | Export | Quick Export
 
 ![Export as PNG from Photoshop](images/QuickExportToPNG.png)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 10.`\|`BTS`| :large_blue_diamond:
 
@@ -112,7 +112,7 @@ There is no need to alter this graphic.  *Select* **File | Export | Quick Export
 
 ![Import Sprite spr_lsu_gradient_bkg.png that you just exported](images/CreateAndImportSprite.gif)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 11.`\|`BTS`| :large_blue_diamond: :small_blue_diamond: 
 
@@ -120,7 +120,7 @@ Name the new sprite: `spr_lsu_gradient_bkg`.
 
 ![Name sprite spr_lsu_gradient_bkg](images/SPRLSUBackground.png)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 
 ##### `Step 12.`\|`BTS`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
@@ -129,7 +129,7 @@ Double click the room and change the name to `rm_first_import`. Go to the **Back
 
 ![Assign spr_lsu_gradient_bkg to room rm_first_import background](images/AddFirstBackground.png)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 13.`\|`BTS`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
@@ -141,7 +141,7 @@ We are creating a gradient background with as little data as possible. So how do
 
 ![Tile background sprite](images/HorizontalTileBKG.png)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 14.`\|`BTS`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
@@ -149,7 +149,7 @@ Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. Y
 
 ![Play game and look at gradient backgroudn without compression artifcating](images/GradientBckInGame.png)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 15.`\|`BTS`| :large_blue_diamond: :small_orange_diamond: 
 
@@ -159,11 +159,12 @@ Select the **File | Save Project** then press **File | Quit** to make sure every
 
 ___
 
-<img src="https://via.placeholder.com/1000x4/dba81a/dba81a" alt="drawing" height="4px" alt = ""/>
+![](../images/line.png)
 
-<img src="https://via.placeholder.com/1000x100/45D7CA/000000/?text=Next Up - JPGs">
+<!-- <img src="https://via.placeholder.com/1000x100/45D7CA/000000/?text=Next Up - JPGs"> -->
+![next up - ](images/banner.png)
 
-<img src="https://via.placeholder.com/1000x4/dba81a/dba81a" alt="drawing" height="4px" alt = ""/>
+![](../images/line.png)
 
 | [previous](../setting-up/README.md#user-content-setting-up)| [home](../README.md#user-content-gms2-background-tiles--sprites---table-of-contents) | [next](../handling-jpg/README.md#user-content-handling-jpgs)|
 |---|---|---|
