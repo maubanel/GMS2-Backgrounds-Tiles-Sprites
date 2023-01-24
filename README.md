@@ -2,7 +2,7 @@
 
 
 <!-- OVERVIEW -->
-This tutorial is intended for those wanting an introduction to <i>GameMaker Studio 2</i> using their scrpting language <i>GML</i>. This assumes no prior knowledge of the software or scripting. 
+This tutorial is intended for those wanting an introduction to <i>GameMaker Studio 2</i> using their scripting language <i>GML</i>. This assumes no prior knowledge of the software or scripting. 
 
 This tutorial is intended for those wanting an introducton to <i>GameMaker Studio 2</i> using their sprite and tiling tools. It is a good idea to look at [Sprite Editor IDE Basics](https://marketplace.yoyogames.com/assets/4370/the-sprite-editor-ide-basics) but this walk through will be a bit more hands on.
 
