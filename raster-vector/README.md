@@ -34,8 +34,6 @@ There are some payoffs between using raster and vector artwork. GameMaker suppor
 
 ![swf support on gamemakers website](images/swfGameMaker.png)
 
-___
-
 ![](../images/line.png)
 
 <!-- <img src="https://via.placeholder.com/1000x100/45D7CA/000000/?text=Next Up - Background and Single Tile"> -->
