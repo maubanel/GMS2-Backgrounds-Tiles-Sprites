@@ -49,7 +49,7 @@ Create a text file in TextEdit (Mac) or NotePad (PC) and create a file called `R
 
 Open up **P4V**.  Select the top folder and press the **Add** button.  We want to add all the new files we created during this last session.  Add these files to the last change list you used at the begining of the session (in my case it was `Spaceship I portion of walkthrough`). Press the <kbd>OK</kbd> button.
 
-![add new project folder to perforce](images/addFiles.png)
+![add new project folder to perforce](images/add.png)
 
 
 ![](../images/line2.png)
@@ -58,7 +58,7 @@ Open up **P4V**.  Select the top folder and press the **Add** button.  We want t
 
 Press the <kbd>Submit</kbd> button and the changlist window comes up.  Press the <kbd>Submit</kbd> button on this pop up Window.
 
-![alt_text](images/submitToServer.png)
+![alt_text](images/submit.png)
 
 ![](../images/line2.png)
 
