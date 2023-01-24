@@ -39,7 +39,7 @@ Select the **File | Save Project**, then press **File | Quit** (PC) **Game Maker
 
 ##### `Step 4.`\|`BTS`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Create a text file in TextEdit (Mac) or NotePad (PC) and create a file called `README`.  In the file just write you name on the first line.  Save it in the directory that contains your **SpaceRocks.yyp** file in the route folder of the project.
+Create a text file in TextEdit (Mac) or NotePad (PC) and create a file called `README`.  In the file just write you name on the first line.  Save it in the directory that contains your **BackgroundsTilesSprites.yyp** file in the route folder of the project.
 
 ![create and save README file with name in it](images/readmeFile.png)
 
