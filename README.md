@@ -10,9 +10,7 @@ This walkthrough also assumes you have access to Photoshop (or another pixel bas
 		
 This is a just a primer on creating art assets and not a detailed guide.  It is just to get you up and running in developing raster based 2-d assets.  
 
-* Tested on GameMake Studio2.3.5.589
-* [GitHub Account](https://github.com) (free)
-* [GitHub Desktop](https://desktop.github.com)
+* Tested on GameMake Studio 2022.11
 
 In this walk through:
 
