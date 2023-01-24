@@ -20,6 +20,9 @@ Open up the project you are working on in **GameMaker**.
 
 ![checkout files and create new changelist](images/checkoutFiles.png)
 
+![](../images/line2.png)
+
+##### `Step 2.`\|`BTS`|:small_blue_diamond: :small_blue_diamond: 
 
 We will be looking at techniques for creating animations for GameMaker video games. We will look at pixel art, vector art and some common techniques when building characters and levels.
 
@@ -35,7 +38,7 @@ Look at the **PNG** format supporting different bit depths and channels. This ta
 
 ![](../images/line2.png)
 
-##### `Step 2.`\|`BTS`|:small_blue_diamond: :small_blue_diamond: 
+##### `Step 3.`\|`BTS`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
 There are many different raster formats that images can be saved in. I have highlighted a few in **Photoshop** that are common: *psd*, *gif*, *jpg*, *png*, *tiff*, & *targa*.
 
@@ -43,7 +46,7 @@ There are many different raster formats that images can be saved in. I have high
 
 ![](../images/line2.png)
 
-##### `Step 3.`\|`BTS`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
+##### `Step 4.`\|`BTS`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
 They all have different abilities and there are good reasons to use or not use them in a game. Let's first look at *lossy* versus *lossless* images. A **lossy** image is one where the image size is shrunk by algorithms that change (hopefully not noticably) to save space. **Jpeg** (`.jpg`) files is a common compressed file type. Here is an example of the plane from the WW2 shooter with the least compression on the left and most on the right:
 	 
@@ -55,7 +58,7 @@ Look at the below image on the right, you can see some banding in the colors.  T
 
 ![](../images/line2.png)
 
-##### `Step 4.`\|`BTS`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
+##### `Step 5.`\|`BTS`| :small_orange_diamond:
 
 Lets zoom in a bit to see the banding better.
 
@@ -63,7 +66,7 @@ Lets zoom in a bit to see the banding better.
 
 ![](../images/line2.png)
 
-##### `Step 5.`\|`BTS`| :small_orange_diamond:
+##### `Step 6.`\|`BTS`| :small_orange_diamond: :small_blue_diamond:
 
 It is important to note that the format will need to be sent to the GPU in its raw decompressed state so ultimately the entire size is required to display the image. Each game will have different demands for either aesthetic or performance reasons. In most cases **png** or **bmp** is the default format to use and is recommended by **GameMaker**. Lets look at various formats:
 	
@@ -81,7 +84,7 @@ It is important to note that the format will need to be sent to the GPU in its r
 
 ![](../images/line2.png)
 
-##### `Step 6.`\|`BTS`| :small_orange_diamond: :small_blue_diamond:
+##### `Step 7.`\|`BTS`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
 Let's look at some of this in action. I have included a **PSD (photoshop file)** and please download [spr_lsu_gradient_bkg.psd](../Assets/Photoshop/spr_lsu_gradient_bkg.psd) Find it in the file explorer and load it in **Photoshop**.
 
@@ -89,7 +92,7 @@ Let's look at some of this in action. I have included a **PSD (photoshop file)**
 
 ![](../images/line2.png)
 
-##### `Step 7.`\|`BTS`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
+##### `Step 8.`\|`BTS`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
 Now lets look at it in **Photoshop**. It is really hard to see what is going on.  What I have done is created a gradient spread between the two LSU school colors.  Now instead of filling the whole background I am making it one pixel wide.  This way we can repeat this texture horizontally and will get an endlessly long level with this gradient.  It is currently set at the height of the default room size which we will leave the same. In games we want to keep graphics as small as we can.
 
@@ -97,7 +100,7 @@ Now lets look at it in **Photoshop**. It is really hard to see what is going on.
 
 ![](../images/line2.png)
 
-##### `Step 8.`\|`BTS`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
+##### `Step 9.`\|`BTS`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
 Here it is zoomed in.
 
@@ -105,7 +108,7 @@ Here it is zoomed in.
 
 ![](../images/line2.png)
 
-##### `Step 9.`\|`BTS`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
+##### `Step 10.`\|`BTS`| :large_blue_diamond:
 
 There is no need to alter this graphic.  *Select* **File | Export | Quick Export as PNG** .  Save it to a location of your choice.
 
@@ -113,7 +116,7 @@ There is no need to alter this graphic.  *Select* **File | Export | Quick Export
 
 ![](../images/line2.png)
 
-##### `Step 10.`\|`BTS`| :large_blue_diamond:
+##### `Step 11.`\|`BTS`| :large_blue_diamond: :small_blue_diamond: 
 
 *Add* a new Sprite by right clicking the **Sprites** title in the **Resources** tab and select **Create | Sprite** and press the <kbd>Import</kbd> button. *Select* the png that you just exported then press the <kbd>Yes</kbd> button at the menu prompt.
 
@@ -121,7 +124,8 @@ There is no need to alter this graphic.  *Select* **File | Export | Quick Export
 
 ![](../images/line2.png)
 
-##### `Step 11.`\|`BTS`| :large_blue_diamond: :small_blue_diamond: 
+
+##### `Step 12.`\|`BTS`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
 
 Name the new sprite: `spr_lsu_gradient_bkg`. 
 
@@ -129,8 +133,7 @@ Name the new sprite: `spr_lsu_gradient_bkg`.
 
 ![](../images/line2.png)
 
-
-##### `Step 12.`\|`BTS`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
+##### `Step 13.`\|`BTS`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
 Double click the room and change the name to `rm_first_import`. Go to the **Background Layer** on the left hand menu and select `spr_lsu_gradient_bkg` as the background sprite. Now it is very hard to see because it is only one pixel wide.
 
@@ -138,7 +141,7 @@ Double click the room and change the name to `rm_first_import`. Go to the **Back
 
 ![](../images/line2.png)
 
-##### `Step 13.`\|`BTS`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
+##### `Step 14.`\|`BTS`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
 Why did I make it 1 pixel wide and not just create a sprite that was the size of the room? We want to be as efficient with the size of the sprites as possible. Every video card has maximum texture sizes that it can hold and we can go through that barrier quickly. 
 
@@ -150,7 +153,7 @@ We are creating a gradient background with as little data as possible. So how do
 
 ![](../images/line2.png)
 
-##### `Step 14.`\|`BTS`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
+##### `Step 15.`\|`BTS`| :large_blue_diamond: :small_orange_diamond: 
 
 Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. You can see a perfectly uncompressed gradient that went from a PSD, to a PNG to a GameMaker Sprite with no degradation in quality.
 
@@ -158,15 +161,23 @@ Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. Y
 
 ![](../images/line2.png)
 
-##### `Step 15.`\|`BTS`| :large_blue_diamond: :small_orange_diamond: 
+##### `Step 16.`\|`BTS`| :large_blue_diamond: :small_orange_diamond:   :small_blue_diamond: 
 
 Select the **File | Save Project**, then press **File | Quit** (PC) **Game Maker | Quit** on Mac to make sure everything in the game is saved.
 
 ![save then quit gamemaker](images/saveQuit.png)
 
+![](../images/line2.png)
+
+##### `Step 17.`\|`BTS`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
+
 Open up **P4V**.  Select the top folder and press the **Add** button.  We want to add all the new files we created during this last session.  Add these files to the last change list you used at the begining of the session (in my case it was `Spaceship I portion of walkthrough`). Press the <kbd>OK</kbd> button.
 
 ![add new and changed files to p4v](images/add.png)
+
+![](../images/line2.png)
+
+##### `Step 18.`\|`BTS`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
 Now you can submit the changelist by pressing both <kbd>Submit</kbd> buttons.
 
