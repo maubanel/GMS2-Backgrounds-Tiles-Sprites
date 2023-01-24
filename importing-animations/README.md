@@ -15,9 +15,20 @@ Lets look at how to import an animation sheet!
 
 ##### `Step 1.`\|`BTS`|:small_blue_diamond:
 
+Open up **P4v**.  Select the top folder of the **GameMaker** project. Press the <kbd>Checkout</kbd> button.  Checkout out all files in P4V so that they are all writable (otherwise they will be read only and none of the changes will be saved). Select a **New** changelist and add a message describing the unit of work you will be performing. Press the <kbd>OK</kbd> button.
+
+Open up the project you are working on in **GameMaker**. 
+
+![checkout files and create new changelist](images/checkoutFiles.png)
+
+
 If you made a sprite sheet, you can use it.  Or, you can download the one I have created for you. I have included a PSD (photoshop file) [MonkeyAnim.png](../Assets/Animation/MonkeyAnim.png).
 
 ![Locate file Incldued Files/TutorialResources/Animation/MonkeyAnim.png](images/MonkeyAnimationPNG.png)
+
+Select the **File | Save Project**, then press **File | Quit** (PC) **Game Maker | Quit** on Mac to make sure everything in the game is saved.
+
+![save then quit gamemaker](images/saveQuit.png)
 
 ![](../images/line2.png)
 

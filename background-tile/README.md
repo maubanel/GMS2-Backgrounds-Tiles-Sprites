@@ -23,6 +23,10 @@ We usually break our artwork down into reusable *lego* pieces into their smalles
 
 ##### `Step 1.`\|`BTS`|:small_blue_diamond:
 
+Select the **File | Save Project**, then press **File | Quit** (PC) **Game Maker | Quit** on Mac to make sure everything in the game is saved.
+
+![save then quit gamemaker](images/saveQuit.png)
+
 We are going to go with 64 by 64 for this exercise.  Start a new photoshop file and import a large texture you like. Pick one you took with your camera or grab a free one that is copyright cleared to use on the internet.  I grabbed a photorealistic brick wall texture and made sure it has a lot more surface area than I need.  This way I can use different parts of this texture to build variety. If you don't have a camera you can download the image used here: [spr_brick_1.png](../Assets/PNG/spr_brick_1.png).
     
 

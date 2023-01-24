@@ -14,6 +14,13 @@
 
 ##### `Step 1.`\|`BTS`|:small_blue_diamond:
 
+Open up **P4v**.  Select the top folder of the **GameMaker** project. Press the <kbd>Checkout</kbd> button.  Checkout out all files in P4V so that they are all writable (otherwise they will be read only and none of the changes will be saved). Select a **New** changelist and add a message describing the unit of work you will be performing. Press the <kbd>OK</kbd> button.
+
+Open up the project you are working on in **GameMaker**. 
+
+![checkout files and create new changelist](images/checkoutFiles.png)
+
+
 I would be remiss not to quickly discuss raster versus vector artwork.  Now this plane I created was done in Illustrator as a vector art.  I exported it as a raster pixel art from the software.
 
 Vector graphics unlike bitmap graphics can scale endlessly without pixilating. Here is the plane from the game in bitmap scaled up 500% and in vectors scaled up 500%.

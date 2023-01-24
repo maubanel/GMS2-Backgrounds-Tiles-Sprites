@@ -14,6 +14,13 @@ We will be looking at techniques for creating animations for GameMaker video gam
 
 ##### `Step 1.`\|`BTS`|:small_blue_diamond:
 
+Open up **P4v**.  Select the top folder of the **GameMaker** project. Press the <kbd>Checkout</kbd> button.  Checkout out all files in P4V so that they are all writable (otherwise they will be read only and none of the changes will be saved). Select a **New** changelist and add a message describing the unit of work you will be performing. Press the <kbd>OK</kbd> button.
+
+Open up the project you are working on in **GameMaker**. 
+
+![checkout files and create new changelist](images/checkoutFiles.png)
+
+
 We will be looking at techniques for creating animations for GameMaker video games. We will look at pixel art, vector art and some common techniques when building characters and levels.
 
 With bitmaps we have a series of pixels. This is sometimes refered to as [raster](https://www.customink.com/help_center/raster-vs-vector-art) art.  In a 32 x 32 sprite we have: 32 x 32 = 1,024 total pixels. The pixel is most likely to contain 32 bits of data (8 bit red, 8 bit green, 8 bit blue, and 8 bit alpha). 8 bits is a [binary](https://en.wikipedia.org/wiki/Binary_number) representation of decimal 256. An 8 bit binary number can hold 256 individual decimal values.
