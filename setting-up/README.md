@@ -15,100 +15,58 @@ Lets get set up to start our work in backgrounds, image formats and animation.
 
 ##### `Step 1.`\|`BTS`|:small_blue_diamond:
 
-Go to [New GML Project](https://github.com/maubanel/GMS2-Snippets/blob/main/new-gml/README.md#user-content-new-gml-project) and create a project called `Backgrounds-Tiles-Sprites`. Click on the <kbd>Settings</kbd> button and change the name of the **Display Name** on macOS and/or Windows to `Backgrounds-Tiles-Sprites`.  Check the directory and double check that it created the files where you expected.
+Pres the <kbd>New</kbd> then the <kbd>New Blank</kbd> to create a new blank project. Call the project `BackgroundsTilesSprites`. Put it in the same folder that contains your **Perforce** repository. It should appear in the same folder as the first project **Getting Started** and **Space Rocks**. Select this directory by pressing the <kbd>Open</kbd> button. Press the <kbd>Lets Go!</kbd> button to start our new project.
 
-![start gamemaker studio 2 project called Backgrounds-Tiles-Sprites](images/backgroundTS.png)
+![start gamemaker studio 2 project called TopDownShooter](images/newProject.png)
 
 ![](../images/line2.png)
 
 ##### `Step 2.`\|`BTS`|:small_blue_diamond: :small_blue_diamond: 
 
-Click on the **[GitHub Classroom Link](https://classroom.github.com/a/nOy4s54Y)** if you want a repository to use for the game. Press the <kbd>Accept this assignment</kbd> button. 
+Now you should have an empty game with the defaul room! Change the room name to `rm_first_import`.
 
-![GitHub desktop accept assignemtn page](images/AcceptAssignment.png)
+![empty project](images/blankProject.png)
 
 ![](../images/line2.png)
 
 ##### `Step 3.`\|`BTS`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-You will now be sent to a message that says the repository is being configured.  Wait a few seconds then press the refresh button.
+Select the **File | Save Project**, then press **File | Quit** (PC) **Game Maker | Quit** on Mac to make sure everything in the game is saved.
 
-![press refresh to see repository](images/refreshForLink.png)
+![save then quit gamemaker](images/saveQuit.png)
 
-![](../images/line2.png)
+![](../images/blankProject.png)
 
 ##### `Step 4.`\|`BTS`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Eventually you will get a link to the repository that **GitHub Classroom** has created.  *Click* on the link to your new repository.
+Create a text file in TextEdit (Mac) or NotePad (PC) and create a file called `README`.  In the file just write you name on the first line.  Save it in the directory that contains your **SpaceRocks.yyp** file in the route folder of the project.
 
-![press link to repository](images/linkToRepository.png)
+![create and save README file with name in it](images/readmeFile.png)
 
 ![](../images/line2.png)
 
 ##### `Step 5.`\|`BTS`| :small_orange_diamond:
 
-You get to your empty repository on **GitHub**.
+Open up **P4V**.  Select the top folder and press the **Add** button.  We want to add all the new files we created during this last session.  Add these files to the last change list you used at the begining of the session (in my case it was `Spaceship I portion of walkthrough`). Press the <kbd>OK</kbd> button.
 
-![empty repository](images/blankRepo.png)
+![add new project folder to perforce](images/addFiles.png)
+
 
 ![](../images/line2.png)
 
 ##### `Step 6.`\|`BTS`| :small_orange_diamond: :small_blue_diamond:
 
-Open up **GitHub Desktop** and select **File | New Repository** to create a **GitHub** repository inside the **Top-Down-Shooter** project you just created.
+Press the <kbd>Submit</kbd> button and the changlist window comes up.  Press the <kbd>Submit</kbd> button on this pop up Window.
 
-![alt_text](images/fileNewRepository.png)
+![alt_text](images/submitToServer.png)
 
 ![](../images/line2.png)
 
 ##### `Step 7.`\|`BTS`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Now we want the project to be in the same folder as the `.yyp` project filename (in this case Top-Down-Shooter).  You then need to set the **name** the exact name of the folder that holds the project.  So in my case the folder that contained the project was **Documents | GitHub**.  So I use this as the **Local Path**.  For the **Name** I use the project folder `Top-Down-Shooter`. It has to be spelled EXACTLY the same way as the one that holds the **GameMaker** project. This way it will create a git repository in this folder without creating a new folder.
+Confirm that you have properly uploaded to the **Depot** by selecting the tab and you should see the **SpaceRocks** folder up on the server!
 
-![create git repository in project](images/SelectProjetFolder.png)
-
-![](../images/line2.png)
-
-##### `Step 8.`\|`BTS`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
-
-When you see them there has to be a `.git` hidden folder in the **same** directory as the project file (in my case **Backgrounds-Tiles-Sprites.yyp**).
-
-![.git folder in the same folder as project file](images/SpaceRocksGitDir.png)
-
-![](../images/line2.png)
-
-##### `Step 9.`\|`BTS`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
-
-**Open in Terminal** on mac and **Repository | Open in ???** on PC. Go to the directory holding the file.  In my case I had to type in `cd Documents/GitHub/Backgrounds-Tiles-Sprites`.
-
-![create new repository in project folder](images/CreateNewRepository.png)
-
-
-![](../images/line2.png)
-
-##### `Step 10.`\|`BTS`| :large_blue_diamond:
-
-You now need to connect this new repository to the one you created in the second step in this walk through.  Copy and paste the line that includes `git remote add origin`... and press enter.
-
-![add origin for github repository](images/setRemoteGitHub.png)
-
-![](../images/line2.png)
-
-##### `Step 11.`\|`BTS`| :large_blue_diamond: :small_blue_diamond: 
-
-Select the **File | Save Project**, then press **File | Quit** (PC) **Game Maker | Quit** on Mac to make sure everything in the game is saved.
-
-![save then quit gamemaker](images/saveQuit.png)
-
-Open up **P4V**.  Select the top folder and press the **Add** button.  We want to add all the new files we created during this last session.  Add these files to the last change list you used at the begining of the session (in my case it was `Spaceship I portion of walkthrough`). Press the <kbd>OK</kbd> button.
-
-![add new and changed files to p4v](images/add.png)
-
-Now you can submit the changelist by pressing both <kbd>Submit</kbd> buttons.
-
-![submit changelist to p4v](images/submit.png)
-
-___
+![check files are in depot repository](images/depotOnServer.png)
 
 ![](../images/line.png)
 
