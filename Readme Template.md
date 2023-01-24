@@ -138,9 +138,6 @@ Chapter introduction here.
 
 ![alt_text](images/.png)
 
-___
-
-
 ![](../images/line.png)
 
 <!-- <img src="https://via.placeholder.com/1000x100/45D7CA/000000/?text=Next Up - ADD NEXT PAGE"> -->
