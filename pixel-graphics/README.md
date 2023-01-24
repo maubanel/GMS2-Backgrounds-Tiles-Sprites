@@ -110,7 +110,7 @@ Here it is zoomed in.
 
 ##### `Step 10.`\|`BTS`| :large_blue_diamond:
 
-There is no need to alter this graphic.  *Select* **File | Export | Quick Export as PNG** .  Save it to a location of your choice.
+There is no need to alter this graphic.  *Select* **File | Export | Quick Export as PNG** .  Call it `spr_lsu_gradient_bkg.png`. Save it to a location of your choice. 
 
 ![Export as PNG from Photoshop](images/QuickExportToPNG.png)
 
