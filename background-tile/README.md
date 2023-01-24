@@ -23,20 +23,25 @@ We usually break our artwork down into reusable *lego* pieces into their smalles
 
 ##### `Step 1.`\|`BTS`|:small_blue_diamond:
 
-Select the **File | Save Project**, then press **File | Quit** (PC) **Game Maker | Quit** on Mac to make sure everything in the game is saved.
+Open up **P4v**.  Select the top folder of the **GameMaker** project. Press the <kbd>Checkout</kbd> button.  Checkout out all files in P4V so that they are all writable (otherwise they will be read only and none of the changes will be saved). Select a **New** changelist and add a message describing the unit of work you will be performing. Press the <kbd>OK</kbd> button.
 
-![save then quit gamemaker](images/saveQuit.png)
+Open up the project you are working on in **GameMaker**. 
+
+![checkout files and create new changelist](images/checkoutFiles.png)
+
+![](../images/line2.png)
+
+##### `Step 2.`\|`BTS`|:small_blue_diamond: :small_blue_diamond: 
 
 We are going to go with 64 by 64 for this exercise.  Start a new photoshop file and import a large texture you like. Pick one you took with your camera or grab a free one that is copyright cleared to use on the internet.  I grabbed a photorealistic brick wall texture and made sure it has a lot more surface area than I need.  This way I can use different parts of this texture to build variety. If you don't have a camera you can download the image used here: [spr_brick_1.png](../Assets/PNG/spr_brick_1.png).
     
-
 There are two things we need to worry about.  One is making it tile, and secondly removing any complexity in the image that makes the repeat a very obvious pattern.  I also want to make it look a bit more "8-bit" and not photo realistic.  For prototyping we will do this using some quick tricks.  Open the file up in photoshop.
 
 ![Brick wall photograph](images/originalBrickPhoto.png)
 
 ![](../images/line2.png)
 
-##### `Step 2.`\|`BTS`|:small_blue_diamond: :small_blue_diamond: 
+##### `Step 3.`\|`BTS`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
 Select **Filter | Neural Filter**.
 
@@ -44,7 +49,7 @@ Select **Filter | Neural Filter**.
 
 ![](../images/line2.png)
 
-##### `Step 3.`\|`BTS`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
+##### `Step 4.`\|`BTS`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
 Turn on **Style Transfer**.  Select **Show more**.  Press on **Preserve Color** so that we keep the same colors and only inherit the style.  Try out a few and pick one that speaks to you.  When you are happy press the <kbd>OK</kbd> button.
 
@@ -52,7 +57,7 @@ Turn on **Style Transfer**.  Select **Show more**.  Press on **Preserve Color** 
 
 ![](../images/line2.png)
 
-##### `Step 4.`\|`BTS`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
+##### `Step 5.`\|`BTS`| :small_orange_diamond:
 
 Open up **Substance Sampler**.  Now press **Viewer Settings** and set the **Texture scale | U & V** to `8`.  We will get 8 repeats.  Change the **Mesh** to a `Plane`. Since it is a brick we want to see it on a flat surface (we are a 2-D game none the less)
 
@@ -60,7 +65,7 @@ Open up **Substance Sampler**.  Now press **Viewer Settings** and set the **Text
 
 ![](../images/line2.png)
 
-##### `Step 5.`\|`BTS`| :small_orange_diamond:
+##### `Step 6.`\|`BTS`| :small_orange_diamond: :small_blue_diamond:
 
 Now drag the photo that you applied the neural filter to into the **LAYER** panel on the right.
 
@@ -68,7 +73,7 @@ Now drag the photo that you applied the neural filter to into the **LAYER** pane
 
 ![](../images/line2.png)
 
-##### `Step 6.`\|`BTS`| :small_orange_diamond: :small_blue_diamond:
+##### `Step 7.`\|`BTS`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
 This software tries to create all your 3-D maps for a PBR material.  All we want is the **Base Color** and don't need any of the other maps.  Select **Use as bitmap** and the press the <kbd>OK</kbd> button.
 
@@ -76,7 +81,7 @@ This software tries to create all your 3-D maps for a PBR material.  All we want
 
 ![](../images/line2.png)
 
-##### `Step 7.`\|`BTS`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
+##### `Step 8.`\|`BTS`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
 Now we do not see the texture with the default settings.  Select the **Output image** and choose `Base Color`.  Then press the **3D-Icon** next to the plane so we have two windows, one with the 3-D view showing the tiling and one with the 2-D view on the right hand side.
 
@@ -84,7 +89,7 @@ Now we do not see the texture with the default settings.  Select the **Output im
 
 ![](../images/line2.png)
 
-##### `Step 8.`\|`BTS`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
+##### `Step 9.`\|`BTS`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
 Now the picture doesn't have even lighting and the bricks on the right are noticably darker than the ones on the left.  This makes it look like we have a repeating dark splotch.  Press the **Add a layer** icon to add a **Equalize** filter. Play with the settings to remove as much as the shading variation as you like.
 
@@ -92,7 +97,7 @@ Now the picture doesn't have even lighting and the bricks on the right are notic
 
 ![](../images/line2.png)
 
-##### `Step 9.`\|`BTS`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
+##### `Step 10.`\|`BTS`| :large_blue_diamond:
 
 Now we need to crop an area.  You can select the same **Add a layer** button and search for **Crop** or drag the icon form the most common layers on the left hand panel under **File**.
 
@@ -100,7 +105,7 @@ Now we need to crop an area.  You can select the same **Add a layer** button and
 
 ![](../images/line2.png)
 
-##### `Step 10.`\|`BTS`| :large_blue_diamond:
+##### `Step 11.`\|`BTS`| :large_blue_diamond: :small_blue_diamond: 
 
 Now this texture will be 64 by 64 so we don't want a lot of bricks.  I want three bricks per tile. I want it as square as possible but place the crop lines along the grout line.  Now our texture is square so we don't have to skew the perspective.  After trian and error and moving around I found a location where it repeats nicely.  We cannot use their built in layer for tiling as it doesn't work with textures with existing patterns like bricks and tile.
 
@@ -108,7 +113,7 @@ Now this texture will be 64 by 64 so we don't want a lot of bricks.  I want thre
 
 ![](../images/line2.png)
 
-##### `Step 11.`\|`BTS`| :large_blue_diamond: :small_blue_diamond: 
+##### `Step 12.`\|`BTS`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
 
 When you got what you want press the **Export** icon.  Call the file `spr_brick_1`.  Select the **Format** as `png`.  Put it in a working directory. Leave the high resolution as this software doesn't handle reducing the texture size to `64` by `64` nearly as well as photoshop does and it becomes to blurry in the reduction process.  Select **only** the **Base Color** layer as we do not need any other textures. Press the <kbd>Export</kbd> button.
 
@@ -116,8 +121,7 @@ When you got what you want press the **Export** icon.  Call the file `spr_brick_
 
 ![](../images/line2.png)
 
-
-##### `Step 12.`\|`BTS`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
+##### `Step 13.`\|`BTS`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
 Open up the image you exported in **Photoshop**.  Please note that it adds `_BaseColor` at the end of the name.Press the **Image | Resize Image** item and rescale the image to `64` by `64`. Keep the **Resample** at `automatic`. Press the <kbd>OK</kbd> button.
 
@@ -125,7 +129,7 @@ Open up the image you exported in **Photoshop**.  Please note that it adds `_Bas
 
 ![](../images/line2.png)
 
-##### `Step 13.`\|`BTS`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
+##### `Step 14.`\|`BTS`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
 Select **Image | Image Color...** and select a small number of colors.  This will give you an 8-bit look.  I picked a **Palette** and adjusted the dithering.  
 
@@ -133,7 +137,7 @@ Select **Image | Image Color...** and select a small number of colors.  This wil
 
 ![](../images/line2.png)
 
-##### `Step 14.`\|`BTS`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
+##### `Step 15.`\|`BTS`| :large_blue_diamond: :small_orange_diamond: 
 
 Select the **File | Export | Quick Export as PNG**.  Call the file `spr_brick_1` and save it to another location (to not erase any of your other files we have craated). Press th e<kbd>Save</kbd> button.
 
@@ -141,7 +145,7 @@ Select the **File | Export | Quick Export as PNG**.  Call the file `spr_brick_1`
 
 ![](../images/line2.png)
 
-##### `Step 15.`\|`BTS`| :large_blue_diamond: :small_orange_diamond: 
+##### `Step 16.`\|`BTS`| :large_blue_diamond: :small_orange_diamond:   :small_blue_diamond: 
 
 Open **Gamemaker** and right click on **Sprites** and select **Create | Sprite**.  Press the <kbd>Import</kbd> button and import **spr_brick_1.png** and call it `spr_brick`.
 
@@ -149,7 +153,7 @@ Open **Gamemaker** and right click on **Sprites** and select **Create | Sprite**
 
 ![](../images/line2.png)
 
-##### `Step 16.`\|`BTS`| :large_blue_diamond: :small_orange_diamond:   :small_blue_diamond: 
+##### `Step 17.`\|`BTS`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
 *Right click* on **Rooms** and select **New | Room** and name it `rm_brick`. Change the **Room Order** to place this room on the top of the list. In **Background Layer Properties** sledt the `spr_brick` sprite and check **Horizontal Tile** and **Vertical Tile** to see your texture tiled.
 
@@ -157,7 +161,7 @@ Open **Gamemaker** and right click on **Sprites** and select **Create | Sprite**
 
 ![](../images/line2.png)
 
-##### `Step 17.`\|`BTS`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
+##### `Step 18.`\|`BTS`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
 Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game.  It is rare that it will look good the first time.  Often the repeat is obvious and you have to go back and make adjustments.  This was my third time making small tweaks to a point to where I thought the results were acceptable for a prototype.
 
@@ -165,22 +169,27 @@ Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game.  
 
 ![](../images/line2.png)
 
-##### `Step 18.`\|`BTS`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
+##### `Step 19.`\|`BTS`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
 Select the **File | Save Project**, then press **File | Quit** (PC) **Game Maker | Quit** on Mac to make sure everything in the game is saved.
 
 ![save then quit gamemaker](images/saveQuit.png)
 
+![](../images/line2.png)
+
+##### `Step 20.`\|`BTS`| :large_blue_diamond: :large_blue_diamond:
+
 Open up **P4V**.  Select the top folder and press the **Add** button.  We want to add all the new files we created during this last session.  Add these files to the last change list you used at the begining of the session (in my case it was `Spaceship I portion of walkthrough`). Press the <kbd>OK</kbd> button.
 
 ![add new and changed files to p4v](images/add.png)
 
+![](../images/line2.png)
+
+##### `Step 21.`\|`BTS`| :large_blue_diamond: :large_blue_diamond: :small_blue_diamond:
+
 Now you can submit the changelist by pressing both <kbd>Submit</kbd> buttons.
 
 ![submit changelist to p4v](images/submit.png)
-
-___
-
 
 ![](../images/line.png)
 
