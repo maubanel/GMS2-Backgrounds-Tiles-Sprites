@@ -200,9 +200,6 @@ Copy the entire tile and open up the empty tile sheet you previously made.  Past
 
 ![copy and paste tile into second slot](images/secondSlotFilled.png)
 
-
-___
-
 ![](../images/line.png)
 
 <!-- <img src="https://via.placeholder.com/1000x100/45D7CA/000000/?text=Next Up - Auto Tile Template"> -->
