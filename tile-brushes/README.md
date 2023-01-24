@@ -21,6 +21,9 @@ Open up the project you are working on in **GameMaker**.
 
 ![checkout files and create new changelist](images/checkoutFiles.png)
 
+![](../images/line2.png)
+
+##### `Step 2.`\|`BTS`|:small_blue_diamond: :small_blue_diamond: 
 
 *Download* [HedgesToAddToTiles.psd](../Assets/Photoshop/HedgesToAddToTiles.psd). I have included this PSD (photoshop file) with two more tiles to use as brushes. 
 
@@ -28,7 +31,7 @@ Open up the project you are working on in **GameMaker**.
 
 ![](../images/line2.png)
 
-##### `Step 2.`\|`BTS`|:small_blue_diamond: :small_blue_diamond: 
+##### `Step 3.`\|`BTS`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
 Duplicate **ts_environment_3.psd** and call the new file `ts_environment_4.psd`. Copy both of the tiles above and add them to the end of your tilesheet. Remember to always leave the first slot empty.
 
@@ -36,7 +39,7 @@ Duplicate **ts_environment_3.psd** and call the new file `ts_environment_4.psd`.
 
 ![](../images/line2.png)
 
-##### `Step 3.`\|`BTS`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
+##### `Step 4.`\|`BTS`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
 **Export** your tilesheet as a **PNG** and right click on **Sprites** and select **Create Sprite**. Call it `spr_environment_tiles_4`. Press the <kbd>Import</kbd> button and select the above sprite. 
 
@@ -44,7 +47,7 @@ Duplicate **ts_environment_3.psd** and call the new file `ts_environment_4.psd`.
 
 ![](../images/line2.png)
 
-##### `Step 4.`\|`BTS`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
+##### `Step 5.`\|`BTS`| :small_orange_diamond:
 
 Right click on **Tilesets** and selet **Create | Tileset** and call it `tls_environment_4`. Assing **spr_envrionment_sprites_4**. Set the **Tile Width** and **Tile Height** to `64`. Press the **Brush Builder** button.  
 
@@ -56,7 +59,7 @@ https://user-images.githubusercontent.com/5504953/143160956-6b46d484-cc32-49c9-b
 
 ![](../images/line2.png)
 
-##### `Step 5.`\|`BTS`| :small_orange_diamond:
+##### `Step 6.`\|`BTS`| :small_orange_diamond: :small_blue_diamond:
 
 *Right click* on **Rooms** and select **New | Room** and name it `rm_brushes`. Change the **Room Order** to place this room on the top of the list. Add a new **Tile** layer and call it `Environment` and move it under the **Instances** layer.  Select the brushes tab and the pencil tool.  Then select a brush and start painting the bushes in a way that works best for you. Put the hedge ends on both sides.
 
@@ -66,22 +69,27 @@ https://user-images.githubusercontent.com/5504953/143161607-bf0eba3e-ecb4-4ed2-9
 
 ![](../images/line2.png)
 
-##### `Step 6.`\|`BTS`| :small_orange_diamond: :small_blue_diamond:
+##### `Step 7.`\|`BTS`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
 Select the **File | Save Project**, then press **File | Quit** (PC) **Game Maker | Quit** on Mac to make sure everything in the game is saved.
 
 ![save then quit gamemaker](images/saveQuit.png)
 
+![](../images/line2.png)
+
+##### `Step 8.`\|`BTS`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
+
 Open up **P4V**.  Select the top folder and press the **Add** button.  We want to add all the new files we created during this last session.  Add these files to the last change list you used at the begining of the session (in my case it was `Spaceship I portion of walkthrough`). Press the <kbd>OK</kbd> button.
 
 ![add new and changed files to p4v](images/add.png)
 
+![](../images/line2.png)
+
+##### `Step 9.`\|`BTS`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
+
 Now you can submit the changelist by pressing both <kbd>Submit</kbd> buttons.
 
 ![submit changelist to p4v](images/submit.png)
-
-___
-
 
 ![](../images/line.png)
 
