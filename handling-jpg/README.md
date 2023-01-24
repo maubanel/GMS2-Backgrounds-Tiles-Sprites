@@ -113,7 +113,7 @@ Now against black it looks better.
 
 ##### `Step 13.`\|`BTS`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
-Now export this newly fixed up sprite with an alpha as a background (you can hide the black background layer) as a **PNG** format.  This way it will preserve the alpha. Call the file `spr_plane_jpgtopng.png`.
+Now export (quick export to png) this newly fixed up sprite with an alpha as a background (you can hide the black background layer) as a **PNG** format.  This way it will preserve the alpha. Call the file `spr_plane_jpgtopng.png`.
 
 ![Export image of plane that was a jpg as png](images/ExportAsPNG.png)
 
