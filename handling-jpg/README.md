@@ -99,7 +99,7 @@ We still have a problem.  We have a white halo around the edge.  This becomes ap
 
 Select the **Layer** with the plane and add a **Layer Style**. Press the **Stroke** effect on the layer style.  *Change* the color to **black** (solid). ,the **Size** to `2px` and the **Blend Mode** to `Normal`, and **Position** to `inside`.  This will put a black inner glow to get rid of the white anti-aliasing. Set the **Opacity** to a `100`%. Press the <kbd>OK</kbd> button.
 
-![Add inner glow to get rid of white edge](images/InnerBlackGlow.png)
+![Add inner glow to get rid of white edge](images/StrokePS.png)
 
 ![](../images/line2.png)
 
