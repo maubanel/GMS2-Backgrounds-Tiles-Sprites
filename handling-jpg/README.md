@@ -65,7 +65,7 @@ Now not only do we have a lossy image format but it does not save the *Alpha*. O
 
 ##### `Step 7.`\|`BTS`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Here is one possible quick fix.  Open up Photoshop and load the **spr_plane_jpg.jpg** file you downloaded above. Select the **magic lasso tool** and press the outside white and inside the tail white so that all the white is selected like so.
+Here is one possible quick fix.  Open up Photoshop and load the **spr_plane_jpg.jpg** file you downloaded above. Select the **magic lasso tool**.  Set the **Tolerance** to `3` and shift select the outside white and inside the tail white so that all the white is selected like so.
 
 ![Use magic lasso in photoshop to get rid of background](images/MagicWandSelectionOfWhite.png)
 
