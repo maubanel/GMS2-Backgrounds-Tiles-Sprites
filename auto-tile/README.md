@@ -21,6 +21,9 @@ Open up the project you are working on in **GameMaker**.
 
 ![checkout files and create new changelist](images/checkoutFiles.png)
 
+![](../images/line2.png)
+
+##### `Step 2.`\|`BTS`|:small_blue_diamond: :small_blue_diamond: 
 
 Auto tiling allows us to more quickly paint a transition between two tiles.  It allows for much quicker level design.
 
@@ -30,7 +33,7 @@ There are two auto tile configurations.  We are going to use the 16 tile configu
 
 ![](../images/line2.png)
 
-##### `Step 2.`\|`BTS`|:small_blue_diamond: :small_blue_diamond: 
+##### `Step 3.`\|`BTS`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
 *Download* [AutoTileTemplate.psd](../Assets/Photoshop/AutoTileTemplate.psd). It is a PSD (photoshop file) with a grass and sand tile.  I have also included masks for all the transitional states. 
 
@@ -38,7 +41,7 @@ There are two auto tile configurations.  We are going to use the 16 tile configu
 
 ![](../images/line2.png)
 
-##### `Step 3.`\|`BTS`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
+##### `Step 4.`\|`BTS`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
 The Photoshop file should have 16 layers in it starting at the top with the 1st grass layer with the one at the bottom being dirt.
 
@@ -46,7 +49,7 @@ The Photoshop file should have 16 layers in it starting at the top with the 1st 
 
 ![](../images/line2.png)
 
-##### `Step 4.`\|`BTS`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
+##### `Step 5.`\|`BTS`| :small_orange_diamond:
 
 Duplicate **ts_environment_2.psd** and call the new file `ts_environment_3.psd`. We will add these auto tiles to this tilesheet.
 
@@ -54,8 +57,7 @@ Duplicate **ts_environment_2.psd** and call the new file `ts_environment_3.psd`.
 
 ![](../images/line2.png)
 
-##### `Step 5.`\|`BTS`| :small_orange_diamond:
-
+##### `Step 6.`\|`BTS`| :small_orange_diamond: :small_blue_diamond:
 Open up **ts_environment_3** in **Photoshop**. We will be copying tiles back and forth to create an automatic tiling layout for the tilesheet.
 
 Open up AutoTileTemplate. Make sure you have the bottom dirt layer selected and turned on.  Now you will start with the first layer and select all and choose **Edit | Copy Merged** (if you just copy you will only grab one layer, we want to have at least two layers copied for most of these tiles).  Then paste it into the next open slot in your your **spr_background_tiles_3.psd** file that has your previous work.  
@@ -66,7 +68,7 @@ https://user-images.githubusercontent.com/5504953/143026051-079eb3c9-9116-4f80-8
 
 ![](../images/line2.png)
 
-##### `Step 6.`\|`BTS`| :small_orange_diamond: :small_blue_diamond:
+##### `Step 7.`\|`BTS`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
 *Export* the tiles again from Photoshop as a `.png` and call it `tls_environment_3`.  Create a new **Sprite** and **Import** **spr_environment_3**. Call this `spr_envioronment_tiles_3`.  *Right* click on **Tilesheets** and select **Create | Tilesheet** and call it `tls_environment_3` and assign the agove sprite. 
 
@@ -74,7 +76,7 @@ https://user-images.githubusercontent.com/5504953/143025571-3092e6b4-bfd3-4c0f-9
 
 ![](../images/line2.png)
 
-##### `Step 7.`\|`BTS`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
+##### `Step 8.`\|`BTS`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
 Change the **Tile Height** and **Tile Width** to `64. *Press* the **Auto Tiling** button.  This puts up the autotiling node.  Click on the **plus** symbol next to 16.  Then if you put the layers in order it should be from the dirt all the way to grass, assign each layer. Look at the which pattern is light and dark and make sure the light one is dirt and the dark one is grass.
 
@@ -82,7 +84,7 @@ https://user-images.githubusercontent.com/5504953/143030131-6609fc3d-631d-4c4f-b
 
 ![](../images/line2.png)
 
-##### `Step 8.`\|`BTS`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
+##### `Step 9.`\|`BTS`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
 Name this auto tile under the Library tab `auto_dirt_to_grass`. This will be dirt surrounded by grass.
 
@@ -90,7 +92,7 @@ Name this auto tile under the Library tab `auto_dirt_to_grass`. This will be dir
 
 ![](../images/line2.png)
 
-##### `Step 9.`\|`BTS`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
+##### `Step 10.`\|`BTS`| :large_blue_diamond:
 
 *Create* a new room and call it `rm_auto_tile`.  *Move* it to the top of the list in **Room Priority**. Add a new **Tile Layer** called `Environment`.  Place it *beneath* the Instance layer.
 
@@ -98,7 +100,7 @@ Name this auto tile under the Library tab `auto_dirt_to_grass`. This will be dir
 
 ![](../images/line2.png)
 
-##### `Step 10.`\|`BTS`| :large_blue_diamond:
+##### `Step 11.`\|`BTS`| :large_blue_diamond: :small_blue_diamond: 
 
 Assign the **tls_environment_3** sprite to the tile layer. Make sure you are on the **Tiles_Brackground** layer.  Now the tile on the left will be inside the tile on the right.  So lets select the paint bucket tool on the top toolbar and fill the entire level with grass.  Then we can go in and paint with dirt inside the grass by selecting the auto tile tool. Paint and see the pattern follows the the flow and we get nice rounded corners between the two tiles. Now *press* the <kbd>Play</kbd> button in the top menu bar to admire your work.
 
@@ -106,17 +108,15 @@ https://user-images.githubusercontent.com/5504953/143032767-b688f498-ca52-4bcf-8
 
 ![](../images/line2.png)
 
-##### `Step 11.`\|`BTS`| :large_blue_diamond: :small_blue_diamond: 
+##### `Step 12.`\|`BTS`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
 
 Now what happens if we want to paint grass inside of dirt?  We have all the tiles we need (all mirrored tiles) except for two diagonal pieces. We need them with grass diagonals.
 
 ![Use auto tile to paint sand inside of grass](images/TwoSandDiagnoals.png)
 
-
 ![](../images/line2.png)
 
-
-##### `Step 12.`\|`BTS`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
+##### `Step 13.`\|`BTS`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
 Go back to **Photoshop** and our grass to sand file.  *Duplicate* the two diagonal tiles with amsk. Drag both layers to the top of the layers just below the grass.  
 
@@ -128,7 +128,7 @@ https://user-images.githubusercontent.com/5504953/143039314-8e457336-d00f-464c-9
 
 ![](../images/line2.png)
 
-##### `Step 13.`\|`BTS`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
+##### `Step 14.`\|`BTS`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
 Export and reimport this into gamemaker.  Go back to your tilesheet and create another 16 auto tile section.  *Assign* the opposite of the grass to sand in the sand to grass configuration.  Double check your work at the end.  Each tile should mirror the one above. Name the autotile `auto_grass_to_dirt`.
 All the tiles should be the exact inverse of the auto tilesheet above it.  Double check your work.
@@ -137,7 +137,7 @@ https://user-images.githubusercontent.com/5504953/143041839-b38e0cdc-68a5-4406-a
 
 ![](../images/line2.png)
 
-##### `Step 14.`\|`BTS`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
+##### `Step 15.`\|`BTS`| :large_blue_diamond: :small_orange_diamond: 
 
 Go back to **rm_auto_tile** and select the eraser. Delete the old dirt tiles.  Fill it again so the entire room is grass.  Go to the **Libraries** *tab* and select the newly created **auto_dirt_to_grass** tile.  Then paint dirt inside of grass.  Now you can change the autotiler then paint grass inside of dirt again by selecting**auto_grass_to_dirt** and this will  allow for quicker assembly of levels. Now *press* the <kbd>Play</kbd> button in the top menu bar and check out your work!
 
@@ -145,16 +145,23 @@ https://user-images.githubusercontent.com/5504953/143062703-146bc615-7e53-4932-8
 
 ![](../images/line2.png)
 
-##### `Step 15.`\|`BTS`| :large_blue_diamond: :small_orange_diamond: 
-
+##### `Step 16.`\|`BTS`| :large_blue_diamond: :small_orange_diamond:   :small_blue_diamond: 
 
 Select the **File | Save Project**, then press **File | Quit** (PC) **Game Maker | Quit** on Mac to make sure everything in the game is saved.
 
 ![save then quit gamemaker](images/saveQuit.png)
 
+![](../images/line2.png)
+
+##### `Step 17.`\|`BTS`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
+
 Open up **P4V**.  Select the top folder and press the **Add** button.  We want to add all the new files we created during this last session.  Add these files to the last change list you used at the begining of the session (in my case it was `Spaceship I portion of walkthrough`). Press the <kbd>OK</kbd> button.
 
 ![add new and changed files to p4v](images/add.png)
+
+![](../images/line2.png)
+
+##### `Step 18.`\|`BTS`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
 Now you can submit the changelist by pressing both <kbd>Submit</kbd> buttons.
 
