@@ -103,7 +103,7 @@ Now you can submit the changelist by pressing both <kbd>Submit</kbd> buttons.
 ![](../images/line.png)
 
 <!-- <img src="https://via.placeholder.com/1000x100/45D7CA/000000/?text=That's All Folks"> -->
-![next up - ](images/banner.png)
+![next up - the end](images/banner.png)
 
 ![](../images/line.png)
 
