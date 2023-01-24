@@ -64,7 +64,7 @@ Press the <kbd>Submit</kbd> button and the changlist window comes up.  Press the
 
 ##### `Step 7.`\|`BTS`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Confirm that you have properly uploaded to the **Depot** by selecting the tab and you should see the **SpaceRocks** folder up on the server!
+Confirm that you have properly uploaded to the **Depot** by selecting the tab and you should see the **BackgroundsFilesSprites** folder up on the server!
 
 ![check files are in depot repository](images/depotOnServer.png)
 
