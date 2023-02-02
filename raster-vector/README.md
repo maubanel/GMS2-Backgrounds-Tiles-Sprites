@@ -14,8 +14,6 @@
 
 ##### `Step 1.`\|`BTS`|:small_blue_diamond:
 
-![checkout files and create new changelist](images/checkoutFiles.png)
-
 I would be remiss not to quickly discuss raster versus vector artwork.  Now this plane I created was done in Illustrator as a vector art.  I exported it as a raster pixel art from the software.
 
 Vector graphics unlike bitmap graphics can scale endlessly without pixilating. Here is the plane from the game in bitmap scaled up 500% and in vectors scaled up 500%.
