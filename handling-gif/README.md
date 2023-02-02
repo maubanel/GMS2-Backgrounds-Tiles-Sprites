@@ -98,7 +98,7 @@ Create three new game objects and assign the three sprites calling them the same
 
 ##### `Step 10.`\|`BTS`| :large_blue_diamond:
 
-Create a new room called `rm_tiff_bmp_png` and drag it to the top of the room list.  If it is not the game will not load this room.  Now *drag and drop* the three plane objects you just created.
+Create a new room called `rm_tiff_bmp_png`  Now *drag and drop* the three plane objects you just created. Drag the room to the top of the **Room Order** list to select this as the room that the game starts with.
         
 ![Create room rm_tiff_bmp_png and drag bj_plane_bmp, obj_plane_png and obj_plane_tiff into it](images/CreateNewRoomAddThreeObjects.png)
 
@@ -106,7 +106,7 @@ Create a new room called `rm_tiff_bmp_png` and drag it to the top of the room li
 
 ##### `Step 11.`\|`BTS`| :large_blue_diamond: :small_blue_diamond: 
 
-Drag the room to the top of the **Room Order** list to select this as the room that the game starts with.
+
 
 ![put rm_tiff_bmp_png to the top of room order](images/roomOrder.png)
 
