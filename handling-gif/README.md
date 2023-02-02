@@ -28,7 +28,7 @@ Open up the project you are working on in **GameMaker**.
 
 Download [spr_plane_gif.gif](../Assets/GIF/spr_plane_gif.gif).
 
-Add a new **Sprite** and press the <kbd>Import</kbd> button. Import the above **spr_plane_gif** sprite.  Name the Sprite `spr_plane_gif`. 
+Add a new **Sprite** and press the <kbd>Import</kbd> button. Import the above **spr_plane_gif** sprite.  Name the Sprite `spr_plane_gif`. Also the **GIF** has only 256 colors (the original png has 16.777 million colors).  There is a lot of visible banding as there are not enough colors to handle the subtle shading in the original art.
 
 ![Imported spr_plane_gif.gif](images/ImportSprPlaneGif.png)
 
