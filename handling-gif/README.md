@@ -80,25 +80,26 @@ If you zoom in you will notice that the **GIF** version has more banding on the 
 
 *Download* [spr_plane_png.png](../Assets/Misc/spr_plane_png.png), [spr_plane_bmp.bmp](../Assets/Misc/spr_plane_bmp.bmp), [spr_plane_tif.tif](../Assets/Misc/spr_plane_tif.tif).  There is a TIFF format, a native PNG format (not changed from a JPG like we did previously) and a BMP format.  These are all the formats we will be looking at in this tutorial.
 
-![Import TIFF, BMP and PNG plane from TutorialResources/Misc/ folder](images/ImportBMPpngTIF.png)
-
-![](../images/line2.png)
-
-##### `Step 9.`\|`BTS`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
-
 Press the <kbd>Import</kbd> button after creating three new sprites and call them `spr_plane_bmp`, `spr_plane_png` and `spr_plane_tif`.
 
 ![Name three sprites spr_plane_bmp, spr_plane_png and spr_plane_tif](images/ImportThreeFormatSprites.png)
 
+
 ![](../images/line2.png)
 
-##### `Step 10.`\|`BTS`| :large_blue_diamond:
+##### `Step 9.`\|`BTS`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
 Create three new game objects and assign the three sprites calling them the same name with prefix `obj_`.
 
 ![Create three game objedts with three sprites above assigned called obj_plane_bmp, obj_plane_png, obj_plane_tiff](images/CreateThreePlaneObjects.png)
 
 ![](../images/line2.png)
+
+![](../images/line2.png)
+
+##### `Step 10.`\|`BTS`| :large_blue_diamond:
+
+
 
 ##### `Step 11.`\|`BTS`| :large_blue_diamond: :small_blue_diamond: 
 
