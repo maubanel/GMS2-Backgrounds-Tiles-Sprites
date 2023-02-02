@@ -123,7 +123,6 @@ Select the **File | Save Project**, then press **File | Quit** (PC) **Game Maker
 
 ##### `Step 13.`\|`BTS`| :large_blue_diamond: :small_blue_diamond: 
 
-##### `Step 15.`\|`BTS`| :large_blue_diamond: :small_orange_diamond: 
 Open up **P4V**.  Select the top folder and press the **Add** button.  We want to add all the new files we created during this last session.  Add these files to the last change list you used at the begining of the session (in my case it was `Spaceship I portion of walkthrough`). Press the <kbd>OK</kbd> button.
 
 ![add new and changed files to p4v](images/add.png)
