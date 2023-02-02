@@ -106,7 +106,9 @@ Create a new room called `rm_tiff_bmp_png`  Now *drag and drop* the three plane 
 
 ##### `Step 11.`\|`BTS`| :large_blue_diamond: :small_blue_diamond: 
 
+Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. Notice that the **BMP** format does not preserve an alpha (another format that we would like to avoid).  I cannot tell the difference between the PNG and TIFF in **GameMaker** as they are both lossless.
 
+![Play game and notice that PNG and TIFF are identical.  BMP has no alpha](images/ThreePlanesInGame.png)
 
 ![put rm_tiff_bmp_png to the top of room order](images/roomOrder.png)
 
@@ -114,24 +116,13 @@ Create a new room called `rm_tiff_bmp_png`  Now *drag and drop* the three plane 
 
 ##### `Step 12.`\|`BTS`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
 
-
-![](../images/line2.png)
-
-##### `Step 13.`\|`BTS`| :large_blue_diamond: :small_blue_diamond: 
-
-Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. Notice that the **BMP** format does not preserve an alpha (another format that we would like to avoid).  I cannot tell the difference between the PNG and TIFF in **GameMaker** as they are both lossless.
-
-![Play game and notice that PNG and TIFF are identical.  BMP has no alpha](images/ThreePlanesInGame.png)
-
-![](../images/line2.png)
-
-##### `Step 14.`\|`BTS`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
-
 Select the **File | Save Project**, then press **File | Quit** (PC) **Game Maker | Quit** on Mac to make sure everything in the game is saved.
 
 ![save then quit gamemaker](images/saveQuit.png)
 
 ![](../images/line2.png)
+
+##### `Step 13.`\|`BTS`| :large_blue_diamond: :small_blue_diamond: 
 
 ##### `Step 15.`\|`BTS`| :large_blue_diamond: :small_orange_diamond: 
 Open up **P4V**.  Select the top folder and press the **Add** button.  We want to add all the new files we created during this last session.  Add these files to the last change list you used at the begining of the session (in my case it was `Spaceship I portion of walkthrough`). Press the <kbd>OK</kbd> button.
@@ -140,13 +131,11 @@ Open up **P4V**.  Select the top folder and press the **Add** button.  We want t
 
 ![](../images/line2.png)
 
-##### `Step 16.`\|`BTS`| :large_blue_diamond: :small_orange_diamond:   :small_blue_diamond: 
+##### `Step 14.`\|`BTS`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
 Now you can submit the changelist by pressing both <kbd>Submit</kbd> buttons.
 
 ![submit changelist to p4v](images/submit.png)
-
-___
 
 ![](../images/line.png)
 
