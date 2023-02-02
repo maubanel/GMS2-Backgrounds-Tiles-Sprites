@@ -110,7 +110,6 @@ Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. N
 
 ![Play game and notice that PNG and TIFF are identical.  BMP has no alpha](images/ThreePlanesInGame.png)
 
-![put rm_tiff_bmp_png to the top of room order](images/roomOrder.png)
 
 ![](../images/line2.png)
 
