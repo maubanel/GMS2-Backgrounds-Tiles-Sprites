@@ -53,9 +53,7 @@ Call this newly created library entry water_animation.
 
 *Right click* on **rm_brushes** and select **duplicate** and drag it to the top of the list in **Room Priorities**.  Call it `rm_water_animation`.  
 
-Go to **Room Settings** and change the **Width** to `1920` and **Height** to `1080`. *Create* another **Tile Layer** and call it `Animation`.  *Drag* it between **Instances** and **Background**.
-	
-Select the new **Animation** layer and assign the new `tls_animated_background_tiles` tile set to it. This contains the static tiles and the animated water tiles you just created.
+*Select* the **Instances** layer. Select the new **Animation** layer and assign the new `tls_animated_background_tiles` tile set to it. This contains the static tiles and the animated water tiles you just created. *Select* the **Libraries** tab in the **Room Editor** and select the new **water_animation** item. Click on the **fill** bucket tool and fill the screen with water hit the <kbd>Play</kbd> button. 
 
 https://user-images.githubusercontent.com/5504953/218884494-defe92b0-871c-4f80-867b-a7b1a150006c.mp4
 
@@ -63,23 +61,19 @@ https://user-images.githubusercontent.com/5504953/218884494-defe92b0-871c-4f80-8
 
 ##### `Step 6.`\|`BTS`| :small_orange_diamond: :small_blue_diamond:
 
-While on the **Animation** layer *select* the **Room Edtior** tab. The **Water Animation** will appear at the bottom.  *Select* the **Libraries** tab in the **Room Editor** and select the new **water_animation** item. Click on the **fill** bucket tool and fill the screen with water hit the <kbd>Play</kbd> button. Notice that I forgot to move the **rm_water_animation** to the top of the **Room Order** list. Now this doesn't tile very well.
+Now I did tile the water horizontally so we can offset which frame the animation begins on.  We can go back to the **Brushes** tab and *shift* select all 8 of them as if they are static tiles.  Now once they are marked for animation, they will always animate.  But if I shift select all 8 they will all start on a different frame.  So rather than every tile starting on the same frame they will be offset and will lead to better looking water.  All 8 frames tile perfectly horizontally and we will offset them vertically so they will not stitch but the illusion should still hold. Paint the tiles on to the level 8 at a time offsetting them vertically by one tile. Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game and now you have much better looking water animation.
 
-https://user-images.githubusercontent.com/5504953/218884001-b3d462b9-5a78-4e8c-83d1-b24ef3c62ffb.mp4
 
 ![](../images/line2.png)
 
 ##### `Step 7.`\|`BTS`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
-We can go back to the **Brushes** tab and *shift* select all 8 of them as if they are static tiles.  Now once they are marked for animation, they will always animate.  But if I shift select all 8 they will all start on a different frame.  So rather than every tile starting on the same frame they will be offset and will lead to better looking water.  All 8 frames tile perfectly horizontally and we will offset them vertically so they will not stitch but the illusion should still hold. Paint the tiles on to the level 8 at a time offsetting them vertically by one tile. Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game and now you have much better looking water animation.
 
-https://user-images.githubusercontent.com/5504953/143766412-96e33942-3704-45ea-b17d-3842424b52f5.mp4
 
 ![](../images/line2.png)
 
 ##### `Step 8.`\|`BTS`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Now I did tile the water horizontally so we can offset which frame the animation begins on.  Increase the brush size and delete the old water tiles.  
 
 
 
