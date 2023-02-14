@@ -27,9 +27,9 @@ Open up the project you are working on in **GameMaker**.
 
 ##### `Step 2.`\|`BTS`|:small_blue_diamond: :small_blue_diamond: 
 
-Lets start over again with a new document.  Open up **Adobe Substance 3D Sampler** and press **File |  New Project**.  Name the project `Brick Textures`.  Drag and drop the processed brick we used in the last exercise.
+Download the enclosed [grass texture](../Assets/PNG/spr_grass.png). Open it up in Photoshop and press the selection tool and press the <kbd>Shift</kbd> key and select a square portion.  We will be reducing the size.
 		
-![start new project in 3d smapler and call it brick textures and import brick image](images/newSubstanceProject.png)
+![take square piece of grass](images/grabSquare.png)
 
 ![](../images/line2.png)
 
