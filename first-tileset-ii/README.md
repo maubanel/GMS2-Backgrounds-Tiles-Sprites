@@ -53,6 +53,14 @@ Paste and place it into the third column on the first row.
 
 ##### `Step 6.`\|`BTS`| :small_orange_diamond: :small_blue_diamond:
 
+I selected the dodge tool then darkened three separate bricks.  This will give some more variety to this texture.
+
+![dodge three bricks](images/dodgeThreeBricks.png)
+
+![](../images/line2.png)
+
+##### `Step 7.`\|`BTS`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
+
 Press the **File | Save** menu item and save the file as `ts_environment` as a **psd** file.  Store it in a working folder.
 
 Press the **File | Export | Export As** and select **png** and press the <kbd>Export</kbd> button.  Call it `ts_environment` and put it in your working folder.  We cannot use the above **psd** in **GameMaker** so instead we will us a `.png`.
@@ -70,11 +78,6 @@ Now we cannot use a sprite as a tilesheet.  We can only assign it to an **Object
 Now change the **Tile Width** and **Tile Height** to `64`.  The grid should now match the fixed size of our tiles.
 
 ![change tile set to 64 by 64](images/tileHeightAndWidth.png)
-
-
-![](../images/line2.png)
-
-##### `Step 7.`\|`BTS`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
 *Right click* on **Rooms** and select **New | Room** and name it `rm_tileset`. Change the **Room Order** to place this room on the top of the list. Now create a new **Tile Layer** and call it `Environment`.  Assign the **ts_envirnoment** tileset to this layer.  A window for the **Room Editor** should open up on the right hand side.
 
