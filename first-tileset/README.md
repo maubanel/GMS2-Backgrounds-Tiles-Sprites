@@ -84,9 +84,9 @@ Repeat this for the horizontal seam by polygon selecting the area then selecting
 
 ##### `Step 9.`\|`BTS`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Now we also have a line on our vertical seam.  I can see the line on the grout line.  Add another **Clone Stamp** to address the grout line.
+This now will perfectly remove the horizontal seam and create a seamless wrapping texture.
 
-![add second clone stamp for vertical line](images/cloneStampFixTopLine.png)
+![add second clone stamp for vertical line](images/removeHSeam.png)
 
 ![](../images/line2.png)
 
