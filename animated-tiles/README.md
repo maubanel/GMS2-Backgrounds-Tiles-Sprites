@@ -63,6 +63,7 @@ https://user-images.githubusercontent.com/5504953/218884494-defe92b0-871c-4f80-8
 
 Now I did tile the water horizontally so we can offset which frame the animation begins on.  We can go back to the **Brushes** tab and *shift* select all 8 of them as if they are static tiles.  Now once they are marked for animation, they will always animate.  But if I shift select all 8 they will all start on a different frame.  So rather than every tile starting on the same frame they will be offset and will lead to better looking water.  All 8 frames tile perfectly horizontally and we will offset them vertically so they will not stitch but the illusion should still hold. Paint the tiles on to the level 8 at a time offsetting them vertically by one tile. Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game and now you have much better looking water animation.
 
+https://user-images.githubusercontent.com/5504953/218885842-e4906fdd-9a12-4e21-8346-bdb9bae70b15.mp4
 
 ![](../images/line2.png)
 
