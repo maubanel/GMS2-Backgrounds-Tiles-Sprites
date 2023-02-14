@@ -89,13 +89,10 @@ https://user-images.githubusercontent.com/5504953/218809791-83870218-0235-417c-9
 ##### `Step 9.`\|`BTS`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
 ![duplicate ts_environemt_2.psd and call it ..._3.psd](images/dupeEnvrionemtn2.png)
-Open up **ts_environment_3** in **Photoshop**. We will be copying tiles back and forth to create an automatic tiling layout for the tilesheet.
 
-Open up AutoTileTemplate. Make sure you have the bottom dirt layer selected and turned on.  Now you will start with the first layer and select all and choose **Edit | Copy Merged** (if you just copy you will only grab one layer, we want to have at least two layers copied for most of these tiles).  Then paste it into the next open slot in your your **spr_background_tiles_3.psd** file that has your previous work.  
+Save the file in photoshop and re-export the png `spr_environment`.
 
-*Export* the tiles again from Photoshop as a `.png` and call it `tls_environment_3`.  Create a new **Sprite** and **Import** **spr_environment_3**. Call this `spr_envioronment_tiles_3`.  *Right* click on **Tilesheets** and select **Create | Tilesheet** and call it `tls_environment_3` and assign the agove sprite. 
-
-https://user-images.githubusercontent.com/5504953/143025571-3092e6b4-bfd3-4c0f-9a75-830ebb4cc38c.mp4
+![Look at all the layers in AutoTileTemplate.psd](images/reExport.png)
 
 Change the **Tile Height** and **Tile Width** to `64. *Press* the **Auto Tiling** button.  This puts up the autotiling node.  Click on the **plus** symbol next to 16.  Then if you put the layers in order it should be from the dirt all the way to grass, assign each layer. Look at the which pattern is light and dark and make sure the light one is dirt and the dark one is grass.
 
