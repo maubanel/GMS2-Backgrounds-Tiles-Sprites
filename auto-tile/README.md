@@ -25,31 +25,43 @@ Open up the project you are working on in **GameMaker**.
 
 ##### `Step 2.`\|`BTS`|:small_blue_diamond: :small_blue_diamond: 
 
+Download the [spr_dirt.png](../Assets/PNG/spr_dirt.png) to add another image to our tilesheet.  Now you should have multiple grass and brick tiles and one dirt tile.
+
+![add new dirt tile](images/newDirtTile.jpg)
+
+![](../images/line2.png)
+
+##### `Step 3.`\|`BTS`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
+
+Reimport the sprite into **spr_environment**.  Also, on my computer I had to reassign the Tileset to another sprite and then reassign it back to `spr_environment` for it to stick.
+
+![add new dirt tile](images/reupdateTileset.jpg)
+
+![](../images/line2.png)
+
+##### `Step 4.`\|`BTS`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
+
+Add the dirt tileset to the room.  Now notice that the transition from grass to dirt is not very natural.  This is where tile templates can help!
+
+![add new dirt tile](images/dirtTileset.jpg)
+
+![](../images/line2.png)
+
+##### `Step 5.`\|`BTS`| :small_orange_diamond:
+
 Auto tiling allows us to more quickly paint a transition between two tiles.  It allows for much quicker level design.
 
 There are two auto tile configurations.  We are going to use the 16 tile configuration that is good for top down games. 
 
 ![Show 16 tile configurations available in gamemaker studio](images/TileTemplates.jpg)
 
-![](../images/line2.png)
-
-##### `Step 3.`\|`BTS`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
-
 *Download* [AutoTileTemplate.psd](../Assets/Photoshop/AutoTileTemplate.psd). It is a PSD (photoshop file) with a grass and sand tile.  I have also included masks for all the transitional states. 
 
 ![Open AutoTileTemplate.psd](images/SprBackGroundTIlesPSD.png)
 
-![](../images/line2.png)
-
-##### `Step 4.`\|`BTS`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
-
 The Photoshop file should have 16 layers in it starting at the top with the 1st grass layer with the one at the bottom being dirt.
 
 ![Look at all the layers in AutoTileTemplate.psd](images/SixteenLayerPhotoshopFile.png)
-
-![](../images/line2.png)
-
-##### `Step 5.`\|`BTS`| :small_orange_diamond:
 
 Duplicate **ts_environment_2.psd** and call the new file `ts_environment_3.psd`. We will add these auto tiles to this tilesheet.
 
