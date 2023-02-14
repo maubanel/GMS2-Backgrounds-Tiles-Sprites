@@ -55,9 +55,18 @@ There are two auto tile configurations.  We are going to use the 16 tile configu
 
 ![Show 16 tile configurations available in gamemaker studio](images/TileTemplates.jpg)
 
+
+![](../images/line2.png)
+
+##### `Step 6.`\|`BTS`| :small_orange_diamond: :small_blue_diamond:
+
 *Download* [AutoTileTemplate.psd](../Assets/Photoshop/AutoTileTemplate.psd). It is a PSD (photoshop file) with a grass and sand tile.  I have also included masks for all the transitional states. 
 
 ![Open AutoTileTemplate.psd](images/SprBackGroundTIlesPSD.png)
+
+![](../images/line2.png)
+
+##### `Step 7.`\|`BTS`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
 The Photoshop file should have 16 layers in it starting at the top with the 1st grass layer with the one at the bottom being dirt.
 
@@ -66,10 +75,6 @@ The Photoshop file should have 16 layers in it starting at the top with the 1st 
 Duplicate **ts_environment_2.psd** and call the new file `ts_environment_3.psd`. We will add these auto tiles to this tilesheet.
 
 ![duplicate ts_environemt_2.psd and call it ..._3.psd](images/dupeEnvrionemtn2.png)
-
-![](../images/line2.png)
-
-##### `Step 6.`\|`BTS`| :small_orange_diamond: :small_blue_diamond:
 Open up **ts_environment_3** in **Photoshop**. We will be copying tiles back and forth to create an automatic tiling layout for the tilesheet.
 
 Open up AutoTileTemplate. Make sure you have the bottom dirt layer selected and turned on.  Now you will start with the first layer and select all and choose **Edit | Copy Merged** (if you just copy you will only grab one layer, we want to have at least two layers copied for most of these tiles).  Then paste it into the next open slot in your your **spr_background_tiles_3.psd** file that has your previous work.  
@@ -77,10 +82,6 @@ Open up AutoTileTemplate. Make sure you have the bottom dirt layer selected and 
 Work you way up to the second to the top layer leaving both the bottom dirt later selected and the one layer with a mask above it. Notice that the masks will allow certain parts of the foreground to appear over the background. Copy merged and paste back into the other sheet.  Repeat this for all 16 frames:
 
 https://user-images.githubusercontent.com/5504953/143026051-079eb3c9-9116-4f80-8b17-7c48daf86720.mp4
-
-![](../images/line2.png)
-
-##### `Step 7.`\|`BTS`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
 *Export* the tiles again from Photoshop as a `.png` and call it `tls_environment_3`.  Create a new **Sprite** and **Import** **spr_environment_3**. Call this `spr_envioronment_tiles_3`.  *Right* click on **Tilesheets** and select **Create | Tilesheet** and call it `tls_environment_3` and assign the agove sprite. 
 
