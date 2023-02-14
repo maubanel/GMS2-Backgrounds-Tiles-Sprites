@@ -55,9 +55,9 @@ Grab the square selection tool and press the <kbd>Shift</kbd> key and select a s
 
 ##### `Step 4.`\|`BTS`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Turn on **Style Transfer**.  Select **Show more**.  Press on **Preserve Color** so that we keep the same colors and only inherit the style.  Try out a few and pick one that speaks to you.  When you are happy press the <kbd>OK</kbd> button.
+Select **Image | Image Size** and set it to a larger size than we need.  We will target our final tile at 64 by 64, but lets work on a larger resolution tile.  Set the image size ot `512` square.
 
-![choose a style and preserve palette](images/preserveStyle.png)
+![choose a style and preserve palette](images/512Square.png)
 
 ![](../images/line2.png)
 
