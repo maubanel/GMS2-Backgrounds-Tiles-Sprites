@@ -79,9 +79,9 @@ https://user-images.githubusercontent.com/5504953/218638170-b9e66799-c477-4a83-b
 
 ##### `Step 7.`\|`BTS`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
-This software tries to create all your 3-D maps for a PBR material.  All we want is the **Base Color** and don't need any of the other maps.  Select **Use as bitmap** and the press the <kbd>OK</kbd> button.
+Now lets make it look like an illustration/cartoon.  Go to **Filter | Filter Gallery** and look for **Poster Edges**.  Adjust the settings to taste then lock in the changes by press the <kbd>OK</kbd> button.
 
-![Press run and see that brick worked OK](images/useAsBitmap.png)
+![Press run and see that brick worked OK](images/filterGallery.png)
 
 ![](../images/line2.png)
 
