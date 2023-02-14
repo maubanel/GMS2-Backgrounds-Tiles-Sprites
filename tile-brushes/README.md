@@ -60,11 +60,11 @@ https://user-images.githubusercontent.com/5504953/218878060-27102d00-17c3-4434-b
 
 ##### `Step 6.`\|`BTS`| :small_orange_diamond: :small_blue_diamond:
 
-*Right click* on **Rooms** and select **New | Room** and name it `rm_brushes`. Change the **Room Order** to place this room on the top of the list. Add a new **Tile** layer and call it `Environment` and move it under the **Instances** layer.  Select the brushes tab and the pencil tool.  Then select a brush and start painting the bushes in a way that works best for you. Put the hedge ends on both sides.
+*Right click* on **rm_auto_tile** and select **Duplicate** and name the duped room `rm_brushes`. Change the **Room Order** to place this room on the top of the list. Select the **Tile** layer called `Environment`.  Select the brushes tab and the pencil tool.  Then select a brush and start painting the bushes in a way that works best for you. Put the hedge ends on both sides.
 
 Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game and see your work.
 
-https://user-images.githubusercontent.com/5504953/143161607-bf0eba3e-ecb4-4ed2-9bfe-28616a45c1f8.mp4
+
 
 ![](../images/line2.png)
 
