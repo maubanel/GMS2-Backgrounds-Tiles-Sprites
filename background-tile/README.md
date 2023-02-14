@@ -153,11 +153,11 @@ Re-export the brick and import it into the same **spr_brick** sprite.  Now chang
 
 Now back in photoshop lets add some of the color we drained from the image.  Add a **Color Overlay** effect and select a brick color and mix it in.
 
-![Put brick color back](images/AddColorOverlay].png)
+![Put brick color back](images/AddColorOverlay.png)
 
 Now the new brick looks like:
 
-![new brick](images/spr_brick].png)
+![new brick](images/spr_brick.png)
 
 ![](../images/line2.png)
 
