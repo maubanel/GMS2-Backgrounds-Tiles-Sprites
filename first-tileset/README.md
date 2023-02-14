@@ -59,27 +59,26 @@ Select the polygon selection tool and select the area around the vertical line. 
 
 ##### `Step 6.`\|`BTS`| :small_orange_diamond: :small_blue_diamond:
 
-Notice that when the brick we cut in half join, they don't match up so we have a line.  We can paint this out.  Select a **Clone Stamp** layer.  You have a toolbar at the top left and can adjust the brush size and color.
+This now brings up the content aware tool.  The green area is the part it uses to generate the replacement.  In this case the grass is consistent so we can use the entire area outside our patch (it is green and can be customized with a paintbrush to only use portions that relate to the patched area).  The preview window shows it seamlessly matching and the line is completely gone.
 
-![add clone stamp layer](images/addCloneStamp.png)
+![add clone stamp layer](images/caFill.png)
 
 ![](../images/line2.png)
 
 ##### `Step 7.`\|`BTS`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Select a **Brush Size** to your liking.  Paint along the line to hide the joint.  You will then adjust the target of where the cloning is taking place (it was not recorded in the video below).  It is a white circle that you can move by dragging it with your left mouse button.
+Select a **Brush Size** to your liking.  Paint along the line to hide the joint.  You will then adjust the target of where the cloning is taking place (it was not recorded in the video below).  It is a white circle that you can move by dragging it with your left mouse button. Notice there is no line anymore and will tile horizontally perfectly.
 
-https://user-images.githubusercontent.com/5504953/142765293-158c64df-cfda-4e47-8955-8e57210ebf23.mp4
+![add clone stamp layer](images/noLine.png)
 
 ![](../images/line2.png)
 
 ##### `Step 8.`\|`BTS`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Here is what your target should look like that you can move around and see how it moves where the clone stamp is getting its source location.
+Repeat this for the horizontal seam by polygon selecting the area then selecting **Edit | Content Aware Fill**.
 
-![clone stamp target](images/targetZCloneLocation.png)
+![clone stamp target](images/repeatHSeam.png)
 
-![before and after clone stamp](images/beforeAfter.png)
 
 ![](../images/line2.png)
 
