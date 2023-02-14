@@ -178,6 +178,7 @@ Go back to your tilesheet and create another 16 auto tile section.  *Assign* the
 
 Go back to **rm_auto_tile** and select the eraser. Fill in the dirt portion.  Go to the **Libraries** *tab* and select the newly created **auto_dirt_to_grass** tile.  Then paint grass inside of the dirt.   Now *press* the <kbd>Play</kbd> button in the top menu bar and check out your work!
 
+https://user-images.githubusercontent.com/5504953/218843539-7fb6c5e7-6ea5-4550-9094-1d1935276403.mp4
 
 ![](../images/line2.png)
 
