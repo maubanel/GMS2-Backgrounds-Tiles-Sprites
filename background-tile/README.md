@@ -63,9 +63,9 @@ Select **Image | Image Size** and set it to a larger size than we need.  We will
 
 ##### `Step 5.`\|`BTS`| :small_orange_diamond:
 
-Open up **Substance Sampler**.  Now press **Viewer Settings** and set the **Texture scale | U & V** to `8`.  We will get 8 repeats.  Change the **Mesh** to a `Plane`. Since it is a brick we want to see it on a flat surface (we are a 2-D game none the less)
+Now this texture is not tilable.  The edges won't line up.  What we will do is shift the edges to the center so we can clone tool them out.  Select **Filter | Other | Offset** and alter the vertical and horizontal alignment by `256`.
 
-![open up substance smapler and change mesh to a plane and uvs to 8](images/setupSampler.png)
+![open up substance smapler and change mesh to a plane and uvs to 8](images/offsetTexture.png)
 
 ![](../images/line2.png)
 
