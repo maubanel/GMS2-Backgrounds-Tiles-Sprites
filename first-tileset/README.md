@@ -214,7 +214,7 @@ https://user-images.githubusercontent.com/5504953/218738160-64253d1c-fd8e-4a05-8
 
 ![](../images/line.png)
 
-<!-- <img src="https://via.placeholder.com/1000x100/45D7CA/000000/?text=Next Up - Auto Tile Template"> -->
+<!-- <img src="https://via.placeholder.com/1000x100/45D7CA/000000/?text=Next Up - Creating Your First Tileset II"> -->
 ![next up - ](images/banner.png)
 
 ![](../images/line.png)
