@@ -26,7 +26,7 @@ Open up the project you are working on in **GameMaker**.
 
 *Download* [spr_animated_backgrounds.psd](../Assets/Photoshop/spr_animated_backgrounds.psd). I have provided an sprite sheet with an animated water sprite.  Copy and paste the 8 cells into **ts_environment**.  Make sure the grid is on so you can see the placement is on the grid boundary. Press **File | Export | Quick Export as PNG** and export the entire tilesheet as a `.png` file. Bring it into GameMaker by opening **spr_environment** and re-importing the new sprite sheet.  Also, reassign the texture to the tileset so it binds to teh new sprite sheet.
 
-
+https://user-images.githubusercontent.com/5504953/218881916-1140eb43-0f75-4f91-9709-3a89d24b3568.mp4
 
 ![](../images/line2.png)
 
