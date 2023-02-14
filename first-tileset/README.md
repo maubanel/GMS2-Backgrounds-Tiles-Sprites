@@ -102,7 +102,7 @@ Now adjust the size to our desired target tile size of `64` by `64`.
 
 Now press **File | Export | Quick Export as PNG** and call this texture `spr_grass`.  Go to **GameMaker** and highlight the **Sprites** folder, right click and select **Create Sprite**. Press the <kbd>Import</kbd> button and bring in the newly created sprite.
 
-![export and import sprite](images/addEqualizeLayer.png)
+![export and import sprite](images/exportImport.png)
 
 ![](../images/line2.png)
 
