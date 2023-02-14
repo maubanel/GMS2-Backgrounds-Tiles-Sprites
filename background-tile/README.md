@@ -111,9 +111,9 @@ Open **GameMaker** back up and create a new sprite.  Press the <kbd>Import</kbd>
 
 ##### `Step 11.`\|`BTS`| :large_blue_diamond: :small_blue_diamond: 
 
-Now this texture will be 64 by 64 so we don't want a lot of bricks.  I want three bricks per tile. I want it as square as possible but place the crop lines along the grout line.  Now our texture is square so we don't have to skew the perspective.  After trian and error and moving around I found a location where it repeats nicely.  We cannot use their built in layer for tiling as it doesn't work with textures with existing patterns like bricks and tile.
+Now lets create a new room and call it `rm_brick`.  Select the **Background** layer then add to the background the `spr_brick`.  
 
-![pick 3 brick crop window](images/smallCropWindow.png)
+![pick 3 brick crop window](images/setTileBrick.png)
 
 ![](../images/line2.png)
 
