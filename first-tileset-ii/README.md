@@ -162,67 +162,21 @@ https://user-images.githubusercontent.com/5504953/218786854-5614baf2-fba7-4a99-b
 
 ##### `Step 19.`\|`BTS`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-
-Now you can select the **Pencil** tool in the top menu and select the tile you would like to paint.  Lets paint three zones of tile 1, tile 2 and tile 3.  This will let us see how different they look as a group. YOu paint them by selecting each grid zone and pressin the left mouse button.
-
-![draw three groups of tiles](images/FourEffects.gif)
-
-For the rest of the level randomly select between the three types of tiles, and lets see if they work together.  If there are any issues you will have to go back to the **3D Sampler** files and make edits to them.  Fill as much as you can with the three tiles.  Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. Now you can see what they look like on their own and in a group.
-
-https://user-images.githubusercontent.com/5504953/142772461-1047baaf-9cd0-473d-85ff-047139a458a6.mp4
-
-Now once you are happy with your three tiles go back to **Substance 3D Samper** and turn off **Crop** for the 2nd and 3rd tile and activate **Crop** layer 1.  Turn on visibility on the **Moss** layer.  Press the **Export** icon and call it `spr_brick_1_moss`.  Select just the **Base Color** and use a **png**.  Press the <kbd>Export</kbd> button.
-
-![add moss layer](images/exportMoss.png)
-
-Repeat this for `spr_brick_1_dirt`, `spr_brick_1_dust`, `spr_brick_1_oxid`, `spr_brick_2_moss`, `spr_brick_2_dirt`, `spr_brick_2_dust`, `spr_brick_2_oxid`, `spr_brick_3_moss`, `spr_brick_3_dirt`, `spr_brick_3_dust`, `spr_brick_3_oxid`. Turn on only the layers you need for each effect, and combine them if you like.  There are no rules here, we just want a good variety of different effects.
-
-![export all other combinations](images/exportRest.png)
-
-Now take all of these exports into **Photoshop** and turn the **Mode | Indexed Color** and reduce the colors.  Be careful as it is set to **Previous**, it will use the previous palette.  We do not want this.  You might notice your moss is not green.  Reselet a setting and make sure there are enough colors to get the green. Rescale the **Image** to `64` by `64` as we did previously.
-
-![index and scale all images](images/indexAndScale.png)
-
-Duplicate **ts_environment** and call it `ts_environment_2`.  Copy and paste all the above new tiles so that you have all the 5 tiles of each type next to each other. You should have a total of 15 tiles
-
-![duplicate ts_environment and call ts_environment_2 and add all the new tiles](images/copyPaste.png)
-
-Export the new tilesheet as `ts_environment_2` as a **png** file. 
-![export brick 2](images/exportTSEnvrionment2.png)
-
-
-Go back to **GameMaker**. *Right click* on **Sprites** and select **New | Sprite** and name it `spr_environment_sprite_2`. Press the <kbd>Import</kbd> button and import the **ts_environment_2** file you just made in **Photoshop**. Assign the **spr_environment_tiles_2** sprite to it.
-
-
-![export brick 3](images/tile2Sprite.png)
-
-*Right click* on **Tile Sets** and select **New | Tile Set** and name it `ts_environment_2`.
-
-![open photoshop and create new file](images/tsEnvironment2.png)
-
-Set the **Tile Width** and **Tile Height** to `64`.
-
-![aset tile width and height to 64](images/tileWidthHeight.png)
-
-*Right click* on **Rooms** and select **New | Room** and name it `rm_tileset_2`. Change the **Room Order** to place this room on the top of the list. Now add a **Tile** layer and call it `Environment`.  Press the **Pencil** icon to start drawing tiles.
-
-![add rm_tileset_2 room and add a tile layer](images/addRm2.png)
-
-Now populate the level with a random variety of all 15 tiles.  Place them in a true random order with no discernable pattern.  Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. See how much you can get away with various varieties of the same tile if it is covering a large surface (like grass, brick, rock etc..).  
-
-https://user-images.githubusercontent.com/5504953/142774009-3ddc70c7-320e-455c-bbf4-fc404199c01a.mp4
+Now you can select the **Pencil** tool in the top menu and select the tile you would like to paint.  Lets paint the edges with the brick and add grass on the inside. You can rotate the brushes to add even more variety and add a smattering of alternate grass and bricks to taste.
 
 ![](../images/line2.png)
 
 ##### `Step 20.`\|`BTS`| :large_blue_diamond: :large_blue_diamond:
 
-Select the **File | Save Project**, then press **File | Quit** (PC) **Game Maker | Quit** on Mac to make sure everything in the game is saved.
+Now when you press the play button I received an error. 
 
-![save then quit gamemaker](images/saveQuit.png)
+finishedTiles
 
 ![](../images/line2.png)
 
 ##### `Step 21.`\|`BTS`| :large_blue_diamond: :large_blue_diamond: :small_blue_diamond:
+
+
 
 Open up **P4V**.  Select the top folder and press the **Add** button.  We want to add all the new files we created during this last session.  Add these files to the last change list you used at the begining of the session (in my case it was `Spaceship I portion of walkthrough`). Press the <kbd>OK</kbd> button.
 
