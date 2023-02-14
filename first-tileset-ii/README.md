@@ -142,9 +142,19 @@ Now we cannot use a sprite as a tilesheet.  We can only assign it to an **Object
 
 ![add tileset and assign spr_environment_tiles](images/tsTiles.png)
 
+
+![](../images/line2.png)
+
+##### `Step 17.`\|`BTS`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
+
 Now change the **Tile Width** and **Tile Height** to `64`.  The grid should now match the fixed size of our tiles.
 
 ![change tile set to 64 by 64](images/tileHeightAndWidth.png)
+
+![](../images/line2.png)
+
+##### `Step 18.`\|`BTS`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
+
 
 *Right click* on **Rooms** and select **New | Room** and name it `rm_tileset`. Change the **Room Order** to place this room on the top of the list. Now create a new **Tile Layer** and call it `Environment`.  Assign the **ts_envirnoment** tileset to this layer.  A window for the **Room Editor** should open up on the right hand side.
 
@@ -187,17 +197,9 @@ Go back to **GameMaker**. *Right click* on **Sprites** and select **New | Sprite
 
 ![open photoshop and create new file](images/tsEnvironment2.png)
 
-![](../images/line2.png)
-
-##### `Step 17.`\|`BTS`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
-
 Set the **Tile Width** and **Tile Height** to `64`.
 
 ![aset tile width and height to 64](images/tileWidthHeight.png)
-
-![](../images/line2.png)
-
-##### `Step 18.`\|`BTS`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
 *Right click* on **Rooms** and select **New | Room** and name it `rm_tileset_2`. Change the **Room Order** to place this room on the top of the list. Now add a **Tile** layer and call it `Environment`.  Press the **Pencil** icon to start drawing tiles.
 
