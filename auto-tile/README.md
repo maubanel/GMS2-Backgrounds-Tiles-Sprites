@@ -92,13 +92,14 @@ Save the file in photoshop and re-export the png `spr_environment`.
 
 ![duplicate ts_environemt_2.psd and call it ..._3.psd](images/reExport.png)
 
-
-
 ![](../images/line2.png)
 
 ##### `Step 10.`\|`BTS`| :large_blue_diamond:
 
-![Look at all the layers in AutoTileTemplate.psd](images/reExport.png)
+Bring it into GameMaker and replace the **spr_environment_background** with this new texture.
+
+![duplicate ts_environemt_2.psd and call it ..._3.psd](images/reImportTileset.png)
+
 
 Change the **Tile Height** and **Tile Width** to `64. *Press* the **Auto Tiling** button.  This puts up the autotiling node.  Click on the **plus** symbol next to 16.  Then if you put the layers in order it should be from the dirt all the way to grass, assign each layer. Look at the which pattern is light and dark and make sure the light one is dirt and the dark one is grass.
 
