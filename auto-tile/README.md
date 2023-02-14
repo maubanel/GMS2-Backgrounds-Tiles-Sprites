@@ -82,6 +82,8 @@ Work you way up to the second to the top layer leaving both the bottom dirt late
 
 Duplicate **ts_environment_2.psd** and call the new file `ts_environment_3.psd`. We will add these auto tiles to this tilesheet.
 
+https://user-images.githubusercontent.com/5504953/218809791-83870218-0235-417c-9112-df4f141b51da.mp4
+
 ![](../images/line2.png)
 
 ##### `Step 9.`\|`BTS`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
