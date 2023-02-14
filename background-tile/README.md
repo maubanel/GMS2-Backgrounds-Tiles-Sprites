@@ -87,17 +87,17 @@ Now lets make it look like an illustration/cartoon.  Go to **Filter | Filter Gal
 
 ##### `Step 8.`\|`BTS`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Now we do not see the texture with the default settings.  Select the **Output image** and choose `Base Color`.  Then press the **3D-Icon** next to the plane so we have two windows, one with the 3-D view showing the tiling and one with the 2-D view on the right hand side.
+Go back to **Image | Image Size** and change to our final size of `64` by `64`.
 
-![change output image to base color and show 3D view](images/2D3Dview.png)
+![change output image to base color and show 3D view](images/64Size.png)
 
 ![](../images/line2.png)
 
 ##### `Step 9.`\|`BTS`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Now the picture doesn't have even lighting and the bricks on the right are noticably darker than the ones on the left.  This makes it look like we have a repeating dark splotch.  Press the **Add a layer** icon to add a **Equalize** filter. Play with the settings to remove as much as the shading variation as you like.
+Press **File | Export | Quick Export as PNG**.  Save the file and call it `spr_brick`.
 
-![Add equalize filter](images/equalizeNode.png)
+![export brick](images/exportBrick.png)
 
 ![](../images/line2.png)
 
