@@ -164,6 +164,8 @@ https://user-images.githubusercontent.com/5504953/218786854-5614baf2-fba7-4a99-b
 
 Now you can select the **Pencil** tool in the top menu and select the tile you would like to paint.  Lets paint the edges with the brick and add grass on the inside. You can rotate the brushes to add even more variety and add a smattering of alternate grass and bricks to taste.
 
+https://user-images.githubusercontent.com/5504953/218789866-4ca1d029-d521-4354-bf0d-d6180fbf9bf6.mp4
+
 ![](../images/line2.png)
 
 ##### `Step 20.`\|`BTS`| :large_blue_diamond: :large_blue_diamond:
