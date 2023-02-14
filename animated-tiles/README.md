@@ -51,13 +51,13 @@ Call this newly created library entry water_animation.
 
 ##### `Step 5.`\|`BTS`| :small_orange_diamond:
 
-*Right click* on **Rooms** and select **Create | Room** and drag it to the top of the list in **Room Priorities**.  Call it `rm_water_animation`.  
+*Right click* on **rm_brushes** and select **duplicate** and drag it to the top of the list in **Room Priorities**.  Call it `rm_water_animation`.  
 
 Go to **Room Settings** and change the **Width** to `1920` and **Height** to `1080`. *Create* another **Tile Layer** and call it `Animation`.  *Drag* it between **Instances** and **Background**.
 	
 Select the new **Animation** layer and assign the new `tls_animated_background_tiles` tile set to it. This contains the static tiles and the animated water tiles you just created.
 
-https://user-images.githubusercontent.com/5504953/143765241-a75324aa-87f4-48e8-8fe0-2458d706106c.mp4
+https://user-images.githubusercontent.com/5504953/218884494-defe92b0-871c-4f80-867b-a7b1a150006c.mp4
 
 ![](../images/line2.png)
 
