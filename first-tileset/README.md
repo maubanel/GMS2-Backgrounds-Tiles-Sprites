@@ -161,6 +161,9 @@ Add an **Fx | Color Overlay** to the layer and select a green color and effect t
 
 ![export brick 3](images/fxOverlay2.png)
 
+![](../images/line2.png)
+
+
 ##### `Step 19.`\|`BTS`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
 This will create a nice evenly colored grass texture.
@@ -181,15 +184,21 @@ Export and re-import this texture into **GameMkaer** and press play.  Now finall
 
 Fire up **Photoshop** and press **File | New Document**.  Change the size to **Pixels** and lets make a 10 x 10 grid of 64 x 64 tiles, so select `640` x `640`. Make the **Background** `Transparent`. Press the <kbd>Create</kbd> button.
 
-![export and re-import](images/exportReimport.png)
+![new photoshop file](images/newFile.png)
 
 ![](../images/line2.png)
+
+##### `Step 22.`\|`BTS`| :large_blue_diamond: :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
 ![open photoshop and create new file](images/photoshopNewDocument.png)
 
 Select **Edit | Preferences | Guides, Grid & Slices...**.  Change the gridlines to **Pixels** and set the **Guideline Every: ** to `64`.  Set the subdivision to `1`. Press the <kbd>OK</kbd> button.
 
-![add a single grid line every 64 pixels](images/gridSize.png)
+![add a single grid line every 64 pixels](images/gridSize2.png)
+
+![](../images/line2.png)
+
+##### `Step 23.`\|`BTS`| :large_blue_diamond: :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
 Now we need to see the grid. Select **View | Show | Grid**.  Make sure that **Snap to Grid** is activated. 
 
@@ -198,10 +207,6 @@ Now we need to see the grid. Select **View | Show | Grid**.  Make sure that **Sn
 Open up **spr_brick_1** that you previously exported. Select **Image | Mode | Index** and redue the color palette to get that 8-bit look.  Alter settings to your preferences. Press the <kbd>OK</kbd> button.
 
 ![change to index mode of spr_brick_1](images/changeToIndex.png)
-
-![](../images/line2.png)
-
-##### `Step 22.`\|`BTS`| :large_blue_diamond: :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
 Select **Image | Image Size** and change the size of the tile to `64` by `64`.  Leave the ??? at `Automatic`.
 
