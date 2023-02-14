@@ -128,7 +128,19 @@ Name this auto tile under the Library tab `auto_dirt_to_grass`. This will be dir
 
 ![Create a room called rm_lvl_test_2 and add tile layer Tiles_Background](images/SecondTestRoom.png)
 
-Assign the **tls_environment_3** sprite to the tile layer. Make sure you are on the **Tiles_Brackground** layer.  Now the tile on the left will be inside the tile on the right.  So lets select the paint bucket tool on the top toolbar and fill the entire level with grass.  Then we can go in and paint with dirt inside the grass by selecting the auto tile tool. Paint and see the pattern follows the the flow and we get nice rounded corners between the two tiles. Now *press* the <kbd>Play</kbd> button in the top menu bar to admire your work.
+![](../images/line2.png)
+
+##### `Step 14.`\|`BTS`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
+
+Assign the **ts_environment** sprite to the tile layer. 
+
+![add tile to room layer](images/roomAutoTileLayer.png)
+
+![](../images/line2.png)
+
+##### `Step 15.`\|`BTS`| :large_blue_diamond: :small_orange_diamond: 
+
+Make sure you are on the **Tiles_Brackground** layer.  Now the tile on the left will be inside the tile on the right.  So lets select the paint bucket tool on the top toolbar and fill the entire level with grass.  Then we can go in and paint with dirt inside the grass by selecting the auto tile tool. Paint and see the pattern follows the the flow and we get nice rounded corners between the two tiles. Now *press* the <kbd>Play</kbd> button in the top menu bar to admire your work.
 
 https://user-images.githubusercontent.com/5504953/143032767-b688f498-ca52-4bcf-8cfa-dccd122c5122.mp4
 
@@ -144,19 +156,10 @@ Copy merged and paste these two layers onto your photoshop tilesheet.
 
 https://user-images.githubusercontent.com/5504953/143039314-8e457336-d00f-464c-9921-c7e770c06c3b.mp4
 
-![](../images/line2.png)
-
-##### `Step 14.`\|`BTS`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
-
 Export and reimport this into gamemaker.  Go back to your tilesheet and create another 16 auto tile section.  *Assign* the opposite of the grass to sand in the sand to grass configuration.  Double check your work at the end.  Each tile should mirror the one above. Name the autotile `auto_grass_to_dirt`.
 All the tiles should be the exact inverse of the auto tilesheet above it.  Double check your work.
 
 https://user-images.githubusercontent.com/5504953/143041839-b38e0cdc-68a5-4406-a498-25f687e9cf4e.mp4
-
-![](../images/line2.png)
-
-##### `Step 15.`\|`BTS`| :large_blue_diamond: :small_orange_diamond: 
-
 Go back to **rm_auto_tile** and select the eraser. Delete the old dirt tiles.  Fill it again so the entire room is grass.  Go to the **Libraries** *tab* and select the newly created **auto_dirt_to_grass** tile.  Then paint dirt inside of grass.  Now you can change the autotiler then paint grass inside of dirt again by selecting**auto_grass_to_dirt** and this will  allow for quicker assembly of levels. Now *press* the <kbd>Play</kbd> button in the top menu bar and check out your work!
 
 https://user-images.githubusercontent.com/5504953/143062703-146bc615-7e53-4932-8d1b-18b169987bcd.mp4
