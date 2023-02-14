@@ -156,7 +156,7 @@ Now change the **Tile Width** and **Tile Height** to `64`.  The grid should now 
 
 *Right click* on **Rooms** and select **New | Room** and name it `rm_tileset`. Change the **Room Order** to place this room on the top of the list. Now create a new **Tile Layer** and call it `Environment`.  Assign the **ts_envirnoment** tileset to this layer.  A window for the **Room Editor** should open up on the right hand side.
 
-
+https://user-images.githubusercontent.com/5504953/218786854-5614baf2-fba7-4a99-b5d8-6726e40ab073.mp4
 
 ![](../images/line2.png)
 
