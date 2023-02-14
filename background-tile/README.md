@@ -135,9 +135,9 @@ Lets reduce the color shifts by selecting **Filter | Other | High Pass**.  Chang
 
 ##### `Step 14.`\|`BTS`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
-Select **Image | Image Color...** and select a small number of colors.  This will give you an 8-bit look.  I picked a **Palette** and adjusted the dithering.  
+The brick now looks like:
 
-![Redraw grout line to get rid of transition](images/indexColor.png)
+![Redraw grout line to get rid of transition](images/spr_brick_1.png)
 
 ![](../images/line2.png)
 
