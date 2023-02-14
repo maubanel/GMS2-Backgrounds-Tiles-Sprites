@@ -88,9 +88,15 @@ https://user-images.githubusercontent.com/5504953/218809791-83870218-0235-417c-9
 
 ##### `Step 9.`\|`BTS`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![duplicate ts_environemt_2.psd and call it ..._3.psd](images/dupeEnvrionemtn2.png)
-
 Save the file in photoshop and re-export the png `spr_environment`.
+
+![duplicate ts_environemt_2.psd and call it ..._3.psd](images/reExport.png)
+
+
+
+![](../images/line2.png)
+
+##### `Step 10.`\|`BTS`| :large_blue_diamond:
 
 ![Look at all the layers in AutoTileTemplate.psd](images/reExport.png)
 
@@ -101,10 +107,6 @@ https://user-images.githubusercontent.com/5504953/143030131-6609fc3d-631d-4c4f-b
 Name this auto tile under the Library tab `auto_dirt_to_grass`. This will be dirt surrounded by grass.
 
 ![Name this auto_grass_to_sand under Library](images/GrassToSand.png)
-
-![](../images/line2.png)
-
-##### `Step 10.`\|`BTS`| :large_blue_diamond:
 
 *Create* a new room and call it `rm_auto_tile`.  *Move* it to the top of the list in **Room Priority**. Add a new **Tile Layer** called `Environment`.  Place it *beneath* the Instance layer.
 
