@@ -16,6 +16,8 @@ We usually break our artwork down into reusable *lego* pieces into their smalles
 * 96 x 96
 * 128 x 128	
 
+There are many techniques we can use.
+
 <br>
 
 ---
@@ -33,7 +35,9 @@ Open up the project you are working on in **GameMaker**.
 
 ##### `Step 2.`\|`BTS`|:small_blue_diamond: :small_blue_diamond: 
 
-We are going to go with 64 by 64 for this exercise.  Start a new photoshop file and import a large texture you like. Pick one you took with your camera or grab a free one that is copyright cleared to use on the internet.  I grabbed a photorealistic brick wall texture and made sure it has a lot more surface area than I need.  This way I can use different parts of this texture to build variety. If you don't have a camera you can download the image used here: [spr_brick_1.png](../Assets/PNG/spr_brick_1.png).
+The first technique is to alter an existing photo and make it tilable.
+
+We are going to go with 64 by 64 for this exercise.  Download the image used here: [spr_brick_1.png](../Assets/PNG/spr_brick_1.png). 
     
 There are two things we need to worry about.  One is making it tile, and secondly removing any complexity in the image that makes the repeat a very obvious pattern.  I also want to make it look a bit more "8-bit" and not photo realistic.  For prototyping we will do this using some quick tricks.  Open the file up in photoshop.
 
@@ -43,9 +47,9 @@ There are two things we need to worry about.  One is making it tile, and secondl
 
 ##### `Step 3.`\|`BTS`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Select **Filter | Neural Filter**.
+Grab the square selection tool and press the <kbd>Shift</kbd> key and select a small section of the brick texture.  I want to have it wrap the best I can so ideally it cuts on the grout line vertically then halfway between bricks horizontally.  Make sure the seletion is a square aspect ration (1:1).
 
-![Select Neural Filter](images/neuralFilter.png)
+![Select square section](images/selectPortionOfBrick.png)
 
 ![](../images/line2.png)
 
