@@ -6,16 +6,16 @@
 
 ![](../images/line3.png)
 
-Lets make our first tileset and check to see how well our three bricks fit together.<br>
+Lets extend our first tileset and add some variety to our shapes.<br>
 
 ---
 
 
 ##### `Step 1.`\|`BTS`|:small_blue_diamond:
 
-Repeat the step 19 to 21 on the previous page on **spr_brick_2** and **spr_brick_3**.  This should leave us with three different brick textures that we can check for accuracy. 
+Lets add some cracks to the brick.  Find a nice cracked texture on your own.  Select a square from it. Crop the square and change the scale to `64` by `64`.
 		
-![add spr brick 2 and 3 to tilesheet repeating previous process](images/threeBricks.png)
+![add spr brick 2 and 3 to tilesheet repeating previous process](images/cropOutCracks.png)
 
 ![](../images/line2.png)
 
@@ -24,8 +24,6 @@ Repeat the step 19 to 21 on the previous page on **spr_brick_2** and **spr_brick
 Press the **File | Save** menu item and save the file as `ts_environment` as a **psd** file.  Store it in a working folder.
 
 ![save file as ts_environment](images/saveTsEnvironment.png)
-
-
 
 ![](../images/line2.png)
 
