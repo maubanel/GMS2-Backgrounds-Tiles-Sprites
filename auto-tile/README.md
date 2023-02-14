@@ -161,7 +161,7 @@ Now what happens if we want to paint grass inside of dirt?  We have all the tile
 
 ##### `Step 18.`\|`BTS`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Go back to **Photoshop** and our grass to sand file.  *Duplicate* the two diagonal tiles with amsk. Drag both layers to the top of the layers just below the grass.  
+Go back to **Photoshop** and our grass to sand file.  *Duplicate* the two diagonal tiles with mask. Drag both layers to the top of the layers just below the grass.  
 
 Now we want dirt to be inside of the grass so we want to reverse the mask.  We do this by clicking on the mask then press the **Image | Adjustments | Invert** menu item.  Do this for both masks and check tha they both has dirt inside of grass.
 
