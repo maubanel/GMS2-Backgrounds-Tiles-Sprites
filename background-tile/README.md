@@ -71,8 +71,7 @@ Now this texture is not tilable.  The edges won't line up.  What we will do is s
 
 ##### `Step 6.`\|`BTS`| :small_orange_diamond: :small_blue_diamond:
 
-Use the clone stamp tool and fix the center lines that show an abrupt change.  Try and pick areas that make sense following the ground line and making sure the bricks are not too long or short.
-
+Use the clone stamp tool and fix the center lines that show an abrupt change.  Pick a brush with a soft edge and pick a size that works best for you. Try and pick areas that make sense following the ground line and making sure the bricks are not too long or short.
 
 ![](../images/line2.png)
 
