@@ -43,18 +43,14 @@ https://user-images.githubusercontent.com/5504953/218882647-a667f447-0cba-4476-9
 
 ##### `Step 4.`\|`BTS`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-
-![](../images/line2.png)
-
-##### `Step 5.`\|`BTS`| :small_orange_diamond:
-
 Call this newly created library entry water_animation.
 
 ![A Call this entry water_animation](images/CallWaterAnimation.png)
 
 ![](../images/line2.png)
 
-##### `Step 6.`\|`BTS`| :small_orange_diamond: :small_blue_diamond:
+##### `Step 5.`\|`BTS`| :small_orange_diamond:
+
 *Right click* on **Rooms** and select **Create | Room** and drag it to the top of the list in **Room Priorities**.  Call it `rm_water_animation`.  
 
 Go to **Room Settings** and change the **Width** to `1920` and **Height** to `1080`. *Create* another **Tile Layer** and call it `Animation`.  *Drag* it between **Instances** and **Background**.
@@ -62,6 +58,11 @@ Go to **Room Settings** and change the **Width** to `1920` and **Height** to `10
 Select the new **Animation** layer and assign the new `tls_animated_background_tiles` tile set to it. This contains the static tiles and the animated water tiles you just created.
 
 https://user-images.githubusercontent.com/5504953/143765241-a75324aa-87f4-48e8-8fe0-2458d706106c.mp4
+
+![](../images/line2.png)
+
+##### `Step 6.`\|`BTS`| :small_orange_diamond: :small_blue_diamond:
+
 
 ![](../images/line2.png)
 
