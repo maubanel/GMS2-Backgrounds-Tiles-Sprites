@@ -62,6 +62,7 @@ https://user-images.githubusercontent.com/5504953/218884494-defe92b0-871c-4f80-8
 ![](../images/line2.png)
 
 ##### `Step 6.`\|`BTS`| :small_orange_diamond: :small_blue_diamond:
+
 While on the **Animation** layer *select* the **Room Edtior** tab. The **Water Animation** will appear at the bottom.  *Select* the **Libraries** tab in the **Room Editor** and select the new **water_animation** item. Click on the **fill** bucket tool and fill the screen with water hit the <kbd>Play</kbd> button. Notice that I forgot to move the **rm_water_animation** to the top of the **Room Order** list. Now this doesn't tile very well.
 
 https://user-images.githubusercontent.com/5504953/218884001-b3d462b9-5a78-4e8c-83d1-b24ef3c62ffb.mp4
