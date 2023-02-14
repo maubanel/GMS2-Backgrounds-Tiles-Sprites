@@ -93,6 +93,14 @@ That's enough brick, lets add some grass to the tilesheet.  Cut and paste the gr
 
 ##### `Step 11.`\|`BTS`| :large_blue_diamond: :small_blue_diamond: 
 
+Duplicate the grass layer.  Now on the top layer you can add a **Filter | Noise | Add Noise** and set **Monochromatic** to false and add the desired amount of noise. Changle the overlay type to **Color** and adjust the percentage of the effect you want.  Sort of adds some dirt like noise to my texture.
+
+![add grass](images/addNoise.png)
+
+![](../images/line2.png)
+
+
+##### `Step 12.`\|`BTS`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
 
 Press the **File | Save** menu item and save the file as `ts_environment` as a **psd** file.  Store it in a working folder.
 
@@ -131,11 +139,6 @@ Now once you are happy with your three tiles go back to **Substance 3D Samper** 
 Repeat this for `spr_brick_1_dirt`, `spr_brick_1_dust`, `spr_brick_1_oxid`, `spr_brick_2_moss`, `spr_brick_2_dirt`, `spr_brick_2_dust`, `spr_brick_2_oxid`, `spr_brick_3_moss`, `spr_brick_3_dirt`, `spr_brick_3_dust`, `spr_brick_3_oxid`. Turn on only the layers you need for each effect, and combine them if you like.  There are no rules here, we just want a good variety of different effects.
 
 ![export all other combinations](images/exportRest.png)
-
-![](../images/line2.png)
-
-
-##### `Step 12.`\|`BTS`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
 
 Now take all of these exports into **Photoshop** and turn the **Mode | Indexed Color** and reduce the colors.  Be careful as it is set to **Previous**, it will use the previous palette.  We do not want this.  You might notice your moss is not green.  Reselet a setting and make sure there are enough colors to get the green. Rescale the **Image** to `64` by `64` as we did previously.
 
