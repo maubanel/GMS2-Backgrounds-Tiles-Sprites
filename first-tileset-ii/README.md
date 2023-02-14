@@ -172,7 +172,8 @@ https://user-images.githubusercontent.com/5504953/218789866-4ca1d029-d521-4354-b
 
 Now when you press the play button I received an error. 
 
-finishedTiles
+![finished tiles](images/finishedTiles.png)
+
 
 ![](../images/line2.png)
 
