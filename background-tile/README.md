@@ -103,9 +103,9 @@ Press **File | Export | Quick Export as PNG**.  Save the file and call it `spr_b
 
 ##### `Step 10.`\|`BTS`| :large_blue_diamond:
 
-Now we need to crop an area.  You can select the same **Add a layer** button and search for **Crop** or drag the icon form the most common layers on the left hand panel under **File**.
+Open **GameMaker** back up and create a new sprite.  Press the <kbd>Import</kbd> button and select the png file you just exported.  Call it `spr_brick`.
 
-![add crop layer](images/cropLayer.png)
+![import brick to game](images/importBrick.png)
 
 ![](../images/line2.png)
 
