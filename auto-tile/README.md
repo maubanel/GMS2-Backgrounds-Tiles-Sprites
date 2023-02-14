@@ -161,17 +161,13 @@ Now what happens if we want to paint grass inside of dirt?  We have all the tile
 
 ##### `Step 18.`\|`BTS`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Go back to **Photoshop** and our grass to sand file.  *Duplicate* the two diagonal tiles with mask. Drag both layers to the top of the layers just below the grass.  
+Go back to **Photoshop** and our grass to dirt file.  *Duplicate* the two diagonal tiles with mask. Drag both layers to the top of the layers just below the grass.  
 
 Now we want dirt to be inside of the grass so we want to reverse the mask.  We do this by clicking on the mask then press the **Image | Adjustments | Invert** menu item.  Do this for both masks and check tha they both has dirt inside of grass.
 
-<<<<<<< HEAD
 Copy merged and paste these two layers onto your photoshop tilesheet. Export and reimport this into gamemaker.  Reassign the tilesheet so it binds with the new sprite.
-=======
-Copy merged and paste these two layers onto your photoshop tilesheet. Export and reimport this into gamemaker. Unload and reload the tilesheet to make sure this new one binds.
 
 https://user-images.githubusercontent.com/5504953/218837399-d2697f9d-5441-4ef3-b968-237ff0983a18.mp4
->>>>>>> 784445913bac3db10513b4c62611de8f9a9cb1fa
 
 
 ![](../images/line2.png)
