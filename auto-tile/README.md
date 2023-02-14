@@ -165,30 +165,27 @@ Go back to **Photoshop** and our grass to sand file.  *Duplicate* the two diagon
 
 Now we want dirt to be inside of the grass so we want to reverse the mask.  We do this by clicking on the mask then press the **Image | Adjustments | Invert** menu item.  Do this for both masks and check tha they both has dirt inside of grass.
 
+<<<<<<< HEAD
 Copy merged and paste these two layers onto your photoshop tilesheet. Export and reimport this into gamemaker.  Reassign the tilesheet so it binds with the new sprite.
+=======
+Copy merged and paste these two layers onto your photoshop tilesheet. Export and reimport this into gamemaker. Unload and reload the tilesheet to make sure this new one binds.
 
-https://user-images.githubusercontent.com/5504953/143039314-8e457336-d00f-464c-9921-c7e770c06c3b.mp4
+https://user-images.githubusercontent.com/5504953/218837399-d2697f9d-5441-4ef3-b968-237ff0983a18.mp4
+>>>>>>> 784445913bac3db10513b4c62611de8f9a9cb1fa
+
 
 ![](../images/line2.png)
 
 ##### `Step 19.`\|`BTS`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Go back to your tilesheet and create another 16 auto tile section.  *Assign* the opposite of the grass to sand in the sand to grass configuration.  Now the dark portion should be dirt. Double check your work at the end.  Each tile should mirror the one above. Name the autotile `auto_grass_to_dirt`. All the tiles should be the exact inverse of the auto tilesheet above it.  Double check your work.
-
+Go back to your tilesheet and create another 16 auto tile section.  *Assign* the opposite of the dirt to grass. Now the dark portion in the template should be dirt.  Name the autotile `auto_grass_to_dirt`. All the tiles should be the exact inverse of the auto tilesheet above it.  Double check your work.
 
 Go back to **rm_auto_tile** and select the eraser. Fill in the dirt portion.  Go to the **Libraries** *tab* and select the newly created **auto_dirt_to_grass** tile.  Then paint grass inside of the dirt.   Now *press* the <kbd>Play</kbd> button in the top menu bar and check out your work!
 
-https://user-images.githubusercontent.com/5504953/143041839-b38e0cdc-68a5-4406-a498-25f687e9cf4e.mp4
 
 ![](../images/line2.png)
 
 ##### `Step 20.`\|`BTS`| :large_blue_diamond: :large_blue_diamond:
-
-
-
-![](../images/line2.png)
-
-##### `Step 21.`\|`BTS`| :large_blue_diamond: :large_blue_diamond: :small_blue_diamond:
 
 Select the **File | Save Project**, then press **File | Quit** (PC) **Game Maker | Quit** on Mac to make sure everything in the game is saved.
 
@@ -196,7 +193,7 @@ Select the **File | Save Project**, then press **File | Quit** (PC) **Game Maker
 
 ![](../images/line2.png)
 
-##### `Step 22.`\|`BTS`| :large_blue_diamond: :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:
+##### `Step 21.`\|`BTS`| :large_blue_diamond: :large_blue_diamond: :small_blue_diamond:
 
 Open up **P4V**.  Select the top folder and press the **Add** button.  We want to add all the new files we created during this last session.  Add these files to the last change list you used at the begining of the session (in my case it was `Spaceship I portion of walkthrough`). Press the <kbd>OK</kbd> button.
 
@@ -204,7 +201,7 @@ Open up **P4V**.  Select the top folder and press the **Add** button.  We want t
 
 ![](../images/line2.png)
 
-##### `Step 23.`\|`BTS`| :large_blue_diamond: :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
+##### `Step 22.`\|`BTS`| :large_blue_diamond: :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
 Now you can submit the changelist by pressing both <kbd>Submit</kbd> buttons.
 
