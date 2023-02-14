@@ -32,22 +32,15 @@ Open up the project you are working on in **GameMaker**.
 
 ##### `Step 3.`\|`BTS`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Go to **GameMaker** and *right click* on **spr_environment_tiles_4** and select **Duplicate**. Call the duplicated **Sprite** `spr_environment_tiles_5`.  *Press* the <kbd>Import</kbd> button.  Select the **PNG** you just exported. *Right click* on **ts_environment_4** and call it `ts_environment_5`.  Bind the **spr_environment_tiles_5** sprite to this tile.
-Notice that you can combine static tiles (grass, dirt) with animated tiles (water).  Once a frame is marked as animated though it can no longer be used as a static file.
+Once a frame is marked as animated though it can no longer be used as a static file. *Press* the **Tile Animation** button.  THere are a few things to notice.  This animation sheet can only have one framerate for all the animations.  We will set it at `4` FPS to slow it down a bit.  The number of animation frames has to be a power of 2 either 2, 4, 8, 16, 32, 64, 128 or 256. Press the small downward arrow and select `8`.
+	
+Assign each frame from left to right and fill up all 8 slots, starting with the water tile on the far left and ending with the tile on the far right. There is a <kbd>Play</kbd> button to preview the animation and you can change the frame rate to your liking.  
 
-https://user-images.githubusercontent.com/5504953/143682055-a07eaf41-c4da-443e-8324-00f30ea567a2.mp4
 
 ![](../images/line2.png)
 
 ##### `Step 4.`\|`BTS`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Open up **ts_environment_5**.  *Press* the **Tile Set Properties** button and make sure the **Tile Width** and **Tile Height** is sert to `64`.
-
-*Press* the **Tile Animation** button.  THere are a few things to notice.  This animation sheet can only have one framerate for all the animations.  We will set it at `4` FPS to slow it down a bit.  The number of animation frames has to be a power of 2 either 2, 4, 8, 16, 32, 64, 128 or 256. Press the small downward arrow and select `8`.
-	
-Assign each frame from left to right and fill up all 8 slots, starting with the water tile on the far left and ending with the tile on the far right. There is a <kbd>Play</kbd> button to preview the animation and you can change the frame rate to your liking.  
-
-https://user-images.githubusercontent.com/5504953/143683488-77da8028-1abc-4379-907a-05ee7a75b8db.mp4
 
 ![](../images/line2.png)
 
