@@ -54,7 +54,7 @@ We do not need to waste storage and sprite space by having to store rotated spri
 
 Now we need spaces in between each brush. Lets create a hedge in all 4 directions by rotating it pressing the *Rotate* button.  Add a brush with 4 hedge pieces making it quicker to draw in all 4 directions.  Then add our end pieces in all diretions as well. The end pieces need to work in both sides so rotate it as is in all 4 directions then flip the horizontal axis and rotate it 4 more times.  This will allow us to end the hedge in any diretion on both sides.
 
-https://user-images.githubusercontent.com/5504953/218859081-f1a5bb7e-265c-465e-934b-15bb8218072a.mp4
+https://user-images.githubusercontent.com/5504953/218878060-27102d00-17c3-4434-b3a7-607512ee9232.mp4
 
 ![](../images/line2.png)
 
