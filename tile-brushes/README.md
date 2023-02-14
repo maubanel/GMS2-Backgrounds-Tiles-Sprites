@@ -32,7 +32,7 @@ Open up the project you are working on in **GameMaker**.
 
 ##### `Step 3.`\|`BTS`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Duplicate **ts_environment_3.psd** and call the new file `ts_environment_4.psd`. Copy both of the tiles above and add them to the end of your tilesheet. Remember to always leave the first slot empty.
+Copy both of the tiles above and add them to the end of your tilesheet. Remember to always leave the first slot empty.
 
 ![Copy both frames into your tilesheet](images/CopyPasteHedgestoTilesheet.png)
 
@@ -40,7 +40,7 @@ Duplicate **ts_environment_3.psd** and call the new file `ts_environment_4.psd`.
 
 ##### `Step 4.`\|`BTS`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-**Export** your tilesheet as a **PNG** and right click on **Sprites** and select **Create Sprite**. Call it `spr_environment_tiles_4`. Press the <kbd>Import</kbd> button and select the above sprite. 
+**Export** your tilesheet as a **PNG** and reimport the new tilesheet in `spr_environment_tiles`. Press the <kbd>Import</kbd> button and select the above sprite. Now load and reload the sprite for the **Tilesheet**.
 
 ![Export tiles as PNG and import into GameMaker replacing spr_background_tiles](images/ReimportForBrushes.png)
 
