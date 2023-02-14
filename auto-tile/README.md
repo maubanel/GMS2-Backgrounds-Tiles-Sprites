@@ -100,10 +100,17 @@ Bring it into GameMaker and replace the **spr_environment_background** with this
 
 ![duplicate ts_environemt_2.psd and call it ..._3.psd](images/reImportTileset.png)
 
+![](../images/line2.png)
+
+##### `Step 11.`\|`BTS`| :large_blue_diamond: :small_blue_diamond: 
 
 Change the **Tile Height** and **Tile Width** to `64. *Press* the **Auto Tiling** button.  This puts up the autotiling node.  Click on the **plus** symbol next to 16.  Then if you put the layers in order it should be from the dirt all the way to grass, assign each layer. Look at the which pattern is light and dark and make sure the light one is dirt and the dark one is grass.
 
 https://user-images.githubusercontent.com/5504953/143030131-6609fc3d-631d-4c4f-b063-38433af5fa7d.mp4
+
+![](../images/line2.png)
+
+##### `Step 12.`\|`BTS`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
 
 Name this auto tile under the Library tab `auto_dirt_to_grass`. This will be dirt surrounded by grass.
 
@@ -113,17 +120,9 @@ Name this auto tile under the Library tab `auto_dirt_to_grass`. This will be dir
 
 ![Create a room called rm_lvl_test_2 and add tile layer Tiles_Background](images/SecondTestRoom.png)
 
-![](../images/line2.png)
-
-##### `Step 11.`\|`BTS`| :large_blue_diamond: :small_blue_diamond: 
-
 Assign the **tls_environment_3** sprite to the tile layer. Make sure you are on the **Tiles_Brackground** layer.  Now the tile on the left will be inside the tile on the right.  So lets select the paint bucket tool on the top toolbar and fill the entire level with grass.  Then we can go in and paint with dirt inside the grass by selecting the auto tile tool. Paint and see the pattern follows the the flow and we get nice rounded corners between the two tiles. Now *press* the <kbd>Play</kbd> button in the top menu bar to admire your work.
 
 https://user-images.githubusercontent.com/5504953/143032767-b688f498-ca52-4bcf-8cfa-dccd122c5122.mp4
-
-![](../images/line2.png)
-
-##### `Step 12.`\|`BTS`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
 
 Now what happens if we want to paint grass inside of dirt?  We have all the tiles we need (all mirrored tiles) except for two diagonal pieces. We need them with grass diagonals.
 
