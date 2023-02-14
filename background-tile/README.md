@@ -73,6 +73,7 @@ Now this texture is not tilable.  The edges won't line up.  What we will do is s
 
 Use the clone stamp tool and fix the center lines that show an abrupt change.  Try and pick areas that make sense following the ground line and making sure the bricks are not too long or short.
 
+https://user-images.githubusercontent.com/5504953/218638170-b9e66799-c477-4a83-bba9-9f77686755f5.mp4
 
 ![](../images/line2.png)
 
