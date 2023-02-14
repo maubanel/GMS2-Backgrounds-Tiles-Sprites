@@ -52,7 +52,7 @@ Open up **spr_envrionment_sprites**. Reload the sprite. Press the **Brush Builde
 
 We do not need to waste storage and sprite space by having to store rotated sprites.  We can take our hedge and rotate it in all diretions allowing it to work in all axis for any scenario.
 
-Now we need spaces in between each brush. Lets create a hedge in all 4 directions by rotating it pressing the *Rotate* button.  Add a brush with 4 hedge pieces making it quicker to draw in all 4 directions.  Then add our end pieces in all diretions as well.
+Now we need spaces in between each brush. Lets create a hedge in all 4 directions by rotating it pressing the *Rotate* button.  Add a brush with 4 hedge pieces making it quicker to draw in all 4 directions.  Then add our end pieces in all diretions as well. The end pieces need to work in both sides so rotate it as is in all 4 directions then flip the horizontal axis and rotate it 4 more times.  This will allow us to end the hedge in any diretion on both sides.
 
 https://user-images.githubusercontent.com/5504953/218859081-f1a5bb7e-265c-465e-934b-15bb8218072a.mp4
 
