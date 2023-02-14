@@ -127,9 +127,9 @@ Now the repeat is not very convincing.  The contrast between the bricks is so gr
 
 ##### `Step 13.`\|`BTS`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
-Open up the image you exported in **Photoshop**.  Please note that it adds `_BaseColor` at the end of the name.Press the **Image | Resize Image** item and rescale the image to `64` by `64`. Keep the **Resample** at `automatic`. Press the <kbd>OK</kbd> button.
+Lets reduce the color shifts by selecting **Filter | Other | High Pass**.  Change the values to get a smooth even color and contrast across the bricks.
 
-![rescale to 64 by 64](images/resizeImage.png)
+![reduce contrast with high pass filter](images/highPassFIlter.png)
 
 ![](../images/line2.png)
 
