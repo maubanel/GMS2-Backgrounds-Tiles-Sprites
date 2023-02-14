@@ -32,9 +32,11 @@ https://user-images.githubusercontent.com/5504953/218881916-1140eb43-0f75-4f91-9
 
 ##### `Step 3.`\|`BTS`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Once a frame is marked as animated though it can no longer be used as a static file. *Press* the **Tile Animation** button.  THere are a few things to notice.  This animation sheet can only have one framerate for all the animations.  We will set it at `4` FPS to slow it down a bit.  The number of animation frames has to be a power of 2 either 2, 4, 8, 16, 32, 64, 128 or 256. Press the small downward arrow and select `8`.
+Once a frame is marked as animated though it can no longer be used as a static file. *Press* the **Tile Animation** button.  There are a few things to notice.  This animation sheet can only have one framerate for all the animations.  We will set it at `4` FPS to slow it down a bit.  The number of animation frames has to be a power of 2 either 2, 4, 8, 16, 32, 64, 128 or 256. Press the small downward arrow and select `8`.
 	
 Assign each frame from left to right and fill up all 8 slots, starting with the water tile on the far left and ending with the tile on the far right. There is a <kbd>Play</kbd> button to preview the animation and you can change the frame rate to your liking.  
+
+https://user-images.githubusercontent.com/5504953/218882647-a667f447-0cba-4476-9358-748fdf6439c5.mp4
 
 
 ![](../images/line2.png)
