@@ -61,6 +61,39 @@ I selected the dodge tool then darkened three separate bricks.  This will give s
 
 ##### `Step 7.`\|`BTS`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
+Copy the three bricks to the sprite sheet and now we have 5 variety of bricks that are different to give a lot of variety.
+
+![dodge three bricks](images/dodgedBricksSPSh.png)
+
+![](../images/line2.png)
+
+##### `Step 8.`\|`BTS`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
+
+I then added the grass below the brick.  I added a mask and painted in some grass into the grout lines with a black brush.
+
+![masked in green grass](images/maskedGreen.png)
+
+![](../images/line2.png)
+
+##### `Step 9.`\|`BTS`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
+
+I added this new tile to the sprite sheet.
+
+![masked in green grass](images/addMoss.png)
+
+![](../images/line2.png)
+
+##### `Step 10.`\|`BTS`| :large_blue_diamond:
+
+That's enough brick, lets add some grass to the tilesheet.  Cut and paste the grass we previously made.
+
+![add grass](images/addGrass.png)
+
+![](../images/line2.png)
+
+##### `Step 11.`\|`BTS`| :large_blue_diamond: :small_blue_diamond: 
+
+
 Press the **File | Save** menu item and save the file as `ts_environment` as a **psd** file.  Store it in a working folder.
 
 Press the **File | Export | Export As** and select **png** and press the <kbd>Export</kbd> button.  Call it `ts_environment` and put it in your working folder.  We cannot use the above **psd** in **GameMaker** so instead we will us a `.png`.
@@ -83,33 +116,17 @@ Now change the **Tile Width** and **Tile Height** to `64`.  The grid should now 
 
 ![add room rm_tileset and add a tile layer](images/rmTileset.png)
 
-![](../images/line2.png)
-
-##### `Step 8.`\|`BTS`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
-
 Now you can select the **Pencil** tool in the top menu and select the tile you would like to paint.  Lets paint three zones of tile 1, tile 2 and tile 3.  This will let us see how different they look as a group. YOu paint them by selecting each grid zone and pressin the left mouse button.
 
 ![draw three groups of tiles](images/FourEffects.gif)
-
-![](../images/line2.png)
-
-##### `Step 9.`\|`BTS`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
 For the rest of the level randomly select between the three types of tiles, and lets see if they work together.  If there are any issues you will have to go back to the **3D Sampler** files and make edits to them.  Fill as much as you can with the three tiles.  Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. Now you can see what they look like on their own and in a group.
 
 https://user-images.githubusercontent.com/5504953/142772461-1047baaf-9cd0-473d-85ff-047139a458a6.mp4
 
-![](../images/line2.png)
-
-##### `Step 10.`\|`BTS`| :large_blue_diamond:
-
 Now once you are happy with your three tiles go back to **Substance 3D Samper** and turn off **Crop** for the 2nd and 3rd tile and activate **Crop** layer 1.  Turn on visibility on the **Moss** layer.  Press the **Export** icon and call it `spr_brick_1_moss`.  Select just the **Base Color** and use a **png**.  Press the <kbd>Export</kbd> button.
 
 ![add moss layer](images/exportMoss.png)
-
-![](../images/line2.png)
-
-##### `Step 11.`\|`BTS`| :large_blue_diamond: :small_blue_diamond: 
 
 Repeat this for `spr_brick_1_dirt`, `spr_brick_1_dust`, `spr_brick_1_oxid`, `spr_brick_2_moss`, `spr_brick_2_dirt`, `spr_brick_2_dust`, `spr_brick_2_oxid`, `spr_brick_3_moss`, `spr_brick_3_dirt`, `spr_brick_3_dust`, `spr_brick_3_oxid`. Turn on only the layers you need for each effect, and combine them if you like.  There are no rules here, we just want a good variety of different effects.
 
