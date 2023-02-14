@@ -143,17 +143,17 @@ The brick now looks like:
 
 ##### `Step 15.`\|`BTS`| :large_blue_diamond: :small_orange_diamond: 
 
-Select the **File | Export | Quick Export as PNG**.  Call the file `spr_brick_1` and save it to another location (to not erase any of your other files we have craated). Press th e<kbd>Save</kbd> button.
+Re-export the brick and import it into the same **spr_brick** sprite.  Now change the `rm_brick` to the top of the **Room Order** and press play.  The tiling is now much better.  Make the needed tweaks to hide thepeat.
 
-![export png](images/exportPNG.png)
+![export png](images/newTexture.png)
 
 ![](../images/line2.png)
 
 ##### `Step 16.`\|`BTS`| :large_blue_diamond: :small_orange_diamond:   :small_blue_diamond: 
 
-Open **Gamemaker** and right click on **Sprites** and select **Create | Sprite**.  Press the <kbd>Import</kbd> button and import **spr_brick_1.png** and call it `spr_brick`.
+Now back in photoshop lets add some of the color we drained from the image.  Add  
 
-![Create a sprite and bring into GameMaker](images/importSPRBrick].png)
+![Put brick color back](images/AddColorOverlay].png)
 
 ![](../images/line2.png)
 
