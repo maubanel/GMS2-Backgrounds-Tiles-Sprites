@@ -141,7 +141,7 @@ I tried changing the brightness and contrast and re-imported the sprite into **G
 
 ##### `Step 16.`\|`BTS`| :large_blue_diamond: :small_orange_diamond:   :small_blue_diamond: 
 
-Now I went back to photoshop and tried duplicating the layer and applying a gaussian blur to the top layer.  I then changed the blend mode to 
+Now I went back to photoshop and tried duplicating the layer and applying a gaussian blur to the top layer.  I then changed the blend mode to **Luminosity** and changed the opacity to `67%`.  I re-exported and imported the texture and still the same problem.
 
 ![export brick 2](images/blurAttempt.png)
 
@@ -149,7 +149,7 @@ Now I went back to photoshop and tried duplicating the layer and applying a gaus
 
 ##### `Step 17.`\|`BTS`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Turn off **Crop** layer for the 1st and 2nd tile and activate it for the 3rd tile.  Press the **Export** button and select a folder and call the tile `spr_brick_3`. Make sure you are only exporting the **Base Color** layer. When you are ready press the <kbd>Export</kbd> button.
+I go back to the trusty **High Pass Filter** and this knocks out all the color variation.  It looks black and white.
 
 ![export brick 3](images/exportBrick3.png)
 
@@ -157,11 +157,15 @@ Turn off **Crop** layer for the 1st and 2nd tile and activate it for the 3rd til
 
 ##### `Step 18.`\|`BTS`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
+Add an **Fx | Color Overlay** to the layer and select a green color and effect the **Color** channel by a green color of your liking.
+
+![export brick 3](images/fxOverlay2.png)
+
+##### `Step 19.`\|`BTS`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
+
 Fire up **Photoshop** and press **File | New Document**.  Change the size to **Pixels** and lets make a 10 x 10 grid of 64 x 64 tiles, so select `640` x `640`. Make the **Background** `Transparent`. Press the <kbd>Create</kbd> button.
 
 ![](../images/line2.png)
-
-##### `Step 19.`\|`BTS`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
 ![open photoshop and create new file](images/photoshopNewDocument.png)
 
