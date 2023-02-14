@@ -21,30 +21,39 @@ Lets add some cracks to the brick.  Find a nice cracked texture on your own.  Se
 
 ##### `Step 2.`\|`BTS`|:small_blue_diamond: :small_blue_diamond: 
 
-Press the **File | Save** menu item and save the file as `ts_environment` as a **psd** file.  Store it in a working folder.
+Set the **Image | Adjustments | Levels** and crush the whites so we have a dark line of cracks.
 
-![save file as ts_environment](images/saveTsEnvironment.png)
+![save file as ts_environment](images/imageLevels.png)
 
 ![](../images/line2.png)
 
 ##### `Step 3.`\|`BTS`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Press the **File | Export | Export As** and select **png** and press the <kbd>Export</kbd> button.  Call it `ts_environment` and put it in your working folder.  We cannot use the above **psd** in **GameMaker** so instead we will us a `.png`.
+Add this as a layer on top of the brick.  Change the blend mode to **Multiply**. Add a **Mask** and paint out the edges as we dont' want to affect the tiling of this texture.
 
-![export ts_environment as a png](images/exportTSSheet1.png)
-
+![add cracks layer](images/addCracks.png)
 
 ![](../images/line2.png)
 
 ##### `Step 4.`\|`BTS`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Open up **GameMaker** and select **Sprites** by right clicking on the title and select **Create | Sprite**.  Press the <kbd>Import</kbd> button and select the **ts_environment** file you just exported and call it `spr_environment_tiles`. Now you have a tileset loaded up in the sprite.
+Select the entire spite and select **Edit | Copy Merged** to copy all layers.  
 
-![import ts_environment to a sprite](images/sprEnvrionment.png)
+![copy merged](images/copyMerged.png)
 
 ![](../images/line2.png)
 
 ##### `Step 5.`\|`BTS`| :small_orange_diamond:
+
+Press the **File | Save** menu item and save the file as `ts_environment` as a **psd** file.  Store it in a working folder.
+
+Press the **File | Export | Export As** and select **png** and press the <kbd>Export</kbd> button.  Call it `ts_environment` and put it in your working folder.  We cannot use the above **psd** in **GameMaker** so instead we will us a `.png`.
+
+![export ts_environment as a png](images/exportTSSheet1.png)
+
+Open up **GameMaker** and select **Sprites** by right clicking on the title and select **Create | Sprite**.  Press the <kbd>Import</kbd> button and select the **ts_environment** file you just exported and call it `spr_environment_tiles`. Now you have a tileset loaded up in the sprite.
+
+![import ts_environment to a sprite](images/sprEnvrionment.png)
 
 Now we cannot use a sprite as a tilesheet.  We can only assign it to an **Object** or **Background**.  We can add it as a tile by right clicking on **Tile Sets** and selecting **Create | Tile Set**.  Call is `ts_environment`.  Assign the **spr_environment_tiles** as its image file. Notice it loads up the tile sheet.
 
