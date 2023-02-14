@@ -170,7 +170,7 @@ https://user-images.githubusercontent.com/5504953/218789866-4ca1d029-d521-4354-b
 
 ##### `Step 20.`\|`BTS`| :large_blue_diamond: :large_blue_diamond:
 
-Now when you press the play button I received an error. 
+Now when you press the play button I received an error. I had to open the Tilesheet and set **Disable Source Sprite Export** to `false`.
 
 ![finished tiles](images/finishedTiles.png)
 
