@@ -114,7 +114,7 @@ Now I reassigned the tileset so that it reloads the new set of art. On the mac I
 
 C\*Press* the **Auto Tiling** button.  This puts up the autotiling node.  Click on the **plus** symbol next to 16.  Then if you put the layers in order it should be from the dirt all the way to grass, assign each layer. Look at the which pattern is light and dark and make sure the light one is dirt and the dark one is grass. Be careful to not make any errors with this step.
 
-
+https://user-images.githubusercontent.com/5504953/218832006-bfe72590-5851-40a5-a1a0-dc10044596e7.mp4
 
 ![](../images/line2.png)
 
