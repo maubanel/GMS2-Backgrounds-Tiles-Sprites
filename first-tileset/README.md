@@ -100,9 +100,9 @@ Now adjust the size to our desired target tile size of `64` by `64`.
 
 ##### `Step 11.`\|`BTS`| :large_blue_diamond: :small_blue_diamond: 
 
-Add an **Equalize** layer and tune the settings to knock down the color differences if you need.  I find it a bit noisy and am a bit worried about what it will like scaled down.  So I make some subtle adjustments.
+Now press **File | Export | Quick Export as PNG** and call this texture `spr_grass`.  Go to **GameMaker** and highlight the **Sprites** folder, right click and select **Create Sprite**. Press the <kbd>Import</kbd> button and bring in the newly created sprite.
 
-![add and tune equalize layer](images/addEqualizeLayer.png)
+![export and import sprite](images/addEqualizeLayer.png)
 
 ![](../images/line2.png)
 
