@@ -40,7 +40,7 @@ Copy both of the tiles above and add them to the end of your tilesheet. Remember
 
 ##### `Step 4.`\|`BTS`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-**Export** your tilesheet as a **PNG** and reimport the new tilesheet in `spr_environment_tiles`. Press the <kbd>Import</kbd> button and select the above sprite. Now load and reload the sprite for the **Tilesheet**.
+**Export** your tilesheet as a **PNG** and reimport the new tilesheet in `spr_environment_tiles`. Press the <kbd>Import</kbd> button and select the above sprite.
 
 ![Export tiles as PNG and import into GameMaker replacing spr_background_tiles](images/ReimportForBrushes.png)
 
@@ -48,11 +48,13 @@ Copy both of the tiles above and add them to the end of your tilesheet. Remember
 
 ##### `Step 5.`\|`BTS`| :small_orange_diamond:
 
-Right click on **Tilesets** and selet **Create | Tileset** and call it `tls_environment_4`. Assing **spr_envrionment_sprites_4**. Set the **Tile Width** and **Tile Height** to `64`. Press the **Brush Builder** button.  
+Open up **spr_envrionment_sprites**. Reload the sprite. Press the **Brush Builder** button.  
 
 We do not need to waste storage and sprite space by having to store rotated sprites.  We can take our hedge and rotate it in all diretions allowing it to work in all axis for any scenario.
 
 Now we need spaces in between each brush. Lets create a hedge in all 4 directions by rotating it pressing the *Rotate* button.  Add a brush with 4 hedge pieces making it quicker to draw in all 4 directions.  Then add our end pieces in all diretions as well.
+
+https://user-images.githubusercontent.com/5504953/218859081-f1a5bb7e-265c-465e-934b-15bb8218072a.mp4
 
 ![](../images/line2.png)
 
