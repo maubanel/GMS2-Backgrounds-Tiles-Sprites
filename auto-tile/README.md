@@ -104,6 +104,14 @@ Bring it into GameMaker and replace the **spr_environment_background** with this
 
 ##### `Step 11.`\|`BTS`| :large_blue_diamond: :small_blue_diamond: 
 
+Now I reassigned the tileset so that it reloads the new set of art. On the mac I had to do it so it would bind and work in the room.
+
+![duplicate ts_environemt_2.psd and call it ..._3.psd](images/reassignTileset2.png)
+
+![](../images/line2.png)
+
+##### `Step 13.`\|`BTS`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
+
 Change the **Tile Height** and **Tile Width** to `64. *Press* the **Auto Tiling** button.  This puts up the autotiling node.  Click on the **plus** symbol next to 16.  Then if you put the layers in order it should be from the dirt all the way to grass, assign each layer. Look at the which pattern is light and dark and make sure the light one is dirt and the dark one is grass.
 
 https://user-images.githubusercontent.com/5504953/143030131-6609fc3d-631d-4c4f-b063-38433af5fa7d.mp4
@@ -127,10 +135,6 @@ https://user-images.githubusercontent.com/5504953/143032767-b688f498-ca52-4bcf-8
 Now what happens if we want to paint grass inside of dirt?  We have all the tiles we need (all mirrored tiles) except for two diagonal pieces. We need them with grass diagonals.
 
 ![Use auto tile to paint sand inside of grass](images/TwoSandDiagnoals.png)
-
-![](../images/line2.png)
-
-##### `Step 13.`\|`BTS`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
 Go back to **Photoshop** and our grass to sand file.  *Duplicate* the two diagonal tiles with amsk. Drag both layers to the top of the layers just below the grass.  
 
