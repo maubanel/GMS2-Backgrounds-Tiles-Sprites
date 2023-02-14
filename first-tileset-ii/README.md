@@ -142,7 +142,6 @@ Now we cannot use a sprite as a tilesheet.  We can only assign it to an **Object
 
 ![add tileset and assign spr_environment_tiles](images/tsTiles.png)
 
-
 ![](../images/line2.png)
 
 ##### `Step 17.`\|`BTS`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
