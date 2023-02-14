@@ -103,7 +103,7 @@ Press **File | Export | Quick Export as PNG**.  Save the file and call it `spr_b
 
 ##### `Step 10.`\|`BTS`| :large_blue_diamond:
 
-Open **GameMaker** back up and create a new sprite.  Press the <kbd>Import</kbd> button and select the png file you just exported.  Call it `spr_brick`.
+Open **GameMaker** back up and create a new sprite.  Press the <kbd>Import</kbd> button and select the png file you just exported.  Call it `spr_brick`. Change **Horizontal Tile** and **Vertical Tile** to true.
 
 ![import brick to game](images/importBrick.png)
 
@@ -119,9 +119,9 @@ Now lets create a new room and call it `rm_brick`.  Select the **Background** la
 
 ##### `Step 12.`\|`BTS`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
 
-When you got what you want press the **Export** icon.  Call the file `spr_brick_1`.  Select the **Format** as `png`.  Put it in a working directory. Leave the high resolution as this software doesn't handle reducing the texture size to `64` by `64` nearly as well as photoshop does and it becomes to blurry in the reduction process.  Select **only** the **Base Color** layer as we do not need any other textures. Press the <kbd>Export</kbd> button.
+Now the repeat is not very convincing.  The contrast between the bricks is so great that it doesn't look like a single texture.
 
-![export texture](images/exportTexture.png)
+![bad texture repeat](images/badRepeat.png)
 
 ![](../images/line2.png)
 
