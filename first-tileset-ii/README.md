@@ -102,6 +102,18 @@ Duplicate the grass layer.  Now on the top layer you can add a **Filter | Noise 
 
 ##### `Step 12.`\|`BTS`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
 
+Copy and paste the alternate grass with dirt into the tilesheet.
+
+![add grass](images/pasteAlterGrass.png)
+
+![](../images/line2.png)
+
+##### `Step 13.`\|`BTS`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
+
+Now paste this into your tilesheet.  I hand painted two flowers onto the grass for some more variety.  Create two more alternatives so that you have 4 grass textures.
+
+![add flower and dirt](images/flowerDirt.png)
+
 Press the **File | Save** menu item and save the file as `ts_environment` as a **psd** file.  Store it in a working folder.
 
 Press the **File | Export | Export As** and select **png** and press the <kbd>Export</kbd> button.  Call it `ts_environment` and put it in your working folder.  We cannot use the above **psd** in **GameMaker** so instead we will us a `.png`.
@@ -143,10 +155,6 @@ Repeat this for `spr_brick_1_dirt`, `spr_brick_1_dust`, `spr_brick_1_oxid`, `spr
 Now take all of these exports into **Photoshop** and turn the **Mode | Indexed Color** and reduce the colors.  Be careful as it is set to **Previous**, it will use the previous palette.  We do not want this.  You might notice your moss is not green.  Reselet a setting and make sure there are enough colors to get the green. Rescale the **Image** to `64` by `64` as we did previously.
 
 ![index and scale all images](images/indexAndScale.png)
-
-![](../images/line2.png)
-
-##### `Step 13.`\|`BTS`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
 Duplicate **ts_environment** and call it `ts_environment_2`.  Copy and paste all the above new tiles so that you have all the 5 tiles of each type next to each other. You should have a total of 15 tiles
 
