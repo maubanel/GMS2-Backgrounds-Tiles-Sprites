@@ -45,6 +45,14 @@ Select the entire spite and select **Edit | Copy Merged** to copy all layers.
 
 ##### `Step 5.`\|`BTS`| :small_orange_diamond:
 
+Paste and place it into the third column on the first row. 
+
+![copy cracked bricks](images/placeSecondTile.png)
+
+![](../images/line2.png)
+
+##### `Step 6.`\|`BTS`| :small_orange_diamond: :small_blue_diamond:
+
 Press the **File | Save** menu item and save the file as `ts_environment` as a **psd** file.  Store it in a working folder.
 
 Press the **File | Export | Export As** and select **png** and press the <kbd>Export</kbd> button.  Call it `ts_environment` and put it in your working folder.  We cannot use the above **psd** in **GameMaker** so instead we will us a `.png`.
@@ -58,10 +66,6 @@ Open up **GameMaker** and select **Sprites** by right clicking on the title and 
 Now we cannot use a sprite as a tilesheet.  We can only assign it to an **Object** or **Background**.  We can add it as a tile by right clicking on **Tile Sets** and selecting **Create | Tile Set**.  Call is `ts_environment`.  Assign the **spr_environment_tiles** as its image file. Notice it loads up the tile sheet.
 
 ![add tileset and assign spr_environment_tiles](images/tsTiles.png)
-
-![](../images/line2.png)
-
-##### `Step 6.`\|`BTS`| :small_orange_diamond: :small_blue_diamond:
 
 Now change the **Tile Width** and **Tile Height** to `64`.  The grid should now match the fixed size of our tiles.
 
