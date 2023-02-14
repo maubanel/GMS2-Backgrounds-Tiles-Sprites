@@ -208,13 +208,9 @@ Now we need to see the grid. Select **View | Show | Grid**.  Make sure that **Sn
 
 ##### `Step 24.`\|`BTS`| :large_blue_diamond: :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-
 Copy the entire brick tile that you made at the begining.  Paste this new tile and put it in the second slot.  The first slot **has to be kept empty**.  **GameMaker** ignores this first tile so place it in the second slot on the first row. Make sure that your **Snap** settings work on the **Grid** and the tile will snap into that place perfectly.
 
-
-
-![](../images/line2.png)
-
+https://user-images.githubusercontent.com/5504953/218738160-64253d1c-fd8e-4a05-86b3-478c5daf62ba.mp4
 
 ![](../images/line.png)
 
