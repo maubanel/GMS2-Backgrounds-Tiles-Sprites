@@ -8,6 +8,8 @@
 
 Now no one wants to play a game with a single tile.  And using the background feature of a room is limited in what we can do with it by assigning a single tiled image.  This would work if the tile is large. We are much better off using the tile features in **GameMaker** so we can have multiple tiles on a layer.  Lets do this and create a variety of tiles that we can choose from for this one shape.  By having variety we wll further break up the repeats when used in game.
 
+We will introduce another way of creating tiles in photoshop that is good for natural textures with a lot more randomness in the forms.
+
 <br>
 
 ---
