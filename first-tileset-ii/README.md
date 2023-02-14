@@ -110,19 +110,33 @@ Copy and paste the alternate grass with dirt into the tilesheet.
 
 ##### `Step 13.`\|`BTS`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
-Now paste this into your tilesheet.  I hand painted two flowers onto the grass for some more variety.  Create two more alternatives so that you have 4 grass textures.
+Now paste this into your tilesheet.  I hand painted two flowers onto the grass for some more variety.  I also hand painted some dirt in the middle of the grass with a brown brush where I only affected the color channel. Create three more alternatives so that you have 5 grass textures in all.
 
 ![add flower and dirt](images/flowerDirt.png)
 
-Press the **File | Save** menu item and save the file as `ts_environment` as a **psd** file.  Store it in a working folder.
 
-Press the **File | Export | Export As** and select **png** and press the <kbd>Export</kbd> button.  Call it `ts_environment` and put it in your working folder.  We cannot use the above **psd** in **GameMaker** so instead we will us a `.png`.
+![](../images/line2.png)
 
-![export ts_environment as a png](images/exportTSSheet1.png)
+##### `Step 14.`\|`BTS`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
-Open up **GameMaker** and select **Sprites** by right clicking on the title and select **Create | Sprite**.  Press the <kbd>Import</kbd> button and select the **ts_environment** file you just exported and call it `spr_environment_tiles`. Now you have a tileset loaded up in the sprite.
+Press the **File | Save** menu item and save the file as `spr_environment` as a **psd** file.  Store it in a working folder.
+
+Press the **File | Export | Quick Export as PNG** and press the <kbd>Export</kbd> button.  Call it `ts_environment` and put it in your working folder.  We cannot use the above **psd** in **GameMaker** so instead we will use a `.png`.
+
+![export ts_environment as a png](images/saveExport.png)
+
+![](../images/line2.png)
+
+##### `Step 15.`\|`BTS`| :large_blue_diamond: :small_orange_diamond: 
+
+Open up **GameMaker** and select **Sprites** by right clicking on the title and select **Create | Sprite**.  Press the <kbd>Import</kbd> button and select the **spr_environment** file you just exported and call it `spr_environment_tiles`. Now you have a tileset loaded up in the sprite.
 
 ![import ts_environment to a sprite](images/sprEnvrionment.png)
+
+
+![](../images/line2.png)
+
+##### `Step 16.`\|`BTS`| :large_blue_diamond: :small_orange_diamond:   :small_blue_diamond: 
 
 Now we cannot use a sprite as a tilesheet.  We can only assign it to an **Object** or **Background**.  We can add it as a tile by right clicking on **Tile Sets** and selecting **Create | Tile Set**.  Call is `ts_environment`.  Assign the **spr_environment_tiles** as its image file. Notice it loads up the tile sheet.
 
@@ -160,25 +174,14 @@ Duplicate **ts_environment** and call it `ts_environment_2`.  Copy and paste all
 
 ![duplicate ts_environment and call ts_environment_2 and add all the new tiles](images/copyPaste.png)
 
-![](../images/line2.png)
-
-##### `Step 14.`\|`BTS`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
-
 Export the new tilesheet as `ts_environment_2` as a **png** file. 
 ![export brick 2](images/exportTSEnvrionment2.png)
 
-![](../images/line2.png)
-
-##### `Step 15.`\|`BTS`| :large_blue_diamond: :small_orange_diamond: 
 
 Go back to **GameMaker**. *Right click* on **Sprites** and select **New | Sprite** and name it `spr_environment_sprite_2`. Press the <kbd>Import</kbd> button and import the **ts_environment_2** file you just made in **Photoshop**. Assign the **spr_environment_tiles_2** sprite to it.
 
 
 ![export brick 3](images/tile2Sprite.png)
-
-![](../images/line2.png)
-
-##### `Step 16.`\|`BTS`| :large_blue_diamond: :small_orange_diamond:   :small_blue_diamond: 
 
 *Right click* on **Tile Sets** and select **New | Tile Set** and name it `ts_environment_2`.
 
