@@ -109,41 +109,41 @@ Now press **File | Export | Quick Export as PNG** and call this texture `spr_gra
 
 ##### `Step 12.`\|`BTS`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
 
-Add a **Moss** layer.  Make any adjustments to your settings.  I dialed it back too much on my version so I would be more aggressive in the future.  You might want to mask out the moss around the edges as it needs to go next to tiles without moss and we don't want a hard line.  Try and keep the moss away from the edges.
+Now duplicate **rm_brick** and call this new room `rm_grass`.
 
-![add moss layer](images/addMossLayer.png)
+![add moss layer](images/duplicateBrick.png)
 
 ![](../images/line2.png)
 
 ##### `Step 13.`\|`BTS`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
-Now create a **Dirt**, **Dust** and **Oxidate** layer.  Adjust the settings so we now have four varieties on the same tile.  This will help make it look more organic when we combine them. Don't be afraid to push it a bit more than this video and mask the edges.  Play with the settings and try and make the changes stick out and localize them to inside the tile.
+Open up **rm_grass** and change the sprite to `spr_grass`.
 
-https://user-images.githubusercontent.com/5504953/142766997-1ed64817-a0a3-4efa-80e7-a83235d9490c.mp4
+![select grass in room](images/selectGrassiNRm.png)
 
 ![](../images/line2.png)
 
 ##### `Step 14.`\|`BTS`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
-Now lets add two more **Crop** layers to the **Substance 3D Sampler** project.  You can only have one active at a time.  So turn off the **Crop** layer(s) you are not using.  Now select a different area of the texture but with the **exact** same positioning.  You can go back and make adjustments but you want all of these three crops to tile perfectly.  So I picked two different areas to use to add variety to our background tiles
+Change the **Room Order** and move **rm_grass** to the top and press the <kbd>Play</kbd> button.  Again, there color variation creates a discernable pattern.
 
-![add two more crop layers](images/addTwoMoreCropLayers.png)
+![add two more crop layers](images/selectGrassiNRm.png)
 
 ![](../images/line2.png)
 
 ##### `Step 15.`\|`BTS`| :large_blue_diamond: :small_orange_diamond: 
 
-Select **only** the first original **Crop** layer. Press the **Export** button and select a folder and call the tile `spr_brick_1`. Make sure you are only exporting the **Base Color** layer. When you are ready press the <kbd>Export</kbd> button.
+I tried changing the brightness and contrast and re-imported the sprite into **GameMaker** and replaced the old grass sprite.  This still did not hide the seam enough to my liking.  I could still see the repeat.
 
-![export tile and call it spr_brick_1](images/exportBrick1.png)
+![export tile and call it spr_brick_1](images/changeBrightnessContrast.png)
 
 ![](../images/line2.png)
 
 ##### `Step 16.`\|`BTS`| :large_blue_diamond: :small_orange_diamond:   :small_blue_diamond: 
 
-Turn off **Crop** layer for the 1st and 3rd tile and activate it for the 2nd tile.  Press the **Export** button and select a folder and call the tile `spr_brick_2`. Make sure you are only exporting the **Base Color** layer. When you are ready press the <kbd>Export</kbd> button.
+Now I went back to photoshop and tried duplicating the layer and applying a gaussian blur to the top layer.  I then changed the blend mode to 
 
-![export brick 2](images/ExportLayer2.png)
+![export brick 2](images/blurAttempt.png)
 
 ![](../images/line2.png)
 
