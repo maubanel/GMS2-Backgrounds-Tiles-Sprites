@@ -27,7 +27,7 @@ Open up the project you are working on in **GameMaker**.
 
 Download the [spr_dirt.png](../Assets/PNG/spr_dirt.png) to add another image to our tilesheet.  Now you should have multiple grass and brick tiles and one dirt tile.
 
-![add new dirt tile](images/newDirtTile.jpg)
+![add new dirt tile](images/newDirtTile.PNg)
 
 ![](../images/line2.png)
 
@@ -35,7 +35,7 @@ Download the [spr_dirt.png](../Assets/PNG/spr_dirt.png) to add another image to 
 
 Reimport the sprite into **spr_environment**.  Also, on my computer I had to reassign the Tileset to another sprite and then reassign it back to `spr_environment` for it to stick.
 
-![add new dirt tile](images/reupdateTileset.jpg)
+![add new dirt tile](images/reupdateTileset.PNg)
 
 ![](../images/line2.png)
 
@@ -43,7 +43,7 @@ Reimport the sprite into **spr_environment**.  Also, on my computer I had to rea
 
 Add the dirt tileset to the room.  Now notice that the transition from grass to dirt is not very natural.  This is where tile templates can help!
 
-![add new dirt tile](images/dirtTileset.jpg)
+![add new dirt tile](images/dirtTileset.PNg)
 
 ![](../images/line2.png)
 
