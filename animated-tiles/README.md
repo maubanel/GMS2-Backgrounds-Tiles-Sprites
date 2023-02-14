@@ -63,24 +63,10 @@ https://user-images.githubusercontent.com/5504953/218884494-defe92b0-871c-4f80-8
 
 Now I did tile the water horizontally so we can offset which frame the animation begins on.  We can go back to the **Brushes** tab and *shift* select all 8 of them as if they are static tiles.  Now once they are marked for animation, they will always animate.  But if I shift select all 8 they will all start on a different frame.  So rather than every tile starting on the same frame they will be offset and will lead to better looking water.  All 8 frames tile perfectly horizontally and we will offset them vertically so they will not stitch but the illusion should still hold. Paint the tiles on to the level 8 at a time offsetting them vertically by one tile. Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game and now you have much better looking water animation.
 
-https://user-images.githubusercontent.com/5504953/218885270-6b9f1f50-f623-4699-a7c8-f9cfd241cc95.mp4
 
 ![](../images/line2.png)
 
 ##### `Step 7.`\|`BTS`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
-
-
-
-![](../images/line2.png)
-
-##### `Step 8.`\|`BTS`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
-
-
-
-
-![](../images/line2.png)
-
-##### `Step 9.`\|`BTS`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
 Select the **File | Save Project**, then press **File | Quit** (PC) **Game Maker | Quit** on Mac to make sure everything in the game is saved.
 
@@ -88,15 +74,16 @@ Select the **File | Save Project**, then press **File | Quit** (PC) **Game Maker
 
 ![](../images/line2.png)
 
-##### `Step 10.`\|`BTS`| :large_blue_diamond:
+##### `Step 8.`\|`BTS`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
 Open up **P4V**.  Select the top folder and press the **Add** button.  We want to add all the new files we created during this last session.  Add these files to the last change list you used at the begining of the session (in my case it was `Spaceship I portion of walkthrough`). Press the <kbd>OK</kbd> button.
 
 ![add new and changed files to p4v](images/add.png)
 
+
 ![](../images/line2.png)
 
-##### `Step 11.`\|`BTS`| :large_blue_diamond: :small_blue_diamond: 
+##### `Step 9.`\|`BTS`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
 Now you can submit the changelist by pressing both <kbd>Submit</kbd> buttons.
 
