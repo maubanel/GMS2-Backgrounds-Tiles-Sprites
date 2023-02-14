@@ -35,25 +35,25 @@ Download the enclosed [grass texture](../Assets/PNG/spr_grass.png). Open it up i
 
 ##### `Step 3.`\|`BTS`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-We will be using some advanced layers in the software that requies it to use the topology (like growing moss in cracks) so we need to create a material that is for a 3-D game, but will not be using anything but the **Base Color** layer.  Select **Image to material** and then press the <kbd>OK</kbd> button.
+Press the <kbd>Crop</kbd> button and cut out this square section. Press **Image | Image Size** and change it to `512` by `512` a nice working scale to start with.
 
-![select ai to material](images/aiMaterial.png)
+![select ai to material](images/workingSize.png)
 
 ![](../images/line2.png)
 
 ##### `Step 4.`\|`BTS`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Add a **Crop** layer.  Deslect **3D** and select **2D** so we can see the texture. Make sure you are on **Layer Inputs**.  Select an area that covers a few bricks.  Remember this will be reduced to `64` by `64` so it will be small.  You need to select an area that naturally tiles as best as it can.  So I work mine around the grout line so it will tile with minimal touch up.
+Select **Filter | Other | Offset** and move the line to the center by select `256` both horizontally and vertically.  It is harder to see the seam but it is still there if you zoom in.  We want to get rid of the two lines and make the wrrapping seamless.
 
-![add crop layer to project](images/addCrop.png)
+![add crop layer to project](images/filterOther.png)
 
 ![](../images/line2.png)
 
 ##### `Step 5.`\|`BTS`| :small_orange_diamond:
 
-Press the <kbd>T</kbd> key and you will see it tile.  Now in **Layer Inputs** we see our proper crop markings.  But it is tiling the whole image.  To see the engine tile the actual cropped layer you select **Material Outputs**.  Adjust your crop size to be as square as possible and to stitch with as few issues as possible.
+Select the polygon selection tool and select the area around the vertical line.  Go back to the begining to have the marching ants surround the area with the line.  Press **Edit | Content Aware Fill**.
 
-![press t and adjust crop](images/PressT.png)
+![content aware fill](images/contentAwareFill.png)
 
 ![](../images/line2.png)
 
