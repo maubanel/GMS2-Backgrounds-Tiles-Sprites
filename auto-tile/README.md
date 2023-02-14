@@ -142,7 +142,11 @@ Assign the **ts_environment** sprite to the tile layer.
 
 Make sure you are on the **Tiles_Brackground** layer.  Now the tile on the left will be inside the tile on the right.  So lets select the paint bucket tool on the top toolbar and fill the entire level with grass.  Then we can go in and paint with dirt inside the grass by selecting the auto tile tool. Paint and see the pattern follows the the flow and we get nice rounded corners between the two tiles. Now *press* the <kbd>Play</kbd> button in the top menu bar to admire your work.
 
-https://user-images.githubusercontent.com/5504953/143032767-b688f498-ca52-4bcf-8cfa-dccd122c5122.mp4
+
+
+![](../images/line2.png)
+
+##### `Step 16.`\|`BTS`| :large_blue_diamond: :small_orange_diamond:   :small_blue_diamond: 
 
 Now what happens if we want to paint grass inside of dirt?  We have all the tiles we need (all mirrored tiles) except for two diagonal pieces. We need them with grass diagonals.
 
@@ -164,9 +168,6 @@ Go back to **rm_auto_tile** and select the eraser. Delete the old dirt tiles.  F
 
 https://user-images.githubusercontent.com/5504953/143062703-146bc615-7e53-4932-8d1b-18b169987bcd.mp4
 
-![](../images/line2.png)
-
-##### `Step 16.`\|`BTS`| :large_blue_diamond: :small_orange_diamond:   :small_blue_diamond: 
 
 Select the **File | Save Project**, then press **File | Quit** (PC) **Game Maker | Quit** on Mac to make sure everything in the game is saved.
 
