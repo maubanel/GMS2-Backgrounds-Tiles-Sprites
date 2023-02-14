@@ -110,7 +110,7 @@ Now I reassigned the tileset so that it reloads the new set of art. On the mac I
 
 ![](../images/line2.png)
 
-##### `Step 13.`\|`BTS`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
+##### `Step 12.`\|`BTS`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
 
 C\*Press* the **Auto Tiling** button.  This puts up the autotiling node.  Click on the **plus** symbol next to 16.  Then if you put the layers in order it should be from the dirt all the way to grass, assign each layer. Look at the which pattern is light and dark and make sure the light one is dirt and the dark one is grass. Be careful to not make any errors with this step.
 
@@ -118,11 +118,15 @@ https://user-images.githubusercontent.com/5504953/218832006-bfe72590-5851-40a5-a
 
 ![](../images/line2.png)
 
-##### `Step 12.`\|`BTS`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
+##### `Step 13.`\|`BTS`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
 
 Name this auto tile under the Library tab `auto_dirt_to_grass`. This will be dirt surrounded by grass.
 
 ![Name this auto_grass_to_sand under Library](images/GrassToSand.png)
+
+![](../images/line2.png)
+
+##### `Step 14.`\|`BTS`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
 *Create* a new room and call it `rm_auto_tile`.  *Move* it to the top of the list in **Room Priority**. Add a new **Tile Layer** called `Environment`.  Place it *beneath* the Instance layer.
 
@@ -130,7 +134,7 @@ Name this auto tile under the Library tab `auto_dirt_to_grass`. This will be dir
 
 ![](../images/line2.png)
 
-##### `Step 14.`\|`BTS`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
+##### `Step 15.`\|`BTS`| :large_blue_diamond: :small_orange_diamond: 
 
 Assign the **ts_environment** sprite to the tile layer. 
 
@@ -138,15 +142,16 @@ Assign the **ts_environment** sprite to the tile layer.
 
 ![](../images/line2.png)
 
-##### `Step 15.`\|`BTS`| :large_blue_diamond: :small_orange_diamond: 
+##### `Step 16.`\|`BTS`| :large_blue_diamond: :small_orange_diamond:   :small_blue_diamond: 
 
 Make sure you are on the **Tiles_Brackground** layer.  Now the tile on the left will be inside the tile on the right.  So lets select the paint bucket tool on the top toolbar and fill the entire level with grass.  Then we can go in and paint with dirt inside the grass by selecting the auto tile tool. Paint and see the pattern follows the the flow and we get nice rounded corners between the two tiles. Now *press* the <kbd>Play</kbd> button in the top menu bar to admire your work
 
 https://user-images.githubusercontent.com/5504953/218834581-065ea600-0e85-4560-89f7-b58c95eef6e2.mp4
 
+
 ![](../images/line2.png)
 
-##### `Step 16.`\|`BTS`| :large_blue_diamond: :small_orange_diamond:   :small_blue_diamond: 
+##### `Step 17.`\|`BTS`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
 Now what happens if we want to paint grass inside of dirt?  We have all the tiles we need (all mirrored tiles) except for two diagonal pieces. We need them with grass diagonals.
 
@@ -172,10 +177,6 @@ https://user-images.githubusercontent.com/5504953/143062703-146bc615-7e53-4932-8
 Select the **File | Save Project**, then press **File | Quit** (PC) **Game Maker | Quit** on Mac to make sure everything in the game is saved.
 
 ![save then quit gamemaker](images/saveQuit.png)
-
-![](../images/line2.png)
-
-##### `Step 17.`\|`BTS`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
 Open up **P4V**.  Select the top folder and press the **Add** button.  We want to add all the new files we created during this last session.  Add these files to the last change list you used at the begining of the session (in my case it was `Spaceship I portion of walkthrough`). Press the <kbd>OK</kbd> button.
 
