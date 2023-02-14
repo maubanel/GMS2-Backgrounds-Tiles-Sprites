@@ -92,9 +92,9 @@ This now will perfectly remove the horizontal seam and create a seamless wrappin
 
 ##### `Step 10.`\|`BTS`| :large_blue_diamond:
 
-Paint a fix along this line and adjust the second target on this new layer to be over grout.  Adjust any settings in the layer that helps get rid of the solid line.
+Now adjust the size to our desired target tile size of `64` by `64`.
 
-![get rid of solid line](images/verticalFix.png)
+![get rid of solid line](images/image64Grass.png)
 
 ![](../images/line2.png)
 
