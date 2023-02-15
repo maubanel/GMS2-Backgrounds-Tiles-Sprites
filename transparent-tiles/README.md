@@ -72,7 +72,8 @@ https://user-images.githubusercontent.com/5504953/219034034-53be512f-b21f-4ba6-9
 
 ##### `Step 8.`\|`BTS`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-*Select* the **Environments** layers and select the **ts_environment_6** tileset for the layer.  Select the **Libraries** tab and select the **grass_in_dirt** auto tile. Paint an island of grass inside the water. Select the **Alpha** layer and select the **ts_environment_6** tileset. Select the **dirt_in_alpha** layer and draw on the outside of the boundary between dirt and water.  Now go to the **Tiles** layer and add some trees on the grass.  Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. Now we have the animation, brushes, autotiling and transparency working on the three tile layers.
+*Select* the **Transparent** layer and select the **ts_environment** tileset for the layer.  Select the Enviornment layer. Select the **Libraries** tab and select the 8 **water** animating tiles. Fill the room with water. Draw a grass island with a dirt border.
+Select the **auto_dirt_to_transparent** brush and select the **Transparent** layer.  Draw an outline around the island. Draw in some bushes and trees.
 
 https://user-images.githubusercontent.com/5504953/219036680-69219aad-13a6-4b63-99bb-5b19acef05e5.mp4
 
