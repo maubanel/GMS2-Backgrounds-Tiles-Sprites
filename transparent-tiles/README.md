@@ -64,7 +64,7 @@ Name the **Auto Tile Templates** `auto_transparent_to_dirt` and `auto_dirt_to_tr
 
 ##### `Step 7.`\|`BTS`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Right click on **rm_auto_tile** and *select* **Duplicate**.  Call the new room `rm_transparency`.  Move the room to the top of the **Room Order** list. Add another **Tile Layer** and call it **Environments** and **Alpha** - put them inbetween **Instances** and **Animation**.Delete the old backgrounds.  Fill the background with water using the water as groups of 8 frames.  
+Right click on **rm_auto_tile** and *select* **Duplicate**.  Call the new room `rm_transparency`.  Move the room to the top of the **Room Order** list. Add another **Tile Layer** and call it **TransparentLayer** - put them on top **Instances** and **Environment**. Delete the old backgrounds on the **Environment** layer.  Fill the background with water using the water as a group of 8 frames.  
 
 https://user-images.githubusercontent.com/5504953/219034034-53be512f-b21f-4ba6-9513-b119567b1fcd.mp4
 
