@@ -72,7 +72,7 @@ https://user-images.githubusercontent.com/5504953/219034034-53be512f-b21f-4ba6-9
 
 ##### `Step 8.`\|`BTS`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-*Select* the **Transparent** layer and select the **ts_environment** tileset for the layer.  Select the Enviornment layer. Select the **Libraries** tab and select the 8 **water** animating tiles. Fill the room with water. Draw a grass island with a dirt border.
+*Select* the **TransparentLayer** and select the **ts_environment** tileset for the layer.  Select the Enviornment layer. Select the **Libraries** tab and select the 8 **water** animating tiles. Fill the room with water. Draw a grass island with a dirt border.
 Select the **auto_dirt_to_transparent** brush and select the **Transparent** layer.  Draw an outline around the island. Draw in some bushes and trees.
 
 https://user-images.githubusercontent.com/5504953/219036680-69219aad-13a6-4b63-99bb-5b19acef05e5.mp4
