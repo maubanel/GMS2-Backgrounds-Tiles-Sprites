@@ -32,7 +32,7 @@ Tiles do not have to be opaque.  We can have transparent shapes that sit on top 
 
 ##### `Step 3.`\|`BTS`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-*Copy and paste* the content of these new transparent tiles to the next free line in **sprite_environment.psd**. *Press* **File | Export | Quick Export as PNG**.  Save it in your working folder.
+*Copy and paste* the content of these new transparent tiles to the next free line in **sprite_environment.psd**.
 
 ![copy to tilesheet](images/newTTiles.png)
 
@@ -40,7 +40,7 @@ Tiles do not have to be opaque.  We can have transparent shapes that sit on top 
 
 ##### `Step 4.`\|`BTS`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-*Right click* **spr_environment_tiles_5** and select **Duplicate**.  Call it `spr_environment_tiles_6`.  Press the <kbd>Import</kbd> button and select the image you exported above. *Right click* on **ts_environment_5** and select **Duplicate**. Call it `ts_environment_6`.  Select the **spr_environment_tiles_6** sprite for this tilesheet.
+ *Press* **File | Export | Quick Export as PNG**.  Save it in your working folder. *Opent* **spr_environment**. Press the <kbd>Import</kbd> button and select the image you exported above. *Open* up **ts_environment** and select another sprite then reassign the tile sprite to rebind the graphic.
 
 
 
