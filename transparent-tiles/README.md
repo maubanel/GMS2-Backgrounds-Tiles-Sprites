@@ -56,7 +56,7 @@ https://user-images.githubusercontent.com/5504953/219027674-359145ae-19b8-4d29-9
 
 ##### `Step 6.`\|`BTS`| :small_orange_diamond: :small_blue_diamond:
 
-Name the **Auto Tile Templates** `dirt_in_grass`, `grass_in_dirt`, `alpha_in_dirt` and `dirt_in_alpha`.
+Name the **Auto Tile Templates** `auto_transparent_to_dirt` and `auto_dirt_to_transparent`.
 
 ![name auto tile templates](images/nameAutoTiles.png)
 
