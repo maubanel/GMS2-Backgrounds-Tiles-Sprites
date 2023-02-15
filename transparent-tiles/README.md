@@ -66,14 +66,13 @@ Name the **Auto Tile Templates** `auto_transparent_to_dirt` and `auto_dirt_to_tr
 
 Right click on **rm_auto_tile** and *select* **Duplicate**.  Call the new room `rm_transparency`.  Move the room to the top of the **Room Order** list. Delete the old backgrounds.  Fill the background with water.  Add another **Tile Layer** and call it **Environments** and **Alpha** - put them inbetween **Instances** and **Animation**.
 
+https://user-images.githubusercontent.com/5504953/219032063-9645c9d9-b2cb-4459-9cd8-4b525ec7f865.mp4
 
 ![](../images/line2.png)
 
 ##### `Step 8.`\|`BTS`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
 *Select* the **Environments** layers and select the **ts_environment_6** tileset for the layer.  Select the **Libraries** tab and select the **grass_in_dirt** auto tile. Paint an island of grass inside the water. Select the **Alpha** layer and select the **ts_environment_6** tileset. Select the **dirt_in_alpha** layer and draw on the outside of the boundary between dirt and water.  Now go to the **Tiles** layer and add some trees on the grass.  Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. Now we have the animation, brushes, autotiling and transparency working on the three tile layers.
-
-https://user-images.githubusercontent.com/5504953/144313426-d170d198-0eae-4180-8824-3f09c8ca717e.mp4
 
 ![](../images/line2.png)
 
