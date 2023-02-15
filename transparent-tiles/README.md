@@ -42,7 +42,7 @@ Tiles do not have to be opaque.  We can have transparent shapes that sit on top 
 
  *Press* **File | Export | Quick Export as PNG**.  Save it in your working folder. *Opent* **spr_environment**. Press the <kbd>Import</kbd> button and select the image you exported above. *Open* up **ts_environment** and select another sprite then reassign the tile sprite to rebind the graphic.
 
-
+https://user-images.githubusercontent.com/5504953/219025623-49990e9a-49fb-46a6-8904-edecc5c40b69.mp4
 
 ![](../images/line2.png)
 
