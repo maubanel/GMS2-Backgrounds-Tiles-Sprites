@@ -50,6 +50,7 @@ https://user-images.githubusercontent.com/5504953/219025623-49990e9a-49fb-46a6-8
 
 Clik on the the **ts_environment** and press the <kbd>Auto Tiling</kbd> button. Add towo **16** auto tile templates for transparent to dirt and finally dirt to transparent.
 
+https://user-images.githubusercontent.com/5504953/219027674-359145ae-19b8-4d29-9061-699af624024e.mp4
 
 ![](../images/line2.png)
 
