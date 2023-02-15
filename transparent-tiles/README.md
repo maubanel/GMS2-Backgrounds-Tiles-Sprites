@@ -42,7 +42,7 @@ Tiles do not have to be opaque.  We can have transparent shapes that sit on top 
 
 *Right click* **spr_environment_tiles_5** and select **Duplicate**.  Call it `spr_environment_tiles_6`.  Press the <kbd>Import</kbd> button and select the image you exported above. *Right click* on **ts_environment_5** and select **Duplicate**. Call it `ts_environment_6`.  Select the **spr_environment_tiles_6** sprite for this tilesheet.
 
-
+https://user-images.githubusercontent.com/5504953/219025623-49990e9a-49fb-46a6-8904-edecc5c40b69.mp4
 
 ![](../images/line2.png)
 
