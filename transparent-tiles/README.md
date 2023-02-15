@@ -32,9 +32,9 @@ Tiles do not have to be opaque.  We can have transparent shapes that sit on top 
 
 ##### `Step 3.`\|`BTS`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-*Duplicate* **ts_environment_5.psd** and *rename* it to `ts_environment_6.psd`. Open this file up in **Photoshop**.  Open up the above **TransparentTiles.psd** file in another *tab* in **Photoshop**. *Copy and paste* the content of these new transparent tiles to the next free line in **ts_environment_6.psd**. *Press* **File | Export | Quick Export as PNG**.  Save it in your working folder.
+*Copy and paste* the content of these new transparent tiles to the next free line in **sprite_environment.psd**. *Press* **File | Export | Quick Export as PNG**.  Save it in your working folder.
 
-https://user-images.githubusercontent.com/5504953/144239273-a9e9110d-cf3d-4646-bef2-3a9ffa5fedfc.mp4
+![copy to tilesheet](images/newTTiles.png)
 
 ![](../images/line2.png)
 
@@ -42,7 +42,7 @@ https://user-images.githubusercontent.com/5504953/144239273-a9e9110d-cf3d-4646-b
 
 *Right click* **spr_environment_tiles_5** and select **Duplicate**.  Call it `spr_environment_tiles_6`.  Press the <kbd>Import</kbd> button and select the image you exported above. *Right click* on **ts_environment_5** and select **Duplicate**. Call it `ts_environment_6`.  Select the **spr_environment_tiles_6** sprite for this tilesheet.
 
-https://user-images.githubusercontent.com/5504953/144301836-32b9e7a5-ae16-47e6-a367-af98bb51001d.mp4
+
 
 ![](../images/line2.png)
 
