@@ -66,7 +66,6 @@ Name the **Auto Tile Templates** `auto_transparent_to_dirt` and `auto_dirt_to_tr
 
 Right click on **rm_water_animation** and call it `rm_transparency`.  Move the room to the top of the **Room Order** list. Add another **Tile Layer** and call it **Environments** and **Alpha** - put them inbetween **Instances** and **Animation**.
 
-https://user-images.githubusercontent.com/5504953/144310442-5d51cb1e-faa0-46fa-b9bc-a35814793f6e.mp4
 
 ![](../images/line2.png)
 
