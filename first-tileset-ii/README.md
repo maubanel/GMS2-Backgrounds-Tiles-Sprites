@@ -53,7 +53,7 @@ Paste and place it into the third column on the first row.
 
 ##### `Step 6.`\|`BTS`| :small_orange_diamond: :small_blue_diamond:
 
-I selected the dodge tool then darkened three separate bricks.  This will give some more variety to this texture.
+I selected the burn tool then darkened three separate bricks.  This will give some more variety to this texture.
 
 ![dodge three bricks](images/dodgeThreeBricks.png)
 
